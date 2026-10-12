@@ -24,4 +24,6 @@ export const settingKeys = {
   showRule: (profileId: string) => `showRule:${profileId}`,
   coachMode: (profileId: string) => `coachMode:${profileId}`,
   coachCounts: (profileId: string, skillId: string, level: string | number) => `coachCounts:${profileId}:${skillId}:${level}`,
+  placementProgress: (profileId: string) => `placementProgress:${profileId}`,
+  placementOffered: (profileId: string) => `placementOffered:${profileId}`,
 };

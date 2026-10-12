@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { allSkillFiles } from '../../content';
 import { SET1_SKILL_IDS, SET2_SKILL_IDS, SKILLS, type Level, type SetNumber, type SkillId } from '../../content/schema';
 import { DEFAULT_PROFILE_ID, getProfile } from '../../store/profiles';
+import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { Card } from '../components/Card';
 import { BigButton } from '../components/BigButton';
 import { StarConfetti } from '../components/StarConfetti';
@@ -17,7 +18,23 @@ const skillBg: Record<string, string> = {
   'syl-schwa': 'bg-syl-schwa',
 };
 
-export function HomeScreen({ onOpenSkill }: { onOpenSkill: (id: SkillId) => void }) {
+export function HomeScreen({ onOpenSkill, onLevelTest }: { onOpenSkill: (id: SkillId) => void; onLevelTest: () => void }) {
+  const [offer, setOffer] = useState<'none' | 'offer' | 'resume'>('none');
+  const [tested, setTested] = useState(false);
+  useEffect(() => {
+    void (async () => {
+      const progress = await getSetting<unknown>(settingKeys.placementProgress(DEFAULT_PROFILE_ID), null);
+      if (progress) { setOffer('resume'); return; }
+      const profile = await getProfile(DEFAULT_PROFILE_ID);
+      setTested(!!profile?.lastPlacementAt);
+      const offered = await getSetting<boolean>(settingKeys.placementOffered(DEFAULT_PROFILE_ID), false);
+      if (!offered && !profile?.lastPlacementAt) setOffer('offer');
+    })();
+  }, []);
+  const skipTest = () => {
+    setOffer('none');
+    void setSetting(settingKeys.placementOffered(DEFAULT_PROFILE_ID), true);
+  };
   const [confetti, setConfetti] = useState(false);
   const [set, setSet] = useState<SetNumber>(1);
   const [levels, setLevels] = useState<Partial<Record<SkillId, Level>>>({});
@@ -60,10 +77,32 @@ export function HomeScreen({ onOpenSkill }: { onOpenSkill: (id: SkillId) => void
   return (
     <main className="flex-1 px-4 py-6 max-w-5xl w-full mx-auto">
       {confetti && <StarConfetti />}
-      <div className="flex justify-center mb-8">
+      {offer === 'offer' && (
+        <Card className="p-5 mb-6 flex flex-col sm:flex-row items-center gap-3">
+          <div className="flex-1">
+            <div className="font-display text-xl font-semibold text-slate-800">Find the right starting level</div>
+            <p className="text-sm text-slate-600">A 5 to 8 minute level test, up to 40 words, read aloud with a parent sitting in. No stars, no help, nothing marked wrong. Or skip it and start everything at Level 1.</p>
+          </div>
+          <div className="flex gap-2">
+            <BigButton tone="secondary" className="!text-lg !px-5 !py-2.5" onClick={onLevelTest}>take the level test</BigButton>
+            <BigButton tone="ghost" className="!text-lg !px-5 !py-2.5" onClick={skipTest}>skip</BigButton>
+          </div>
+        </Card>
+      )}
+      {offer === 'resume' && (
+        <Card className="p-5 mb-6 flex items-center gap-3">
+          <div className="flex-1 font-display text-xl font-semibold text-slate-800">A level test is paused.</div>
+          <BigButton tone="secondary" className="!text-lg !px-5 !py-2.5" onClick={onLevelTest}>▶ resume the test</BigButton>
+        </Card>
+      )}
+
+      <div className="flex justify-center items-center gap-3 mb-8 flex-wrap">
         <BigButton onClick={() => { setConfetti(false); requestAnimationFrame(() => setConfetti(true)); onOpenSkill('1.1'); }}>
           ⭐ start practicing
         </BigButton>
+        {offer === 'none' && (
+          <button onClick={onLevelTest} className="text-sm font-bold text-sky-700 underline underline-offset-4">{tested ? 'rerun the level test' : 'level test'}</button>
+        )}
       </div>
 
       <div role="tablist" className="flex gap-2 mb-5">

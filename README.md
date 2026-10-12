@@ -76,7 +76,7 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 - [x] Phase 2: core practice loop, matcher, recognizers, rule panel
 - [x] Phase 3: help ladder and Break It Down coach
 - [x] Phase 4: scoring, mastery, scheduler, persistence, level-up
-- [ ] Phase 4b: level test (placement)
+- [x] Phase 4b: level test (placement)
 - [ ] Phase 5: profiles and multiplayer
 - [ ] Phase 6: parent dashboard
 - [ ] Phase 7 (optional, needs approval): cloud pronunciation engine
@@ -128,6 +128,22 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
   one are locked on the skill screen; a parent can hold the button for 3 seconds to set a
   level by hand (the dashboard takes this over in Phase 6).
 - A session is 20 words, then a summary with "keep going".
+
+## Phase 4b notes
+
+- `src/engine/placement.ts` is pure: given the entries so far it returns the next probe or
+  the final placement. Probes start at Level 2 (consonant-le at 3), 3 of 4 passes, six
+  misses in a row end the test, 40 words at most. Held-out words come from the `test` pool
+  in a seeded order so a paused test resumes with the same words.
+- The 40-word cap cannot reach all 7 groups when the child does well (three full groups
+  use 36 words). Groups the cap leaves unfinished are placed at the typical level of the
+  finished groups, rounded toward the lower level, never below what they earned, and
+  flagged "estimated" on the result screen. An early stop still sends unreached groups to
+  Level 1, as the spec says. Fast adjust then corrects any estimate within 10 words.
+- Placement attempts are logged with `mode: 'placement'` and never count toward mastery.
+  Each result is stored with its date; the result screen shows the change from the last
+  test. Fast adjust (9 of 10 clean moves up, 4 or fewer moves down) runs only while a
+  placed level is still provisional.
 
 ## Assumptions made in Phases 0 and 1
 

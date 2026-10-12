@@ -11,6 +11,8 @@ import { matchWord } from '../../engine/matcher';
 import { rulePanelFor } from '../../engine/rulePanel';
 import { streakBonus } from '../../engine/scoring';
 import { evaluateMastery, isCleanRead } from '../../engine/mastery';
+import { fastAdjust } from '../../engine/placement';
+import { clearProvisional } from '../../store/placements';
 import { dueReviews, enqueueReview, planSession, recordReviewRead } from '../../engine/scheduler';
 import { createSessionFromPlan, nextWord, requeue, type SessionState } from '../../engine/session';
 import { config } from '../../engine/config';
@@ -39,6 +41,8 @@ interface Props {
   onExit: () => void;
   onStats: (s: PracticeStats) => void;
   onLevelUp: (from: Level, to: Level) => void;
+  /** Fast adjust moved the child down a level. */
+  onFastAdjustDown: (to: Level) => void;
 }
 
 interface Summary {
@@ -56,7 +60,7 @@ function coachReducer(s: CoachState | null, e: CoachEvent | { type: 'open'; word
   return s ? reduceCoach(s, e) : s;
 }
 
-export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp }: Props) {
+export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onFastAdjustDown }: Props) {
   const meta = SKILLS[skillId];
 
   const [session, setSession] = useState<SessionState>(() => createSessionFromPlan([]));
@@ -335,15 +339,38 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp }: P
         }
         if (word.skillId !== skillId || word.level !== level) return null;
         const attempts = await attemptsForLevel(DEFAULT_PROFILE_ID, skillId, level);
-        const report = evaluateMastery(attempts);
-        if (!report.mastered) return null;
         const profile = await getProfile(DEFAULT_PROFILE_ID);
         if ((profile?.levels[skillId] ?? SKILLS[skillId].levels[0]) !== level) return null;
         const levels = SKILLS[skillId].levels;
+
+        // Fast adjust while a placement is provisional.
+        const prov = profile?.provisional?.[skillId];
+        if (prov && prov.level === level) {
+          const since = attempts.filter((a) => a.timestamp >= prov.since).sort((a, b) => a.timestamp - b.timestamp);
+          const verdict = fastAdjust(since);
+          if (verdict !== 'pending') await clearProvisional(DEFAULT_PROFILE_ID, skillId);
+          if (verdict === 'up') {
+            const next = levels[levels.indexOf(level) + 1];
+            if (next !== undefined) {
+              await setSkillLevel(DEFAULT_PROFILE_ID, skillId, next, { masteredLevel: level });
+              return { kind: 'up' as const, to: next };
+            }
+          }
+          if (verdict === 'down') {
+            const below = levels[levels.indexOf(level) - 1];
+            if (below !== undefined) {
+              await setSkillLevel(DEFAULT_PROFILE_ID, skillId, below);
+              return { kind: 'down' as const, to: below };
+            }
+          }
+        }
+
+        const report = evaluateMastery(attempts);
+        if (!report.mastered) return null;
         const next = levels[levels.indexOf(level) + 1];
         if (next === undefined) return null;
         await setSkillLevel(DEFAULT_PROFILE_ID, skillId, next, { masteredLevel: level });
-        return next;
+        return { kind: 'up' as const, to: next };
       }).catch(() => null);
 
       if (isMulti(word)) {
@@ -376,11 +403,12 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp }: P
         speech = 'Okay, later.';
       }
       setMessage(line);
-      Promise.all([tts.speak(speech), afterPersist]).then(([, levelUp]) => {
+      Promise.all([tts.speak(speech), afterPersist]).then(([, change]) => {
         if (cancelled) return;
-        if (levelUp !== null && levelUp !== undefined) {
+        if (change) {
           rec.stop();
-          onLevelUp(level, levelUp);
+          if (change.kind === 'up') onLevelUp(level, change.to);
+          else onFastAdjustDown(change.to);
           return;
         }
         setTimeout(() => { if (!cancelled) advance(next); }, 500);

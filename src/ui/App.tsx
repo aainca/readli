@@ -6,6 +6,9 @@ import { AppHeader } from './components/AppHeader';
 import { RulesGuide } from './components/RulesGuide';
 import { HomeScreen } from './screens/HomeScreen';
 import { LevelUpScreen } from './screens/LevelUpScreen';
+import { PlacementResultScreen } from './screens/PlacementResultScreen';
+import { PlacementScreen } from './screens/PlacementScreen';
+import type { PlacementResult } from '../store/db';
 import { PracticeScreen, type PracticeStats } from './screens/PracticeScreen';
 import { SkillScreen } from './screens/SkillScreen';
 import { WordListScreen } from './screens/WordListScreen';
@@ -15,7 +18,9 @@ type Route =
   | { name: 'skill'; skillId: SkillId }
   | { name: 'words'; skillId: SkillId }
   | { name: 'practice'; skillId: SkillId; level: Level }
-  | { name: 'levelUp'; skillId: SkillId; from: Level; to: Level };
+  | { name: 'levelUp'; skillId: SkillId; from: Level; to: Level }
+  | { name: 'placement' }
+  | { name: 'placementResult'; result: PlacementResult };
 
 export function App() {
   const [route, setRoute] = useState<Route>({ name: 'home' });
@@ -51,6 +56,24 @@ export function App() {
           onStats={onStats}
           onExit={() => setRoute({ name: 'skill', skillId: route.skillId })}
           onLevelUp={(from, to) => setRoute({ name: 'levelUp', skillId: route.skillId, from, to })}
+          onFastAdjustDown={(to) => setRoute({ name: 'practice', skillId: route.skillId, level: to })}
+        />
+      );
+      break;
+    case 'placement':
+      screen = (
+        <PlacementScreen
+          onPause={() => setRoute({ name: 'home' })}
+          onDone={(result) => setRoute({ name: 'placementResult', result })}
+        />
+      );
+      break;
+    case 'placementResult':
+      screen = (
+        <PlacementResultScreen
+          result={route.result}
+          onPractice={(skillId, level) => setRoute({ name: 'practice', skillId, level })}
+          onHome={() => setRoute({ name: 'home' })}
         />
       );
       break;
@@ -65,7 +88,7 @@ export function App() {
       );
       break;
     default:
-      screen = <HomeScreen onOpenSkill={(skillId) => setRoute({ name: 'skill', skillId })} />;
+      screen = <HomeScreen onOpenSkill={(skillId) => setRoute({ name: 'skill', skillId })} onLevelTest={() => setRoute({ name: 'placement' })} />;
   }
 
   return (

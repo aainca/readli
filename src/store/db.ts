@@ -19,6 +19,9 @@ export interface Profile {
   placedOut: Partial<Record<SkillId, Level[]>>;
   /** Set 2 skills a parent unlocked by hand. */
   manualUnlocks: SkillId[];
+  /** Placed levels still under the fast-adjust rule, with the placement time. */
+  provisional?: Partial<Record<SkillId, { level: Level; since: number }>>;
+  lastPlacementAt?: number;
 }
 
 /** One placement test run, kept so retests can show change over time. */
@@ -31,6 +34,10 @@ export interface PlacementResult {
   missedWords: string[];
   wordsTested: number;
   endedEarly: boolean;
+  estimated: SkillId[];
+  untested: SkillId[];
+  strongest: SkillId | null;
+  weakest: SkillId | null;
 }
 
 export interface AttemptRecord {
