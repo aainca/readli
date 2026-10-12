@@ -3,6 +3,7 @@ import { totalStars } from '../store/attempts';
 import { DEFAULT_PROFILE_ID } from '../store/profiles';
 import type { Level, SkillId } from '../content/schema';
 import { AppHeader } from './components/AppHeader';
+import { AudioSetup } from './components/AudioSetup';
 import { RulesGuide } from './components/RulesGuide';
 import { HomeScreen } from './screens/HomeScreen';
 import { LevelUpScreen } from './screens/LevelUpScreen';
@@ -25,6 +26,12 @@ type Route =
 export function App() {
   const [route, setRoute] = useState<Route>({ name: 'home' });
   const [guideOpen, setGuideOpen] = useState(false);
+  const [audioOpen, setAudioOpen] = useState(false);
+  useEffect(() => {
+    const open = () => setAudioOpen(true);
+    window.addEventListener('open-audio-setup', open);
+    return () => window.removeEventListener('open-audio-setup', open);
+  }, []);
   const [stats, setStats] = useState<PracticeStats>({ stars: 0, streak: 0 });
   const onStats = useCallback((s: PracticeStats) => setStats(s), []);
   useEffect(() => {
@@ -93,8 +100,9 @@ export function App() {
 
   return (
     <div className="min-h-full flex flex-col">
-      <AppHeader stars={stats.stars} streak={stats.streak} onOpenGuide={() => setGuideOpen(true)} />
+      <AppHeader stars={stats.stars} streak={stats.streak} onOpenGuide={() => setGuideOpen(true)} onOpenAudio={() => setAudioOpen(true)} />
       {guideOpen && <RulesGuide onClose={() => setGuideOpen(false)} />}
+      {audioOpen && <AudioSetup onClose={() => setAudioOpen(false)} />}
       {screen}
     </div>
   );

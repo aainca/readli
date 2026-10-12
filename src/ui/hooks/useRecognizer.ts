@@ -13,6 +13,8 @@ export interface RecognizerHandle {
   fallbackMessage: string | null;
   start: () => void;
   stop: () => void;
+  /** After the parent fixes permissions: try the speech engine again. */
+  retry: () => void;
 }
 
 /**
@@ -29,11 +31,13 @@ export function useRecognizer(onResult: (r: RecognitionResult) => void): Recogni
   const [forceManual, setForceManual] = useState(false);
   const [listening, setListening] = useState(false);
   const [interim, setInterim] = useState('');
+  const [attempt, setAttempt] = useState(0);
 
   const recognizer = useMemo<Recognizer>(() => {
     if (!forceManual && WebSpeechRecognizer.available()) return new WebSpeechRecognizer();
     return new ManualRecognizer();
-  }, [forceManual]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [forceManual, attempt]);
 
   useEffect(() => {
     const offs = [
@@ -62,6 +66,12 @@ export function useRecognizer(onResult: (r: RecognitionResult) => void): Recogni
     }
   }, [fallbackMessage]);
 
+  const retry = () => {
+    setFallbackMessage(null);
+    setForceManual(false);
+    setAttempt((a) => a + 1);
+  };
+
   return {
     mode: recognizer.name,
     hearsSpeech: recognizer.hearsSpeech,
@@ -70,5 +80,6 @@ export function useRecognizer(onResult: (r: RecognitionResult) => void): Recogni
     fallbackMessage,
     start: () => recognizer.start(),
     stop: () => recognizer.stop(),
+    retry,
   };
 }

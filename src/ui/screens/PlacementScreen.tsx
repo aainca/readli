@@ -12,6 +12,7 @@ import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import type { PlacementResult } from '../../store/db';
 import { BigButton } from '../components/BigButton';
 import { Card } from '../components/Card';
+import { FallbackBanner } from '../components/FallbackBanner';
 import { useRecognizer } from '../hooks/useRecognizer';
 
 export interface PlacementProgress {
@@ -149,9 +150,7 @@ export function PlacementScreen({ onPause, onDone }: Props) {
         <div className="h-full bg-sky-400 transition-all" style={{ width: `${(answered / config.placement.maxWords) * 100}%` }} />
       </div>
 
-      {rec.fallbackMessage && (
-        <div className="bg-amber-50 border border-amber-200 text-amber-900 text-sm font-semibold rounded-2xl px-4 py-2">{rec.fallbackMessage}</div>
-      )}
+      {rec.fallbackMessage && <FallbackBanner message={rec.fallbackMessage} onRetry={rec.retry} />}
 
       <Card className="p-5 md:p-8 flex flex-col items-center text-center gap-4">
         <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">{probe ? `group ${groupIndex} of 7 · ${groupName}` : ''}</div>

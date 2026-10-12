@@ -145,6 +145,17 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
   test. Fast adjust (9 of 10 clean moves up, 4 or fewer moves down) runs only while a
   placed level is still provisional.
 
+## Audio setup
+
+The header's Audio button opens a setup dialog: it asks for microphone permission the
+reliable way (getUserMedia), lists microphones and speakers, meters the chosen microphone
+live, plays a test phrase, and runs a 5-second speech recognition test that reports the
+real error code in plain words. Chrome's speech engine always uses the system default
+microphone and speaker, so the pickers cannot redirect it; they help find the device that
+works (then make it the default in the device settings) and are saved for the optional
+cloud engine. The fallback banner in practice and the level test offers "try the mic again"
+once permissions are fixed.
+
 ## Assumptions made in Phases 0 and 1
 
 - The prototype is kept at `prototype/vowel_mastery_app_final.html` for reference. All of

@@ -4,10 +4,11 @@ export interface AppHeaderProps {
   stars: number;
   streak: number;
   onOpenGuide: () => void;
+  onOpenAudio: () => void;
 }
 
 /** Sticky header from the prototype: logo, title, star and streak counters, rules guide. */
-export function AppHeader({ stars, streak, onOpenGuide }: AppHeaderProps) {
+export function AppHeader({ stars, streak, onOpenGuide, onOpenAudio }: AppHeaderProps) {
   return (
     <header className="bg-white/80 backdrop-blur-md sticky top-0 z-40 border-b border-sky-100 shadow-sm px-4 py-3">
       <div className="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-3">
@@ -24,6 +25,14 @@ export function AppHeader({ stars, streak, onOpenGuide }: AppHeaderProps) {
         <div className="flex items-center gap-2 sm:gap-3">
           <Counter label="Stars" value={stars} tone="amber" icon={<StarIcon className="w-5 h-5 text-amber-500" />} />
           <Counter label="Streak" value={streak} tone="orange" icon={<span className="text-lg leading-none">🔥</span>} />
+          <button
+            onClick={onOpenAudio}
+            className="bg-sky-100 hover:bg-sky-200 text-sky-800 px-3 py-2.5 rounded-2xl text-sm font-display font-semibold shadow-sm transition flex items-center gap-2"
+            title="Audio setup"
+          >
+            <span aria-hidden>🎧</span>
+            <span className="hidden sm:inline">Audio</span>
+          </button>
           <button
             onClick={onOpenGuide}
             className="bg-emerald-500 hover:bg-emerald-600 text-white px-3.5 py-2.5 rounded-2xl text-sm font-display font-semibold shadow-md transition flex items-center gap-2"

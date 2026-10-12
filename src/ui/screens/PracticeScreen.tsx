@@ -28,6 +28,7 @@ import { CoachPanel } from '../components/CoachPanel';
 import { RulePanel } from '../components/RulePanel';
 import { StarConfetti } from '../components/StarConfetti';
 import { WordDisplay } from '../components/WordDisplay';
+import { FallbackBanner } from '../components/FallbackBanner';
 import { useRecognizer } from '../hooks/useRecognizer';
 
 export interface PracticeStats {
@@ -454,9 +455,7 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
         </div>
       </div>
 
-      {rec.fallbackMessage && (
-        <div className="bg-amber-50 border border-amber-200 text-amber-900 text-sm font-semibold rounded-2xl px-4 py-2">{rec.fallbackMessage}</div>
-      )}
+      {rec.fallbackMessage && <FallbackBanner message={rec.fallbackMessage} onRetry={rec.retry} />}
 
       {summary && (
         <Card className="p-6 md:p-10 text-center flex flex-col items-center gap-3">
@@ -533,7 +532,9 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
         <button disabled={!live || !word} onClick={() => dispatch({ type: 'override', verdict: 'right' })} className="px-3 py-1.5 rounded-full border border-emerald-200 bg-white text-emerald-700 font-bold disabled:opacity-40">✓ I heard it right</button>
         <button disabled={!live || !word} onClick={() => dispatch({ type: 'override', verdict: 'notQuite' })} className="px-3 py-1.5 rounded-full border border-rose-200 bg-white text-rose-700 font-bold disabled:opacity-40">✗ Not quite</button>
       </div>
-      <p className="text-center text-[11px] text-slate-400">Parent buttons. This app uses the device's default microphone and speaker.</p>
+      <p className="text-center text-[11px] text-slate-400">
+        Parent buttons. Speech uses the device's default microphone and speaker. <button onClick={() => window.dispatchEvent(new CustomEvent('open-audio-setup'))} className="underline">Audio setup</button>
+      </p>
     </main>
   );
 }

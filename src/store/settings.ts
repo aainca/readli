@@ -26,4 +26,7 @@ export const settingKeys = {
   coachCounts: (profileId: string, skillId: string, level: string | number) => `coachCounts:${profileId}:${skillId}:${level}`,
   placementProgress: (profileId: string) => `placementProgress:${profileId}`,
   placementOffered: (profileId: string) => `placementOffered:${profileId}`,
+  /** Device choices. Chrome's speech engine ignores them; they feed the meter and the future cloud engine. */
+  micDeviceId: 'audio:micDeviceId',
+  speakerDeviceId: 'audio:speakerDeviceId',
 };

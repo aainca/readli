@@ -124,7 +124,7 @@ export function HomeScreen({ onOpenSkill, onLevelTest }: { onOpenSkill: (id: Ski
       <div className="grid gap-3 sm:grid-cols-2">{ids.map(tile)}</div>
 
       <p className="text-center text-xs text-gray-400 mt-10">
-        This app uses your device's default microphone and speaker.
+        Speech uses your device's default microphone and speaker. <button onClick={() => window.dispatchEvent(new CustomEvent('open-audio-setup'))} className="underline">Check them in Audio setup.</button>
       </p>
     </main>
   );
