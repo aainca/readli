@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fredoka', 'Nunito', ui-rounded, system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+
+  /* Syllable type colors: one per type, used for the help ladder. */
+  --color-syl-closed: #ef4444;
+  --color-syl-open: #22c55e;
+  --color-syl-vce: #a855f7;
+  --color-syl-team: #3b82f6;
+  --color-syl-r: #f97316;
+  --color-syl-cle: #14b8a6;
+  --color-syl-diphthong: #ec4899;
+  --color-syl-schwa: #78716c;
+
+  --color-cream: #fff7ed;
+  --color-star: #fbbf24;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: #1f2937;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes confetti-fall {
+  0% { transform: translate3d(0, -10vh, 0) rotate(0deg); opacity: 1; }
+  100% { transform: translate3d(var(--drift, 0px), 110vh, 0) rotate(720deg); opacity: 0; }
+}
+
+.confetti-star {
+  position: fixed;
+  top: 0;
+  pointer-events: none;
+  animation: confetti-fall var(--duration, 2.5s) ease-in forwards;
+  animation-delay: var(--delay, 0s);
+}

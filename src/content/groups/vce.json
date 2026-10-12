@@ -1,0 +1,4919 @@
+{
+  "group": "vce",
+  "words": [
+    {
+      "text": "cape",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "cape"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "p",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "cap",
+          "hint": "That was a short a. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "cake",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "cake"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "make",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "make"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "take",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "take"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "lake",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "lake"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "bake",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "bake"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "name",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "name"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "n",
+        "a",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "game",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "game"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "a",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "same",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "same"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "gate",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "gate"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "a",
+        "t",
+        "e"
+      ],
+      "homophones": [
+        "gait"
+      ]
+    },
+    {
+      "text": "late",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "late"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "date",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "date"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "hate",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "hate"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "a",
+        "t",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "hat",
+          "hint": "That was a short a. The e at the end makes the a say its name."
+        }
+      ]
+    },
+    {
+      "text": "wave",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "wave"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "w",
+        "a",
+        "v",
+        "e"
+      ]
+    },
+    {
+      "text": "cave",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "cave"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "v",
+        "e"
+      ]
+    },
+    {
+      "text": "save",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "save"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "v",
+        "e"
+      ]
+    },
+    {
+      "text": "gave",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "gave"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "a",
+        "v",
+        "e"
+      ]
+    },
+    {
+      "text": "tape",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "tape"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "a",
+        "p",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "tap",
+          "hint": "That was a short a. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "made",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "made"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "d",
+        "e"
+      ],
+      "homophones": [
+        "maid"
+      ],
+      "confusables": [
+        {
+          "heard": "mad",
+          "hint": "That was a short a. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "cane",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "cane"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "n",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "can",
+          "hint": "That was a short a. The e at the end makes the a long."
+        }
+      ]
+    },
+    {
+      "text": "pane",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "pane"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "n",
+        "e"
+      ],
+      "homophones": [
+        "pain"
+      ],
+      "confusables": [
+        {
+          "heard": "pan",
+          "hint": "That was a short a. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "bike",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "bike"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "i",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "hike",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "hike"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "i",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "like",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "like"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "i",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "kite",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "kite"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "k",
+        "i",
+        "t",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "kit",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "bite",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "bite"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "i",
+        "t",
+        "e"
+      ],
+      "homophones": [
+        "byte"
+      ],
+      "confusables": [
+        {
+          "heard": "bit",
+          "hint": "That was a short i. The e at the end makes the i say its name."
+        }
+      ]
+    },
+    {
+      "text": "ride",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "ride"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "i",
+        "d",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "rid",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "hide",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "hide"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "i",
+        "d",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "hid",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "side",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "side"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "d",
+        "e"
+      ],
+      "homophones": [
+        "sighed"
+      ]
+    },
+    {
+      "text": "wide",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "wide"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "time",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "time"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "i",
+        "m",
+        "e"
+      ],
+      "homophones": [
+        "thyme"
+      ]
+    },
+    {
+      "text": "lime",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "lime"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "i",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "dime",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "dime"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "m",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "dim",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "fine",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "fine"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "f",
+        "i",
+        "n",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "fin",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "line",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "line"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "nine",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "nine"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "n",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "pine",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "pine"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "i",
+        "n",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "pin",
+          "hint": "That was a short i. The e at the end makes the i long."
+        }
+      ]
+    },
+    {
+      "text": "vine",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "vine"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "v",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "mine",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "mine"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "home",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "home"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "o",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "bone",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "bone"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "cone",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "cone"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "n",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "con",
+          "hint": "That was a short o. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "hope",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "hope"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "o",
+        "p",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "hop",
+          "hint": "That was a short o. The e at the end makes the o say its name."
+        }
+      ]
+    },
+    {
+      "text": "rope",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "rope"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "o",
+        "p",
+        "e"
+      ]
+    },
+    {
+      "text": "nose",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "nose"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "n",
+        "o",
+        "s",
+        "e"
+      ],
+      "homophones": [
+        "knows"
+      ]
+    },
+    {
+      "text": "rose",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "rose"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "o",
+        "s",
+        "e"
+      ],
+      "homophones": [
+        "rows"
+      ]
+    },
+    {
+      "text": "note",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "note"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "n",
+        "o",
+        "t",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "not",
+          "hint": "That was a short o. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "vote",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "vote"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "v",
+        "o",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "hole",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "hole"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "o",
+        "l",
+        "e"
+      ],
+      "homophones": [
+        "whole"
+      ]
+    },
+    {
+      "text": "pole",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "pole"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "o",
+        "l",
+        "e"
+      ],
+      "homophones": [
+        "poll"
+      ]
+    },
+    {
+      "text": "mole",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "mole"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "o",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "robe",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "robe"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "o",
+        "b",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "rob",
+          "hint": "That was a short o. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "code",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "code"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "d",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "cod",
+          "hint": "That was a short o. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "cube",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "cube"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "u",
+        "b",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "cub",
+          "hint": "That was a short u. The e at the end makes the u say its name."
+        }
+      ]
+    },
+    {
+      "text": "cute",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "cute"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "u",
+        "t",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "cut",
+          "hint": "That was a short u. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "tube",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "tube"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "u",
+        "b",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "tub",
+          "hint": "That was a short u. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "mule",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "mule"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "u",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "rude",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "rude"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "u",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "dude",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "dude"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "u",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "tune",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "tune"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "u",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "dune",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "dune"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "u",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "duke",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "duke"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "u",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "huge",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "huge"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "u",
+        "g",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "hug",
+          "hint": "That was a short u. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "use",
+      "group": "vce",
+      "level": 1,
+      "syllables": [
+        "use"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "u",
+        "s",
+        "e"
+      ],
+      "homophones": [
+        "ewes",
+        "yews"
+      ],
+      "confusables": [
+        {
+          "heard": "us",
+          "hint": "That was a short u. The e at the end makes the u say its name."
+        }
+      ]
+    },
+    {
+      "text": "shake",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "shake"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "sh",
+        "a",
+        "k",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "shack",
+          "hint": "That was a short a. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "snake",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "snake"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "a",
+        "k",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "snack",
+          "hint": "That was a short a. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "stake",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "stake"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "a",
+        "k",
+        "e"
+      ],
+      "homophones": [
+        "steak"
+      ],
+      "confusables": [
+        {
+          "heard": "stack",
+          "hint": "That was a short a. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "brake",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "brake"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "a",
+        "k",
+        "e"
+      ],
+      "homophones": [
+        "break"
+      ]
+    },
+    {
+      "text": "flake",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "flake"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "grape",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "grape"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "a",
+        "p",
+        "e"
+      ]
+    },
+    {
+      "text": "shape",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "shape"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "sh",
+        "a",
+        "p",
+        "e"
+      ]
+    },
+    {
+      "text": "plate",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "plate"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "skate",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "skate"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "k",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "state",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "state"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "crane",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "crane"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "a",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "plane",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "plane"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "a",
+        "n",
+        "e"
+      ],
+      "homophones": [
+        "plain"
+      ],
+      "confusables": [
+        {
+          "heard": "plan",
+          "hint": "That was a short a. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "frame",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "frame"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "f",
+        "r",
+        "a",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "blame",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "blame"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "a",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "flame",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "flame"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "a",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "shade",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "shade"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "sh",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "trade",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "trade"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "grade",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "grade"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "spade",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "spade"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "blade",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "blade"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "chase",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "chase"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "ch",
+        "a",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "whale",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "whale"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "wh",
+        "a",
+        "l",
+        "e"
+      ],
+      "homophones": [
+        "wail"
+      ]
+    },
+    {
+      "text": "scale",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "scale"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "a",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "slide",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "slide"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "i",
+        "d",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "slid",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "bride",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "bride"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "i",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "pride",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "pride"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "i",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "glide",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "glide"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "l",
+        "i",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "smile",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "smile"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "m",
+        "i",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "while",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "while"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "wh",
+        "i",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "white",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "white"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "wh",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "spine",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "spine"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "i",
+        "n",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "spin",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "shine",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "shine"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "sh",
+        "i",
+        "n",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "shin",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "prize",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "prize"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "i",
+        "z",
+        "e"
+      ],
+      "homophones": [
+        "pries"
+      ]
+    },
+    {
+      "text": "drive",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "drive"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "i",
+        "v",
+        "e"
+      ]
+    },
+    {
+      "text": "strike",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "strike"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "i",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "stripe",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "stripe"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "i",
+        "p",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "strip",
+          "hint": "That was a short i. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "spike",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "spike"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "i",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "slime",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "slime"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "i",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "crime",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "crime"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "i",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "globe",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "globe"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "l",
+        "o",
+        "b",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "glob",
+          "hint": "That was a short o. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "stone",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "stone"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "phone",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "phone"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "ph",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "chose",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "chose"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "ch",
+        "o",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "close",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "close"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "o",
+        "s",
+        "e"
+      ],
+      "homophones": [
+        "clothes"
+      ]
+    },
+    {
+      "text": "those",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "those"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "th",
+        "o",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "slope",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "slope"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "o",
+        "p",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "slop",
+          "hint": "That was a short o. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "scope",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "scope"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "o",
+        "p",
+        "e"
+      ]
+    },
+    {
+      "text": "stove",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "stove"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "o",
+        "v",
+        "e"
+      ]
+    },
+    {
+      "text": "drove",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "drove"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "o",
+        "v",
+        "e"
+      ]
+    },
+    {
+      "text": "broke",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "broke"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "o",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "smoke",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "smoke"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "m",
+        "o",
+        "k",
+        "e"
+      ],
+      "confusables": [
+        {
+          "heard": "smock",
+          "hint": "That was a short o. Look at the e at the end."
+        }
+      ]
+    },
+    {
+      "text": "spoke",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "spoke"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "o",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "choke",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "choke"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "ch",
+        "o",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "stroke",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "stroke"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "o",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "froze",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "froze"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "f",
+        "r",
+        "o",
+        "z",
+        "e"
+      ]
+    },
+    {
+      "text": "throne",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "throne"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "th",
+        "r",
+        "o",
+        "n",
+        "e"
+      ],
+      "homophones": [
+        "thrown"
+      ]
+    },
+    {
+      "text": "quote",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "quote"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "qu",
+        "o",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "flute",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "flute"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "u",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "prune",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "prune"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "u",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "brute",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "brute"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "u",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "crude",
+      "group": "vce",
+      "level": 2,
+      "syllables": [
+        "crude"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "u",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "pancake",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "pan",
+        "cake"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "n",
+        "c",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "cupcake",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "cup",
+        "cake"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "u",
+        "p",
+        "c",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "mistake",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "mis",
+        "take"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "s",
+        "t",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "escape",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "es",
+        "cape"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "s",
+        "c",
+        "a",
+        "p",
+        "e"
+      ]
+    },
+    {
+      "text": "inside",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "in",
+        "side"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "s",
+        "i",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "invite",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "in",
+        "vite"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "v",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "reptile",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "rep",
+        "tile"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "p",
+        "t",
+        "i",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "compete",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "com",
+        "pete"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "m",
+        "p",
+        "e",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "athlete",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "ath",
+        "lete"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "th",
+        "l",
+        "e",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "complete",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "com",
+        "plete"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "m",
+        "p",
+        "l",
+        "e",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "concrete",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "con",
+        "crete"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "n",
+        "c",
+        "r",
+        "e",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "explode",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "plode"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "p",
+        "l",
+        "o",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "excuse",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "cuse"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "c",
+        "u",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "costume",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "cos",
+        "tume"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "s",
+        "t",
+        "u",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "confuse",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "con",
+        "fuse"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "n",
+        "f",
+        "u",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "include",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "in",
+        "clude"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "c",
+        "l",
+        "u",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "tadpole",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "tad",
+        "pole"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "a",
+        "d",
+        "p",
+        "o",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "sunshine",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "sun",
+        "shine"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "n",
+        "sh",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "bedtime",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "bed",
+        "time"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "e",
+        "d",
+        "t",
+        "i",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "lifetime",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "life",
+        "time"
+      ],
+      "syllableTypes": [
+        "vce",
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "i",
+        "f",
+        "e",
+        "t",
+        "i",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "bathrobe",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "bath",
+        "robe"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "th",
+        "r",
+        "o",
+        "b",
+        "e"
+      ]
+    },
+    {
+      "text": "homemade",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "home",
+        "made"
+      ],
+      "syllableTypes": [
+        "vce",
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "o",
+        "m",
+        "e",
+        "m",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "inhale",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "in",
+        "hale"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "h",
+        "a",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "exhale",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "hale"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "h",
+        "a",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "admire",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "ad",
+        "mire"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "d",
+        "m",
+        "i",
+        "r",
+        "e"
+      ]
+    },
+    {
+      "text": "umpire",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "um",
+        "pire"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "u",
+        "m",
+        "p",
+        "i",
+        "r",
+        "e"
+      ]
+    },
+    {
+      "text": "empire",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "em",
+        "pire"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "m",
+        "p",
+        "i",
+        "r",
+        "e"
+      ]
+    },
+    {
+      "text": "bonfire",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "bon",
+        "fire"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "o",
+        "n",
+        "f",
+        "i",
+        "r",
+        "e"
+      ]
+    },
+    {
+      "text": "campfire",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "camp",
+        "fire"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "m",
+        "p",
+        "f",
+        "i",
+        "r",
+        "e"
+      ]
+    },
+    {
+      "text": "dislike",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "dis",
+        "like"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "l",
+        "i",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "unlike",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "un",
+        "like"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "l",
+        "i",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "unsafe",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "un",
+        "safe"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "s",
+        "a",
+        "f",
+        "e"
+      ]
+    },
+    {
+      "text": "update",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "up",
+        "date"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "u",
+        "p",
+        "d",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "upgrade",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "up",
+        "grade"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "u",
+        "p",
+        "g",
+        "r",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "inflate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "in",
+        "flate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "f",
+        "l",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "translate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "trans",
+        "late"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "n",
+        "s",
+        "l",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "mandate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "man",
+        "date"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "n",
+        "d",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "migrate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "mi",
+        "grate"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "g",
+        "r",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "dictate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "dic",
+        "tate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "c",
+        "t",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "vibrate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "vi",
+        "brate"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "v",
+        "i",
+        "b",
+        "r",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "locate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "lo",
+        "cate"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "o",
+        "c",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "donate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "do",
+        "nate"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "o",
+        "n",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "rotate",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "ro",
+        "tate"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "o",
+        "t",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "baseline",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "base",
+        "line"
+      ],
+      "syllableTypes": [
+        "vce",
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "s",
+        "e",
+        "l",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "pipeline",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "pipe",
+        "line"
+      ],
+      "syllableTypes": [
+        "vce",
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "i",
+        "p",
+        "e",
+        "l",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "timeline",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "time",
+        "line"
+      ],
+      "syllableTypes": [
+        "vce",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "i",
+        "m",
+        "e",
+        "l",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "capsize",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "cap",
+        "size"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "p",
+        "s",
+        "i",
+        "z",
+        "e"
+      ]
+    },
+    {
+      "text": "backbone",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "back",
+        "bone"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "ck",
+        "b",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "trombone",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "trom",
+        "bone"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "o",
+        "m",
+        "b",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "dispute",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "dis",
+        "pute"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "p",
+        "u",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "compute",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "com",
+        "pute"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "m",
+        "p",
+        "u",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "salute",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "sa",
+        "lute"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "l",
+        "u",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "pollute",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "pol",
+        "lute"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "o",
+        "l",
+        "l",
+        "u",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "exclude",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "clude"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "c",
+        "l",
+        "u",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "conclude",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "con",
+        "clude"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "n",
+        "c",
+        "l",
+        "u",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "extreme",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "treme"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "t",
+        "r",
+        "e",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "supreme",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "su",
+        "preme"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "p",
+        "r",
+        "e",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "trapeze",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "tra",
+        "peze"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "p",
+        "e",
+        "z",
+        "e"
+      ]
+    },
+    {
+      "text": "stampede",
+      "group": "vce",
+      "level": 3,
+      "syllables": [
+        "stam",
+        "pede"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "a",
+        "m",
+        "p",
+        "e",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "telephone",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "tel",
+        "e",
+        "phone"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "e",
+        "l",
+        "e",
+        "ph",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "microphone",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "mi",
+        "cro",
+        "phone"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "c",
+        "r",
+        "o",
+        "ph",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "saxophone",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "sax",
+        "o",
+        "phone"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "x",
+        "o",
+        "ph",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "lemonade",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "lem",
+        "on",
+        "ade"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "e",
+        "m",
+        "o",
+        "n",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "marmalade",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "mar",
+        "ma",
+        "lade"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "ar",
+        "m",
+        "a",
+        "l",
+        "a",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "decorate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "dec",
+        "o",
+        "rate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "c",
+        "o",
+        "r",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "demonstrate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "dem",
+        "on",
+        "strate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "m",
+        "o",
+        "n",
+        "s",
+        "t",
+        "r",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "illustrate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "il",
+        "lus",
+        "trate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "l",
+        "l",
+        "u",
+        "s",
+        "t",
+        "r",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "calculate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "cal",
+        "cu",
+        "late"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "l",
+        "c",
+        "u",
+        "l",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "regulate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "reg",
+        "u",
+        "late"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "g",
+        "u",
+        "l",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "populate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "pop",
+        "u",
+        "late"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "o",
+        "p",
+        "u",
+        "l",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "graduate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "grad",
+        "u",
+        "ate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "a",
+        "d",
+        "u",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "animate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "an",
+        "i",
+        "mate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "n",
+        "i",
+        "m",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "estimate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "es",
+        "ti",
+        "mate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "s",
+        "t",
+        "i",
+        "m",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "hesitate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "hes",
+        "i",
+        "tate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "e",
+        "s",
+        "i",
+        "t",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "imitate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "im",
+        "i",
+        "tate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "m",
+        "i",
+        "t",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "meditate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "med",
+        "i",
+        "tate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "e",
+        "d",
+        "i",
+        "t",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "dedicate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "ded",
+        "i",
+        "cate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "d",
+        "i",
+        "c",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "indicate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "in",
+        "di",
+        "cate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "d",
+        "i",
+        "c",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "educate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "ed",
+        "u",
+        "cate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "d",
+        "u",
+        "c",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "tolerate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "tol",
+        "er",
+        "ate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "o",
+        "l",
+        "er",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "operate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "op",
+        "er",
+        "ate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "o",
+        "p",
+        "er",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "separate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "sep",
+        "a",
+        "rate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "e",
+        "p",
+        "a",
+        "r",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "elevate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "el",
+        "e",
+        "vate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "l",
+        "e",
+        "v",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "motivate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "mo",
+        "ti",
+        "vate"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "o",
+        "t",
+        "i",
+        "v",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "cultivate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "cul",
+        "ti",
+        "vate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "u",
+        "l",
+        "t",
+        "i",
+        "v",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "activate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "ac",
+        "ti",
+        "vate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "c",
+        "t",
+        "i",
+        "v",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "navigate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "nav",
+        "i",
+        "gate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "n",
+        "a",
+        "v",
+        "i",
+        "g",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "compensate",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "com",
+        "pen",
+        "sate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "m",
+        "p",
+        "e",
+        "n",
+        "s",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "compromise",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "com",
+        "pro",
+        "mise"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "m",
+        "p",
+        "r",
+        "o",
+        "m",
+        "i",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "advertise",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "ad",
+        "ver",
+        "tise"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "d",
+        "v",
+        "er",
+        "t",
+        "i",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "supervise",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "su",
+        "per",
+        "vise"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "p",
+        "er",
+        "v",
+        "i",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "improvise",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "im",
+        "pro",
+        "vise"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "m",
+        "p",
+        "r",
+        "o",
+        "v",
+        "i",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "organize",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "or",
+        "gan",
+        "ize"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "or",
+        "g",
+        "a",
+        "n",
+        "i",
+        "z",
+        "e"
+      ]
+    },
+    {
+      "text": "memorize",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "mem",
+        "o",
+        "rize"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "e",
+        "m",
+        "o",
+        "r",
+        "i",
+        "z",
+        "e"
+      ]
+    },
+    {
+      "text": "appetite",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "ap",
+        "pe",
+        "tite"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "p",
+        "p",
+        "e",
+        "t",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "dynamite",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "dy",
+        "na",
+        "mite"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "y",
+        "n",
+        "a",
+        "m",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "parasite",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "par",
+        "a",
+        "site"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "ar",
+        "a",
+        "s",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "satellite",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "sat",
+        "el",
+        "lite"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "t",
+        "e",
+        "l",
+        "l",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "gasoline",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "gas",
+        "o",
+        "line"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "a",
+        "s",
+        "o",
+        "l",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "trampoline",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "tram",
+        "po",
+        "line"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "m",
+        "p",
+        "o",
+        "l",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "valentine",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "val",
+        "en",
+        "tine"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "v",
+        "a",
+        "l",
+        "e",
+        "n",
+        "t",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "porcupine",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "por",
+        "cu",
+        "pine"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "or",
+        "c",
+        "u",
+        "p",
+        "i",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "antelope",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "an",
+        "te",
+        "lope"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "n",
+        "t",
+        "e",
+        "l",
+        "o",
+        "p",
+        "e"
+      ]
+    },
+    {
+      "text": "envelope",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "en",
+        "ve",
+        "lope"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "v",
+        "e",
+        "l",
+        "o",
+        "p",
+        "e"
+      ]
+    },
+    {
+      "text": "telescope",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "tel",
+        "e",
+        "scope"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "e",
+        "l",
+        "e",
+        "s",
+        "c",
+        "o",
+        "p",
+        "e"
+      ]
+    },
+    {
+      "text": "microscope",
+      "group": "vce",
+      "level": 4,
+      "syllables": [
+        "mi",
+        "cro",
+        "scope"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "c",
+        "r",
+        "o",
+        "s",
+        "c",
+        "o",
+        "p",
+        "e"
+      ]
+    }
+  ]
+}

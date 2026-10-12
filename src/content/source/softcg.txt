@@ -1,0 +1,235 @@
+# Bonus: soft c (before e, i, y says /s/) and soft g (before e, i, y says /j/).
+# Types are given per word because these words use many syllable types.
+## 1
+cent | c | | sent, scent
+ice | v
+mice | v
+rice | v
+nice | v
+dice | v
+face | v
+race | v
+lace | v
+pace | v
+ace | v
+cell | c | | sell
+fence | c
+dance | c
+mince | c
+since | c
+gem | c
+gel | c
+age | v
+cage | v
+page | v
+wage | v
+rage | v
+sage | v
+edge | c
+hedge | c
+wedge | c
+badge | c
+judge | c
+fudge | c
+nudge | c
+budge | c
+lodge | c
+dodge | c
+ridge | c
+cite | v | | sight, site
+## 2
+price | v
+spice | v
+slice | v
+twice | v
+trace | v
+grace | v
+brace | v
+space | v
+place | v | | plaice
+prince | c | | prints
+glance | c
+chance | c
+stance | c
+prance | c
+trance | c
+fleece | t
+peace | t | | piece
+piece | t | | peace
+niece | t
+juice | t
+spruce | v
+truce | v
+bounce | d
+pounce | d
+ounce | d
+voice | d
+choice | d
+lounge | d
+stage | v
+strange | v
+range | v
+change | v
+plunge | c
+lunge | c
+bulge | c
+binge | c
+hinge | c
+singe | c
+fringe | c
+cringe | c
+twinge | c
+bridge | c
+fridge | c
+smudge | c
+trudge | c
+grudge | c
+sludge | c
+pledge | c
+sledge | c
+large | r
+barge | r
+charge | r
+merge | r
+surge | r | | serge
+urge | r
+forge | r
+germ | r
+## 3
+cit-y | c o
+pen-cil | c c
+cir-cus | r c
+cir-cle | r l
+can-cel | c c
+dan-cer | c r
+re-cent | o c
+de-cent | o c
+ce-ment | o c
+con-cert | c r
+con-cept | c c
+per-cent | r c
+ac-cent | c c
+ex-cite | c v
+re-cite | o v
+de-cide | o v
+de-vice | o v
+ad-vice | c v
+prin-cess | c c
+pro-cess | o c
+suc-cess | c c
+ac-cess | c c
+cel-lar | c r
+cen-ter | c r
+cin-der | c r
+ci-der | o r
+cit-rus | c c
+civ-il | c c
+gi-ant | o c
+gen-tle | c l
+gin-ger | c r
+ger-bil | r c
+ge-nie | o t
+di-gest | o c
+dig-it | c c
+mag-ic | c c
+log-ic | c c
+trag-ic | c c
+rig-id | c c
+mar-gin | r c
+leg-end | c c
+bud-get | c c
+gad-get | c c
+fid-get | c c
+bad-ger | c r
+cab-bage | c c
+pack-age | c c
+vil-lage | c c
+mes-sage | c c
+pas-sage | c c
+gar-bage | r c
+band-age | c c
+dam-age | c c
+man-age | c c
+voy-age | d c
+lug-gage | c c
+cot-tage | c c
+im-age | c c
+out-rage | d v
+en-rage | c v
+en-gage | c v
+teen-age | t v
+ram-page | c v
+in-dulge | c c
+ar-range | r v
+ex-change | c v
+re-venge | o c
+chal-lenge | c c
+plun-ger | c r
+ran-ger | o r
+dan-ger | o r
+stran-ger | o r
+an-gel | o c
+gen-der | c r
+ur-gent | r c
+a-gent | o c
+## 4
+cel-er-y | c r o
+cel-e-brate | c o v
+cen-tu-ry | c o o
+cin-na-mon | c o c
+cit-i-zen | c o c
+cyl-in-der | c c r
+bi-cy-cle | o o l
+tri-cy-cle | o o l
+re-cy-cle | o o l
+i-ci-cle | o o l
+pop-si-cle | c o l
+ex-er-cise | c r v
+con-cen-trate | c c v
+ac-ci-dent | c o c
+in-ci-dent | c o c
+ex-cel-lent | c c c
+in-no-cent | c o c
+de-cid-ed | o c c
+ex-cit-ing | c c c
+re-cent-ly | o c o
+dec-i-mal | c o c
+spe-cif-ic | o c c
+suc-cess-ful | c c c
+pro-cess-ing | o c c
+sin-cere-ly | c v o
+gro-cer-y | o r o
+e-mer-gen-cy | o r c o
+gi-gan-tic | o c c
+gen-er-al | c r c
+gen-er-ate | c r v
+gen-tle-man | c l c
+gin-ger-bread | c r t
+dig-i-tal | c o c
+mag-i-cal | c o c
+log-i-cal | c o c
+trag-e-dy | c o o
+budg-et-ing | c c c
+fidg-et-ing | c c c
+pack-ag-ing | c c c
+vil-lag-er | c c r
+mes-sen-ger | c c r
+pas-sen-ger | c c r
+man-ag-er | c c r
+dam-ag-ing | c c c
+man-ag-ing | c c c
+voy-ag-er | d c r
+teen-ag-er | t c r
+en-gage-ment | c v c
+ar-range-ment | r v c
+ex-chang-ing | c c c
+chal-leng-ing | c c c
+a-ven-ger | o c r
+an-gel-ic | o c c
+ur-gent-ly | r c o
+a-gen-cy | o c o
+en-er-gy | c r o
+al-ler-gy | c r o
+a-pol-o-gy | o c o o
+bi-ol-o-gy | o c o o
+gym-nas-tics | c c c

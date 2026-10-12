@@ -1,0 +1,3169 @@
+{
+  "group": "cle",
+  "words": [
+    {
+      "text": "table",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "ta",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "cable",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "ca",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "fable",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "fa",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "f",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "stable",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "sta",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "maple",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "ma",
+        "ple"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "staple",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "sta",
+        "ple"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "a",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "bugle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "bu",
+        "gle"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "noble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "no",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "n",
+        "o",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "title",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "ti",
+        "tle"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "i",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "rifle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "ri",
+        "fle"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "i",
+        "f",
+        "le"
+      ]
+    },
+    {
+      "text": "trifle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "tri",
+        "fle"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "i",
+        "f",
+        "le"
+      ]
+    },
+    {
+      "text": "ladle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "la",
+        "dle"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "l",
+        "a",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "cradle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "cra",
+        "dle"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "a",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "idle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "i",
+        "dle"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "i",
+        "d",
+        "le"
+      ],
+      "homophones": [
+        "idol"
+      ]
+    },
+    {
+      "text": "candle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "can",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "n",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "handle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "han",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "h",
+        "a",
+        "n",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "bundle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "bun",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "n",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "kindle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "kin",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "k",
+        "i",
+        "n",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "jungle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "jun",
+        "gle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "j",
+        "u",
+        "n",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "bottle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "bot",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "b",
+        "o",
+        "t",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "little",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "lit",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "l",
+        "i",
+        "t",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "middle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "mid",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "d",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "puddle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "pud",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "u",
+        "d",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "paddle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "pad",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "d",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "saddle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "sad",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "d",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "riddle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "rid",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "i",
+        "d",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "fiddle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "fid",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "f",
+        "i",
+        "d",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "cuddle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "cud",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "u",
+        "d",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "huddle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "hud",
+        "dle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "h",
+        "u",
+        "d",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "giggle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "gig",
+        "gle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "g",
+        "i",
+        "g",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "wiggle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "wig",
+        "gle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "g",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "juggle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "jug",
+        "gle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "j",
+        "u",
+        "g",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "struggle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "strug",
+        "gle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "u",
+        "g",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "snuggle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "snug",
+        "gle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "u",
+        "g",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "puzzle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "puz",
+        "zle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "u",
+        "z",
+        "z",
+        "le"
+      ]
+    },
+    {
+      "text": "nozzle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "noz",
+        "zle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "n",
+        "o",
+        "z",
+        "z",
+        "le"
+      ]
+    },
+    {
+      "text": "drizzle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "driz",
+        "zle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "i",
+        "z",
+        "z",
+        "le"
+      ]
+    },
+    {
+      "text": "sizzle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "siz",
+        "zle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "z",
+        "z",
+        "le"
+      ]
+    },
+    {
+      "text": "dazzle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "daz",
+        "zle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "d",
+        "a",
+        "z",
+        "z",
+        "le"
+      ]
+    },
+    {
+      "text": "bubble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "bub",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "b",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "pebble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "peb",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "e",
+        "b",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "nibble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "nib",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "n",
+        "i",
+        "b",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "scribble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "scrib",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "r",
+        "i",
+        "b",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "wobble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "wob",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "w",
+        "o",
+        "b",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "gobble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "gob",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "g",
+        "o",
+        "b",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "cattle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "cat",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "t",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "battle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "bat",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "t",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "rattle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "rat",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "a",
+        "t",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "settle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "set",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "e",
+        "t",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "kettle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "ket",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "k",
+        "e",
+        "t",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "apple",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "ap",
+        "ple"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "a",
+        "p",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "dimple",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "dim",
+        "ple"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "m",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "simple",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "sim",
+        "ple"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "m",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "sample",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "sam",
+        "ple"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "m",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "temple",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "tem",
+        "ple"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "e",
+        "m",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "tumble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "tum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "rumble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "rum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "mumble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "mum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "m",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "grumble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "grum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "stumble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "stum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "crumble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "crum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "humble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "hum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "h",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "jumble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "jum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "j",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "fumble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "fum",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "f",
+        "u",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "uncle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "un",
+        "cle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "ankle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "an",
+        "kle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "a",
+        "n",
+        "k",
+        "le"
+      ]
+    },
+    {
+      "text": "tickle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "tick",
+        "le"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "i",
+        "ck",
+        "le"
+      ]
+    },
+    {
+      "text": "pickle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "pick",
+        "le"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "i",
+        "ck",
+        "le"
+      ]
+    },
+    {
+      "text": "buckle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "buck",
+        "le"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "ck",
+        "le"
+      ]
+    },
+    {
+      "text": "chuckle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "chuck",
+        "le"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "ch",
+        "u",
+        "ck",
+        "le"
+      ]
+    },
+    {
+      "text": "freckle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "freck",
+        "le"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "f",
+        "r",
+        "e",
+        "ck",
+        "le"
+      ]
+    },
+    {
+      "text": "sparkle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "spar",
+        "kle"
+      ],
+      "syllableTypes": [
+        "r",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "ar",
+        "k",
+        "le"
+      ]
+    },
+    {
+      "text": "marble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "mar",
+        "ble"
+      ],
+      "syllableTypes": [
+        "r",
+        "cle"
+      ],
+      "chunks": [
+        "m",
+        "ar",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "turtle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "tur",
+        "tle"
+      ],
+      "syllableTypes": [
+        "r",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "ur",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "purple",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "pur",
+        "ple"
+      ],
+      "syllableTypes": [
+        "r",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "ur",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "startle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "star",
+        "tle"
+      ],
+      "syllableTypes": [
+        "r",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ar",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "gargle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "gar",
+        "gle"
+      ],
+      "syllableTypes": [
+        "r",
+        "cle"
+      ],
+      "chunks": [
+        "g",
+        "ar",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "eagle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "ea",
+        "gle"
+      ],
+      "syllableTypes": [
+        "team",
+        "cle"
+      ],
+      "chunks": [
+        "ea",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "needle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "nee",
+        "dle"
+      ],
+      "syllableTypes": [
+        "team",
+        "cle"
+      ],
+      "chunks": [
+        "n",
+        "ee",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "beetle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "bee",
+        "tle"
+      ],
+      "syllableTypes": [
+        "team",
+        "cle"
+      ],
+      "chunks": [
+        "b",
+        "ee",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "feeble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "fee",
+        "ble"
+      ],
+      "syllableTypes": [
+        "team",
+        "cle"
+      ],
+      "chunks": [
+        "f",
+        "ee",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "steeple",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "stee",
+        "ple"
+      ],
+      "syllableTypes": [
+        "team",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ee",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "poodle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "poo",
+        "dle"
+      ],
+      "syllableTypes": [
+        "team",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "oo",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "noodle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "noo",
+        "dle"
+      ],
+      "syllableTypes": [
+        "team",
+        "cle"
+      ],
+      "chunks": [
+        "n",
+        "oo",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "doodle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "doo",
+        "dle"
+      ],
+      "syllableTypes": [
+        "team",
+        "cle"
+      ],
+      "chunks": [
+        "d",
+        "oo",
+        "d",
+        "le"
+      ]
+    },
+    {
+      "text": "twinkle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "twin",
+        "kle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "w",
+        "i",
+        "n",
+        "k",
+        "le"
+      ]
+    },
+    {
+      "text": "crinkle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "crin",
+        "kle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "i",
+        "n",
+        "k",
+        "le"
+      ]
+    },
+    {
+      "text": "sprinkle",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "sprin",
+        "kle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "r",
+        "i",
+        "n",
+        "k",
+        "le"
+      ]
+    },
+    {
+      "text": "tremble",
+      "group": "cle",
+      "level": 3,
+      "syllables": [
+        "trem",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "e",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "tablecloth",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "ta",
+        "ble",
+        "cloth"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "a",
+        "b",
+        "le",
+        "c",
+        "l",
+        "o",
+        "th"
+      ]
+    },
+    {
+      "text": "tablespoon",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "ta",
+        "ble",
+        "spoon"
+      ],
+      "syllableTypes": [
+        "open",
+        "cle",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "a",
+        "b",
+        "le",
+        "s",
+        "p",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "candlestick",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "can",
+        "dle",
+        "stick"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "n",
+        "d",
+        "le",
+        "s",
+        "t",
+        "i",
+        "ck"
+      ]
+    },
+    {
+      "text": "candlelight",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "can",
+        "dle",
+        "light"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "n",
+        "d",
+        "le",
+        "l",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "bumblebee",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "bum",
+        "ble",
+        "bee"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "m",
+        "b",
+        "le",
+        "b",
+        "ee"
+      ]
+    },
+    {
+      "text": "turntable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "turn",
+        "ta",
+        "ble"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "ur",
+        "n",
+        "t",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "unstable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "un",
+        "sta",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "s",
+        "t",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "timetable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "time",
+        "ta",
+        "ble"
+      ],
+      "syllableTypes": [
+        "vce",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "i",
+        "m",
+        "e",
+        "t",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "incredible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "in",
+        "cred",
+        "i",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "c",
+        "r",
+        "e",
+        "d",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "invisible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "in",
+        "vis",
+        "i",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "v",
+        "i",
+        "s",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "impossible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "im",
+        "pos",
+        "si",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "i",
+        "m",
+        "p",
+        "o",
+        "s",
+        "s",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "terrible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "ter",
+        "ri",
+        "ble"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "er",
+        "r",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "horrible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "hor",
+        "ri",
+        "ble"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "h",
+        "or",
+        "r",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "sensible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "sen",
+        "si",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "e",
+        "n",
+        "s",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "possible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "pos",
+        "si",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "o",
+        "s",
+        "s",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "flexible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "flex",
+        "i",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "e",
+        "x",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "visible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "vis",
+        "i",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "v",
+        "i",
+        "s",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "edible",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "ed",
+        "i",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "e",
+        "d",
+        "i",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "capable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "ca",
+        "pa",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "p",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "probable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "prob",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "o",
+        "b",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "portable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "por",
+        "ta",
+        "ble"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "or",
+        "t",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "readable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "read",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "team",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "ea",
+        "d",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "drinkable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "drink",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "i",
+        "nk",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "adorable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "a",
+        "dor",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "a",
+        "d",
+        "or",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "comfortable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "com",
+        "fort",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "m",
+        "f",
+        "or",
+        "t",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "remarkable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "re",
+        "mark",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "m",
+        "ar",
+        "k",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "predictable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "pre",
+        "dict",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "e",
+        "d",
+        "i",
+        "c",
+        "t",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "dependable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "de",
+        "pend",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "p",
+        "e",
+        "n",
+        "d",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "affordable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "af",
+        "ford",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "a",
+        "f",
+        "f",
+        "or",
+        "d",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "enjoyable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "en",
+        "joy",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "j",
+        "oy",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "unable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "un",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "disable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "dis",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "enable",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "en",
+        "a",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "a",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "obstacle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "ob",
+        "sta",
+        "cle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "o",
+        "b",
+        "s",
+        "t",
+        "a",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "spectacle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "spec",
+        "ta",
+        "cle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "e",
+        "c",
+        "t",
+        "a",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "miracle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "mir",
+        "a",
+        "cle"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "m",
+        "ir",
+        "a",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "cubicle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "cu",
+        "bi",
+        "cle"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "u",
+        "b",
+        "i",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "particle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "par",
+        "ti",
+        "cle"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "ar",
+        "t",
+        "i",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "article",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "ar",
+        "ti",
+        "cle"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "ar",
+        "t",
+        "i",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "multiple",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "mul",
+        "ti",
+        "ple"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "m",
+        "u",
+        "l",
+        "t",
+        "i",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "example",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "ex",
+        "am",
+        "ple"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "a",
+        "m",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "triangle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "tri",
+        "an",
+        "gle"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "i",
+        "a",
+        "n",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "rectangle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "rec",
+        "tan",
+        "gle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "c",
+        "t",
+        "a",
+        "n",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "untangle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "un",
+        "tan",
+        "gle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "t",
+        "a",
+        "n",
+        "g",
+        "le"
+      ]
+    },
+    {
+      "text": "assemble",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "as",
+        "sem",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "a",
+        "s",
+        "s",
+        "e",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "resemble",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "re",
+        "sem",
+        "ble"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "s",
+        "e",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "dismantle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "dis",
+        "man",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "m",
+        "a",
+        "n",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "subtitle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "sub",
+        "ti",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "b",
+        "t",
+        "i",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "unbuckle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "un",
+        "buck",
+        "le"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "b",
+        "u",
+        "ck",
+        "le"
+      ]
+    },
+    {
+      "text": "unsettle",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "un",
+        "set",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "s",
+        "e",
+        "t",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "unscramble",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "un",
+        "scram",
+        "ble"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "s",
+        "c",
+        "r",
+        "a",
+        "m",
+        "b",
+        "le"
+      ]
+    },
+    {
+      "text": "bottleneck",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "bot",
+        "tle",
+        "neck"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "o",
+        "t",
+        "t",
+        "le",
+        "n",
+        "e",
+        "ck"
+      ]
+    },
+    {
+      "text": "middleman",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "mid",
+        "dle",
+        "man"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "d",
+        "d",
+        "le",
+        "m",
+        "a",
+        "n"
+      ]
+    },
+    {
+      "text": "saddlebag",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "sad",
+        "dle",
+        "bag"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "d",
+        "d",
+        "le",
+        "b",
+        "a",
+        "g"
+      ]
+    },
+    {
+      "text": "paddleboat",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "pad",
+        "dle",
+        "boat"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "d",
+        "d",
+        "le",
+        "b",
+        "oa",
+        "t"
+      ]
+    },
+    {
+      "text": "pineapple",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "pine",
+        "ap",
+        "ple"
+      ],
+      "syllableTypes": [
+        "vce",
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "i",
+        "n",
+        "e",
+        "a",
+        "p",
+        "p",
+        "le"
+      ]
+    },
+    {
+      "text": "simpleton",
+      "group": "cle",
+      "level": 4,
+      "syllables": [
+        "sim",
+        "ple",
+        "ton"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "m",
+        "p",
+        "le",
+        "t",
+        "o",
+        "n"
+      ]
+    }
+  ]
+}

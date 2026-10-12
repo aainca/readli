@@ -1,0 +1,4677 @@
+{
+  "group": "r",
+  "words": [
+    {
+      "text": "car",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "car"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ar"
+      ]
+    },
+    {
+      "text": "far",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "far"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ar"
+      ]
+    },
+    {
+      "text": "jar",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "jar"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "j",
+        "ar"
+      ]
+    },
+    {
+      "text": "bar",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "bar"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ar"
+      ]
+    },
+    {
+      "text": "tar",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "tar"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "ar"
+      ]
+    },
+    {
+      "text": "arm",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "arm"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ar",
+        "m"
+      ]
+    },
+    {
+      "text": "art",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "art"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ar",
+        "t"
+      ]
+    },
+    {
+      "text": "cart",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "cart"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ar",
+        "t"
+      ],
+      "confusables": [
+        {
+          "heard": "cat",
+          "hint": "Look for the r after the vowel. The r changes the sound."
+        }
+      ]
+    },
+    {
+      "text": "farm",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "farm"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ar",
+        "m"
+      ]
+    },
+    {
+      "text": "barn",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "barn"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ar",
+        "n"
+      ]
+    },
+    {
+      "text": "yard",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "yard"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "y",
+        "ar",
+        "d"
+      ]
+    },
+    {
+      "text": "hard",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "hard"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "ar",
+        "d"
+      ]
+    },
+    {
+      "text": "card",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "card"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ar",
+        "d"
+      ]
+    },
+    {
+      "text": "dark",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "dark"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "ar",
+        "k"
+      ]
+    },
+    {
+      "text": "park",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "park"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "ar",
+        "k"
+      ]
+    },
+    {
+      "text": "part",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "part"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "ar",
+        "t"
+      ]
+    },
+    {
+      "text": "for",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "for"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "or"
+      ],
+      "homophones": [
+        "four",
+        "fore"
+      ]
+    },
+    {
+      "text": "fork",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "fork"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "k"
+      ]
+    },
+    {
+      "text": "corn",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "corn"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "or",
+        "n"
+      ]
+    },
+    {
+      "text": "horn",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "horn"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "or",
+        "n"
+      ]
+    },
+    {
+      "text": "born",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "born"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "or",
+        "n"
+      ],
+      "homophones": [
+        "borne"
+      ]
+    },
+    {
+      "text": "cord",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "cord"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "or",
+        "d"
+      ],
+      "confusables": [
+        {
+          "heard": "cod",
+          "hint": "Look for the r after the vowel. The r changes the sound."
+        }
+      ]
+    },
+    {
+      "text": "cork",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "cork"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "or",
+        "k"
+      ]
+    },
+    {
+      "text": "fort",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "fort"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "t"
+      ]
+    },
+    {
+      "text": "sort",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "sort"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "or",
+        "t"
+      ]
+    },
+    {
+      "text": "torn",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "torn"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "or",
+        "n"
+      ]
+    },
+    {
+      "text": "her",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "her"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "er"
+      ]
+    },
+    {
+      "text": "fern",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "fern"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "er",
+        "n"
+      ]
+    },
+    {
+      "text": "herd",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "herd"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "er",
+        "d"
+      ],
+      "homophones": [
+        "heard"
+      ]
+    },
+    {
+      "text": "verb",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "verb"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "v",
+        "er",
+        "b"
+      ]
+    },
+    {
+      "text": "sir",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "sir"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "ir"
+      ]
+    },
+    {
+      "text": "fir",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "fir"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ir"
+      ],
+      "homophones": [
+        "fur"
+      ]
+    },
+    {
+      "text": "bird",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "bird"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ir",
+        "d"
+      ],
+      "confusables": [
+        {
+          "heard": "bid",
+          "hint": "Look for the r after the vowel. The r changes the sound."
+        }
+      ]
+    },
+    {
+      "text": "girl",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "girl"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "g",
+        "ir",
+        "l"
+      ]
+    },
+    {
+      "text": "dirt",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "dirt"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "ir",
+        "t"
+      ]
+    },
+    {
+      "text": "fur",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "fur"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ur"
+      ],
+      "homophones": [
+        "fir"
+      ]
+    },
+    {
+      "text": "turn",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "turn"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "ur",
+        "n"
+      ],
+      "homophones": [
+        "tern"
+      ]
+    },
+    {
+      "text": "burn",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "burn"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ur",
+        "n"
+      ],
+      "confusables": [
+        {
+          "heard": "bun",
+          "hint": "Look for the r after the vowel. The r changes the sound."
+        }
+      ]
+    },
+    {
+      "text": "hurt",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "hurt"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "ur",
+        "t"
+      ],
+      "confusables": [
+        {
+          "heard": "hut",
+          "hint": "Look for the r after the vowel. The r changes the sound."
+        }
+      ]
+    },
+    {
+      "text": "curl",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "curl"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ur",
+        "l"
+      ]
+    },
+    {
+      "text": "surf",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "surf"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "ur",
+        "f"
+      ],
+      "homophones": [
+        "serf"
+      ]
+    },
+    {
+      "text": "curb",
+      "group": "r",
+      "level": 1,
+      "syllables": [
+        "curb"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ur",
+        "b"
+      ]
+    },
+    {
+      "text": "star",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "star"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ar"
+      ]
+    },
+    {
+      "text": "start",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "start"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ar",
+        "t"
+      ]
+    },
+    {
+      "text": "smart",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "smart"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "m",
+        "ar",
+        "t"
+      ]
+    },
+    {
+      "text": "scarf",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "scarf"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "ar",
+        "f"
+      ]
+    },
+    {
+      "text": "shark",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "shark"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "sh",
+        "ar",
+        "k"
+      ]
+    },
+    {
+      "text": "spark",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "spark"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "ar",
+        "k"
+      ]
+    },
+    {
+      "text": "sharp",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "sharp"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "sh",
+        "ar",
+        "p"
+      ]
+    },
+    {
+      "text": "charm",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "charm"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ch",
+        "ar",
+        "m"
+      ]
+    },
+    {
+      "text": "chart",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "chart"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ch",
+        "ar",
+        "t"
+      ]
+    },
+    {
+      "text": "march",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "march"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "ar",
+        "ch"
+      ]
+    },
+    {
+      "text": "starch",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "starch"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ar",
+        "ch"
+      ]
+    },
+    {
+      "text": "snarl",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "snarl"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "ar",
+        "l"
+      ]
+    },
+    {
+      "text": "storm",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "storm"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "or",
+        "m"
+      ]
+    },
+    {
+      "text": "sport",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "sport"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "or",
+        "t"
+      ]
+    },
+    {
+      "text": "short",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "short"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "sh",
+        "or",
+        "t"
+      ]
+    },
+    {
+      "text": "north",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "north"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "n",
+        "or",
+        "th"
+      ]
+    },
+    {
+      "text": "torch",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "torch"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "or",
+        "ch"
+      ]
+    },
+    {
+      "text": "porch",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "porch"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "or",
+        "ch"
+      ]
+    },
+    {
+      "text": "scorch",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "scorch"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "or",
+        "ch"
+      ]
+    },
+    {
+      "text": "thorn",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "thorn"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "th",
+        "or",
+        "n"
+      ]
+    },
+    {
+      "text": "stork",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "stork"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "or",
+        "k"
+      ]
+    },
+    {
+      "text": "snort",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "snort"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "or",
+        "t"
+      ]
+    },
+    {
+      "text": "stern",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "stern"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "er",
+        "n"
+      ]
+    },
+    {
+      "text": "clerk",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "clerk"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "er",
+        "k"
+      ]
+    },
+    {
+      "text": "perch",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "perch"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "ch"
+      ]
+    },
+    {
+      "text": "third",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "third"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "th",
+        "ir",
+        "d"
+      ]
+    },
+    {
+      "text": "thirst",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "thirst"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "th",
+        "ir",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "first",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "first"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ir",
+        "s",
+        "t"
+      ],
+      "confusables": [
+        {
+          "heard": "fist",
+          "hint": "Look for the r after the vowel. The r changes the sound."
+        }
+      ]
+    },
+    {
+      "text": "birth",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "birth"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ir",
+        "th"
+      ],
+      "homophones": [
+        "berth"
+      ]
+    },
+    {
+      "text": "shirt",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "shirt"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "sh",
+        "ir",
+        "t"
+      ]
+    },
+    {
+      "text": "skirt",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "skirt"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "k",
+        "ir",
+        "t"
+      ]
+    },
+    {
+      "text": "twirl",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "twirl"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "w",
+        "ir",
+        "l"
+      ]
+    },
+    {
+      "text": "swirl",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "swirl"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "w",
+        "ir",
+        "l"
+      ]
+    },
+    {
+      "text": "whirl",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "whirl"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "wh",
+        "ir",
+        "l"
+      ]
+    },
+    {
+      "text": "squirt",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "squirt"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "qu",
+        "ir",
+        "t"
+      ]
+    },
+    {
+      "text": "chirp",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "chirp"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ch",
+        "ir",
+        "p"
+      ]
+    },
+    {
+      "text": "church",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "church"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ch",
+        "ur",
+        "ch"
+      ]
+    },
+    {
+      "text": "churn",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "churn"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ch",
+        "ur",
+        "n"
+      ]
+    },
+    {
+      "text": "burst",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "burst"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ur",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "blurt",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "blurt"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "ur",
+        "t"
+      ]
+    },
+    {
+      "text": "spur",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "spur"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "ur"
+      ]
+    },
+    {
+      "text": "slur",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "slur"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "ur"
+      ]
+    },
+    {
+      "text": "blur",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "blur"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "ur"
+      ]
+    },
+    {
+      "text": "turf",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "turf"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "ur",
+        "f"
+      ]
+    },
+    {
+      "text": "hurl",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "hurl"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "ur",
+        "l"
+      ]
+    },
+    {
+      "text": "smirk",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "smirk"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "m",
+        "ir",
+        "k"
+      ]
+    },
+    {
+      "text": "flirt",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "flirt"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ir",
+        "t"
+      ]
+    },
+    {
+      "text": "squirm",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "squirm"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "qu",
+        "ir",
+        "m"
+      ]
+    },
+    {
+      "text": "firm",
+      "group": "r",
+      "level": 2,
+      "syllables": [
+        "firm"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ir",
+        "m"
+      ]
+    },
+    {
+      "text": "garden",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "gar",
+        "den"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "ar",
+        "d",
+        "e",
+        "n"
+      ]
+    },
+    {
+      "text": "carpet",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "car",
+        "pet"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "ar",
+        "p",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "market",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "mar",
+        "ket"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "ar",
+        "k",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "target",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "tar",
+        "get"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "ar",
+        "g",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "barber",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "bar",
+        "ber"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ar",
+        "b",
+        "er"
+      ]
+    },
+    {
+      "text": "farmer",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "far",
+        "mer"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ar",
+        "m",
+        "er"
+      ]
+    },
+    {
+      "text": "harvest",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "har",
+        "vest"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "h",
+        "ar",
+        "v",
+        "e",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "army",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "ar",
+        "my"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "ar",
+        "m",
+        "y"
+      ]
+    },
+    {
+      "text": "party",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "par",
+        "ty"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "p",
+        "ar",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "partner",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "part",
+        "ner"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "ar",
+        "t",
+        "n",
+        "er"
+      ]
+    },
+    {
+      "text": "artist",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "art",
+        "ist"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "ar",
+        "t",
+        "i",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "carton",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "car",
+        "ton"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "ar",
+        "t",
+        "o",
+        "n"
+      ]
+    },
+    {
+      "text": "marker",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "mar",
+        "ker"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "ar",
+        "k",
+        "er"
+      ]
+    },
+    {
+      "text": "garlic",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "gar",
+        "lic"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "ar",
+        "l",
+        "i",
+        "c"
+      ]
+    },
+    {
+      "text": "harbor",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "har",
+        "bor"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "ar",
+        "b",
+        "or"
+      ]
+    },
+    {
+      "text": "barnyard",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "barn",
+        "yard"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ar",
+        "n",
+        "y",
+        "ar",
+        "d"
+      ]
+    },
+    {
+      "text": "farmyard",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "farm",
+        "yard"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ar",
+        "m",
+        "y",
+        "ar",
+        "d"
+      ]
+    },
+    {
+      "text": "hardship",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "hard",
+        "ship"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "h",
+        "ar",
+        "d",
+        "sh",
+        "i",
+        "p"
+      ]
+    },
+    {
+      "text": "darling",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "dar",
+        "ling"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "ar",
+        "l",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "starfish",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "star",
+        "fish"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ar",
+        "f",
+        "i",
+        "sh"
+      ]
+    },
+    {
+      "text": "carpool",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "car",
+        "pool"
+      ],
+      "syllableTypes": [
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "ar",
+        "p",
+        "oo",
+        "l"
+      ]
+    },
+    {
+      "text": "pardon",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "par",
+        "don"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "ar",
+        "d",
+        "o",
+        "n"
+      ]
+    },
+    {
+      "text": "armpit",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "arm",
+        "pit"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "ar",
+        "m",
+        "p",
+        "i",
+        "t"
+      ]
+    },
+    {
+      "text": "forest",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "for",
+        "est"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "e",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "order",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "or",
+        "der"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "or",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "corner",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "cor",
+        "ner"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "or",
+        "n",
+        "er"
+      ]
+    },
+    {
+      "text": "border",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "bor",
+        "der"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "or",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "morning",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "morn",
+        "ing"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "or",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "forty",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "for",
+        "ty"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "story",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sto",
+        "ry"
+      ],
+      "syllableTypes": [
+        "open",
+        "open"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "o",
+        "r",
+        "y"
+      ]
+    },
+    {
+      "text": "stormy",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "storm",
+        "y"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "or",
+        "m",
+        "y"
+      ]
+    },
+    {
+      "text": "sporty",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sport",
+        "y"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "or",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "torment",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "tor",
+        "ment"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "or",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "forget",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "for",
+        "get"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "g",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "format",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "for",
+        "mat"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "m",
+        "a",
+        "t"
+      ]
+    },
+    {
+      "text": "formal",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "for",
+        "mal"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "m",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "normal",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "nor",
+        "mal"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "n",
+        "or",
+        "m",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "orbit",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "or",
+        "bit"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "or",
+        "b",
+        "i",
+        "t"
+      ]
+    },
+    {
+      "text": "organ",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "or",
+        "gan"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "or",
+        "g",
+        "a",
+        "n"
+      ]
+    },
+    {
+      "text": "perfect",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "per",
+        "fect"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "f",
+        "e",
+        "c",
+        "t"
+      ]
+    },
+    {
+      "text": "person",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "per",
+        "son"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "s",
+        "o",
+        "n"
+      ]
+    },
+    {
+      "text": "sister",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sis",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "s",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "winter",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "win",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "n",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "summer",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sum",
+        "mer"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "m",
+        "m",
+        "er"
+      ]
+    },
+    {
+      "text": "letter",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "let",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "l",
+        "e",
+        "t",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "butter",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "but",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "t",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "better",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "bet",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "e",
+        "t",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "dinner",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "din",
+        "ner"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "n",
+        "n",
+        "er"
+      ]
+    },
+    {
+      "text": "supper",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sup",
+        "per"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "p",
+        "p",
+        "er"
+      ]
+    },
+    {
+      "text": "hammer",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "ham",
+        "mer"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "a",
+        "m",
+        "m",
+        "er"
+      ]
+    },
+    {
+      "text": "ladder",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "lad",
+        "der"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "l",
+        "a",
+        "d",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "rubber",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "rub",
+        "ber"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "r",
+        "u",
+        "b",
+        "b",
+        "er"
+      ]
+    },
+    {
+      "text": "zipper",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "zip",
+        "per"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "z",
+        "i",
+        "p",
+        "p",
+        "er"
+      ]
+    },
+    {
+      "text": "pepper",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "pep",
+        "per"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "e",
+        "p",
+        "p",
+        "er"
+      ]
+    },
+    {
+      "text": "copper",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "cop",
+        "per"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "p",
+        "p",
+        "er"
+      ]
+    },
+    {
+      "text": "number",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "num",
+        "ber"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "n",
+        "u",
+        "m",
+        "b",
+        "er"
+      ]
+    },
+    {
+      "text": "lumber",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "lum",
+        "ber"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "l",
+        "u",
+        "m",
+        "b",
+        "er"
+      ]
+    },
+    {
+      "text": "timber",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "tim",
+        "ber"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "i",
+        "m",
+        "b",
+        "er"
+      ]
+    },
+    {
+      "text": "under",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "un",
+        "der"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "after",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "af",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "a",
+        "f",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "enter",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "en",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "silver",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sil",
+        "ver"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "l",
+        "v",
+        "er"
+      ]
+    },
+    {
+      "text": "finger",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "fin",
+        "ger"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "i",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "monster",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "mon",
+        "ster"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "o",
+        "n",
+        "s",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "lobster",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "lob",
+        "ster"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "l",
+        "o",
+        "b",
+        "s",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "mister",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "mis",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "s",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "blister",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "blis",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "i",
+        "s",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "hunger",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "hun",
+        "ger"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "u",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "temper",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "tem",
+        "per"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "e",
+        "m",
+        "p",
+        "er"
+      ]
+    },
+    {
+      "text": "member",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "mem",
+        "ber"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "e",
+        "m",
+        "b",
+        "er"
+      ]
+    },
+    {
+      "text": "herself",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "her",
+        "self"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "h",
+        "er",
+        "s",
+        "e",
+        "l",
+        "f"
+      ]
+    },
+    {
+      "text": "perhaps",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "per",
+        "haps"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "h",
+        "a",
+        "p",
+        "s"
+      ]
+    },
+    {
+      "text": "permit",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "per",
+        "mit"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "m",
+        "i",
+        "t"
+      ]
+    },
+    {
+      "text": "expert",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "pert"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "p",
+        "er",
+        "t"
+      ]
+    },
+    {
+      "text": "insert",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "in",
+        "sert"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "s",
+        "er",
+        "t"
+      ]
+    },
+    {
+      "text": "desert",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "des",
+        "ert"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "s",
+        "er",
+        "t"
+      ]
+    },
+    {
+      "text": "dirty",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "dir",
+        "ty"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "d",
+        "ir",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "thirty",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "thir",
+        "ty"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "th",
+        "ir",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "thirsty",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "thirs",
+        "ty"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "th",
+        "ir",
+        "s",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "birthday",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "birth",
+        "day"
+      ],
+      "syllableTypes": [
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "ir",
+        "th",
+        "d",
+        "ay"
+      ]
+    },
+    {
+      "text": "birdbath",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "bird",
+        "bath"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "ir",
+        "d",
+        "b",
+        "a",
+        "th"
+      ]
+    },
+    {
+      "text": "firstborn",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "first",
+        "born"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ir",
+        "s",
+        "t",
+        "b",
+        "or",
+        "n"
+      ]
+    },
+    {
+      "text": "turnip",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "tur",
+        "nip"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "ur",
+        "n",
+        "i",
+        "p"
+      ]
+    },
+    {
+      "text": "burger",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "bur",
+        "ger"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ur",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "burden",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "bur",
+        "den"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "ur",
+        "d",
+        "e",
+        "n"
+      ]
+    },
+    {
+      "text": "turkey",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "tur",
+        "key"
+      ],
+      "syllableTypes": [
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "ur",
+        "k",
+        "ey"
+      ]
+    },
+    {
+      "text": "surprise",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sur",
+        "prise"
+      ],
+      "syllableTypes": [
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "ur",
+        "p",
+        "r",
+        "i",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "surfer",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sur",
+        "fer"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "ur",
+        "f",
+        "er"
+      ]
+    },
+    {
+      "text": "hurry",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "hur",
+        "ry"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "h",
+        "ur",
+        "r",
+        "y"
+      ]
+    },
+    {
+      "text": "furry",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "fur",
+        "ry"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "f",
+        "ur",
+        "r",
+        "y"
+      ]
+    },
+    {
+      "text": "murmur",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "mur",
+        "mur"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "ur",
+        "m",
+        "ur"
+      ]
+    },
+    {
+      "text": "sunburn",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sun",
+        "burn"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "n",
+        "b",
+        "ur",
+        "n"
+      ]
+    },
+    {
+      "text": "return",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "re",
+        "turn"
+      ],
+      "syllableTypes": [
+        "open",
+        "r"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "t",
+        "ur",
+        "n"
+      ]
+    },
+    {
+      "text": "disturb",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "dis",
+        "turb"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "t",
+        "ur",
+        "b"
+      ]
+    },
+    {
+      "text": "suburb",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "sub",
+        "urb"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "b",
+        "ur",
+        "b"
+      ]
+    },
+    {
+      "text": "urban",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "ur",
+        "ban"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "ur",
+        "b",
+        "a",
+        "n"
+      ]
+    },
+    {
+      "text": "further",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "fur",
+        "ther"
+      ],
+      "syllableTypes": [
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "ur",
+        "th",
+        "er"
+      ]
+    },
+    {
+      "text": "blurry",
+      "group": "r",
+      "level": 3,
+      "syllables": [
+        "blur",
+        "ry"
+      ],
+      "syllableTypes": [
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "ur",
+        "r",
+        "y"
+      ]
+    },
+    {
+      "text": "hamburger",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "ham",
+        "bur",
+        "ger"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "a",
+        "m",
+        "b",
+        "ur",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "carpenter",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "car",
+        "pen",
+        "ter"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ar",
+        "p",
+        "e",
+        "n",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "important",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "im",
+        "por",
+        "tant"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "i",
+        "m",
+        "p",
+        "or",
+        "t",
+        "a",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "forgotten",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "for",
+        "got",
+        "ten"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "g",
+        "o",
+        "t",
+        "t",
+        "e",
+        "n"
+      ]
+    },
+    {
+      "text": "forever",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "for",
+        "ev",
+        "er"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "e",
+        "v",
+        "er"
+      ]
+    },
+    {
+      "text": "ornament",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "or",
+        "na",
+        "ment"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "or",
+        "n",
+        "a",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "formula",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "for",
+        "mu",
+        "la"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "open"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "m",
+        "u",
+        "l",
+        "a"
+      ]
+    },
+    {
+      "text": "harmonica",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "har",
+        "mon",
+        "i",
+        "ca"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "open",
+        "open"
+      ],
+      "chunks": [
+        "h",
+        "ar",
+        "m",
+        "o",
+        "n",
+        "i",
+        "c",
+        "a"
+      ]
+    },
+    {
+      "text": "harvesting",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "har",
+        "vest",
+        "ing"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "h",
+        "ar",
+        "v",
+        "e",
+        "s",
+        "t",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "department",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "de",
+        "part",
+        "ment"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "p",
+        "ar",
+        "t",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "apartment",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "a",
+        "part",
+        "ment"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "p",
+        "ar",
+        "t",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "partnership",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "part",
+        "ner",
+        "ship"
+      ],
+      "syllableTypes": [
+        "r",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "ar",
+        "t",
+        "n",
+        "er",
+        "sh",
+        "i",
+        "p"
+      ]
+    },
+    {
+      "text": "wintertime",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "win",
+        "ter",
+        "time"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "n",
+        "t",
+        "er",
+        "t",
+        "i",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "summertime",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "sum",
+        "mer",
+        "time"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "m",
+        "m",
+        "er",
+        "t",
+        "i",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "butterfly",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "but",
+        "ter",
+        "fly"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "t",
+        "t",
+        "er",
+        "f",
+        "l",
+        "y"
+      ]
+    },
+    {
+      "text": "understand",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "un",
+        "der",
+        "stand"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "d",
+        "er",
+        "s",
+        "t",
+        "a",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "thunderstorm",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "thun",
+        "der",
+        "storm"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "th",
+        "u",
+        "n",
+        "d",
+        "er",
+        "s",
+        "t",
+        "or",
+        "m"
+      ]
+    },
+    {
+      "text": "interrupt",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "in",
+        "ter",
+        "rupt"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "t",
+        "er",
+        "r",
+        "u",
+        "p",
+        "t"
+      ]
+    },
+    {
+      "text": "internet",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "in",
+        "ter",
+        "net"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "t",
+        "er",
+        "n",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "perfectly",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "per",
+        "fect",
+        "ly"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "open"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "f",
+        "e",
+        "c",
+        "t",
+        "l",
+        "y"
+      ]
+    },
+    {
+      "text": "permitted",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "per",
+        "mit",
+        "ted"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "m",
+        "i",
+        "t",
+        "t",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "personal",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "per",
+        "son",
+        "al"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "s",
+        "o",
+        "n",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "persistent",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "per",
+        "sis",
+        "tent"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "s",
+        "i",
+        "s",
+        "t",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "perimeter",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "pe",
+        "rim",
+        "e",
+        "ter"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "open",
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "e",
+        "r",
+        "i",
+        "m",
+        "e",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "thermometer",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "ther",
+        "mom",
+        "e",
+        "ter"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "open",
+        "r"
+      ],
+      "chunks": [
+        "th",
+        "er",
+        "m",
+        "o",
+        "m",
+        "e",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "sisterhood",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "sis",
+        "ter",
+        "hood"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "s",
+        "t",
+        "er",
+        "h",
+        "oo",
+        "d"
+      ]
+    },
+    {
+      "text": "fingerprint",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "fin",
+        "ger",
+        "print"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "i",
+        "n",
+        "g",
+        "er",
+        "p",
+        "r",
+        "i",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "fingernail",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "fin",
+        "ger",
+        "nail"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "i",
+        "n",
+        "g",
+        "er",
+        "n",
+        "ai",
+        "l"
+      ]
+    },
+    {
+      "text": "lumberjack",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "lum",
+        "ber",
+        "jack"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "u",
+        "m",
+        "b",
+        "er",
+        "j",
+        "a",
+        "ck"
+      ]
+    },
+    {
+      "text": "remember",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "re",
+        "mem",
+        "ber"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "m",
+        "e",
+        "m",
+        "b",
+        "er"
+      ]
+    },
+    {
+      "text": "turbulent",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "tur",
+        "bu",
+        "lent"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "ur",
+        "b",
+        "u",
+        "l",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "surrender",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "sur",
+        "ren",
+        "der"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "ur",
+        "r",
+        "e",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "surviving",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "sur",
+        "viv",
+        "ing"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "ur",
+        "v",
+        "i",
+        "v",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "suburban",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "sub",
+        "ur",
+        "ban"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "b",
+        "ur",
+        "b",
+        "a",
+        "n"
+      ]
+    },
+    {
+      "text": "disturbing",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "dis",
+        "turb",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "t",
+        "ur",
+        "b",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "returning",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "re",
+        "turn",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "t",
+        "ur",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "hurricane",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "hur",
+        "ri",
+        "cane"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "h",
+        "ur",
+        "r",
+        "i",
+        "c",
+        "a",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "murmuring",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "mur",
+        "mur",
+        "ing"
+      ],
+      "syllableTypes": [
+        "r",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "ur",
+        "m",
+        "ur",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "cornerstone",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "cor",
+        "ner",
+        "stone"
+      ],
+      "syllableTypes": [
+        "r",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "or",
+        "n",
+        "er",
+        "s",
+        "t",
+        "o",
+        "n",
+        "e"
+      ]
+    },
+    {
+      "text": "ordering",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "or",
+        "der",
+        "ing"
+      ],
+      "syllableTypes": [
+        "r",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "or",
+        "d",
+        "er",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "formatting",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "for",
+        "mat",
+        "ting"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "m",
+        "a",
+        "t",
+        "t",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "forgetful",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "for",
+        "get",
+        "ful"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "g",
+        "e",
+        "t",
+        "f",
+        "u",
+        "l"
+      ]
+    },
+    {
+      "text": "forgiving",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "for",
+        "giv",
+        "ing"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "g",
+        "i",
+        "v",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "performing",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "per",
+        "form",
+        "ing"
+      ],
+      "syllableTypes": [
+        "r",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "f",
+        "or",
+        "m",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "transformer",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "trans",
+        "form",
+        "er"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "n",
+        "s",
+        "f",
+        "or",
+        "m",
+        "er"
+      ]
+    },
+    {
+      "text": "informing",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "in",
+        "form",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "f",
+        "or",
+        "m",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "supporting",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "sup",
+        "port",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "p",
+        "p",
+        "or",
+        "t",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "reporter",
+      "group": "r",
+      "level": 4,
+      "syllables": [
+        "re",
+        "port",
+        "er"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "p",
+        "or",
+        "t",
+        "er"
+      ]
+    }
+  ]
+}

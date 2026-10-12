@@ -1,0 +1,4134 @@
+{
+  "group": "diphthong",
+  "words": [
+    {
+      "text": "coin",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "coin"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "oi",
+        "n"
+      ]
+    },
+    {
+      "text": "join",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "join"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "j",
+        "oi",
+        "n"
+      ]
+    },
+    {
+      "text": "oil",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "oil"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "boil",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "boil"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "soil",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "soil"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "foil",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "foil"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "f",
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "coil",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "coil"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "point",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "point"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "oi",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "joint",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "joint"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "j",
+        "oi",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "moist",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "moist"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "m",
+        "oi",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "boy",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "boy"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "oy"
+      ],
+      "homophones": [
+        "buoy"
+      ]
+    },
+    {
+      "text": "toy",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "toy"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "t",
+        "oy"
+      ]
+    },
+    {
+      "text": "joy",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "joy"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "j",
+        "oy"
+      ]
+    },
+    {
+      "text": "soy",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "soy"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "oy"
+      ]
+    },
+    {
+      "text": "out",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "out"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "loud",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "loud"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "l",
+        "ou",
+        "d"
+      ]
+    },
+    {
+      "text": "round",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "round"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "r",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "found",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "found"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "f",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "pound",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "pound"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "hound",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "hound"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "h",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "bound",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "bound"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "sound",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "sound"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "mouth",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "mouth"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "m",
+        "ou",
+        "th"
+      ]
+    },
+    {
+      "text": "south",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "south"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "ou",
+        "th"
+      ]
+    },
+    {
+      "text": "house",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "house"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "h",
+        "ou",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "mouse",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "mouse"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "m",
+        "ou",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "count",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "count"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "ou",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "mount",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "mount"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "m",
+        "ou",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "ouch",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "ouch"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "ou",
+        "ch"
+      ]
+    },
+    {
+      "text": "pouch",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "pouch"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "ou",
+        "ch"
+      ]
+    },
+    {
+      "text": "couch",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "couch"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "ou",
+        "ch"
+      ]
+    },
+    {
+      "text": "cow",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "cow"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "ow"
+      ]
+    },
+    {
+      "text": "how",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "how"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "h",
+        "ow"
+      ]
+    },
+    {
+      "text": "now",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "now"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "n",
+        "ow"
+      ]
+    },
+    {
+      "text": "wow",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "wow"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "w",
+        "ow"
+      ]
+    },
+    {
+      "text": "vow",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "vow"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "v",
+        "ow"
+      ]
+    },
+    {
+      "text": "owl",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "owl"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "ow",
+        "l"
+      ]
+    },
+    {
+      "text": "howl",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "howl"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "h",
+        "ow",
+        "l"
+      ]
+    },
+    {
+      "text": "town",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "town"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "t",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "down",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "down"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "gown",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "gown"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "g",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "our",
+      "group": "diphthong",
+      "level": 1,
+      "syllables": [
+        "our"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "ou",
+        "r"
+      ],
+      "homophones": [
+        "hour"
+      ]
+    },
+    {
+      "text": "spoil",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "spoil"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "broil",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "broil"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "hoist",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "hoist"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "h",
+        "oi",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "joist",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "joist"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "j",
+        "oi",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "ploy",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "ploy"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "oy"
+      ]
+    },
+    {
+      "text": "shout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "shout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "sh",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "scout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "scout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "sprout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "sprout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "r",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "trout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "trout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "stout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "stout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "spout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "spout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "snout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "snout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "cloud",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "cloud"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "ou",
+        "d"
+      ]
+    },
+    {
+      "text": "proud",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "proud"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "ou",
+        "d"
+      ]
+    },
+    {
+      "text": "crowd",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "crowd"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ow",
+        "d"
+      ]
+    },
+    {
+      "text": "crown",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "crown"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "clown",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "clown"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "frown",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "frown"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "f",
+        "r",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "drown",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "drown"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "brown",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "brown"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "growl",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "growl"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ow",
+        "l"
+      ]
+    },
+    {
+      "text": "prowl",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "prowl"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "ow",
+        "l"
+      ]
+    },
+    {
+      "text": "scowl",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "scowl"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "ow",
+        "l"
+      ]
+    },
+    {
+      "text": "plow",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "plow"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "brow",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "brow"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "ow"
+      ]
+    },
+    {
+      "text": "chow",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "chow"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "ch",
+        "ow"
+      ],
+      "homophones": [
+        "ciao"
+      ]
+    },
+    {
+      "text": "ground",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "ground"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "grouch",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "grouch"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ou",
+        "ch"
+      ]
+    },
+    {
+      "text": "crouch",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "crouch"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ou",
+        "ch"
+      ]
+    },
+    {
+      "text": "slouch",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "slouch"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "ou",
+        "ch"
+      ]
+    },
+    {
+      "text": "blouse",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "blouse"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "ou",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "flour",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "flour"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ou",
+        "r"
+      ],
+      "homophones": [
+        "flower"
+      ]
+    },
+    {
+      "text": "sour",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "sour"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "ou",
+        "r"
+      ]
+    },
+    {
+      "text": "scour",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "scour"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "ou",
+        "r"
+      ]
+    },
+    {
+      "text": "clout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "clout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "grout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "grout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "pout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "pout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "bout",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "bout"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "shroud",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "shroud"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "sh",
+        "r",
+        "ou",
+        "d"
+      ]
+    },
+    {
+      "text": "foul",
+      "group": "diphthong",
+      "level": 2,
+      "syllables": [
+        "foul"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "f",
+        "ou",
+        "l"
+      ],
+      "homophones": [
+        "fowl"
+      ]
+    },
+    {
+      "text": "cowboy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "cow",
+        "boy"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "ow",
+        "b",
+        "oy"
+      ]
+    },
+    {
+      "text": "oyster",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "oys",
+        "ter"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "oy",
+        "s",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "toilet",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "toi",
+        "let"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "oi",
+        "l",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "poison",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "poi",
+        "son"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "oi",
+        "s",
+        "o",
+        "n"
+      ]
+    },
+    {
+      "text": "pointed",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "point",
+        "ed"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "oi",
+        "n",
+        "t",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "appoint",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "ap",
+        "point"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "p",
+        "p",
+        "oi",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "avoid",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "a",
+        "void"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "v",
+        "oi",
+        "d"
+      ]
+    },
+    {
+      "text": "enjoy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "en",
+        "joy"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "j",
+        "oy"
+      ]
+    },
+    {
+      "text": "annoy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "an",
+        "noy"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "n",
+        "n",
+        "oy"
+      ]
+    },
+    {
+      "text": "destroy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "de",
+        "stroy"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "s",
+        "t",
+        "r",
+        "oy"
+      ]
+    },
+    {
+      "text": "employ",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "em",
+        "ploy"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "e",
+        "m",
+        "p",
+        "l",
+        "oy"
+      ]
+    },
+    {
+      "text": "decoy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "de",
+        "coy"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "c",
+        "oy"
+      ]
+    },
+    {
+      "text": "convoy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "con",
+        "voy"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "n",
+        "v",
+        "oy"
+      ]
+    },
+    {
+      "text": "royal",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "roy",
+        "al"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "oy",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "loyal",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "loy",
+        "al"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "oy",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "joyful",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "joy",
+        "ful"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "j",
+        "oy",
+        "f",
+        "u",
+        "l"
+      ]
+    },
+    {
+      "text": "soybean",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "soy",
+        "bean"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "oy",
+        "b",
+        "ea",
+        "n"
+      ]
+    },
+    {
+      "text": "tomboy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "tom",
+        "boy"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "t",
+        "o",
+        "m",
+        "b",
+        "oy"
+      ]
+    },
+    {
+      "text": "about",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "a",
+        "bout"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "b",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "around",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "a",
+        "round"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "r",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "aloud",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "a",
+        "loud"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "l",
+        "ou",
+        "d"
+      ],
+      "homophones": [
+        "allowed"
+      ]
+    },
+    {
+      "text": "amount",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "a",
+        "mount"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "m",
+        "ou",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "account",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "ac",
+        "count"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "c",
+        "c",
+        "ou",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "outside",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "out",
+        "side"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "vce"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "s",
+        "i",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "outfit",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "out",
+        "fit"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "f",
+        "i",
+        "t"
+      ]
+    },
+    {
+      "text": "output",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "out",
+        "put"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "p",
+        "u",
+        "t"
+      ]
+    },
+    {
+      "text": "outlet",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "out",
+        "let"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "l",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "without",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "with",
+        "out"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "th",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "lookout",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "look",
+        "out"
+      ],
+      "syllableTypes": [
+        "team",
+        "diphthong"
+      ],
+      "chunks": [
+        "l",
+        "oo",
+        "k",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "hangout",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "hang",
+        "out"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "h",
+        "a",
+        "ng",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "blackout",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "black",
+        "out"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "a",
+        "ck",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "cookout",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "cook",
+        "out"
+      ],
+      "syllableTypes": [
+        "team",
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "oo",
+        "k",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "dropout",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "drop",
+        "out"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "o",
+        "p",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "tryout",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "try",
+        "out"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "y",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "county",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "coun",
+        "ty"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open"
+      ],
+      "chunks": [
+        "c",
+        "ou",
+        "n",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "counter",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "coun",
+        "ter"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ou",
+        "n",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "thousand",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "thou",
+        "sand"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "th",
+        "ou",
+        "s",
+        "a",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "mousetrap",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "mouse",
+        "trap"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "ou",
+        "s",
+        "e",
+        "t",
+        "r",
+        "a",
+        "p"
+      ]
+    },
+    {
+      "text": "powder",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "pow",
+        "der"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "ow",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "chowder",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "chow",
+        "der"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "ch",
+        "ow",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "flower",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "flow",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ow",
+        "er"
+      ],
+      "homophones": [
+        "flour"
+      ]
+    },
+    {
+      "text": "shower",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "show",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "sh",
+        "ow",
+        "er"
+      ]
+    },
+    {
+      "text": "tower",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "tow",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "ow",
+        "er"
+      ]
+    },
+    {
+      "text": "power",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "pow",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "ow",
+        "er"
+      ]
+    },
+    {
+      "text": "vowel",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "vow",
+        "el"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "v",
+        "ow",
+        "e",
+        "l"
+      ]
+    },
+    {
+      "text": "towel",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "tow",
+        "el"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "ow",
+        "e",
+        "l"
+      ]
+    },
+    {
+      "text": "allow",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "al",
+        "low"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "l",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "downtown",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "down",
+        "town"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "ow",
+        "n",
+        "t",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "sundown",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "sun",
+        "down"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "n",
+        "d",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "countdown",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "count",
+        "down"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "ou",
+        "n",
+        "t",
+        "d",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "crowded",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "crowd",
+        "ed"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ow",
+        "d",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "rowdy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "row",
+        "dy"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open"
+      ],
+      "chunks": [
+        "r",
+        "ow",
+        "d",
+        "y"
+      ]
+    },
+    {
+      "text": "howdy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "how",
+        "dy"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open"
+      ],
+      "chunks": [
+        "h",
+        "ow",
+        "d",
+        "y"
+      ]
+    },
+    {
+      "text": "coward",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "cow",
+        "ard"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ow",
+        "ar",
+        "d"
+      ]
+    },
+    {
+      "text": "cowbell",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "cow",
+        "bell"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "ow",
+        "b",
+        "e",
+        "l",
+        "l"
+      ]
+    },
+    {
+      "text": "cowgirl",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "cow",
+        "girl"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ow",
+        "g",
+        "ir",
+        "l"
+      ]
+    },
+    {
+      "text": "playground",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "play",
+        "ground"
+      ],
+      "syllableTypes": [
+        "team",
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "ay",
+        "g",
+        "r",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "background",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "back",
+        "ground"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "ck",
+        "g",
+        "r",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "campground",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "camp",
+        "ground"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "m",
+        "p",
+        "g",
+        "r",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "surround",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "sur",
+        "round"
+      ],
+      "syllableTypes": [
+        "r",
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "ur",
+        "r",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "profound",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "pro",
+        "found"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "o",
+        "f",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "compound",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "com",
+        "pound"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "m",
+        "p",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "rebound",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "re",
+        "bound"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "b",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "astound",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "a",
+        "stound"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "a",
+        "s",
+        "t",
+        "ou",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "discount",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "dis",
+        "count"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "c",
+        "ou",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "devout",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "de",
+        "vout"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "v",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "flounder",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "floun",
+        "der"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ou",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "louder",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "loud",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "l",
+        "ou",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "cloudy",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "cloud",
+        "y"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "ou",
+        "d",
+        "y"
+      ]
+    },
+    {
+      "text": "oily",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "oil",
+        "y"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open"
+      ],
+      "chunks": [
+        "oi",
+        "l",
+        "y"
+      ]
+    },
+    {
+      "text": "boiler",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "boil",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "oi",
+        "l",
+        "er"
+      ]
+    },
+    {
+      "text": "spoiler",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "spoil",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "oi",
+        "l",
+        "er"
+      ]
+    },
+    {
+      "text": "pointer",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "point",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "oi",
+        "n",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "ointment",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "oint",
+        "ment"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "oi",
+        "n",
+        "t",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "turmoil",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "tur",
+        "moil"
+      ],
+      "syllableTypes": [
+        "r",
+        "diphthong"
+      ],
+      "chunks": [
+        "t",
+        "ur",
+        "m",
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "tinfoil",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "tin",
+        "foil"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "t",
+        "i",
+        "n",
+        "f",
+        "oi",
+        "l"
+      ]
+    },
+    {
+      "text": "sirloin",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "sir",
+        "loin"
+      ],
+      "syllableTypes": [
+        "r",
+        "diphthong"
+      ],
+      "chunks": [
+        "s",
+        "ir",
+        "l",
+        "oi",
+        "n"
+      ]
+    },
+    {
+      "text": "exploit",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "ploit"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "p",
+        "l",
+        "oi",
+        "t"
+      ]
+    },
+    {
+      "text": "rejoin",
+      "group": "diphthong",
+      "level": 3,
+      "syllables": [
+        "re",
+        "join"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "j",
+        "oi",
+        "n"
+      ]
+    },
+    {
+      "text": "enjoyment",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "en",
+        "joy",
+        "ment"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "j",
+        "oy",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "employment",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "em",
+        "ploy",
+        "ment"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "m",
+        "p",
+        "l",
+        "oy",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "employer",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "em",
+        "ploy",
+        "er"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "e",
+        "m",
+        "p",
+        "l",
+        "oy",
+        "er"
+      ]
+    },
+    {
+      "text": "destroyer",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "de",
+        "stroy",
+        "er"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "s",
+        "t",
+        "r",
+        "oy",
+        "er"
+      ]
+    },
+    {
+      "text": "annoying",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "an",
+        "noy",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "n",
+        "n",
+        "oy",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "loyalty",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "loy",
+        "al",
+        "ty"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "open"
+      ],
+      "chunks": [
+        "l",
+        "oy",
+        "a",
+        "l",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "royalty",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "roy",
+        "al",
+        "ty"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "open"
+      ],
+      "chunks": [
+        "r",
+        "oy",
+        "a",
+        "l",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "disloyal",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "dis",
+        "loy",
+        "al"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "l",
+        "oy",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "overjoyed",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "o",
+        "ver",
+        "joyed"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "diphthong"
+      ],
+      "chunks": [
+        "o",
+        "v",
+        "er",
+        "j",
+        "oy",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "appointment",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "ap",
+        "point",
+        "ment"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "p",
+        "p",
+        "oi",
+        "n",
+        "t",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "disappoint",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "dis",
+        "ap",
+        "point"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "diphthong"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "a",
+        "p",
+        "p",
+        "oi",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "avoiding",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "a",
+        "void",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "v",
+        "oi",
+        "d",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "embroider",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "em",
+        "broi",
+        "der"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "e",
+        "m",
+        "b",
+        "r",
+        "oi",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "exploiting",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "ex",
+        "ploit",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "p",
+        "l",
+        "oi",
+        "t",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "adjoining",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "ad",
+        "join",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "d",
+        "j",
+        "oi",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "roundabout",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "round",
+        "a",
+        "bout"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "r",
+        "ou",
+        "n",
+        "d",
+        "a",
+        "b",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "runabout",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "run",
+        "a",
+        "bout"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "diphthong"
+      ],
+      "chunks": [
+        "r",
+        "u",
+        "n",
+        "a",
+        "b",
+        "ou",
+        "t"
+      ]
+    },
+    {
+      "text": "outstanding",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "out",
+        "stand",
+        "ing"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "s",
+        "t",
+        "a",
+        "n",
+        "d",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "outnumber",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "out",
+        "num",
+        "ber"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "n",
+        "u",
+        "m",
+        "b",
+        "er"
+      ]
+    },
+    {
+      "text": "outsmarted",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "out",
+        "smart",
+        "ed"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "s",
+        "m",
+        "ar",
+        "t",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "outspoken",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "out",
+        "spo",
+        "ken"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "s",
+        "p",
+        "o",
+        "k",
+        "e",
+        "n"
+      ]
+    },
+    {
+      "text": "outgoing",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "out",
+        "go",
+        "ing"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "g",
+        "o",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "outlandish",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "out",
+        "land",
+        "ish"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "l",
+        "a",
+        "n",
+        "d",
+        "i",
+        "sh"
+      ]
+    },
+    {
+      "text": "surrounding",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "sur",
+        "round",
+        "ing"
+      ],
+      "syllableTypes": [
+        "r",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "ur",
+        "r",
+        "ou",
+        "n",
+        "d",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "rebounding",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "re",
+        "bound",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "b",
+        "ou",
+        "n",
+        "d",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "astounding",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "a",
+        "stound",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "s",
+        "t",
+        "ou",
+        "n",
+        "d",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "accountant",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "ac",
+        "coun",
+        "tant"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "c",
+        "c",
+        "ou",
+        "n",
+        "t",
+        "a",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "accounting",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "ac",
+        "count",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "c",
+        "c",
+        "ou",
+        "n",
+        "t",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "discounted",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "dis",
+        "count",
+        "ed"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "c",
+        "ou",
+        "n",
+        "t",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "downloading",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "down",
+        "load",
+        "ing"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "ow",
+        "n",
+        "l",
+        "oa",
+        "d",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "downtrodden",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "down",
+        "trod",
+        "den"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "ow",
+        "n",
+        "t",
+        "r",
+        "o",
+        "d",
+        "d",
+        "e",
+        "n"
+      ]
+    },
+    {
+      "text": "downstairs",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "down",
+        "stairs"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "ow",
+        "n",
+        "s",
+        "t",
+        "air",
+        "s"
+      ]
+    },
+    {
+      "text": "powerful",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "pow",
+        "er",
+        "ful"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "ow",
+        "er",
+        "f",
+        "u",
+        "l"
+      ]
+    },
+    {
+      "text": "powerless",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "pow",
+        "er",
+        "less"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "ow",
+        "er",
+        "l",
+        "e",
+        "s",
+        "s"
+      ]
+    },
+    {
+      "text": "flowerpot",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "flow",
+        "er",
+        "pot"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ow",
+        "er",
+        "p",
+        "o",
+        "t"
+      ]
+    },
+    {
+      "text": "showering",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "show",
+        "er",
+        "ing"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "sh",
+        "ow",
+        "er",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "towering",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "tow",
+        "er",
+        "ing"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "ow",
+        "er",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "empowered",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "em",
+        "pow",
+        "ered"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "e",
+        "m",
+        "p",
+        "ow",
+        "er",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "sunflower",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "sun",
+        "flow",
+        "er"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "n",
+        "f",
+        "l",
+        "ow",
+        "er"
+      ]
+    },
+    {
+      "text": "allowing",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "al",
+        "low",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "l",
+        "l",
+        "ow",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "cowardly",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "cow",
+        "ard",
+        "ly"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "c",
+        "ow",
+        "ar",
+        "d",
+        "l",
+        "y"
+      ]
+    },
+    {
+      "text": "crowdfunding",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "crowd",
+        "fund",
+        "ing"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ow",
+        "d",
+        "f",
+        "u",
+        "n",
+        "d",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "boundary",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "boun",
+        "da",
+        "ry"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "open",
+        "open"
+      ],
+      "chunks": [
+        "b",
+        "ou",
+        "n",
+        "d",
+        "a",
+        "r",
+        "y"
+      ]
+    },
+    {
+      "text": "loudspeaker",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "loud",
+        "speak",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "team",
+        "r"
+      ],
+      "chunks": [
+        "l",
+        "ou",
+        "d",
+        "s",
+        "p",
+        "ea",
+        "k",
+        "er"
+      ]
+    },
+    {
+      "text": "counterpart",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "coun",
+        "ter",
+        "part"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "ou",
+        "n",
+        "t",
+        "er",
+        "p",
+        "ar",
+        "t"
+      ]
+    },
+    {
+      "text": "countertop",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "coun",
+        "ter",
+        "top"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "ou",
+        "n",
+        "t",
+        "er",
+        "t",
+        "o",
+        "p"
+      ]
+    },
+    {
+      "text": "encounter",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "en",
+        "coun",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "r"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "c",
+        "ou",
+        "n",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "southwestern",
+      "group": "diphthong",
+      "level": 4,
+      "syllables": [
+        "south",
+        "west",
+        "ern"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "ou",
+        "th",
+        "w",
+        "e",
+        "s",
+        "t",
+        "er",
+        "n"
+      ]
+    }
+  ]
+}

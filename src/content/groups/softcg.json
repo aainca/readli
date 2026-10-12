@@ -1,0 +1,4695 @@
+{
+  "group": "softcg",
+  "words": [
+    {
+      "text": "cent",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "cent"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "e",
+        "n",
+        "t"
+      ],
+      "homophones": [
+        "sent",
+        "scent"
+      ]
+    },
+    {
+      "text": "ice",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "ice"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "mice",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "mice"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "rice",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "rice"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "nice",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "nice"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "n",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "dice",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "dice"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "face",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "face"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "f",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "race",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "race"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "lace",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "lace"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "l",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "pace",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "pace"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "ace",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "ace"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "cell",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "cell"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "e",
+        "l",
+        "l"
+      ],
+      "homophones": [
+        "sell"
+      ]
+    },
+    {
+      "text": "fence",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "fence"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "e",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "dance",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "dance"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "a",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "mince",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "mince"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "since",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "since"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "gem",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "gem"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "e",
+        "m"
+      ]
+    },
+    {
+      "text": "gel",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "gel"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "e",
+        "l"
+      ]
+    },
+    {
+      "text": "age",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "age"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "cage",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "cage"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "page",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "page"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "wage",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "wage"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "w",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "rage",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "rage"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "sage",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "sage"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "edge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "edge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "dge"
+      ]
+    },
+    {
+      "text": "hedge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "hedge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "h",
+        "e",
+        "dge"
+      ]
+    },
+    {
+      "text": "wedge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "wedge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "w",
+        "e",
+        "dge"
+      ]
+    },
+    {
+      "text": "badge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "badge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "dge"
+      ]
+    },
+    {
+      "text": "judge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "judge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "j",
+        "u",
+        "dge"
+      ]
+    },
+    {
+      "text": "fudge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "fudge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "u",
+        "dge"
+      ]
+    },
+    {
+      "text": "nudge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "nudge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "n",
+        "u",
+        "dge"
+      ]
+    },
+    {
+      "text": "budge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "budge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "dge"
+      ]
+    },
+    {
+      "text": "lodge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "lodge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "o",
+        "dge"
+      ]
+    },
+    {
+      "text": "dodge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "dodge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "o",
+        "dge"
+      ]
+    },
+    {
+      "text": "ridge",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "ridge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "i",
+        "dge"
+      ]
+    },
+    {
+      "text": "cite",
+      "group": "softcg",
+      "level": 1,
+      "syllables": [
+        "cite"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "i",
+        "t",
+        "e"
+      ],
+      "homophones": [
+        "sight",
+        "site"
+      ]
+    },
+    {
+      "text": "price",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "price"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "spice",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "spice"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "slice",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "slice"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "twice",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "twice"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "w",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "trace",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "trace"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "grace",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "grace"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "brace",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "brace"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "space",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "space"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "a",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "place",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "place"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "a",
+        "c",
+        "e"
+      ],
+      "homophones": [
+        "plaice"
+      ]
+    },
+    {
+      "text": "prince",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "prince"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "i",
+        "n",
+        "c",
+        "e"
+      ],
+      "homophones": [
+        "prints"
+      ]
+    },
+    {
+      "text": "glance",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "glance"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "l",
+        "a",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "chance",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "chance"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "ch",
+        "a",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "stance",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "stance"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "a",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "prance",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "prance"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "a",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "trance",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "trance"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "fleece",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "fleece"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ee",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "peace",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "peace"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "ea",
+        "c",
+        "e"
+      ],
+      "homophones": [
+        "piece"
+      ]
+    },
+    {
+      "text": "piece",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "piece"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "ie",
+        "c",
+        "e"
+      ],
+      "homophones": [
+        "peace"
+      ]
+    },
+    {
+      "text": "niece",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "niece"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "n",
+        "ie",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "juice",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "juice"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "j",
+        "ui",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "spruce",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "spruce"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "r",
+        "u",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "truce",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "truce"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "u",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "bounce",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "bounce"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "b",
+        "ou",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "pounce",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "pounce"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "p",
+        "ou",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "ounce",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "ounce"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "ou",
+        "n",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "voice",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "voice"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "v",
+        "oi",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "choice",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "choice"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "ch",
+        "oi",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "lounge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "lounge"
+      ],
+      "syllableTypes": [
+        "diphthong"
+      ],
+      "chunks": [
+        "l",
+        "ou",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "stage",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "stage"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "strange",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "strange"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "a",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "range",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "range"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "a",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "change",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "change"
+      ],
+      "syllableTypes": [
+        "vce"
+      ],
+      "chunks": [
+        "ch",
+        "a",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "plunge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "plunge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "u",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "lunge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "lunge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "u",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "bulge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "bulge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "l",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "binge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "binge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "i",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "hinge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "hinge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "h",
+        "i",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "singe",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "singe"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "fringe",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "fringe"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "r",
+        "i",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "cringe",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "cringe"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "i",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "twinge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "twinge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "w",
+        "i",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "bridge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "bridge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "i",
+        "dge"
+      ]
+    },
+    {
+      "text": "fridge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "fridge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "r",
+        "i",
+        "dge"
+      ]
+    },
+    {
+      "text": "smudge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "smudge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "m",
+        "u",
+        "dge"
+      ]
+    },
+    {
+      "text": "trudge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "trudge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "u",
+        "dge"
+      ]
+    },
+    {
+      "text": "grudge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "grudge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "u",
+        "dge"
+      ]
+    },
+    {
+      "text": "sludge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "sludge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "u",
+        "dge"
+      ]
+    },
+    {
+      "text": "pledge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "pledge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "e",
+        "dge"
+      ]
+    },
+    {
+      "text": "sledge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "sledge"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "e",
+        "dge"
+      ]
+    },
+    {
+      "text": "large",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "large"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "l",
+        "ar",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "barge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "barge"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "ar",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "charge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "charge"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ch",
+        "ar",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "merge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "merge"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "er",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "surge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "surge"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "ur",
+        "g",
+        "e"
+      ],
+      "homophones": [
+        "serge"
+      ]
+    },
+    {
+      "text": "urge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "urge"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "ur",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "forge",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "forge"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "f",
+        "or",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "germ",
+      "group": "softcg",
+      "level": 2,
+      "syllables": [
+        "germ"
+      ],
+      "syllableTypes": [
+        "r"
+      ],
+      "chunks": [
+        "g",
+        "er",
+        "m"
+      ]
+    },
+    {
+      "text": "city",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cit",
+        "y"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open"
+      ],
+      "chunks": [
+        "c",
+        "i",
+        "t",
+        "y"
+      ]
+    },
+    {
+      "text": "pencil",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "pen",
+        "cil"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "e",
+        "n",
+        "c",
+        "i",
+        "l"
+      ]
+    },
+    {
+      "text": "circus",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cir",
+        "cus"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "ir",
+        "c",
+        "u",
+        "s"
+      ]
+    },
+    {
+      "text": "circle",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cir",
+        "cle"
+      ],
+      "syllableTypes": [
+        "r",
+        "cle"
+      ],
+      "chunks": [
+        "c",
+        "ir",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "cancel",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "can",
+        "cel"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "n",
+        "c",
+        "e",
+        "l"
+      ]
+    },
+    {
+      "text": "dancer",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "dan",
+        "cer"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "a",
+        "n",
+        "c",
+        "er"
+      ]
+    },
+    {
+      "text": "recent",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "re",
+        "cent"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "c",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "decent",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "de",
+        "cent"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "c",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "cement",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ce",
+        "ment"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "e",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "concert",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "con",
+        "cert"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "n",
+        "c",
+        "er",
+        "t"
+      ]
+    },
+    {
+      "text": "concept",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "con",
+        "cept"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "n",
+        "c",
+        "e",
+        "p",
+        "t"
+      ]
+    },
+    {
+      "text": "percent",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "per",
+        "cent"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "er",
+        "c",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "accent",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ac",
+        "cent"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "c",
+        "c",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "excite",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "cite"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "c",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "recite",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "re",
+        "cite"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "c",
+        "i",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "decide",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "de",
+        "cide"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "c",
+        "i",
+        "d",
+        "e"
+      ]
+    },
+    {
+      "text": "device",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "de",
+        "vice"
+      ],
+      "syllableTypes": [
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "v",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "advice",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ad",
+        "vice"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "a",
+        "d",
+        "v",
+        "i",
+        "c",
+        "e"
+      ]
+    },
+    {
+      "text": "princess",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "prin",
+        "cess"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "i",
+        "n",
+        "c",
+        "e",
+        "s",
+        "s"
+      ]
+    },
+    {
+      "text": "process",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "pro",
+        "cess"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "o",
+        "c",
+        "e",
+        "s",
+        "s"
+      ]
+    },
+    {
+      "text": "success",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "suc",
+        "cess"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "c",
+        "c",
+        "e",
+        "s",
+        "s"
+      ]
+    },
+    {
+      "text": "access",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ac",
+        "cess"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "c",
+        "c",
+        "e",
+        "s",
+        "s"
+      ]
+    },
+    {
+      "text": "cellar",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cel",
+        "lar"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "e",
+        "l",
+        "l",
+        "ar"
+      ]
+    },
+    {
+      "text": "center",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cen",
+        "ter"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "e",
+        "n",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "cinder",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cin",
+        "der"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "i",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "cider",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ci",
+        "der"
+      ],
+      "syllableTypes": [
+        "open",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "i",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "citrus",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cit",
+        "rus"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "i",
+        "t",
+        "r",
+        "u",
+        "s"
+      ]
+    },
+    {
+      "text": "civil",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "civ",
+        "il"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "i",
+        "v",
+        "i",
+        "l"
+      ]
+    },
+    {
+      "text": "giant",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "gi",
+        "ant"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "i",
+        "a",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "gentle",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "gen",
+        "tle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle"
+      ],
+      "chunks": [
+        "g",
+        "e",
+        "n",
+        "t",
+        "le"
+      ]
+    },
+    {
+      "text": "ginger",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "gin",
+        "ger"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "g",
+        "i",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "gerbil",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ger",
+        "bil"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "er",
+        "b",
+        "i",
+        "l"
+      ]
+    },
+    {
+      "text": "genie",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ge",
+        "nie"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "e",
+        "n",
+        "ie"
+      ]
+    },
+    {
+      "text": "digest",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "di",
+        "gest"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "g",
+        "e",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "digit",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "dig",
+        "it"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "g",
+        "i",
+        "t"
+      ]
+    },
+    {
+      "text": "magic",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "mag",
+        "ic"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "g",
+        "i",
+        "c"
+      ]
+    },
+    {
+      "text": "logic",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "log",
+        "ic"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "o",
+        "g",
+        "i",
+        "c"
+      ]
+    },
+    {
+      "text": "tragic",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "trag",
+        "ic"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "g",
+        "i",
+        "c"
+      ]
+    },
+    {
+      "text": "rigid",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "rig",
+        "id"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "i",
+        "g",
+        "i",
+        "d"
+      ]
+    },
+    {
+      "text": "margin",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "mar",
+        "gin"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "ar",
+        "g",
+        "i",
+        "n"
+      ]
+    },
+    {
+      "text": "legend",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "leg",
+        "end"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "e",
+        "g",
+        "e",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "budget",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "bud",
+        "get"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "d",
+        "g",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "gadget",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "gad",
+        "get"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "a",
+        "d",
+        "g",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "fidget",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "fid",
+        "get"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "i",
+        "d",
+        "g",
+        "e",
+        "t"
+      ]
+    },
+    {
+      "text": "badger",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "bad",
+        "ger"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "d",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "cabbage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cab",
+        "bage"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "b",
+        "b",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "package",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "pack",
+        "age"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "ck",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "village",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "vil",
+        "lage"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "v",
+        "i",
+        "l",
+        "l",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "message",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "mes",
+        "sage"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "e",
+        "s",
+        "s",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "passage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "pas",
+        "sage"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "s",
+        "s",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "garbage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "gar",
+        "bage"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "ar",
+        "b",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "bandage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "band",
+        "age"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "n",
+        "d",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "damage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "dam",
+        "age"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "a",
+        "m",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "manage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "man",
+        "age"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "n",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "voyage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "voy",
+        "age"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed"
+      ],
+      "chunks": [
+        "v",
+        "oy",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "luggage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "lug",
+        "gage"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "u",
+        "g",
+        "g",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "cottage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "cot",
+        "tage"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "t",
+        "t",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "image",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "im",
+        "age"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "i",
+        "m",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "outrage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "out",
+        "rage"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "vce"
+      ],
+      "chunks": [
+        "ou",
+        "t",
+        "r",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "enrage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "en",
+        "rage"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "r",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "engage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "en",
+        "gage"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "g",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "teenage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "teen",
+        "age"
+      ],
+      "syllableTypes": [
+        "team",
+        "vce"
+      ],
+      "chunks": [
+        "t",
+        "ee",
+        "n",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "rampage",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ram",
+        "page"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "r",
+        "a",
+        "m",
+        "p",
+        "a",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "indulge",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "in",
+        "dulge"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "d",
+        "u",
+        "l",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "arrange",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ar",
+        "range"
+      ],
+      "syllableTypes": [
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "ar",
+        "r",
+        "a",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "exchange",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ex",
+        "change"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "ch",
+        "a",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "revenge",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "re",
+        "venge"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "v",
+        "e",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "challenge",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "chal",
+        "lenge"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "ch",
+        "a",
+        "l",
+        "l",
+        "e",
+        "n",
+        "g",
+        "e"
+      ]
+    },
+    {
+      "text": "plunger",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "plun",
+        "ger"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "u",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "ranger",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ran",
+        "ger"
+      ],
+      "syllableTypes": [
+        "open",
+        "r"
+      ],
+      "chunks": [
+        "r",
+        "a",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "danger",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "dan",
+        "ger"
+      ],
+      "syllableTypes": [
+        "open",
+        "r"
+      ],
+      "chunks": [
+        "d",
+        "a",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "stranger",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "stran",
+        "ger"
+      ],
+      "syllableTypes": [
+        "open",
+        "r"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "a",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "angel",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "an",
+        "gel"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "n",
+        "g",
+        "e",
+        "l"
+      ]
+    },
+    {
+      "text": "gender",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "gen",
+        "der"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "g",
+        "e",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "urgent",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "ur",
+        "gent"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "ur",
+        "g",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "agent",
+      "group": "softcg",
+      "level": 3,
+      "syllables": [
+        "a",
+        "gent"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "g",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "celery",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "cel",
+        "er",
+        "y"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "c",
+        "e",
+        "l",
+        "er",
+        "y"
+      ]
+    },
+    {
+      "text": "celebrate",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "cel",
+        "e",
+        "brate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "e",
+        "l",
+        "e",
+        "b",
+        "r",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "century",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "cen",
+        "tu",
+        "ry"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "open"
+      ],
+      "chunks": [
+        "c",
+        "e",
+        "n",
+        "t",
+        "u",
+        "r",
+        "y"
+      ]
+    },
+    {
+      "text": "cinnamon",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "cin",
+        "na",
+        "mon"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "i",
+        "n",
+        "n",
+        "a",
+        "m",
+        "o",
+        "n"
+      ]
+    },
+    {
+      "text": "citizen",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "cit",
+        "i",
+        "zen"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "i",
+        "t",
+        "i",
+        "z",
+        "e",
+        "n"
+      ]
+    },
+    {
+      "text": "cylinder",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "cyl",
+        "in",
+        "der"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "c",
+        "y",
+        "l",
+        "i",
+        "n",
+        "d",
+        "er"
+      ]
+    },
+    {
+      "text": "bicycle",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "bi",
+        "cy",
+        "cle"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "b",
+        "i",
+        "c",
+        "y",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "tricycle",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "tri",
+        "cy",
+        "cle"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "i",
+        "c",
+        "y",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "recycle",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "re",
+        "cy",
+        "cle"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "c",
+        "y",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "icicle",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "i",
+        "ci",
+        "cle"
+      ],
+      "syllableTypes": [
+        "open",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "i",
+        "c",
+        "i",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "popsicle",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "pop",
+        "si",
+        "cle"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "cle"
+      ],
+      "chunks": [
+        "p",
+        "o",
+        "p",
+        "s",
+        "i",
+        "c",
+        "le"
+      ]
+    },
+    {
+      "text": "exercise",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "ex",
+        "er",
+        "cise"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "er",
+        "c",
+        "i",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "concentrate",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "con",
+        "cen",
+        "trate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "n",
+        "c",
+        "e",
+        "n",
+        "t",
+        "r",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "accident",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "ac",
+        "ci",
+        "dent"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "c",
+        "c",
+        "i",
+        "d",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "incident",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "in",
+        "ci",
+        "dent"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "c",
+        "i",
+        "d",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "excellent",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "ex",
+        "cel",
+        "lent"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "c",
+        "e",
+        "l",
+        "l",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "innocent",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "in",
+        "no",
+        "cent"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "n",
+        "o",
+        "c",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "decided",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "de",
+        "cid",
+        "ed"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "c",
+        "i",
+        "d",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "exciting",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "ex",
+        "cit",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "c",
+        "i",
+        "t",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "recently",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "re",
+        "cent",
+        "ly"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "open"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "c",
+        "e",
+        "n",
+        "t",
+        "l",
+        "y"
+      ]
+    },
+    {
+      "text": "decimal",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "dec",
+        "i",
+        "mal"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "c",
+        "i",
+        "m",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "specific",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "spe",
+        "cif",
+        "ic"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "e",
+        "c",
+        "i",
+        "f",
+        "i",
+        "c"
+      ]
+    },
+    {
+      "text": "successful",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "suc",
+        "cess",
+        "ful"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "c",
+        "c",
+        "e",
+        "s",
+        "s",
+        "f",
+        "u",
+        "l"
+      ]
+    },
+    {
+      "text": "processing",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "pro",
+        "cess",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "o",
+        "c",
+        "e",
+        "s",
+        "s",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "sincerely",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "sin",
+        "cere",
+        "ly"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce",
+        "open"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "n",
+        "c",
+        "e",
+        "r",
+        "e",
+        "l",
+        "y"
+      ]
+    },
+    {
+      "text": "grocery",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "gro",
+        "cer",
+        "y"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "o",
+        "c",
+        "er",
+        "y"
+      ]
+    },
+    {
+      "text": "emergency",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "e",
+        "mer",
+        "gen",
+        "cy"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "closed",
+        "open"
+      ],
+      "chunks": [
+        "e",
+        "m",
+        "er",
+        "g",
+        "e",
+        "n",
+        "c",
+        "y"
+      ]
+    },
+    {
+      "text": "gigantic",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "gi",
+        "gan",
+        "tic"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "i",
+        "g",
+        "a",
+        "n",
+        "t",
+        "i",
+        "c"
+      ]
+    },
+    {
+      "text": "general",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "gen",
+        "er",
+        "al"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "e",
+        "n",
+        "er",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "generate",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "gen",
+        "er",
+        "ate"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "vce"
+      ],
+      "chunks": [
+        "g",
+        "e",
+        "n",
+        "er",
+        "a",
+        "t",
+        "e"
+      ]
+    },
+    {
+      "text": "gentleman",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "gen",
+        "tle",
+        "man"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "e",
+        "n",
+        "t",
+        "le",
+        "m",
+        "a",
+        "n"
+      ]
+    },
+    {
+      "text": "gingerbread",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "gin",
+        "ger",
+        "bread"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "i",
+        "n",
+        "g",
+        "er",
+        "b",
+        "r",
+        "ea",
+        "d"
+      ]
+    },
+    {
+      "text": "digital",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "dig",
+        "i",
+        "tal"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "g",
+        "i",
+        "t",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "magical",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "mag",
+        "i",
+        "cal"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "g",
+        "i",
+        "c",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "logical",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "log",
+        "i",
+        "cal"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "o",
+        "g",
+        "i",
+        "c",
+        "a",
+        "l"
+      ]
+    },
+    {
+      "text": "tragedy",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "trag",
+        "e",
+        "dy"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "open"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "a",
+        "g",
+        "e",
+        "d",
+        "y"
+      ]
+    },
+    {
+      "text": "budgeting",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "budg",
+        "et",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "d",
+        "g",
+        "e",
+        "t",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "fidgeting",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "fidg",
+        "et",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "i",
+        "d",
+        "g",
+        "e",
+        "t",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "packaging",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "pack",
+        "ag",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "ck",
+        "a",
+        "g",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "villager",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "vil",
+        "lag",
+        "er"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "v",
+        "i",
+        "l",
+        "l",
+        "a",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "messenger",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "mes",
+        "sen",
+        "ger"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "e",
+        "s",
+        "s",
+        "e",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "passenger",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "pas",
+        "sen",
+        "ger"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "p",
+        "a",
+        "s",
+        "s",
+        "e",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "manager",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "man",
+        "ag",
+        "er"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "n",
+        "a",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "damaging",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "dam",
+        "ag",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "a",
+        "m",
+        "a",
+        "g",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "managing",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "man",
+        "ag",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "a",
+        "n",
+        "a",
+        "g",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "voyager",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "voy",
+        "ag",
+        "er"
+      ],
+      "syllableTypes": [
+        "diphthong",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "v",
+        "oy",
+        "a",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "teenager",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "teen",
+        "ag",
+        "er"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "t",
+        "ee",
+        "n",
+        "a",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "engagement",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "en",
+        "gage",
+        "ment"
+      ],
+      "syllableTypes": [
+        "closed",
+        "vce",
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "g",
+        "a",
+        "g",
+        "e",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "arrangement",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "ar",
+        "range",
+        "ment"
+      ],
+      "syllableTypes": [
+        "r",
+        "vce",
+        "closed"
+      ],
+      "chunks": [
+        "ar",
+        "r",
+        "a",
+        "n",
+        "g",
+        "e",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "exchanging",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "ex",
+        "chang",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "ch",
+        "a",
+        "ng",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "challenging",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "chal",
+        "leng",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "ch",
+        "a",
+        "l",
+        "l",
+        "e",
+        "ng",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "avenger",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "a",
+        "ven",
+        "ger"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "r"
+      ],
+      "chunks": [
+        "a",
+        "v",
+        "e",
+        "n",
+        "g",
+        "er"
+      ]
+    },
+    {
+      "text": "angelic",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "an",
+        "gel",
+        "ic"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "n",
+        "g",
+        "e",
+        "l",
+        "i",
+        "c"
+      ]
+    },
+    {
+      "text": "urgently",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "ur",
+        "gent",
+        "ly"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "open"
+      ],
+      "chunks": [
+        "ur",
+        "g",
+        "e",
+        "n",
+        "t",
+        "l",
+        "y"
+      ]
+    },
+    {
+      "text": "agency",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "a",
+        "gen",
+        "cy"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "open"
+      ],
+      "chunks": [
+        "a",
+        "g",
+        "e",
+        "n",
+        "c",
+        "y"
+      ]
+    },
+    {
+      "text": "energy",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "en",
+        "er",
+        "gy"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "er",
+        "g",
+        "y"
+      ]
+    },
+    {
+      "text": "allergy",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "al",
+        "ler",
+        "gy"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "a",
+        "l",
+        "l",
+        "er",
+        "g",
+        "y"
+      ]
+    },
+    {
+      "text": "apology",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "a",
+        "pol",
+        "o",
+        "gy"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "open",
+        "open"
+      ],
+      "chunks": [
+        "a",
+        "p",
+        "o",
+        "l",
+        "o",
+        "g",
+        "y"
+      ]
+    },
+    {
+      "text": "biology",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "bi",
+        "ol",
+        "o",
+        "gy"
+      ],
+      "syllableTypes": [
+        "open",
+        "closed",
+        "open",
+        "open"
+      ],
+      "chunks": [
+        "b",
+        "i",
+        "o",
+        "l",
+        "o",
+        "g",
+        "y"
+      ]
+    },
+    {
+      "text": "gymnastics",
+      "group": "softcg",
+      "level": 4,
+      "syllables": [
+        "gym",
+        "nas",
+        "tics"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "g",
+        "y",
+        "m",
+        "n",
+        "a",
+        "s",
+        "t",
+        "i",
+        "c",
+        "s"
+      ]
+    }
+  ]
+}

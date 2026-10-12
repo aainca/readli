@@ -1,0 +1,6187 @@
+{
+  "group": "team",
+  "words": [
+    {
+      "text": "rain",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "rain"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "ai",
+        "n"
+      ],
+      "homophones": [
+        "reign",
+        "rein"
+      ],
+      "confusables": [
+        {
+          "heard": "ran",
+          "hint": "Two vowels together. The first one says its name."
+        }
+      ]
+    },
+    {
+      "text": "pain",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "pain"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "ai",
+        "n"
+      ],
+      "homophones": [
+        "pane"
+      ],
+      "confusables": [
+        {
+          "heard": "pan",
+          "hint": "Look at the two vowels in the middle. The a says its name."
+        }
+      ]
+    },
+    {
+      "text": "mail",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "mail"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "ai",
+        "l"
+      ],
+      "homophones": [
+        "male"
+      ]
+    },
+    {
+      "text": "tail",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "tail"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "ai",
+        "l"
+      ],
+      "homophones": [
+        "tale"
+      ]
+    },
+    {
+      "text": "nail",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "nail"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "n",
+        "ai",
+        "l"
+      ]
+    },
+    {
+      "text": "sail",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "sail"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ai",
+        "l"
+      ],
+      "homophones": [
+        "sale"
+      ]
+    },
+    {
+      "text": "wait",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "wait"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "w",
+        "ai",
+        "t"
+      ],
+      "homophones": [
+        "weight"
+      ]
+    },
+    {
+      "text": "day",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "day"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "ay"
+      ]
+    },
+    {
+      "text": "say",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "say"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ay"
+      ]
+    },
+    {
+      "text": "may",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "may"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "ay"
+      ]
+    },
+    {
+      "text": "way",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "way"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "w",
+        "ay"
+      ],
+      "homophones": [
+        "weigh"
+      ]
+    },
+    {
+      "text": "pay",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "pay"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "ay"
+      ]
+    },
+    {
+      "text": "hay",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "hay"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "ay"
+      ],
+      "homophones": [
+        "hey"
+      ]
+    },
+    {
+      "text": "bay",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "bay"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "ay"
+      ]
+    },
+    {
+      "text": "see",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "see"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ee"
+      ],
+      "homophones": [
+        "sea"
+      ]
+    },
+    {
+      "text": "bee",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "bee"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "ee"
+      ],
+      "homophones": [
+        "be"
+      ]
+    },
+    {
+      "text": "feet",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "feet"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "ee",
+        "t"
+      ],
+      "homophones": [
+        "feat"
+      ]
+    },
+    {
+      "text": "seed",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "seed"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ee",
+        "d"
+      ],
+      "homophones": [
+        "cede"
+      ]
+    },
+    {
+      "text": "need",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "need"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "n",
+        "ee",
+        "d"
+      ],
+      "homophones": [
+        "knead"
+      ]
+    },
+    {
+      "text": "keep",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "keep"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "k",
+        "ee",
+        "p"
+      ]
+    },
+    {
+      "text": "eat",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "eat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "ea",
+        "t"
+      ]
+    },
+    {
+      "text": "tea",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "tea"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "ea"
+      ],
+      "homophones": [
+        "tee"
+      ]
+    },
+    {
+      "text": "meat",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "meat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "ea",
+        "t"
+      ],
+      "homophones": [
+        "meet",
+        "mete"
+      ],
+      "confusables": [
+        {
+          "heard": "met",
+          "hint": "Look at the two vowels. The e says its name."
+        }
+      ]
+    },
+    {
+      "text": "seat",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "seat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ea",
+        "t"
+      ],
+      "confusables": [
+        {
+          "heard": "set",
+          "hint": "Look at the two vowels. The e says its name."
+        }
+      ]
+    },
+    {
+      "text": "read",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "read"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "ea",
+        "d"
+      ],
+      "homophones": [
+        "reed"
+      ],
+      "confusables": [
+        {
+          "heard": "red",
+          "hint": "Look at the two vowels. The e says its name."
+        }
+      ]
+    },
+    {
+      "text": "leaf",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "leaf"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "l",
+        "ea",
+        "f"
+      ]
+    },
+    {
+      "text": "bean",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "bean"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "ea",
+        "n"
+      ],
+      "homophones": [
+        "been"
+      ]
+    },
+    {
+      "text": "boat",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "boat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "oa",
+        "t"
+      ],
+      "confusables": [
+        {
+          "heard": "bot",
+          "hint": "Two vowels together. The o says its name."
+        }
+      ]
+    },
+    {
+      "text": "coat",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "coat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "oa",
+        "t"
+      ],
+      "confusables": [
+        {
+          "heard": "cot",
+          "hint": "Look at the two vowels. The o says its name."
+        }
+      ]
+    },
+    {
+      "text": "road",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "road"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "oa",
+        "d"
+      ],
+      "homophones": [
+        "rode",
+        "rowed"
+      ]
+    },
+    {
+      "text": "soap",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "soap"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "oa",
+        "p"
+      ]
+    },
+    {
+      "text": "toad",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "toad"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "oa",
+        "d"
+      ],
+      "homophones": [
+        "towed"
+      ]
+    },
+    {
+      "text": "goat",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "goat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "oa",
+        "t"
+      ],
+      "confusables": [
+        {
+          "heard": "got",
+          "hint": "Look at the two vowels. The o says its name."
+        }
+      ]
+    },
+    {
+      "text": "low",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "low"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "row",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "row"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "ow"
+      ]
+    },
+    {
+      "text": "bow",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "bow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "ow"
+      ]
+    },
+    {
+      "text": "mow",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "mow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "ow"
+      ]
+    },
+    {
+      "text": "tow",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "tow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "ow"
+      ],
+      "homophones": [
+        "toe"
+      ]
+    },
+    {
+      "text": "toe",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "toe"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "oe"
+      ],
+      "homophones": [
+        "tow"
+      ]
+    },
+    {
+      "text": "pie",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "pie"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "ie"
+      ]
+    },
+    {
+      "text": "tie",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "tie"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "ie"
+      ]
+    },
+    {
+      "text": "lie",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "lie"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "l",
+        "ie"
+      ],
+      "homophones": [
+        "lye"
+      ]
+    },
+    {
+      "text": "moon",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "moon"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "soon",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "soon"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "food",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "food"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "oo",
+        "d"
+      ]
+    },
+    {
+      "text": "pool",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "pool"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "oo",
+        "l"
+      ]
+    },
+    {
+      "text": "cool",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "cool"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "oo",
+        "l"
+      ]
+    },
+    {
+      "text": "zoo",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "zoo"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "z",
+        "oo"
+      ]
+    },
+    {
+      "text": "too",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "too"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "oo"
+      ],
+      "homophones": [
+        "two",
+        "to"
+      ]
+    },
+    {
+      "text": "boot",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "boot"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "oo",
+        "t"
+      ]
+    },
+    {
+      "text": "root",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "root"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "oo",
+        "t"
+      ],
+      "homophones": [
+        "route"
+      ]
+    },
+    {
+      "text": "book",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "book"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "look",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "look"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "l",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "cook",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "cook"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "took",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "took"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "hook",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "hook"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "foot",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "foot"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "oo",
+        "t"
+      ]
+    },
+    {
+      "text": "wood",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "wood"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "w",
+        "oo",
+        "d"
+      ],
+      "homophones": [
+        "would"
+      ]
+    },
+    {
+      "text": "new",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "new"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "n",
+        "ew"
+      ],
+      "homophones": [
+        "knew",
+        "gnu"
+      ]
+    },
+    {
+      "text": "few",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "few"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "ew"
+      ]
+    },
+    {
+      "text": "dew",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "dew"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "ew"
+      ],
+      "homophones": [
+        "do",
+        "due"
+      ]
+    },
+    {
+      "text": "saw",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "saw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "aw"
+      ]
+    },
+    {
+      "text": "paw",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "paw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "aw"
+      ]
+    },
+    {
+      "text": "law",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "law"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "l",
+        "aw"
+      ]
+    },
+    {
+      "text": "jaw",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "jaw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "j",
+        "aw"
+      ]
+    },
+    {
+      "text": "raw",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "raw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "aw"
+      ]
+    },
+    {
+      "text": "haul",
+      "group": "team",
+      "level": 1,
+      "syllables": [
+        "haul"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "au",
+        "l"
+      ],
+      "homophones": [
+        "hall"
+      ]
+    },
+    {
+      "text": "train",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "train"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "ai",
+        "n"
+      ]
+    },
+    {
+      "text": "brain",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "brain"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "ai",
+        "n"
+      ]
+    },
+    {
+      "text": "chain",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "chain"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "ch",
+        "ai",
+        "n"
+      ]
+    },
+    {
+      "text": "drain",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "drain"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "ai",
+        "n"
+      ]
+    },
+    {
+      "text": "grain",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "grain"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ai",
+        "n"
+      ]
+    },
+    {
+      "text": "paint",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "paint"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "ai",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "faint",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "faint"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "ai",
+        "n",
+        "t"
+      ],
+      "homophones": [
+        "feint"
+      ]
+    },
+    {
+      "text": "snail",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "snail"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "ai",
+        "l"
+      ]
+    },
+    {
+      "text": "trail",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "trail"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "ai",
+        "l"
+      ]
+    },
+    {
+      "text": "braid",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "braid"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "ai",
+        "d"
+      ],
+      "homophones": [
+        "brayed"
+      ]
+    },
+    {
+      "text": "plain",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "plain"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "ai",
+        "n"
+      ],
+      "homophones": [
+        "plane"
+      ],
+      "confusables": [
+        {
+          "heard": "plan",
+          "hint": "Two vowels together. The a says its name."
+        }
+      ]
+    },
+    {
+      "text": "stain",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "stain"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ai",
+        "n"
+      ]
+    },
+    {
+      "text": "spray",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "spray"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "r",
+        "ay"
+      ]
+    },
+    {
+      "text": "stray",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "stray"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "ay"
+      ]
+    },
+    {
+      "text": "play",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "play"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "l",
+        "ay"
+      ]
+    },
+    {
+      "text": "clay",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "clay"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "ay"
+      ]
+    },
+    {
+      "text": "gray",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "gray"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ay"
+      ],
+      "homophones": [
+        "grey"
+      ]
+    },
+    {
+      "text": "tray",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "tray"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "ay"
+      ]
+    },
+    {
+      "text": "stay",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "stay"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ay"
+      ]
+    },
+    {
+      "text": "pray",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "pray"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "r",
+        "ay"
+      ],
+      "homophones": [
+        "prey"
+      ]
+    },
+    {
+      "text": "sweet",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "sweet"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "w",
+        "ee",
+        "t"
+      ],
+      "homophones": [
+        "suite"
+      ]
+    },
+    {
+      "text": "sleep",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "sleep"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "ee",
+        "p"
+      ]
+    },
+    {
+      "text": "sheep",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "sheep"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "ee",
+        "p"
+      ]
+    },
+    {
+      "text": "steep",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "steep"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ee",
+        "p"
+      ]
+    },
+    {
+      "text": "green",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "green"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "three",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "three"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "th",
+        "r",
+        "ee"
+      ]
+    },
+    {
+      "text": "wheel",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "wheel"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "wh",
+        "ee",
+        "l"
+      ],
+      "homophones": [
+        "weal"
+      ]
+    },
+    {
+      "text": "queen",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "queen"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "qu",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "speech",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "speech"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "ee",
+        "ch"
+      ]
+    },
+    {
+      "text": "teeth",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "teeth"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "ee",
+        "th"
+      ]
+    },
+    {
+      "text": "street",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "street"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "ee",
+        "t"
+      ]
+    },
+    {
+      "text": "cheek",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "cheek"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "ch",
+        "ee",
+        "k"
+      ]
+    },
+    {
+      "text": "creek",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "creek"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ee",
+        "k"
+      ],
+      "homophones": [
+        "creak"
+      ]
+    },
+    {
+      "text": "sheet",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "sheet"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "ee",
+        "t"
+      ]
+    },
+    {
+      "text": "cheap",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "cheap"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "ch",
+        "ea",
+        "p"
+      ],
+      "homophones": [
+        "cheep"
+      ]
+    },
+    {
+      "text": "cream",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "cream"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ea",
+        "m"
+      ]
+    },
+    {
+      "text": "dream",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "dream"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "ea",
+        "m"
+      ]
+    },
+    {
+      "text": "steam",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "steam"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ea",
+        "m"
+      ]
+    },
+    {
+      "text": "clean",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "clean"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "ea",
+        "n"
+      ]
+    },
+    {
+      "text": "beach",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "beach"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "ea",
+        "ch"
+      ],
+      "homophones": [
+        "beech"
+      ]
+    },
+    {
+      "text": "peach",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "peach"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "ea",
+        "ch"
+      ]
+    },
+    {
+      "text": "teach",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "teach"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "ea",
+        "ch"
+      ]
+    },
+    {
+      "text": "reach",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "reach"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "ea",
+        "ch"
+      ]
+    },
+    {
+      "text": "speak",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "speak"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "ea",
+        "k"
+      ],
+      "confusables": [
+        {
+          "heard": "speck",
+          "hint": "Look at the two vowels. The e says its name."
+        }
+      ]
+    },
+    {
+      "text": "wheat",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "wheat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "wh",
+        "ea",
+        "t"
+      ]
+    },
+    {
+      "text": "treat",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "treat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "ea",
+        "t"
+      ]
+    },
+    {
+      "text": "leash",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "leash"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "l",
+        "ea",
+        "sh"
+      ]
+    },
+    {
+      "text": "feast",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "feast"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "ea",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "float",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "float"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "oa",
+        "t"
+      ]
+    },
+    {
+      "text": "coast",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "coast"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "oa",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "toast",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "toast"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "oa",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "roast",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "roast"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "oa",
+        "s",
+        "t"
+      ]
+    },
+    {
+      "text": "throat",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "throat"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "th",
+        "r",
+        "oa",
+        "t"
+      ]
+    },
+    {
+      "text": "coach",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "coach"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "oa",
+        "ch"
+      ]
+    },
+    {
+      "text": "groan",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "groan"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "oa",
+        "n"
+      ],
+      "homophones": [
+        "grown"
+      ]
+    },
+    {
+      "text": "cloak",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "cloak"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "oa",
+        "k"
+      ]
+    },
+    {
+      "text": "croak",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "croak"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "oa",
+        "k"
+      ]
+    },
+    {
+      "text": "snow",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "snow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "ow"
+      ]
+    },
+    {
+      "text": "blow",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "blow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "glow",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "glow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "grow",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "grow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ow"
+      ]
+    },
+    {
+      "text": "throw",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "throw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "th",
+        "r",
+        "ow"
+      ],
+      "homophones": [
+        "throe"
+      ]
+    },
+    {
+      "text": "show",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "show"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "ow"
+      ]
+    },
+    {
+      "text": "flow",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "flow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ow"
+      ],
+      "homophones": [
+        "floe"
+      ]
+    },
+    {
+      "text": "slow",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "slow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "crow",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "crow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ow"
+      ]
+    },
+    {
+      "text": "stow",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "stow"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ow"
+      ]
+    },
+    {
+      "text": "growth",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "growth"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ow",
+        "th"
+      ]
+    },
+    {
+      "text": "blown",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "blown"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "thrown",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "thrown"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "th",
+        "r",
+        "ow",
+        "n"
+      ],
+      "homophones": [
+        "throne"
+      ]
+    },
+    {
+      "text": "grown",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "grown"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ow",
+        "n"
+      ],
+      "homophones": [
+        "groan"
+      ]
+    },
+    {
+      "text": "shown",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "shown"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "flown",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "flown"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "bloom",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "bloom"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "oo",
+        "m"
+      ]
+    },
+    {
+      "text": "broom",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "broom"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "oo",
+        "m"
+      ]
+    },
+    {
+      "text": "spoon",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "spoon"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "p",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "smooth",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "smooth"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "m",
+        "oo",
+        "th"
+      ]
+    },
+    {
+      "text": "tooth",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "tooth"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "oo",
+        "th"
+      ]
+    },
+    {
+      "text": "school",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "school"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ch",
+        "oo",
+        "l"
+      ]
+    },
+    {
+      "text": "scoop",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "scoop"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "oo",
+        "p"
+      ]
+    },
+    {
+      "text": "stool",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "stool"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "oo",
+        "l"
+      ]
+    },
+    {
+      "text": "shook",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "shook"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "brook",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "brook"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "stood",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "stood"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "oo",
+        "d"
+      ]
+    },
+    {
+      "text": "crook",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "crook"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "grew",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "grew"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ew"
+      ]
+    },
+    {
+      "text": "chew",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "chew"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "ch",
+        "ew"
+      ]
+    },
+    {
+      "text": "screw",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "screw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "c",
+        "r",
+        "ew"
+      ]
+    },
+    {
+      "text": "threw",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "threw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "th",
+        "r",
+        "ew"
+      ],
+      "homophones": [
+        "through"
+      ]
+    },
+    {
+      "text": "stew",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "stew"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "ew"
+      ]
+    },
+    {
+      "text": "drew",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "drew"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "ew"
+      ]
+    },
+    {
+      "text": "blew",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "blew"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "ew"
+      ],
+      "homophones": [
+        "blue"
+      ]
+    },
+    {
+      "text": "flew",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "flew"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "ew"
+      ],
+      "homophones": [
+        "flu",
+        "flue"
+      ]
+    },
+    {
+      "text": "crew",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "crew"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "ew"
+      ]
+    },
+    {
+      "text": "blue",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "blue"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "l",
+        "ue"
+      ],
+      "homophones": [
+        "blew"
+      ]
+    },
+    {
+      "text": "glue",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "glue"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "l",
+        "ue"
+      ]
+    },
+    {
+      "text": "clue",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "clue"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "ue"
+      ]
+    },
+    {
+      "text": "true",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "true"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "r",
+        "ue"
+      ]
+    },
+    {
+      "text": "light",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "light"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "l",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "night",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "night"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "n",
+        "igh",
+        "t"
+      ],
+      "homophones": [
+        "knight"
+      ]
+    },
+    {
+      "text": "right",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "right"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "igh",
+        "t"
+      ],
+      "homophones": [
+        "write",
+        "rite"
+      ]
+    },
+    {
+      "text": "sight",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "sight"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "igh",
+        "t"
+      ],
+      "homophones": [
+        "site",
+        "cite"
+      ]
+    },
+    {
+      "text": "tight",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "tight"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "fight",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "fight"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "might",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "might"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "igh",
+        "t"
+      ],
+      "homophones": [
+        "mite"
+      ]
+    },
+    {
+      "text": "bright",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "bright"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "flight",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "flight"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "fright",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "fright"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "r",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "slight",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "slight"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "l",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "high",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "high"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "igh"
+      ],
+      "homophones": [
+        "hi"
+      ]
+    },
+    {
+      "text": "sigh",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "sigh"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "igh"
+      ]
+    },
+    {
+      "text": "thigh",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "thigh"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "th",
+        "igh"
+      ]
+    },
+    {
+      "text": "straw",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "straw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "aw"
+      ]
+    },
+    {
+      "text": "draw",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "draw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "aw"
+      ]
+    },
+    {
+      "text": "claw",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "claw"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "l",
+        "aw"
+      ]
+    },
+    {
+      "text": "crawl",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "crawl"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "r",
+        "aw",
+        "l"
+      ]
+    },
+    {
+      "text": "drawn",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "drawn"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "r",
+        "aw",
+        "n"
+      ]
+    },
+    {
+      "text": "hawk",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "hawk"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "aw",
+        "k"
+      ]
+    },
+    {
+      "text": "shawl",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "shawl"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "aw",
+        "l"
+      ]
+    },
+    {
+      "text": "launch",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "launch"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "l",
+        "au",
+        "n",
+        "ch"
+      ]
+    },
+    {
+      "text": "haunt",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "haunt"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "au",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "fault",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "fault"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "au",
+        "l",
+        "t"
+      ]
+    },
+    {
+      "text": "vault",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "vault"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "v",
+        "au",
+        "l",
+        "t"
+      ]
+    },
+    {
+      "text": "pause",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "pause"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "au",
+        "s",
+        "e"
+      ],
+      "homophones": [
+        "paws"
+      ]
+    },
+    {
+      "text": "cause",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "cause"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "au",
+        "s",
+        "e"
+      ],
+      "homophones": [
+        "caws"
+      ]
+    },
+    {
+      "text": "chief",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "chief"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "ch",
+        "ie",
+        "f"
+      ]
+    },
+    {
+      "text": "thief",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "thief"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "th",
+        "ie",
+        "f"
+      ]
+    },
+    {
+      "text": "brief",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "brief"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "ie",
+        "f"
+      ]
+    },
+    {
+      "text": "grief",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "grief"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "r",
+        "ie",
+        "f"
+      ]
+    },
+    {
+      "text": "field",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "field"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "ie",
+        "l",
+        "d"
+      ]
+    },
+    {
+      "text": "shield",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "shield"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "ie",
+        "l",
+        "d"
+      ]
+    },
+    {
+      "text": "yield",
+      "group": "team",
+      "level": 2,
+      "syllables": [
+        "yield"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "y",
+        "ie",
+        "l",
+        "d"
+      ]
+    },
+    {
+      "text": "rainbow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "rain",
+        "bow"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "ai",
+        "n",
+        "b",
+        "ow"
+      ]
+    },
+    {
+      "text": "raincoat",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "rain",
+        "coat"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "ai",
+        "n",
+        "c",
+        "oa",
+        "t"
+      ]
+    },
+    {
+      "text": "railroad",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "rail",
+        "road"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "ai",
+        "l",
+        "r",
+        "oa",
+        "d"
+      ]
+    },
+    {
+      "text": "mailbox",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "mail",
+        "box"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "ai",
+        "l",
+        "b",
+        "o",
+        "x"
+      ]
+    },
+    {
+      "text": "sailboat",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "sail",
+        "boat"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ai",
+        "l",
+        "b",
+        "oa",
+        "t"
+      ]
+    },
+    {
+      "text": "daytime",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "day",
+        "time"
+      ],
+      "syllableTypes": [
+        "team",
+        "vce"
+      ],
+      "chunks": [
+        "d",
+        "ay",
+        "t",
+        "i",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "text": "today",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "to",
+        "day"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "o",
+        "d",
+        "ay"
+      ]
+    },
+    {
+      "text": "away",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "a",
+        "way"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "a",
+        "w",
+        "ay"
+      ]
+    },
+    {
+      "text": "maybe",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "may",
+        "be"
+      ],
+      "syllableTypes": [
+        "team",
+        "open"
+      ],
+      "chunks": [
+        "m",
+        "ay",
+        "b",
+        "e"
+      ]
+    },
+    {
+      "text": "payday",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "pay",
+        "day"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "ay",
+        "d",
+        "ay"
+      ]
+    },
+    {
+      "text": "subway",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "sub",
+        "way"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "b",
+        "w",
+        "ay"
+      ]
+    },
+    {
+      "text": "highway",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "high",
+        "way"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "igh",
+        "w",
+        "ay"
+      ]
+    },
+    {
+      "text": "fifteen",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "fif",
+        "teen"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "i",
+        "f",
+        "t",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "sixteen",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "six",
+        "teen"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "x",
+        "t",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "canteen",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "can",
+        "teen"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "a",
+        "n",
+        "t",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "indeed",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "in",
+        "deed"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "d",
+        "ee",
+        "d"
+      ]
+    },
+    {
+      "text": "asleep",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "a",
+        "sleep"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "a",
+        "s",
+        "l",
+        "ee",
+        "p"
+      ]
+    },
+    {
+      "text": "between",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "be",
+        "tween"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "e",
+        "t",
+        "w",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "coffee",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "cof",
+        "fee"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "f",
+        "f",
+        "ee"
+      ]
+    },
+    {
+      "text": "toffee",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "tof",
+        "fee"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "o",
+        "f",
+        "f",
+        "ee"
+      ]
+    },
+    {
+      "text": "sheepdog",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "sheep",
+        "dog"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "sh",
+        "ee",
+        "p",
+        "d",
+        "o",
+        "g"
+      ]
+    },
+    {
+      "text": "weekend",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "week",
+        "end"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "w",
+        "ee",
+        "k",
+        "e",
+        "n",
+        "d"
+      ]
+    },
+    {
+      "text": "seaweed",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "sea",
+        "weed"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ea",
+        "w",
+        "ee",
+        "d"
+      ]
+    },
+    {
+      "text": "peanut",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "pea",
+        "nut"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "ea",
+        "n",
+        "u",
+        "t"
+      ]
+    },
+    {
+      "text": "teapot",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "tea",
+        "pot"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "t",
+        "ea",
+        "p",
+        "o",
+        "t"
+      ]
+    },
+    {
+      "text": "oatmeal",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "oat",
+        "meal"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "oa",
+        "t",
+        "m",
+        "ea",
+        "l"
+      ]
+    },
+    {
+      "text": "toenail",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "toe",
+        "nail"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "oe",
+        "n",
+        "ai",
+        "l"
+      ]
+    },
+    {
+      "text": "tiptoe",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "tip",
+        "toe"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "i",
+        "p",
+        "t",
+        "oe"
+      ]
+    },
+    {
+      "text": "oboe",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "o",
+        "boe"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "o",
+        "b",
+        "oe"
+      ]
+    },
+    {
+      "text": "rowboat",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "row",
+        "boat"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "ow",
+        "b",
+        "oa",
+        "t"
+      ]
+    },
+    {
+      "text": "snowman",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "snow",
+        "man"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "ow",
+        "m",
+        "a",
+        "n"
+      ]
+    },
+    {
+      "text": "snowflake",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "snow",
+        "flake"
+      ],
+      "syllableTypes": [
+        "team",
+        "vce"
+      ],
+      "chunks": [
+        "s",
+        "n",
+        "ow",
+        "f",
+        "l",
+        "a",
+        "k",
+        "e"
+      ]
+    },
+    {
+      "text": "window",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "win",
+        "dow"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "n",
+        "d",
+        "ow"
+      ]
+    },
+    {
+      "text": "pillow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "pil",
+        "low"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "p",
+        "i",
+        "l",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "yellow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "yel",
+        "low"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "y",
+        "e",
+        "l",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "elbow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "el",
+        "bow"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "e",
+        "l",
+        "b",
+        "ow"
+      ]
+    },
+    {
+      "text": "shadow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "shad",
+        "ow"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "a",
+        "d",
+        "ow"
+      ]
+    },
+    {
+      "text": "follow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "fol",
+        "low"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "o",
+        "l",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "hollow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "hol",
+        "low"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "o",
+        "l",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "narrow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "nar",
+        "row"
+      ],
+      "syllableTypes": [
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "n",
+        "ar",
+        "r",
+        "ow"
+      ]
+    },
+    {
+      "text": "arrow",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "ar",
+        "row"
+      ],
+      "syllableTypes": [
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "ar",
+        "r",
+        "ow"
+      ]
+    },
+    {
+      "text": "bedroom",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "bed",
+        "room"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "e",
+        "d",
+        "r",
+        "oo",
+        "m"
+      ]
+    },
+    {
+      "text": "mushroom",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "mush",
+        "room"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "u",
+        "sh",
+        "r",
+        "oo",
+        "m"
+      ]
+    },
+    {
+      "text": "balloon",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "bal",
+        "loon"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "l",
+        "l",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "cartoon",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "car",
+        "toon"
+      ],
+      "syllableTypes": [
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "ar",
+        "t",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "raccoon",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "rac",
+        "coon"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "a",
+        "c",
+        "c",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "cocoon",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "co",
+        "coon"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "c",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "shampoo",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "sham",
+        "poo"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "sh",
+        "a",
+        "m",
+        "p",
+        "oo"
+      ]
+    },
+    {
+      "text": "igloo",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "ig",
+        "loo"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "i",
+        "g",
+        "l",
+        "oo"
+      ]
+    },
+    {
+      "text": "bamboo",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "bam",
+        "boo"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "m",
+        "b",
+        "oo"
+      ]
+    },
+    {
+      "text": "tattoo",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "tat",
+        "too"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "a",
+        "t",
+        "t",
+        "oo"
+      ]
+    },
+    {
+      "text": "cookbook",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "cook",
+        "book"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "oo",
+        "k",
+        "b",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "notebook",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "note",
+        "book"
+      ],
+      "syllableTypes": [
+        "vce",
+        "team"
+      ],
+      "chunks": [
+        "n",
+        "o",
+        "t",
+        "e",
+        "b",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "textbook",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "text",
+        "book"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "e",
+        "x",
+        "t",
+        "b",
+        "oo",
+        "k"
+      ]
+    },
+    {
+      "text": "goodnight",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "good",
+        "night"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "g",
+        "oo",
+        "d",
+        "n",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "sunlight",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "sun",
+        "light"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "u",
+        "n",
+        "l",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "flashlight",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "flash",
+        "light"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "l",
+        "a",
+        "sh",
+        "l",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "midnight",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "mid",
+        "night"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "i",
+        "d",
+        "n",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "daylight",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "day",
+        "light"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "ay",
+        "l",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "tonight",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "to",
+        "night"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "o",
+        "n",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "delight",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "de",
+        "light"
+      ],
+      "syllableTypes": [
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "l",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "insight",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "in",
+        "sight"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "i",
+        "n",
+        "s",
+        "igh",
+        "t"
+      ]
+    },
+    {
+      "text": "lightning",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "light",
+        "ning"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "l",
+        "igh",
+        "t",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "seesaw",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "see",
+        "saw"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ee",
+        "s",
+        "aw"
+      ]
+    },
+    {
+      "text": "jigsaw",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "jig",
+        "saw"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "j",
+        "i",
+        "g",
+        "s",
+        "aw"
+      ]
+    },
+    {
+      "text": "coleslaw",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "cole",
+        "slaw"
+      ],
+      "syllableTypes": [
+        "vce",
+        "team"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "l",
+        "e",
+        "s",
+        "l",
+        "aw"
+      ]
+    },
+    {
+      "text": "withdraw",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "with",
+        "draw"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "th",
+        "d",
+        "r",
+        "aw"
+      ]
+    },
+    {
+      "text": "chimney",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "chim",
+        "ney"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "ch",
+        "i",
+        "m",
+        "n",
+        "ey"
+      ]
+    },
+    {
+      "text": "donkey",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "don",
+        "key"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "o",
+        "n",
+        "k",
+        "ey"
+      ]
+    },
+    {
+      "text": "hockey",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "hock",
+        "ey"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "o",
+        "ck",
+        "ey"
+      ]
+    },
+    {
+      "text": "jockey",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "jock",
+        "ey"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "j",
+        "o",
+        "ck",
+        "ey"
+      ]
+    },
+    {
+      "text": "valley",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "val",
+        "ley"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "v",
+        "a",
+        "l",
+        "l",
+        "ey"
+      ]
+    },
+    {
+      "text": "alley",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "al",
+        "ley"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "a",
+        "l",
+        "l",
+        "ey"
+      ]
+    },
+    {
+      "text": "kidney",
+      "group": "team",
+      "level": 3,
+      "syllables": [
+        "kid",
+        "ney"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "k",
+        "i",
+        "d",
+        "n",
+        "ey"
+      ]
+    },
+    {
+      "text": "afternoon",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "af",
+        "ter",
+        "noon"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "a",
+        "f",
+        "t",
+        "er",
+        "n",
+        "oo",
+        "n"
+      ]
+    },
+    {
+      "text": "kangaroo",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "kan",
+        "ga",
+        "roo"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "k",
+        "a",
+        "n",
+        "g",
+        "a",
+        "r",
+        "oo"
+      ]
+    },
+    {
+      "text": "underneath",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "un",
+        "der",
+        "neath"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "d",
+        "er",
+        "n",
+        "ea",
+        "th"
+      ]
+    },
+    {
+      "text": "overseas",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "o",
+        "ver",
+        "seas"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "o",
+        "v",
+        "er",
+        "s",
+        "ea",
+        "s"
+      ]
+    },
+    {
+      "text": "evergreen",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "ev",
+        "er",
+        "green"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "e",
+        "v",
+        "er",
+        "g",
+        "r",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "halloween",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "hal",
+        "lo",
+        "ween"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "a",
+        "l",
+        "l",
+        "o",
+        "w",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "seventeen",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "sev",
+        "en",
+        "teen"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "e",
+        "v",
+        "e",
+        "n",
+        "t",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "eighteen",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "eigh",
+        "teen"
+      ],
+      "syllableTypes": [
+        "team",
+        "team"
+      ],
+      "chunks": [
+        "eigh",
+        "t",
+        "ee",
+        "n"
+      ]
+    },
+    {
+      "text": "complaining",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "com",
+        "plain",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "c",
+        "o",
+        "m",
+        "p",
+        "l",
+        "ai",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "explaining",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "ex",
+        "plain",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "e",
+        "x",
+        "p",
+        "l",
+        "ai",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "remaining",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "re",
+        "main",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "m",
+        "ai",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "entertain",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "en",
+        "ter",
+        "tain"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "e",
+        "n",
+        "t",
+        "er",
+        "t",
+        "ai",
+        "n"
+      ]
+    },
+    {
+      "text": "maintaining",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "main",
+        "tain",
+        "ing"
+      ],
+      "syllableTypes": [
+        "team",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "m",
+        "ai",
+        "n",
+        "t",
+        "ai",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "daydreaming",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "day",
+        "dream",
+        "ing"
+      ],
+      "syllableTypes": [
+        "team",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "ay",
+        "d",
+        "r",
+        "ea",
+        "m",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "yesterday",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "yes",
+        "ter",
+        "day"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "y",
+        "e",
+        "s",
+        "t",
+        "er",
+        "d",
+        "ay"
+      ]
+    },
+    {
+      "text": "holiday",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "hol",
+        "i",
+        "day"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "o",
+        "l",
+        "i",
+        "d",
+        "ay"
+      ]
+    },
+    {
+      "text": "runaway",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "run",
+        "a",
+        "way"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "u",
+        "n",
+        "a",
+        "w",
+        "ay"
+      ]
+    },
+    {
+      "text": "faraway",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "far",
+        "a",
+        "way"
+      ],
+      "syllableTypes": [
+        "r",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "f",
+        "ar",
+        "a",
+        "w",
+        "ay"
+      ]
+    },
+    {
+      "text": "hideaway",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "hide",
+        "a",
+        "way"
+      ],
+      "syllableTypes": [
+        "vce",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "h",
+        "i",
+        "d",
+        "e",
+        "a",
+        "w",
+        "ay"
+      ]
+    },
+    {
+      "text": "agreement",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "a",
+        "gree",
+        "ment"
+      ],
+      "syllableTypes": [
+        "open",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "g",
+        "r",
+        "ee",
+        "m",
+        "e",
+        "n",
+        "t"
+      ]
+    },
+    {
+      "text": "disagree",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "dis",
+        "a",
+        "gree"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "d",
+        "i",
+        "s",
+        "a",
+        "g",
+        "r",
+        "ee"
+      ]
+    },
+    {
+      "text": "referee",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "ref",
+        "er",
+        "ee"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "f",
+        "er",
+        "ee"
+      ]
+    },
+    {
+      "text": "employee",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "em",
+        "ploy",
+        "ee"
+      ],
+      "syllableTypes": [
+        "closed",
+        "diphthong",
+        "team"
+      ],
+      "chunks": [
+        "e",
+        "m",
+        "p",
+        "l",
+        "oy",
+        "ee"
+      ]
+    },
+    {
+      "text": "chimpanzee",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "chim",
+        "pan",
+        "zee"
+      ],
+      "syllableTypes": [
+        "closed",
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "ch",
+        "i",
+        "m",
+        "p",
+        "a",
+        "n",
+        "z",
+        "ee"
+      ]
+    },
+    {
+      "text": "approaching",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "ap",
+        "proach",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "p",
+        "p",
+        "r",
+        "oa",
+        "ch",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "unloading",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "un",
+        "load",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "l",
+        "oa",
+        "d",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "overgrown",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "o",
+        "ver",
+        "grown"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "o",
+        "v",
+        "er",
+        "g",
+        "r",
+        "ow",
+        "n"
+      ]
+    },
+    {
+      "text": "overflow",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "o",
+        "ver",
+        "flow"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "o",
+        "v",
+        "er",
+        "f",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "marshmallow",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "marsh",
+        "mal",
+        "low"
+      ],
+      "syllableTypes": [
+        "r",
+        "closed",
+        "team"
+      ],
+      "chunks": [
+        "m",
+        "ar",
+        "sh",
+        "m",
+        "a",
+        "l",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "bungalow",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "bun",
+        "ga",
+        "low"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "u",
+        "n",
+        "g",
+        "a",
+        "l",
+        "ow"
+      ]
+    },
+    {
+      "text": "tomorrow",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "to",
+        "mor",
+        "row"
+      ],
+      "syllableTypes": [
+        "open",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "t",
+        "o",
+        "m",
+        "or",
+        "r",
+        "ow"
+      ]
+    },
+    {
+      "text": "following",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "fol",
+        "low",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "o",
+        "l",
+        "l",
+        "ow",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "pillowcase",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "pil",
+        "low",
+        "case"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "vce"
+      ],
+      "chunks": [
+        "p",
+        "i",
+        "l",
+        "l",
+        "ow",
+        "c",
+        "a",
+        "s",
+        "e"
+      ]
+    },
+    {
+      "text": "windowsill",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "win",
+        "dow",
+        "sill"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "n",
+        "d",
+        "ow",
+        "s",
+        "i",
+        "l",
+        "l"
+      ]
+    },
+    {
+      "text": "ballooning",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "bal",
+        "loon",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "l",
+        "l",
+        "oo",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "understood",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "un",
+        "der",
+        "stood"
+      ],
+      "syllableTypes": [
+        "closed",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "u",
+        "n",
+        "d",
+        "er",
+        "s",
+        "t",
+        "oo",
+        "d"
+      ]
+    },
+    {
+      "text": "neighborhood",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "neigh",
+        "bor",
+        "hood"
+      ],
+      "syllableTypes": [
+        "team",
+        "r",
+        "team"
+      ],
+      "chunks": [
+        "n",
+        "eigh",
+        "b",
+        "or",
+        "h",
+        "oo",
+        "d"
+      ]
+    },
+    {
+      "text": "brightening",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "bright",
+        "en",
+        "ing"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "r",
+        "igh",
+        "t",
+        "e",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "frightening",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "fright",
+        "en",
+        "ing"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "f",
+        "r",
+        "igh",
+        "t",
+        "e",
+        "n",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "delighted",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "de",
+        "light",
+        "ed"
+      ],
+      "syllableTypes": [
+        "open",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "d",
+        "e",
+        "l",
+        "igh",
+        "t",
+        "e",
+        "d"
+      ]
+    },
+    {
+      "text": "highlighter",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "high",
+        "light",
+        "er"
+      ],
+      "syllableTypes": [
+        "team",
+        "team",
+        "r"
+      ],
+      "chunks": [
+        "h",
+        "igh",
+        "l",
+        "igh",
+        "t",
+        "er"
+      ]
+    },
+    {
+      "text": "nightingale",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "night",
+        "in",
+        "gale"
+      ],
+      "syllableTypes": [
+        "team",
+        "closed",
+        "vce"
+      ],
+      "chunks": [
+        "n",
+        "igh",
+        "t",
+        "i",
+        "n",
+        "g",
+        "a",
+        "l",
+        "e"
+      ]
+    },
+    {
+      "text": "withdrawing",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "with",
+        "draw",
+        "ing"
+      ],
+      "syllableTypes": [
+        "closed",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "w",
+        "i",
+        "th",
+        "d",
+        "r",
+        "aw",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "strawberry",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "straw",
+        "ber",
+        "ry"
+      ],
+      "syllableTypes": [
+        "team",
+        "r",
+        "open"
+      ],
+      "chunks": [
+        "s",
+        "t",
+        "r",
+        "aw",
+        "b",
+        "er",
+        "r",
+        "y"
+      ]
+    },
+    {
+      "text": "automatic",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "au",
+        "to",
+        "mat",
+        "ic"
+      ],
+      "syllableTypes": [
+        "team",
+        "open",
+        "closed",
+        "closed"
+      ],
+      "chunks": [
+        "au",
+        "t",
+        "o",
+        "m",
+        "a",
+        "t",
+        "i",
+        "c"
+      ]
+    },
+    {
+      "text": "autograph",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "au",
+        "to",
+        "graph"
+      ],
+      "syllableTypes": [
+        "team",
+        "open",
+        "closed"
+      ],
+      "chunks": [
+        "au",
+        "t",
+        "o",
+        "g",
+        "r",
+        "a",
+        "ph"
+      ]
+    },
+    {
+      "text": "astronaut",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "as",
+        "tro",
+        "naut"
+      ],
+      "syllableTypes": [
+        "closed",
+        "open",
+        "team"
+      ],
+      "chunks": [
+        "a",
+        "s",
+        "t",
+        "r",
+        "o",
+        "n",
+        "au",
+        "t"
+      ]
+    },
+    {
+      "text": "believing",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "be",
+        "liev",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "b",
+        "e",
+        "l",
+        "ie",
+        "v",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "achieving",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "a",
+        "chiev",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "a",
+        "ch",
+        "ie",
+        "v",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "retrieving",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "re",
+        "triev",
+        "ing"
+      ],
+      "syllableTypes": [
+        "open",
+        "team",
+        "closed"
+      ],
+      "chunks": [
+        "r",
+        "e",
+        "t",
+        "r",
+        "ie",
+        "v",
+        "i",
+        "ng"
+      ]
+    },
+    {
+      "text": "battlefield",
+      "group": "team",
+      "level": 4,
+      "syllables": [
+        "bat",
+        "tle",
+        "field"
+      ],
+      "syllableTypes": [
+        "closed",
+        "cle",
+        "team"
+      ],
+      "chunks": [
+        "b",
+        "a",
+        "t",
+        "t",
+        "le",
+        "f",
+        "ie",
+        "l",
+        "d"
+      ]
+    }
+  ]
+}

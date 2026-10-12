@@ -1,0 +1,150 @@
+# Consonant-le: a consonant plus le at the end makes its own syllable.
+# Starts at Level 3 because every word has at least two syllables.
+## 3
+ta-ble | o l
+ca-ble | o l
+fa-ble | o l
+sta-ble | o l
+ma-ple | o l
+sta-ple | o l
+bu-gle | o l
+no-ble | o l
+ti-tle | o l
+ri-fle | o l
+tri-fle | o l
+la-dle | o l
+cra-dle | o l
+i-dle | o l | | idol
+can-dle | c l
+han-dle | c l
+bun-dle | c l
+kin-dle | c l
+jun-gle | c l
+bot-tle | c l
+lit-tle | c l
+mid-dle | c l
+pud-dle | c l
+pad-dle | c l
+sad-dle | c l
+rid-dle | c l
+fid-dle | c l
+cud-dle | c l
+hud-dle | c l
+gig-gle | c l
+wig-gle | c l
+jug-gle | c l
+strug-gle | c l
+snug-gle | c l
+puz-zle | c l
+noz-zle | c l
+driz-zle | c l
+siz-zle | c l
+daz-zle | c l
+bub-ble | c l
+peb-ble | c l
+nib-ble | c l
+scrib-ble | c l
+wob-ble | c l
+gob-ble | c l
+cat-tle | c l
+bat-tle | c l
+rat-tle | c l
+set-tle | c l
+ket-tle | c l
+ap-ple | c l
+dim-ple | c l
+sim-ple | c l
+sam-ple | c l
+tem-ple | c l
+tum-ble | c l
+rum-ble | c l
+mum-ble | c l
+grum-ble | c l
+stum-ble | c l
+crum-ble | c l
+hum-ble | c l
+jum-ble | c l
+fum-ble | c l
+un-cle | c l
+an-kle | c l
+tick-le | c l
+pick-le | c l
+buck-le | c l
+chuck-le | c l
+freck-le | c l
+spar-kle | r l
+mar-ble | r l
+tur-tle | r l
+pur-ple | r l
+star-tle | r l
+gar-gle | r l
+ea-gle | t l
+nee-dle | t l
+bee-tle | t l
+fee-ble | t l
+stee-ple | t l
+poo-dle | t l
+noo-dle | t l
+doo-dle | t l
+twin-kle | c l
+crin-kle | c l
+sprin-kle | c l
+trem-ble | c l
+## 4
+ta-ble-cloth | o l c
+ta-ble-spoon | o l t
+can-dle-stick | c l c
+can-dle-light | c l t
+bum-ble-bee | c l t
+turn-ta-ble | r o l
+un-sta-ble | c o l
+time-ta-ble | v o l
+in-cred-i-ble | c c o l
+in-vis-i-ble | c c o l
+im-pos-si-ble | c c o l
+ter-ri-ble | r o l
+hor-ri-ble | r o l
+sen-si-ble | c o l
+pos-si-ble | c o l
+flex-i-ble | c o l
+vis-i-ble | c o l
+ed-i-ble | c o l
+ca-pa-ble | o o l
+prob-a-ble | c o l
+por-ta-ble | r o l
+read-a-ble | t o l
+drink-a-ble | c o l
+a-dor-a-ble | o r o l
+com-fort-a-ble | c r o l
+re-mark-a-ble | o r o l
+pre-dict-a-ble | o c o l
+de-pend-a-ble | o c o l
+af-ford-a-ble | c r o l
+en-joy-a-ble | c d o l
+un-a-ble | c o l
+dis-a-ble | c o l
+en-a-ble | c o l
+ob-sta-cle | c o l
+spec-ta-cle | c o l
+mir-a-cle | r o l
+cu-bi-cle | o o l
+par-ti-cle | r o l
+ar-ti-cle | r o l
+mul-ti-ple | c o l
+ex-am-ple | c c l
+tri-an-gle | o c l
+rec-tan-gle | c c l
+un-tan-gle | c c l
+as-sem-ble | c c l
+re-sem-ble | o c l
+dis-man-tle | c c l
+sub-ti-tle | c o l
+un-buck-le | c c l
+un-set-tle | c c l
+un-scram-ble | c c l
+bot-tle-neck | c l c
+mid-dle-man | c l c
+sad-dle-bag | c l c
+pad-dle-boat | c l t
+pine-ap-ple | v c l
+sim-ple-ton | c l c

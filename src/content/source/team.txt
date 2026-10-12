@@ -1,0 +1,330 @@
+# Vowel teams: two vowels walk together, the first usually says its name
+# (ai ay ee ea oa ow oe ie ue ui ew oo au aw igh eigh ey).
+## 1
+rain | | | reign, rein | ran=Two vowels together. The first one says its name.
+pain | | | pane | pan=Look at the two vowels in the middle. The a says its name.
+mail | | | male
+tail | | | tale
+nail
+sail | | | sale
+wait | | | weight
+day
+say
+may
+way | | | weigh
+pay
+hay | | | hey
+bay
+see | | | sea
+bee | | | be
+feet | | | feat
+seed | | | cede
+need | | | knead
+keep
+eat
+tea | | | tee
+meat | | | meet, mete | met=Look at the two vowels. The e says its name.
+seat | | | | set=Look at the two vowels. The e says its name.
+read | | | reed | red=Look at the two vowels. The e says its name.
+leaf
+bean | | | been
+boat | | | | bot=Two vowels together. The o says its name.
+coat | | | | cot=Look at the two vowels. The o says its name.
+road | | | rode, rowed
+soap
+toad | | | towed
+goat | | | | got=Look at the two vowels. The o says its name.
+low
+row
+bow
+mow
+tow | | | toe
+toe | | | tow
+pie
+tie
+lie | | | lye
+moon
+soon
+food
+pool
+cool
+zoo
+too | | | two, to
+boot
+root | | | route
+book
+look
+cook
+took
+hook
+foot
+wood | | | would
+new | | | knew, gnu
+few
+dew | | | do, due
+saw
+paw
+law
+jaw
+raw
+haul | | | hall
+## 2
+train
+brain
+chain
+drain
+grain
+paint
+faint | | | feint
+snail
+trail
+braid | | | brayed
+plain | | | plane | plan=Two vowels together. The a says its name.
+stain
+spray
+stray
+play
+clay
+gray | | | grey
+tray
+stay
+pray | | | prey
+sweet | | | suite
+sleep
+sheep
+steep
+green
+three
+wheel | | | weal
+queen
+speech
+teeth
+street
+cheek
+creek | | | creak
+sheet
+cheap | | | cheep
+cream
+dream
+steam
+clean
+beach | | | beech
+peach
+teach
+reach
+speak | | | | speck=Look at the two vowels. The e says its name.
+wheat
+treat
+leash
+feast
+float
+coast
+toast
+roast
+throat
+coach
+groan | | | grown
+cloak
+croak
+snow
+blow
+glow
+grow
+throw | | | throe
+show
+flow | | | floe
+slow
+crow
+stow
+growth
+blown
+thrown | | | throne
+grown | | | groan
+shown
+flown
+bloom
+broom
+spoon
+smooth
+tooth
+school
+scoop
+stool
+shook
+brook
+stood
+crook
+grew
+chew
+screw
+threw | | | through
+stew
+drew
+blew | | | blue
+flew | | | flu, flue
+crew
+blue | | | blew
+glue
+clue
+true
+light
+night | | | knight
+right | | | write, rite
+sight | | | site, cite
+tight
+fight
+might | | | mite
+bright
+flight
+fright
+slight
+high | | | hi
+sigh
+thigh
+straw
+draw
+claw
+crawl
+drawn
+hawk
+shawl
+launch
+haunt
+fault
+vault
+pause | | | paws
+cause | | | caws
+chief
+thief
+brief
+grief
+field
+shield
+yield
+## 3
+rain-bow | t t
+rain-coat | t t
+rail-road | t t
+mail-box | t c
+sail-boat | t t
+day-time | t v
+to-day | o t
+a-way | o t
+may-be | t o
+pay-day | t t
+sub-way | c t
+high-way | t t
+fif-teen | c t
+six-teen | c t
+can-teen | c t
+in-deed | c t
+a-sleep | o t
+be-tween | o t
+cof-fee | c t
+tof-fee | c t
+sheep-dog | t c
+week-end | t c
+sea-weed | t t
+pea-nut | t c
+tea-pot | t c
+oat-meal | t t
+toe-nail | t t
+tip-toe | c t
+o-boe | o t
+row-boat | t t
+snow-man | t c
+snow-flake | t v
+win-dow | c t
+pil-low | c t
+yel-low | c t
+el-bow | c t
+shad-ow | c t
+fol-low | c t
+hol-low | c t
+nar-row | r t
+ar-row | r t
+bed-room | c t
+mush-room | c t
+bal-loon | c t
+car-toon | r t
+rac-coon | c t
+co-coon | o t
+sham-poo | c t
+ig-loo | c t
+bam-boo | c t
+tat-too | c t
+cook-book | t t
+note-book | v t
+text-book | c t
+good-night | t t
+sun-light | c t
+flash-light | c t
+mid-night | c t
+day-light | t t
+to-night | o t
+de-light | o t
+in-sight | c t
+light-ning | t c
+see-saw | t t
+jig-saw | c t
+cole-slaw | v t
+with-draw | c t
+chim-ney | c t
+don-key | c t
+hock-ey | c t
+jock-ey | c t
+val-ley | c t
+al-ley | c t
+kid-ney | c t
+## 4
+af-ter-noon | c r t
+kan-ga-roo | c o t
+un-der-neath | c r t
+o-ver-seas | o r t
+ev-er-green | c r t
+hal-lo-ween | c o t
+sev-en-teen | c c t
+eigh-teen | t t
+com-plain-ing | c t c
+ex-plain-ing | c t c
+re-main-ing | o t c
+en-ter-tain | c r t
+main-tain-ing | t t c
+day-dream-ing | t t c
+yes-ter-day | c r t
+hol-i-day | c o t
+run-a-way | c o t
+far-a-way | r o t
+hide-a-way | v o t
+a-gree-ment | o t c
+dis-a-gree | c o t
+ref-er-ee | c r t
+em-ploy-ee | c d t
+chim-pan-zee | c c t
+ap-proach-ing | c t c
+un-load-ing | c t c
+o-ver-grown | o r t
+o-ver-flow | o r t
+marsh-mal-low | r c t
+bun-ga-low | c o t
+to-mor-row | o r t
+fol-low-ing | c t c
+pil-low-case | c t v
+win-dow-sill | c t c
+bal-loon-ing | c t c
+un-der-stood | c r t
+neigh-bor-hood | t r t
+bright-en-ing | t c c
+fright-en-ing | t c c
+de-light-ed | o t c
+high-light-er | t t r
+night-in-gale | t c v
+with-draw-ing | c t c
+straw-ber-ry | t r o
+au-to-mat-ic | t o c c
+au-to-graph | t o c
+as-tro-naut | c o t
+be-liev-ing | o t c
+a-chiev-ing | o t c
+re-triev-ing | o t c
+bat-tle-field | c l t

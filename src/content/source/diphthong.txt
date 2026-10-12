@@ -1,0 +1,214 @@
+# Diphthongs: gliding vowel sounds (oi oy ou ow). Here ow says /ow/ as in cow.
+## 1
+coin
+join
+oil
+boil
+soil
+foil
+coil
+point
+joint
+moist
+boy | | | buoy
+toy
+joy
+soy
+out
+loud
+round
+found
+pound
+hound
+bound
+sound
+mouth
+south
+house
+mouse
+count
+mount
+ouch
+pouch
+couch
+cow
+how
+now
+wow
+vow
+owl
+howl
+town
+down
+gown
+our | | | hour
+## 2
+spoil
+broil
+hoist
+joist
+ploy
+shout
+scout
+sprout
+trout
+stout
+spout
+snout
+cloud
+proud
+crowd
+crown
+clown
+frown
+drown
+brown
+growl
+prowl
+scowl
+plow
+brow
+chow | | | ciao
+ground
+grouch
+crouch
+slouch
+blouse
+flour | | | flower
+sour
+scour
+clout
+grout
+pout
+bout
+shroud
+foul | | | fowl
+## 3
+cow-boy | d d
+oys-ter | d r
+toi-let | d c
+poi-son | d c
+point-ed | d c
+ap-point | c d
+a-void | o d
+en-joy | c d
+an-noy | c d
+de-stroy | o d
+em-ploy | c d
+de-coy | o d
+con-voy | c d
+roy-al | d c
+loy-al | d c
+joy-ful | d c
+soy-bean | d t
+tom-boy | c d
+a-bout | o d
+a-round | o d
+a-loud | o d | | allowed
+a-mount | o d
+ac-count | c d
+out-side | d v
+out-fit | d c
+out-put | d c
+out-let | d c
+with-out | c d
+look-out | t d
+hang-out | c d
+black-out | c d
+cook-out | t d
+drop-out | c d
+try-out | o d
+coun-ty | d o
+coun-ter | d r
+thou-sand | d c
+mouse-trap | d c
+pow-der | d r
+chow-der | d r
+flow-er | d r | | flour
+show-er | d r
+tow-er | d r
+pow-er | d r
+vow-el | d c
+tow-el | d c
+al-low | c d
+down-town | d d
+sun-down | c d
+count-down | d d
+crowd-ed | d c
+row-dy | d o
+how-dy | d o
+cow-ard | d r
+cow-bell | d c
+cow-girl | d r
+play-ground | t d
+back-ground | c d
+camp-ground | c d
+sur-round | r d
+pro-found | o d
+com-pound | c d
+re-bound | o d
+a-stound | o d
+dis-count | c d
+de-vout | o d
+floun-der | d r
+loud-er | d r
+cloud-y | d o
+oil-y | d o
+boil-er | d r
+spoil-er | d r
+point-er | d r
+oint-ment | d c
+tur-moil | r d
+tin-foil | c d
+sir-loin | r d
+ex-ploit | c d
+re-join | o d
+## 4
+en-joy-ment | c d c
+em-ploy-ment | c d c
+em-ploy-er | c d r
+de-stroy-er | o d r
+an-noy-ing | c d c
+loy-al-ty | d c o
+roy-al-ty | d c o
+dis-loy-al | c d c
+o-ver-joyed | o r d
+ap-point-ment | c d c
+dis-ap-point | c c d
+a-void-ing | o d c
+em-broi-der | c d r
+ex-ploit-ing | c d c
+ad-join-ing | c d c
+round-a-bout | d o d
+run-a-bout | c o d
+out-stand-ing | d c c
+out-num-ber | d c r
+out-smart-ed | d r c
+out-spo-ken | d o c
+out-go-ing | d o c
+out-land-ish | d c c
+sur-round-ing | r d c
+re-bound-ing | o d c
+a-stound-ing | o d c
+ac-coun-tant | c d c
+ac-count-ing | c d c
+dis-count-ed | c d c
+down-load-ing | d t c
+down-trod-den | d c c
+down-stairs | d r
+pow-er-ful | d r c
+pow-er-less | d r c
+flow-er-pot | d r c
+show-er-ing | d r c
+tow-er-ing | d r c
+em-pow-ered | c d r
+sun-flow-er | c d r
+al-low-ing | c d c
+cow-ard-ly | d r o
+crowd-fund-ing | d c c
+boun-da-ry | d o o
+loud-speak-er | d t r
+coun-ter-part | d r r
+coun-ter-top | d r c
+en-coun-ter | c d r
+south-west-ern | d c r
