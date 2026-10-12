@@ -74,7 +74,7 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 - [x] Phase 0: scaffold, visual style, word schema, validator, PWA
 - [x] Phase 1: content for skills 1.1 to 1.7 and 2.1; 2.2 to 2.14 stubbed; held-out test words reserved; division patterns; parent teaching notes
 - [x] Phase 2: core practice loop, matcher, recognizers, rule panel
-- [ ] Phase 3: help ladder
+- [x] Phase 3: help ladder and Break It Down coach
 - [ ] Phase 4: scoring, mastery, persistence
 - [ ] Phase 4b: level test (placement)
 - [ ] Phase 5: profiles and multiplayer
@@ -96,6 +96,22 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
   Break It Down coach come in Phase 3.
 - Attempts are already written to IndexedDB with `panelOn`. Stars and streak are per session
   until Phase 4 reads them back from the log.
+
+## Phase 3 notes
+
+- Help ladder on the word card: step 1 shows syllables with dots, colors and labels; step 2
+  makes each syllable a tap target that speaks it; step 3 speaks the whole word. The highest
+  step used is tracked per attempt and lowers the stars per the spec.
+- Known weak spot: browser TTS mispronounces isolated syllables. `src/speech/sayAs.ts`
+  respells common shapes (ta -> tay, ble -> bul) and a word's `sayAs` field overrides it
+  (source field 8, syllables separated by /: `ta-ble | o l | | | | | | tay/bul`). Test by ear
+  on the tablet and add overrides where a part sounds wrong.
+- Break It Down coach: `src/engine/coach.ts` (pure, tested) with the six prompts in
+  `src/content/coach-prompts.ts` so a parent can edit the wording. Guided mode runs it on
+  the first 5 multi-syllable words of a level and after a miss, fades to a one-line reminder
+  after 5 clean reads, and comes back after a miss. Modes: Guided, On request only, Off
+  (set on the skill screen until the dashboard exists). A revealed split costs help step 1;
+  completing it himself keeps the full 10 stars. Counts are in the config file.
 
 ## Assumptions made in Phases 0 and 1
 

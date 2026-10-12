@@ -58,6 +58,14 @@ export const config = {
     /** The dashboard suggests a retest after this many weeks. */
     retestWeeks: 6,
   },
+  coach: {
+    /** Guided mode runs the coach on the first N multi-syllable words of a new level. */
+    guidedFirstWords: 5,
+    /** After N multi-syllable words in a row read correctly without the coach, it shrinks to a reminder. */
+    fadeAfterCleanReads: 5,
+    /** Help step charged when the app has to reveal the split at prompt 3. */
+    revealHelpStep: 1,
+  },
   set2: {
     /** Set 2 opens once these Set 1 skills are mastered at this level. */
     unlockAfterSkills: ['1.1', '1.2', '1.3'],

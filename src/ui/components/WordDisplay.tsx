@@ -1,14 +1,21 @@
-import type { Word } from '../../content/schema';
+import { SYLLABLE_LABELS, type Word } from '../../content/schema';
 import { syllableTextColor } from './SyllableTag';
 
-/**
- * The big lowercase word. Highlights rule letters when the panel is on and,
- * when `split` is set (help step 1), shows syllables with dots and colors.
- */
-export function WordDisplay({ word, highlight, split }: { word: Word; highlight: Set<number>; split: boolean }) {
+interface Props {
+  word: Word;
+  /** Letter indices to underline (rule panel). */
+  highlight: Set<number>;
+  /** Help step 1: dots between syllables, colors and labels. */
+  split: boolean;
+  /** Help step 2: syllables become tap targets that speak. */
+  onTapSyllable?: (index: number) => void;
+}
+
+/** The big lowercase word, with the help ladder's syllable view when `split` is on. */
+export function WordDisplay({ word, highlight, split, onTapSyllable }: Props) {
   let idx = 0;
   return (
-    <div className="font-display text-7xl md:text-8xl font-semibold tracking-wider text-slate-800 leading-none select-none" lang="en">
+    <div className="flex items-end justify-center gap-1 flex-wrap" lang="en">
       {word.syllables.map((syl, si) => {
         const type = word.syllableTypes[si] ?? 'closed';
         const letters = [...syl].map((ch) => {
@@ -20,10 +27,30 @@ export function WordDisplay({ word, highlight, split }: { word: Word; highlight:
             </span>
           );
         });
-        return (
-          <span key={si} className={split ? syllableTextColor[type] : ''}>
-            {split && si > 0 && <span className="text-slate-300 mx-1">·</span>}
+        const text = (
+          <span className={`font-display text-7xl md:text-8xl font-semibold tracking-wider leading-none select-none ${split ? syllableTextColor[type] : 'text-slate-800'}`}>
             {letters}
+          </span>
+        );
+        return (
+          <span key={si} className="flex items-end">
+            {split && si > 0 && <span className="font-display text-6xl text-slate-300 mx-1 leading-none pb-6">·</span>}
+            {split ? (
+              <span className="flex flex-col items-center gap-1">
+                {onTapSyllable ? (
+                  <button onClick={() => onTapSyllable(si)} className="rounded-2xl px-2 py-1 active:bg-indigo-50" aria-label={`hear ${syl}`}>
+                    {text}
+                  </button>
+                ) : (
+                  text
+                )}
+                <span className="text-xs font-bold text-white rounded-full px-2 py-0.5" style={{ background: `var(--color-syl-${type})` }}>
+                  {SYLLABLE_LABELS[type]}
+                </span>
+              </span>
+            ) : (
+              text
+            )}
           </span>
         );
       })}

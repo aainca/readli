@@ -23,6 +23,9 @@ import { SKILLS, type Confusable, type Level, type SkillId, type SyllableType, t
  *   6 division override, one per split (VC/CV, V/CV, VC/V, V/V, C-le, affix),
  *     comma separated. Default: derived from syllables and types.
  *   7 activity override (read | divide | sortEd | heart)
+ *   8 say-as text per syllable for TTS, separated by "/", empty to keep the
+ *     default: "ta/bul" or "/bul"
+
  */
 export function parseSource(skillId: SkillId, text: string): Word[] {
   const words: Word[] = [];
@@ -75,6 +78,11 @@ export function parseSource(skillId: SkillId, text: string): Word[] {
         : deriveDivision(syllables, types);
     }
     if (fields[6]) word.activity = fields[6] as Word['activity'];
+    if (fields[7]) {
+      const parts = fields[7].split('/').map((x) => x.trim());
+      if (parts.length !== syllables.length) throw new Error(`${skillId}:${idx + 1}: sayAs needs ${syllables.length} parts`);
+      word.sayAs = parts.map((x) => x || null);
+    }
     else if (meta.activity !== 'read') word.activity = meta.activity;
     if (homophones.length) word.homophones = homophones;
     if (confusables.length) word.confusables = confusables;

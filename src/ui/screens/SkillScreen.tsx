@@ -1,6 +1,9 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { levelsAvailable, wordsFor } from '../../content';
 import { SKILLS, type Level, type SkillId } from '../../content/schema';
+import type { CoachMode } from '../../engine/coach';
+import { DEFAULT_PROFILE_ID } from '../../store/profiles';
+import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { BigButton } from '../components/BigButton';
 import { Card } from '../components/Card';
 
@@ -16,6 +19,14 @@ export function SkillScreen({ skillId, onBack, onPractice, onWords }: Props) {
   const meta = SKILLS[skillId];
   const levels = levelsAvailable(skillId);
   const [level, setLevel] = useState<Level | undefined>(levels[0]);
+  const [coachMode, setCoachMode] = useState<CoachMode>('guided');
+  useEffect(() => {
+    void getSetting<CoachMode>(settingKeys.coachMode(DEFAULT_PROFILE_ID), 'guided').then(setCoachMode);
+  }, []);
+  const pickMode = (m: CoachMode) => {
+    setCoachMode(m);
+    void setSetting(settingKeys.coachMode(DEFAULT_PROFILE_ID), m);
+  };
 
   return (
     <main className="flex-1 px-4 py-6 max-w-3xl w-full mx-auto">
@@ -49,6 +60,21 @@ export function SkillScreen({ skillId, onBack, onPractice, onWords }: Props) {
           </BigButton>
           <button onClick={onWords} className="text-sm font-bold text-sky-700 underline underline-offset-4">see the word list</button>
         </Card>
+      )}
+
+      {levels.length > 0 && (
+        <div className="mt-4 flex items-center justify-center gap-2 text-sm font-bold text-slate-600 flex-wrap">
+          <span>Break It Down coach:</span>
+          {(['guided', 'onRequest', 'off'] as const).map((m) => (
+            <button
+              key={m}
+              onClick={() => pickMode(m)}
+              className={`px-3 py-1.5 rounded-full border ${coachMode === m ? 'bg-indigo-600 text-white border-indigo-700' : 'bg-white border-slate-200'}`}
+            >
+              {m === 'guided' ? 'Guided' : m === 'onRequest' ? 'On request only' : 'Off'}
+            </button>
+          ))}
+        </div>
       )}
     </main>
   );
