@@ -16,7 +16,7 @@ export function BigButton({
 }: PropsWithChildren<ButtonHTMLAttributes<HTMLButtonElement> & { tone?: Tone }>) {
   return (
     <button
-      className={`font-display text-2xl font-semibold px-8 py-4 rounded-full border-b-4 active:translate-y-1 active:border-b-0 transition select-none ${tones[tone]} ${className}`}
+      className={`font-display text-2xl font-semibold px-8 py-4 rounded-full border-b-4 active:translate-y-1 active:border-b-0 transition select-none disabled:opacity-40 disabled:grayscale disabled:cursor-not-allowed disabled:active:translate-y-0 disabled:active:border-b-4 ${tones[tone]} ${className}`}
       {...rest}
     >
       {children}

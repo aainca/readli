@@ -6,7 +6,19 @@ interface Props {
   word: Word;
   coach: CoachState;
   dispatch: (e: CoachEvent) => void;
+  /** Speak one syllable (help step 2 voice, free inside the coach). */
+  onHearPart?: (index: number) => void;
+  /** Whether the microphone is already listening at the blend step. */
+  listening?: boolean;
 }
+
+const STEPS: { key: CoachState['step']; label: string }[] = [
+  { key: 'vowels', label: 'vowels' },
+  { key: 'between', label: 'between' },
+  { key: 'split', label: 'split' },
+  { key: 'read', label: 'read' },
+  { key: 'blend', label: 'blend' },
+];
 
 const LETTER = 'font-display text-5xl md:text-6xl font-semibold leading-none select-none';
 
@@ -15,9 +27,11 @@ const LETTER = 'font-display text-5xl md:text-6xl font-semibold leading-none sel
  * Prompts 5 and 6 (blend, check) render only the prompt and buttons; the
  * normal listening box below handles the reading.
  */
-export function CoachPanel({ word, coach, dispatch }: Props) {
+export function CoachPanel({ word, coach, dispatch, onHearPart, listening = false }: Props) {
   const letters = [...word.text];
   const step = coach.step;
+  const stepIndex = STEPS.findIndex((s) => s.key === (step === 'check' ? 'blend' : step));
+  const lastPart = coach.readIndex >= word.syllables.length - 1;
 
   const syllableOf = (i: number) => {
     let pos = 0;
@@ -30,6 +44,18 @@ export function CoachPanel({ word, coach, dispatch }: Props) {
 
   return (
     <div className="w-full flex flex-col items-center gap-3">
+      {/* Step tracker: where we are in the six prompts. */}
+      <ol className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wide">
+        {STEPS.map((s, i) => (
+          <li key={s.key} className="flex items-center gap-1.5">
+            <span className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] ${i < stepIndex ? 'bg-emerald-500 text-white' : i === stepIndex ? 'bg-indigo-600 text-white' : 'bg-slate-200 text-slate-500'}`}>
+              {i < stepIndex ? '✓' : i + 1}
+            </span>
+            <span className={i === stepIndex ? 'text-indigo-700' : 'text-slate-400'}>{s.label}</span>
+            {i < STEPS.length - 1 && <span className="text-slate-300">›</span>}
+          </li>
+        ))}
+      </ol>
       <div className="font-display text-2xl md:text-3xl font-semibold text-indigo-700">{promptFor(step)}</div>
 
       {step === 'vowels' && (
@@ -95,6 +121,9 @@ export function CoachPanel({ word, coach, dispatch }: Props) {
 
       {step === 'read' && (
         <div className="flex flex-col items-center gap-2">
+          <div className="text-sm font-bold text-slate-500">
+            part {coach.readIndex + 1} of {word.syllables.length} · say <span className="font-display text-xl text-slate-800">"{word.syllables[coach.readIndex]}"</span> out loud, then tap next
+          </div>
           <div className="flex items-end justify-center gap-3">
             {word.syllables.map((syl, s) => {
               const type = word.syllableTypes[s] ?? 'closed';
@@ -110,6 +139,11 @@ export function CoachPanel({ word, coach, dispatch }: Props) {
         </div>
       )}
 
+      {step === 'blend' && (
+        <div className={`text-base font-bold rounded-full px-4 py-1.5 ${listening ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-900 bounce-gentle'}`}>
+          {listening ? '🎤 listening: say the whole word' : '👇 tap 🎤 speak, then say the whole word'}
+        </div>
+      )}
       {(step === 'blend' || step === 'check') && (
         <div className="flex items-center justify-center gap-2" lang="en">
           {word.syllables.map((syl, s) => (
@@ -131,7 +165,12 @@ export function CoachPanel({ word, coach, dispatch }: Props) {
           <Big onClick={() => dispatch({ type: 'next' })}>{`${coach.between.map((b) => b.letters.length).join(' and ')} → next`}</Big>
         )}
         {step === 'read' && (
-          <Big onClick={() => dispatch({ type: 'nextSyllable' })}>{coach.readIndex + 1 < word.syllables.length ? 'next part →' : 'blend it →'}</Big>
+          <>
+            {onHearPart && (
+              <button onClick={() => onHearPart(coach.readIndex)} className="font-display text-lg px-4 py-3 rounded-full border border-sky-200 bg-sky-50 text-sky-800">🔊 hear it</button>
+            )}
+            <Big onClick={() => dispatch({ type: 'nextSyllable' })}>{lastPart ? '✓ all parts read → blend it' : '✓ I said it → next part'}</Big>
+          </>
         )}
         {step === 'check' && (
           <>

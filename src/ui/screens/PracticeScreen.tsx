@@ -473,7 +473,13 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
       {!summary && <Card className="p-4 md:p-6 flex flex-col items-center text-center">
         {coach && word && coach.step !== 'done' ? (
           <div className="w-full py-2">
-            <CoachPanel word={word} coach={coach} dispatch={coachDispatch} />
+            <CoachPanel
+              word={word}
+              coach={coach}
+              dispatch={coachDispatch}
+              listening={rec.listening}
+              onHearPart={(i) => void tts.speak(syllableSpeech(word)[i] ?? '', { rate: 0.75 })}
+            />
           </div>
         ) : (
           <div className="min-h-[7rem] md:min-h-[8rem] flex items-center justify-center py-3">
@@ -518,7 +524,7 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
             disabled={!word || finished || coachOwnsScreen}
             onClick={() => (wantListening.current ? pause() : listen())}
           >
-            {rec.listening ? '⏹ stop' : rec.hearsSpeech ? '🎤 speak' : '▶ start'}
+            {rec.listening ? '⏹ stop' : coachOwnsScreen ? '🎤 after blend' : rec.hearsSpeech ? '🎤 speak' : '▶ start'}
           </BigButton>
           <BigButton tone="ghost" className="!text-base !px-2" disabled={!canHelp} onClick={help1}>💡 help</BigButton>
           <BigButton tone="ghost" className="!text-base !px-2" disabled={!canHelp || !isMulti(word) || !!coach} onClick={openCoach}>🧩 break it down</BigButton>
