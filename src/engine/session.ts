@@ -15,6 +15,11 @@ export function createSession(words: Word[], rng: () => number = Math.random): S
   return { queue: shuffle(words, rng), review: [], served: 0 };
 }
 
+/** A session from an already planned order (see scheduler.planSession). */
+export function createSessionFromPlan(words: Word[]): SessionState {
+  return { queue: [...words], review: [], served: 0 };
+}
+
 export function shuffle<T>(items: T[], rng: () => number): T[] {
   const a = [...items];
   for (let i = a.length - 1; i > 0; i--) {

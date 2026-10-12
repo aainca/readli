@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { allSkillFiles } from '../../content';
-import { SET1_SKILL_IDS, SET2_SKILL_IDS, SKILLS, type SetNumber, type SkillId } from '../../content/schema';
+import { SET1_SKILL_IDS, SET2_SKILL_IDS, SKILLS, type Level, type SetNumber, type SkillId } from '../../content/schema';
+import { DEFAULT_PROFILE_ID, getProfile } from '../../store/profiles';
 import { Card } from '../components/Card';
 import { BigButton } from '../components/BigButton';
 import { StarConfetti } from '../components/StarConfetti';
@@ -19,6 +20,10 @@ const skillBg: Record<string, string> = {
 export function HomeScreen({ onOpenSkill }: { onOpenSkill: (id: SkillId) => void }) {
   const [confetti, setConfetti] = useState(false);
   const [set, setSet] = useState<SetNumber>(1);
+  const [levels, setLevels] = useState<Partial<Record<SkillId, Level>>>({});
+  useEffect(() => {
+    void getProfile(DEFAULT_PROFILE_ID).then((p) => p && setLevels(p.levels));
+  }, []);
   const counts = new Map(allSkillFiles.map((f) => [f.skillId, f.words.length]));
 
   const tile = (id: SkillId) => {
@@ -43,8 +48,8 @@ export function HomeScreen({ onOpenSkill }: { onOpenSkill: (id: SkillId) => void
           <div className="text-xs text-indigo-600 font-semibold mt-0.5 line-clamp-2">{meta.hint}</div>
         </div>
         <div className="text-right shrink-0">
-          <div className="font-display text-lg">{stub ? '' : n}</div>
-          <div className="text-xs text-gray-400">{stub ? 'V2' : 'words'}</div>
+          <div className="font-display text-lg">{stub ? '' : `Level ${levels[id] ?? meta.levels[0]}`}</div>
+          <div className="text-xs text-gray-400">{stub ? 'V2' : `${n} words`}</div>
         </div>
       </Card>
     );

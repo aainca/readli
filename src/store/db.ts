@@ -1,5 +1,6 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
 import type { Level, SkillId } from '../content/schema';
+import type { ReviewItem } from '../engine/scheduler';
 
 /**
  * IndexedDB layout. Filled in during Phase 4 and 5; declared now so the
@@ -12,6 +13,8 @@ export interface Profile {
   createdAt: number;
   /** Current level per skill, keyed by skill ID ("1.3", "2.1"). */
   levels: Partial<Record<SkillId, Level>>;
+  /** Levels mastered per skill. They feed the 10% older-words mix. */
+  mastered: Partial<Record<SkillId, Level[]>>;
   /** Levels the placement test placed the child out of, per skill. */
   placedOut: Partial<Record<SkillId, Level[]>>;
   /** Set 2 skills a parent unlocked by hand. */
@@ -60,8 +63,14 @@ interface VowelDB extends DBSchema {
   attempts: {
     key: number;
     value: AttemptRecord;
-    indexes: { byProfile: string; byProfileWord: [string, string]; byProfileTime: [string, number] };
+    indexes: {
+      byProfile: string;
+      byProfileWord: [string, string];
+      byProfileTime: [string, number];
+      byProfileSkillLevel: [string, string, string | number];
+    };
   };
+  reviews: { key: [string, string]; value: ReviewItem; indexes: { byProfile: string } };
   placements: { key: number; value: PlacementResult; indexes: { byProfile: string } };
   settings: { key: string; value: SettingRecord };
 }
@@ -69,8 +78,8 @@ interface VowelDB extends DBSchema {
 let dbPromise: Promise<IDBPDatabase<VowelDB>> | null = null;
 
 export function getDB(): Promise<IDBPDatabase<VowelDB>> {
-  dbPromise ??= openDB<VowelDB>('vowel-mastery', 2, {
-    upgrade(db, oldVersion) {
+  dbPromise ??= openDB<VowelDB>('vowel-mastery', 3, {
+    upgrade(db, oldVersion, _newVersion, tx) {
       if (oldVersion < 1) {
         db.createObjectStore('profiles', { keyPath: 'id' });
         const attempts = db.createObjectStore('attempts', { keyPath: 'id', autoIncrement: true });
@@ -82,6 +91,11 @@ export function getDB(): Promise<IDBPDatabase<VowelDB>> {
       }
       if (oldVersion < 2) {
         db.createObjectStore('settings', { keyPath: 'key' });
+      }
+      if (oldVersion < 3) {
+        tx.objectStore('attempts').createIndex('byProfileSkillLevel', ['profileId', 'skillId', 'level']);
+        const reviews = db.createObjectStore('reviews', { keyPath: ['profileId', 'word'] });
+        reviews.createIndex('byProfile', 'profileId');
       }
     },
   });

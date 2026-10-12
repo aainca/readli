@@ -2,10 +2,14 @@ import { useEffect, useState } from 'react';
 import { levelsAvailable, wordsFor } from '../../content';
 import { SKILLS, type Level, type SkillId } from '../../content/schema';
 import type { CoachMode } from '../../engine/coach';
-import { DEFAULT_PROFILE_ID } from '../../store/profiles';
+import { config } from '../../engine/config';
+import { evaluateMastery, type MasteryReport } from '../../engine/mastery';
+import { attemptsForLevel } from '../../store/attempts';
+import { DEFAULT_PROFILE_ID, ensureDefaultProfile, getProfile, setSkillLevel } from '../../store/profiles';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { BigButton } from '../components/BigButton';
 import { Card } from '../components/Card';
+import { HoldButton } from '../components/HoldButton';
 
 interface Props {
   skillId: SkillId;
@@ -14,19 +18,47 @@ interface Props {
   onWords: () => void;
 }
 
-/** Pick a level, then practice or browse the words. Level progress arrives in Phase 4. */
+/**
+ * Pick a level, then practice or browse the words. Levels above the current
+ * one are locked until mastery unlocks them. A parent can hold the button
+ * for 3 seconds to change the level by hand.
+ */
 export function SkillScreen({ skillId, onBack, onPractice, onWords }: Props) {
   const meta = SKILLS[skillId];
   const levels = levelsAvailable(skillId);
-  const [level, setLevel] = useState<Level | undefined>(levels[0]);
+  const [current, setCurrent] = useState<Level | undefined>(undefined);
+  const [level, setLevel] = useState<Level | undefined>(undefined);
+  const [reports, setReports] = useState<Partial<Record<Level, MasteryReport>>>({});
+  const [parentMode, setParentMode] = useState(false);
   const [coachMode, setCoachMode] = useState<CoachMode>('guided');
+
   useEffect(() => {
-    void getSetting<CoachMode>(settingKeys.coachMode(DEFAULT_PROFILE_ID), 'guided').then(setCoachMode);
-  }, []);
+    void (async () => {
+      const profile = (await getProfile(DEFAULT_PROFILE_ID)) ?? (await ensureDefaultProfile());
+      const cur = profile.levels[skillId] ?? levels[0];
+      setCurrent(cur);
+      setLevel(cur);
+      const entries = await Promise.all(levels.map(async (l) => [l, evaluateMastery(await attemptsForLevel(DEFAULT_PROFILE_ID, skillId, l))] as const));
+      setReports(Object.fromEntries(entries));
+      setCoachMode(await getSetting<CoachMode>(settingKeys.coachMode(DEFAULT_PROFILE_ID), 'guided'));
+    })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [skillId]);
+
   const pickMode = (m: CoachMode) => {
     setCoachMode(m);
     void setSetting(settingKeys.coachMode(DEFAULT_PROFILE_ID), m);
   };
+
+  const changeLevel = async (l: Level) => {
+    await setSkillLevel(DEFAULT_PROFILE_ID, skillId, l);
+    setCurrent(l);
+    setLevel(l);
+    setParentMode(false);
+  };
+
+  const idx = (l: Level) => levels.indexOf(l);
+  const locked = (l: Level) => current !== undefined && idx(l) > idx(current);
 
   return (
     <main className="flex-1 px-4 py-6 max-w-3xl w-full mx-auto">
@@ -43,22 +75,48 @@ export function SkillScreen({ skillId, onBack, onPractice, onWords }: Props) {
       ) : (
         <Card className="p-6 flex flex-col items-center gap-5">
           <div className="flex gap-2 flex-wrap justify-center">
-            {levels.map((l) => (
-              <button
-                key={l}
-                onClick={() => setLevel(l)}
-                className={`font-display text-xl px-6 py-3 rounded-full border-2 ${
-                  l === level ? 'bg-orange-500 text-white border-orange-600' : 'bg-white border-orange-200 text-slate-700'
-                }`}
-              >
-                Level {l} <span className="text-sm opacity-70">({wordsFor(skillId, l).length})</span>
-              </button>
-            ))}
+            {levels.map((l) => {
+              const r = reports[l];
+              const isLocked = locked(l) && !parentMode;
+              const mastered = current !== undefined && idx(l) < idx(current);
+              return (
+                <button
+                  key={l}
+                  disabled={isLocked}
+                  onClick={() => (parentMode ? void changeLevel(l) : setLevel(l))}
+                  className={`font-display text-xl px-5 py-3 rounded-2xl border-2 flex flex-col items-center min-w-[7rem] ${
+                    l === level ? 'bg-orange-500 text-white border-orange-600' : 'bg-white border-orange-200 text-slate-700'
+                  } ${isLocked ? 'opacity-40' : ''}`}
+                >
+                  <span>{isLocked ? '🔒 ' : mastered ? '✅ ' : l === current ? '▶ ' : ''}Level {l}</span>
+                  <span className="text-xs font-body font-bold opacity-80">
+                    {r && r.attemptsInWindow > 0
+                      ? `${r.cleanReads}/${r.attemptsInWindow} first try · ${r.distinctDays} day${r.distinctDays === 1 ? '' : 's'}`
+                      : `${wordsFor(skillId, l).length} words`}
+                  </span>
+                </button>
+              );
+            })}
           </div>
+          {level !== undefined && reports[level] && !reports[level]!.mastered && reports[level]!.attemptsInWindow > 0 && (
+            <p className="text-xs text-slate-500 -mt-2">
+              To unlock the next level: {Math.round(config.mastery.masteryAccuracy * 100)}% first try over the last {config.mastery.windowSize} words, on {config.mastery.minDistinctDays} different days.
+              {reports[level]!.stepBack && ' Right now the session mixes in words from the level below.'}
+            </p>
+          )}
           <BigButton disabled={level === undefined} onClick={() => level !== undefined && onPractice(level)}>
             ⭐ practice Level {level}
           </BigButton>
-          <button onClick={onWords} className="text-sm font-bold text-sky-700 underline underline-offset-4">see the word list</button>
+          <div className="flex items-center gap-4 text-sm font-bold">
+            <button onClick={onWords} className="text-sky-700 underline underline-offset-4">see the word list</button>
+            {parentMode ? (
+              <span className="text-indigo-700">tap a level to set it · <button onClick={() => setParentMode(false)} className="underline">cancel</button></span>
+            ) : (
+              <HoldButton onHeld={() => setParentMode(true)} className="text-slate-400 px-3 py-1.5 rounded-full border border-slate-200">
+                parent: hold to change level
+              </HoldButton>
+            )}
+          </div>
         </Card>
       )}
 

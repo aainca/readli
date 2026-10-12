@@ -1,8 +1,11 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import { totalStars } from '../store/attempts';
+import { DEFAULT_PROFILE_ID } from '../store/profiles';
 import type { Level, SkillId } from '../content/schema';
 import { AppHeader } from './components/AppHeader';
 import { RulesGuide } from './components/RulesGuide';
 import { HomeScreen } from './screens/HomeScreen';
+import { LevelUpScreen } from './screens/LevelUpScreen';
 import { PracticeScreen, type PracticeStats } from './screens/PracticeScreen';
 import { SkillScreen } from './screens/SkillScreen';
 import { WordListScreen } from './screens/WordListScreen';
@@ -11,19 +14,24 @@ type Route =
   | { name: 'home' }
   | { name: 'skill'; skillId: SkillId }
   | { name: 'words'; skillId: SkillId }
-  | { name: 'practice'; skillId: SkillId; level: Level };
+  | { name: 'practice'; skillId: SkillId; level: Level }
+  | { name: 'levelUp'; skillId: SkillId; from: Level; to: Level };
 
 export function App() {
   const [route, setRoute] = useState<Route>({ name: 'home' });
   const [guideOpen, setGuideOpen] = useState(false);
   const [stats, setStats] = useState<PracticeStats>({ stars: 0, streak: 0 });
   const onStats = useCallback((s: PracticeStats) => setStats(s), []);
+  useEffect(() => {
+    void totalStars(DEFAULT_PROFILE_ID).then((stars) => setStats((s) => ({ ...s, stars }))).catch(() => {});
+  }, []);
 
   let screen;
   switch (route.name) {
     case 'skill':
       screen = (
         <SkillScreen
+          key={route.skillId}
           skillId={route.skillId}
           onBack={() => setRoute({ name: 'home' })}
           onPractice={(level) => setRoute({ name: 'practice', skillId: route.skillId, level })}
@@ -42,6 +50,17 @@ export function App() {
           level={route.level}
           onStats={onStats}
           onExit={() => setRoute({ name: 'skill', skillId: route.skillId })}
+          onLevelUp={(from, to) => setRoute({ name: 'levelUp', skillId: route.skillId, from, to })}
+        />
+      );
+      break;
+    case 'levelUp':
+      screen = (
+        <LevelUpScreen
+          skillId={route.skillId}
+          fromLevel={route.from}
+          toLevel={route.to}
+          onContinue={() => setRoute({ name: 'practice', skillId: route.skillId, level: route.to })}
         />
       );
       break;
@@ -51,7 +70,6 @@ export function App() {
 
   return (
     <div className="min-h-full flex flex-col">
-      {/* Session stars and streak. Persistence and per-profile totals arrive in Phase 4. */}
       <AppHeader stars={stats.stars} streak={stats.streak} onOpenGuide={() => setGuideOpen(true)} />
       {guideOpen && <RulesGuide onClose={() => setGuideOpen(false)} />}
       {screen}

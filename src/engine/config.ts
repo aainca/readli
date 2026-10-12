@@ -29,10 +29,16 @@ export const config = {
     minDistinctDays: 2,
     /** Below this accuracy the session mixes in words from the level below. */
     stepBackAccuracy: 0.6,
+    /** Step back only once this many attempts exist at the level. */
+    minAttemptsForStepBack: 10,
+    /** Share of the current-level slots given to the level below while stepping back. */
+    stepBackMix: 0.4,
   },
   session: {
     /** Mix of words per session. Must sum to 1. */
     mix: { current: 0.7, review: 0.2, mastered: 0.1 },
+    /** Words served per session before the summary screen. */
+    wordsPerSession: 20,
   },
   review: {
     /** Spaced schedule in days. Index 0 is the same session. */

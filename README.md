@@ -75,7 +75,7 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 - [x] Phase 1: content for skills 1.1 to 1.7 and 2.1; 2.2 to 2.14 stubbed; held-out test words reserved; division patterns; parent teaching notes
 - [x] Phase 2: core practice loop, matcher, recognizers, rule panel
 - [x] Phase 3: help ladder and Break It Down coach
-- [ ] Phase 4: scoring, mastery, persistence
+- [x] Phase 4: scoring, mastery, scheduler, persistence, level-up
 - [ ] Phase 4b: level test (placement)
 - [ ] Phase 5: profiles and multiplayer
 - [ ] Phase 6: parent dashboard
@@ -112,6 +112,22 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
   after 5 clean reads, and comes back after a miss. Modes: Guided, On request only, Off
   (set on the skill screen until the dashboard exists). A revealed split costs help step 1;
   completing it himself keeps the full 10 stars. Counts are in the config file.
+
+## Phase 4 notes
+
+- `src/engine/mastery.ts`: rolling window of the last 20 practice attempts per skill and
+  level; mastered at 85% first-try no-help across 2 or more calendar days; step back under
+  60% once 10 attempts exist (threshold in the config file).
+- `src/engine/scheduler.ts`: spaced review queue (same session, 1, 3, 7 days; retire after
+  3 clean reads on separate days; a miss returns the word to stage 0; a skip keeps it in the
+  queue) and the 70/20/10 session plan with the level below mixed in while stepping back.
+- Persistence: IndexedDB v3 adds a `reviews` store and an attempts index by skill and
+  level. The profile stores the current level and mastered levels per skill. Lifetime
+  stars are summed from the attempt log; the streak is per session.
+- On mastery the next level unlocks with a celebration screen. Levels above the current
+  one are locked on the skill screen; a parent can hold the button for 3 seconds to set a
+  level by hand (the dashboard takes this over in Phase 6).
+- A session is 20 words, then a summary with "keep going".
 
 ## Assumptions made in Phases 0 and 1
 

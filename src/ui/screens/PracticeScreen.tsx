@@ -10,11 +10,15 @@ import {
 import { matchWord } from '../../engine/matcher';
 import { rulePanelFor } from '../../engine/rulePanel';
 import { streakBonus } from '../../engine/scoring';
-import { createSession, nextWord, requeue, type SessionState } from '../../engine/session';
+import { evaluateMastery, isCleanRead } from '../../engine/mastery';
+import { dueReviews, enqueueReview, planSession, recordReviewRead } from '../../engine/scheduler';
+import { createSessionFromPlan, nextWord, requeue, type SessionState } from '../../engine/session';
+import { config } from '../../engine/config';
 import { syllableSpeech } from '../../speech/sayAs';
 import { tts } from '../../speech/tts';
-import { logAttempt } from '../../store/attempts';
-import { DEFAULT_PROFILE_ID, ensureDefaultProfile } from '../../store/profiles';
+import { attemptsForLevel, logAttempt, totalStars } from '../../store/attempts';
+import { DEFAULT_PROFILE_ID, ensureDefaultProfile, getProfile, setSkillLevel } from '../../store/profiles';
+import { getReview, getReviews, putReview } from '../../store/reviews';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { BigButton } from '../components/BigButton';
 import { Card } from '../components/Card';
@@ -34,6 +38,13 @@ interface Props {
   level: Level;
   onExit: () => void;
   onStats: (s: PracticeStats) => void;
+  onLevelUp: (from: Level, to: Level) => void;
+}
+
+interface Summary {
+  words: number;
+  stars: number;
+  review: number;
 }
 
 const PRAISE = ['Yes!', 'Great reading!', 'You got it!', 'Nice one!', 'Super!'];
@@ -45,11 +56,13 @@ function coachReducer(s: CoachState | null, e: CoachEvent | { type: 'open'; word
   return s ? reduceCoach(s, e) : s;
 }
 
-export function PracticeScreen({ skillId, level, onExit, onStats }: Props) {
+export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp }: Props) {
   const meta = SKILLS[skillId];
-  const pool = useMemo(() => wordsFor(skillId, level), [skillId, level]);
 
-  const [session, setSession] = useState<SessionState>(() => createSession(pool));
+  const [session, setSession] = useState<SessionState>(() => createSessionFromPlan([]));
+  const [summary, setSummary] = useState<Summary | null>(null);
+  const sessionStars = useRef(0);
+  const sessionWords = useRef(0);
   const [word, setWord] = useState<Word | null>(null);
   const [attempt, dispatch] = useReducer(reduceAttempt, initialAttempt);
   const [coach, coachDispatch] = useReducer(coachReducer, null);
@@ -93,16 +106,48 @@ export function PracticeScreen({ skillId, level, onExit, onStats }: Props) {
     ensureDefaultProfile().catch(() => {});
     void getSetting(settingKeys.showRule(DEFAULT_PROFILE_ID), true).then(setShowRule);
     void getSetting<CoachMode>(settingKeys.coachMode(DEFAULT_PROFILE_ID), 'guided').then((m) => { setCoachMode(m); modeRef.current = m; });
-    void getSetting<CoachCounts>(settingKeys.coachCounts(DEFAULT_PROFILE_ID, skillId, level), NO_COUNTS).then((c) => {
+    void (async () => {
+      const c = await getSetting<CoachCounts>(settingKeys.coachCounts(DEFAULT_PROFILE_ID, skillId, level), NO_COUNTS);
       setCoachCounts(c);
       countsRef.current = c;
-      // Serve the first word only once the coach policy is known.
-      const r = nextWord(session);
-      setSession(r.state);
-      startWord(r.word, false);
-    });
+      const total = await totalStars(DEFAULT_PROFILE_ID).catch(() => 0);
+      setStats({ stars: total, streak: 0 });
+      await beginSession();
+    })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  /** Plans a session from the scheduler: 70% current, 20% due review, 10% mastered. */
+  const beginSession = useCallback(async () => {
+    const now = Date.now();
+    const [profile, reviews, attempts] = await Promise.all([
+      getProfile(DEFAULT_PROFILE_ID),
+      getReviews(DEFAULT_PROFILE_ID).catch(() => []),
+      attemptsForLevel(DEFAULT_PROFILE_ID, skillId, level).catch(() => []),
+    ]);
+    const levels = SKILLS[skillId].levels;
+    const idx = levels.indexOf(level);
+    const belowLevel = idx > 0 ? levels[idx - 1] : undefined;
+    const masteredLevels = (profile?.mastered?.[skillId] ?? []).concat(profile?.placedOut?.[skillId] ?? []).filter((l) => l !== level);
+    const due = dueReviews(reviews, now);
+    const reviewWords = due.map((r) => wordsFor(r.skillId, r.level, { pool: 'all' }).find((w) => w.text === r.word)).filter((w): w is Word => !!w);
+    const plan = planSession({
+      current: wordsFor(skillId, level),
+      below: belowLevel !== undefined ? wordsFor(skillId, belowLevel) : [],
+      review: reviewWords,
+      mastered: masteredLevels.flatMap((l) => wordsFor(skillId, l)),
+      stepBack: evaluateMastery(attempts).stepBack,
+    });
+    sessionStars.current = 0;
+    sessionWords.current = 0;
+    setSummary(null);
+    setFinished(false);
+    const s = createSessionFromPlan(plan.words);
+    const r = nextWord(s);
+    setSession(r.state);
+    startWord(r.word, false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [skillId, level]);
   const toggleRule = (on: boolean) => {
     setShowRule(on);
     void setSetting(settingKeys.showRule(DEFAULT_PROFILE_ID), on);
@@ -149,9 +194,16 @@ export function PracticeScreen({ skillId, level, onExit, onStats }: Props) {
   }, [rec]);
 
   const advance = useCallback((s: SessionState) => {
+    if (sessionWords.current >= config.session.wordsPerSession || (s.queue.length === 0 && s.review.length === 0)) {
+      rec.stop();
+      setWord(null);
+      setSummary({ words: sessionWords.current, stars: sessionStars.current, review: s.review.length });
+      return;
+    }
     const r = nextWord(s);
     setSession(r.state);
     startWord(r.word, false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [startWord]);
 
   const listen = useCallback(() => {
@@ -254,12 +306,15 @@ export function PracticeScreen({ skillId, level, onExit, onStats }: Props) {
       const earned = a.stars + bonus;
       setStats({ stars: stats.stars + earned, streak: bonusStreak });
 
-      void logAttempt({
+      sessionStars.current += earned;
+      sessionWords.current += 1;
+      const timestamp = Date.now();
+      const persisted = logAttempt({
         profileId: DEFAULT_PROFILE_ID,
         word: word.text,
         skillId: word.skillId,
         level: word.level,
-        timestamp: Date.now(),
+        timestamp,
         tries: Math.max(1, a.tries),
         helpStep: a.helpStep,
         result: a.result ?? 'skipped',
@@ -268,6 +323,28 @@ export function PracticeScreen({ skillId, level, onExit, onStats }: Props) {
         mode: 'practice',
         panelOn: showRule,
       });
+
+      // Spaced review queue, then mastery check. Both after the log is written.
+      const clean = isCleanRead({ timestamp, tries: Math.max(1, a.tries), helpStep: a.helpStep, result: a.result ?? 'skipped' });
+      const afterPersist = persisted.then(async () => {
+        const existing = await getReview(DEFAULT_PROFILE_ID, word.text).catch(() => undefined);
+        if (a.needsReview) {
+          await putReview(enqueueReview(existing, word, DEFAULT_PROFILE_ID, timestamp));
+        } else if (existing && !existing.retiredAt) {
+          await putReview(recordReviewRead(existing, { clean, timestamp }));
+        }
+        if (word.skillId !== skillId || word.level !== level) return null;
+        const attempts = await attemptsForLevel(DEFAULT_PROFILE_ID, skillId, level);
+        const report = evaluateMastery(attempts);
+        if (!report.mastered) return null;
+        const profile = await getProfile(DEFAULT_PROFILE_ID);
+        if ((profile?.levels[skillId] ?? SKILLS[skillId].levels[0]) !== level) return null;
+        const levels = SKILLS[skillId].levels;
+        const next = levels[levels.indexOf(level) + 1];
+        if (next === undefined) return null;
+        await setSkillLevel(DEFAULT_PROFILE_ID, skillId, next, { masteredLevel: level });
+        return next;
+      }).catch(() => null);
 
       if (isMulti(word)) {
         const c = updateCoachCounts(countsRef.current, { correct: a.result === 'correct', usedCoach: usedCoach.current });
@@ -299,8 +376,13 @@ export function PracticeScreen({ skillId, level, onExit, onStats }: Props) {
         speech = 'Okay, later.';
       }
       setMessage(line);
-      tts.speak(speech).then(() => {
+      Promise.all([tts.speak(speech), afterPersist]).then(([, levelUp]) => {
         if (cancelled) return;
+        if (levelUp !== null && levelUp !== undefined) {
+          rec.stop();
+          onLevelUp(level, levelUp);
+          return;
+        }
         setTimeout(() => { if (!cancelled) advance(next); }, 500);
       });
     }
@@ -348,7 +430,20 @@ export function PracticeScreen({ skillId, level, onExit, onStats }: Props) {
         <div className="bg-amber-50 border border-amber-200 text-amber-900 text-sm font-semibold rounded-2xl px-4 py-2">{rec.fallbackMessage}</div>
       )}
 
-      <Card className="p-4 md:p-6 flex flex-col items-center text-center">
+      {summary && (
+        <Card className="p-6 md:p-10 text-center flex flex-col items-center gap-3">
+          <div className="text-6xl">🌟</div>
+          <h2 className="font-display text-4xl font-bold text-orange-600">Session done!</h2>
+          <p className="font-display text-2xl text-slate-700">{summary.words} words · {summary.stars} stars</p>
+          {summary.review > 0 && <p className="text-slate-500">{summary.review} word{summary.review === 1 ? '' : 's'} to practice again next time.</p>}
+          <div className="flex gap-3 mt-2 flex-wrap justify-center">
+            <BigButton onClick={() => void beginSession()}>⭐ keep going</BigButton>
+            <BigButton tone="ghost" onClick={() => { pause(); tts.cancel(); onExit(); }}>done for now</BigButton>
+          </div>
+        </Card>
+      )}
+
+      {!summary && <Card className="p-4 md:p-6 flex flex-col items-center text-center">
         {coach && word && coach.step !== 'done' ? (
           <div className="w-full py-2">
             <CoachPanel word={word} coach={coach} dispatch={coachDispatch} />
@@ -404,7 +499,7 @@ export function PracticeScreen({ skillId, level, onExit, onStats }: Props) {
         </div>
 
         {panel && !coachOwnsScreen && <RulePanel data={panel} on={showRule} onToggle={toggleRule} />}
-      </Card>
+      </Card>}
 
       <div className="flex justify-center gap-2 text-xs">
         <button disabled={!live || !word} onClick={() => dispatch({ type: 'override', verdict: 'right' })} className="px-3 py-1.5 rounded-full border border-emerald-200 bg-white text-emerald-700 font-bold disabled:opacity-40">✓ I heard it right</button>
