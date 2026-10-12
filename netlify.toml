@@ -1,5 +1,6 @@
 [build]
-  command = "npm run build"
+  # Netlify sets $URL to the site's address; the page needs it for absolute preview-image links.
+  command = "VITE_SITE_URL=$URL npm run build"
   publish = "dist"
 
 [build.environment]
