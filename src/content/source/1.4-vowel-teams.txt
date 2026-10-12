@@ -164,6 +164,7 @@ blew | | | blue
 flew | | | flu, flue
 crew
 blue | | | blew
+suit | | | soot
 glue
 clue
 true

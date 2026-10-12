@@ -9,9 +9,9 @@ SET 1: VOWEL GROUPS
 ##############################################################################
 
 ==============================================================================
-1.1  CLOSED (SHORT VOWEL)  (187 words)
+1.1  CLOSED (SHORT VOWEL)  (189 words)
 ==============================================================================
---- Level 1  (34 practice words, 6 held out for the test) ---
+--- Level 1  (36 practice words, 6 held out for the test) ---
   cat          cat            [short vowel]  chunks: c-a-t
   dog          dog            [short vowel]  chunks: d-o-g
   pig          pig            [short vowel]  chunks: p-i-g
@@ -19,6 +19,8 @@ SET 1: VOWEL GROUPS
 * bed          bed            [short vowel]  chunks: b-e-d
   hat          hat            [short vowel]  chunks: h-a-t
   map          map            [short vowel]  chunks: m-a-p
+  pin          pin            [short vowel]  chunks: p-i-n   (! pine: No e at the end. Keep the i short.)
+  sit          sit            [short vowel]  chunks: s-i-t
   pen          pen            [short vowel]  chunks: p-e-n
   cup          cup            [short vowel]  chunks: c-u-p
   fox          fox            [short vowel]  chunks: f-o-x
@@ -583,7 +585,7 @@ SET 1: VOWEL GROUPS
   microscope   mi-cro-scope   [long vowel, long vowel, silent e]  chunks: m-i-c-r-o-s-c-o-p-e
 
 ==============================================================================
-1.4  VOWEL TEAMS  (324 words)
+1.4  VOWEL TEAMS  (325 words)
 ==============================================================================
 --- Level 1  (61 practice words, 6 held out for the test) ---
   rain         rain           [vowel team]  chunks: r-ai-n   (= reign, rein)   (! ran: Two vowels together. The first one says its name.)
@@ -654,7 +656,7 @@ SET 1: VOWEL GROUPS
   raw          raw            [vowel team]  chunks: r-aw
   haul         haul           [vowel team]  chunks: h-au-l   (= hall)
 
---- Level 2  (126 practice words, 6 held out for the test) ---
+--- Level 2  (127 practice words, 6 held out for the test) ---
   train        train          [vowel team]  chunks: t-r-ai-n
   brain        brain          [vowel team]  chunks: b-r-ai-n
   chain        chain          [vowel team]  chunks: ch-ai-n
@@ -750,6 +752,7 @@ SET 1: VOWEL GROUPS
   flew         flew           [vowel team]  chunks: f-l-ew   (= flu, flue)
   crew         crew           [vowel team]  chunks: c-r-ew
   blue         blue           [vowel team]  chunks: b-l-ue   (= blew)
+  suit         suit           [vowel team]  chunks: s-ui-t   (= soot)
   glue         glue           [vowel team]  chunks: g-l-ue
   clue         clue           [vowel team]  chunks: c-l-ue
   true         true           [vowel team]  chunks: t-r-ue
@@ -1843,4 +1846,4 @@ SET 2: WORD SKILLS
 ==============================================================================
   (stub: no words yet)
 
-TOTAL: 1686 words
+TOTAL: 1689 words

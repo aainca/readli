@@ -125,6 +125,46 @@
       ]
     },
     {
+      "text": "pin",
+      "set": 1,
+      "skillId": "1.1",
+      "level": 1,
+      "syllables": [
+        "pin"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "p",
+        "i",
+        "n"
+      ],
+      "confusables": [
+        {
+          "heard": "pine",
+          "hint": "No e at the end. Keep the i short."
+        }
+      ]
+    },
+    {
+      "text": "sit",
+      "set": 1,
+      "skillId": "1.1",
+      "level": 1,
+      "syllables": [
+        "sit"
+      ],
+      "syllableTypes": [
+        "closed"
+      ],
+      "chunks": [
+        "s",
+        "i",
+        "t"
+      ]
+    },
+    {
       "text": "pen",
       "set": 1,
       "skillId": "1.1",

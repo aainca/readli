@@ -77,9 +77,13 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 
 ## Assumptions made in Phases 0 and 1
 
-- The prototype `vowel_mastery_app_final.html` was not available in this session, so its
-  words could not be carried over. The look was rebuilt from the description: Fredoka and
-  Nunito, cream background, rounded cards with a soft drop edge, star confetti.
+- The prototype is kept at `prototype/vowel_mastery_app_final.html` for reference. All of
+  its words are in the lists at the right level (city and giant moved to Level B of 2.1).
+  Its gradient background, header with star and streak counters, card shadow, rule hints
+  and the 7 Rules Guide were ported. Its mic and speaker pickers were dropped on purpose
+  (out of scope per the spec); a one-line note says the app uses the system defaults.
+  The prototype counted soft c/g as one of its 7 rules and had no consonant-le group; the
+  spec's list of 7 wins.
 - Open-syllable Levels 1 and 2 fall short of 25 words (10 and 16 in total, with 4 of each
   held out for the test instead of 6). English has very few one-syllable open words.
   Words ending in y that says long i (fly, sky) are included there because y is acting

@@ -24,7 +24,8 @@ html, body, #root {
 
 body {
   margin: 0;
-  background: var(--color-cream);
+  /* Prototype's soft sky-to-amber-to-mint gradient. */
+  background: linear-gradient(135deg, #e0f2fe 0%, #fef3c7 50%, #f0fdf4 100%) fixed;
   color: #1f2937;
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
@@ -42,4 +43,27 @@ body {
   pointer-events: none;
   animation: confetti-fall var(--duration, 2.5s) ease-in forwards;
   animation-delay: var(--delay, 0s);
+}
+
+/* Prototype card shadow. */
+.card-shadow-lg {
+  box-shadow: 0 20px 30px -10px rgba(15, 23, 42, 0.08), 0 10px 15px -5px rgba(15, 23, 42, 0.04);
+}
+
+/* Pulsing ring on the mic button while listening (Phase 2). */
+@keyframes mic-pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  50% { transform: scale(1.04); box-shadow: 0 0 0 16px rgba(239, 68, 68, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+.mic-active-pulse {
+  animation: mic-pulse 1.6s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.bounce-gentle {
+  animation: bounce-gentle 2s infinite;
 }

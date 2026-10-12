@@ -8,6 +8,8 @@ sun | | | son
 * bed
 hat
 map
+pin | | | | pine=No e at the end. Keep the i short.
+sit
 pen
 cup
 fox

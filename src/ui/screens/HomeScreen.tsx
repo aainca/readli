@@ -40,6 +40,7 @@ export function HomeScreen({ onOpenSkill }: { onOpenSkill: (id: SkillId) => void
         <div className="flex-1 min-w-0">
           <div className="font-display text-xl font-semibold leading-tight">{meta.name}</div>
           <div className="text-sm text-gray-500 truncate">{meta.examples.join(', ')}</div>
+          <div className="text-xs text-indigo-600 font-semibold mt-0.5 line-clamp-2">{meta.hint}</div>
         </div>
         <div className="text-right shrink-0">
           <div className="font-display text-lg">{stub ? '' : n}</div>
@@ -52,14 +53,9 @@ export function HomeScreen({ onOpenSkill }: { onOpenSkill: (id: SkillId) => void
   const ids = set === 1 ? SET1_SKILL_IDS : SET2_SKILL_IDS;
 
   return (
-    <main className="min-h-full px-4 py-8 max-w-3xl mx-auto">
+    <main className="flex-1 px-4 py-6 max-w-5xl w-full mx-auto">
       {confetti && <StarConfetti />}
-      <header className="text-center mb-8">
-        <h1 className="font-display text-5xl font-bold text-orange-600 drop-shadow-sm">Vowel Mastery</h1>
-        <p className="text-gray-600 mt-2 text-lg">read the word, earn stars</p>
-      </header>
-
-      <div className="flex justify-center mb-10">
+      <div className="flex justify-center mb-8">
         <BigButton onClick={() => { setConfetti(false); requestAnimationFrame(() => setConfetti(true)); }}>
           ⭐ practice (coming in Phase 2)
         </BigButton>

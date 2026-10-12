@@ -2994,6 +2994,26 @@
       ]
     },
     {
+      "text": "suit",
+      "set": 1,
+      "skillId": "1.4",
+      "level": 2,
+      "syllables": [
+        "suit"
+      ],
+      "syllableTypes": [
+        "team"
+      ],
+      "chunks": [
+        "s",
+        "ui",
+        "t"
+      ],
+      "homophones": [
+        "soot"
+      ]
+    },
+    {
       "text": "glue",
       "set": 1,
       "skillId": "1.4",

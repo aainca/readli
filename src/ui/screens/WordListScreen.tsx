@@ -14,13 +14,15 @@ export function WordListScreen({ skillId, onBack }: { skillId: SkillId; onBack: 
   const held = words.filter((w) => w.heldOut).length;
 
   return (
-    <main className="min-h-full px-4 py-6 max-w-3xl mx-auto">
+    <main className="flex-1 px-4 py-6 max-w-5xl w-full mx-auto">
       <div className="flex items-center gap-3 mb-6">
         <BigButton tone="ghost" className="!text-lg !px-5 !py-2" onClick={onBack}>← back</BigButton>
         <h1 className="font-display text-3xl font-bold text-gray-800">
           <span className="text-gray-400 mr-2">{skillId}</span>{meta.name}
         </h1>
       </div>
+
+      <p className="text-sm text-indigo-700 font-semibold bg-indigo-50 border border-indigo-100 rounded-2xl px-4 py-2 mb-5">{meta.hint}</p>
 
       {levels.length === 0 ? (
         <Card className="p-8 text-center text-gray-500">No words yet. This skill ships in V2.</Card>
