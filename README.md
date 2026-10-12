@@ -73,13 +73,29 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 
 - [x] Phase 0: scaffold, visual style, word schema, validator, PWA
 - [x] Phase 1: content for skills 1.1 to 1.7 and 2.1; 2.2 to 2.14 stubbed; held-out test words reserved; division patterns; parent teaching notes
-- [ ] Phase 2: core practice loop, matcher, recognizers
+- [x] Phase 2: core practice loop, matcher, recognizers, rule panel
 - [ ] Phase 3: help ladder
 - [ ] Phase 4: scoring, mastery, persistence
 - [ ] Phase 4b: level test (placement)
 - [ ] Phase 5: profiles and multiplayer
 - [ ] Phase 6: parent dashboard
 - [ ] Phase 7 (optional, needs approval): cloud pronunciation engine
+
+## Phase 2 notes
+
+- `src/engine/matcher.ts` is the strict matcher (whole-word, homophones, confusable hints).
+- `src/engine/attempt.ts` is the per-word state machine: ready, listening, wrong, modeling,
+  repeating, done. Overrides work in every live phase. Three misses model the word and send
+  it to review. `src/engine/session.ts` shuffles the practice pool and brings review words
+  back every 4th word; Phase 4 replaces it with the 70/20/10 scheduler.
+- `src/speech/WebSpeechRecognizer.ts` starts only on a tap, pauses while TTS speaks, restarts
+  itself after silence while wanted, and on not-allowed, audio-capture or repeated network
+  errors switches once to `ManualRecognizer` with a message. The parent buttons bypass the
+  recognizer entirely.
+- The "Help" button is help step 1 only (syllable split with colors). Steps 2 and 3 and the
+  Break It Down coach come in Phase 3.
+- Attempts are already written to IndexedDB with `panelOn`. Stars and streak are per session
+  until Phase 4 reads them back from the log.
 
 ## Assumptions made in Phases 0 and 1
 

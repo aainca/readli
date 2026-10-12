@@ -45,6 +45,14 @@ export interface AttemptRecord {
   stars: number;
   /** 'practice' or 'placement'. Placement attempts never count toward mastery. */
   mode: 'practice' | 'placement';
+  /** Whether the rule panel was showing during the attempt. */
+  panelOn: boolean;
+}
+
+/** Device and per-profile settings, keyed by name ("showRule:<profileId>"). */
+export interface SettingRecord {
+  key: string;
+  value: unknown;
 }
 
 interface VowelDB extends DBSchema {
@@ -55,20 +63,26 @@ interface VowelDB extends DBSchema {
     indexes: { byProfile: string; byProfileWord: [string, string]; byProfileTime: [string, number] };
   };
   placements: { key: number; value: PlacementResult; indexes: { byProfile: string } };
+  settings: { key: string; value: SettingRecord };
 }
 
 let dbPromise: Promise<IDBPDatabase<VowelDB>> | null = null;
 
 export function getDB(): Promise<IDBPDatabase<VowelDB>> {
-  dbPromise ??= openDB<VowelDB>('vowel-mastery', 1, {
-    upgrade(db) {
-      db.createObjectStore('profiles', { keyPath: 'id' });
-      const attempts = db.createObjectStore('attempts', { keyPath: 'id', autoIncrement: true });
-      attempts.createIndex('byProfile', 'profileId');
-      attempts.createIndex('byProfileWord', ['profileId', 'word']);
-      attempts.createIndex('byProfileTime', ['profileId', 'timestamp']);
-      const placements = db.createObjectStore('placements', { keyPath: 'id', autoIncrement: true });
-      placements.createIndex('byProfile', 'profileId');
+  dbPromise ??= openDB<VowelDB>('vowel-mastery', 2, {
+    upgrade(db, oldVersion) {
+      if (oldVersion < 1) {
+        db.createObjectStore('profiles', { keyPath: 'id' });
+        const attempts = db.createObjectStore('attempts', { keyPath: 'id', autoIncrement: true });
+        attempts.createIndex('byProfile', 'profileId');
+        attempts.createIndex('byProfileWord', ['profileId', 'word']);
+        attempts.createIndex('byProfileTime', ['profileId', 'timestamp']);
+        const placements = db.createObjectStore('placements', { keyPath: 'id', autoIncrement: true });
+        placements.createIndex('byProfile', 'profileId');
+      }
+      if (oldVersion < 2) {
+        db.createObjectStore('settings', { keyPath: 'key' });
+      }
     },
   });
   return dbPromise;

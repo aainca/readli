@@ -56,8 +56,8 @@ export function HomeScreen({ onOpenSkill }: { onOpenSkill: (id: SkillId) => void
     <main className="flex-1 px-4 py-6 max-w-5xl w-full mx-auto">
       {confetti && <StarConfetti />}
       <div className="flex justify-center mb-8">
-        <BigButton onClick={() => { setConfetti(false); requestAnimationFrame(() => setConfetti(true)); }}>
-          ⭐ practice (coming in Phase 2)
+        <BigButton onClick={() => { setConfetti(false); requestAnimationFrame(() => setConfetti(true)); onOpenSkill('1.1'); }}>
+          ⭐ start practicing
         </BigButton>
       </div>
 
