@@ -46,6 +46,7 @@ src/
     skillId: string;         // "1.3", "2.7"
     level: 1 | 2 | 3 | 4 | 'A' | 'B';   // Set 1 uses 1 to 4, Set 2 uses A and B
     activity?: 'read' | 'divide' | 'sortEd' | 'heart';   // default 'read'
+    division?: ('VC/CV' | 'V/CV' | 'VC/V' | 'V/V' | 'C-le' | 'affix')[];   // one per split, required in v1 for every multi-syllable word
     syllables: string[];     // ["pan", "cake"]
     syllableTypes: SyllableType[];
     chunks: string[];        // ["p","a","n","c","a","k","e"] or grapheme chunks like "ai"
@@ -59,12 +60,20 @@ src/
 - Create the 7 core groups from SPEC.md with 4 levels each, at least 25 words per level (Consonant-le starts at Level 3).
 - Carry over the prototype's words where they fit. Move multi-syllable words (city, giant) to the right level.
 - Add skill 2.1 Soft c and g as the only Set 2 content in v1. Do not build the other Set 2 skills yet, but make sure the schema, storage, and UI navigation already handle two sets and skill IDs so V2 needs no migration.
+- Write the parent teaching notes for skills 1.1 to 1.7, 2.1, and syllable splitting, in src/content/teaching-notes/ as one Markdown or JSON file per skill. Use the six-part structure and the 1.3 example in SPEC.md as the model for tone and length. Plain language, no jargon, under 150 words per note. Output them in a single review sheet for the parent.
 - Use common, decodable, age-appropriate words. Avoid irregular words (said, have, give, done) and words whose pattern breaks the group's rule.
 - Fill in homophones and confusables wherever they exist (cap/cape, pin/pine, hop/hope, so/sew, no/know, cent/sent/scent).
 - Output a plain-text review sheet of all words by group and level for the parent to check.
 
 ### Phase 2: Core practice loop
 - Word card, listening state, feedback, next word.
+- Rule panel at the bottom of the word card, per SPEC.md:
+  - Skill ID, name, and child-friendly explanation, stored once per skill in the content files.
+  - For multi-syllable words, one generated line per syllable from syllables and syllableTypes ("pan: closed, short a").
+  - Highlight the rule-carrying letters in the word.
+  - "Show rule" toggle on the card, default on, saved per profile, forced off in the level test.
+  - Record panelOn in each attempt.
+  - Remove the prototype's top hint banner.
 - Matcher (engine/matcher.ts):
   - Normalize: lowercase, strip punctuation, trim.
   - Input is a list of alternatives. Split each into tokens.
@@ -87,6 +96,15 @@ src/
 - Step 2: tap a syllable to hear it. Browser TTS mispronounces isolated syllables, so add a per-syllable "say as" field where needed and test by ear. Flag this to the user as a known weak spot.
 - Step 3: speak the whole word.
 - Track the highest step used per attempt.
+- Break It Down coach for multi-syllable words, per SPEC.md:
+  - Six prompts with the exact wording from the spec, shown and spoken. Keep the wording in one content file so the parent can edit it.
+  - Prompt 1: tappable letters, check against the word's vowels (treat y as a vowel where the data says so).
+  - Prompt 3: tappable gaps between letters, check against syllables. Show the split reason from the word's division field.
+  - Prompt 4: highlight each syllable in turn with its rule label.
+  - Coach state machine lives in engine/coach.ts as pure logic with unit tests (correct split, wrong split, words with two splits, fading after 5 clean reads).
+  - Modes per profile: Guided, On request only, Off. Guided triggers and fading per the spec, counts in the config file.
+  - Scoring: full stars if he completes it himself. A revealed split counts as help step 1.
+  - Layout: the coach must fit on a tablet screen without scrolling, with large tap targets.
 
 ### Phase 4: Scoring, mastery, persistence
 - Attempt log record: profile, word, timestamp, tries, help step, result, override used.
@@ -114,6 +132,11 @@ src/
 ### Phase 6: Parent dashboard
 - Behind a simple gate (hold a button for 3 seconds).
 - Views and actions per SPEC.md, including JSON export and import.
+- Parent teaching notes:
+  - Menu setting "Parent teaching notes", default off, saved on the device.
+  - When on, a "Parent tip" tab on the practice screen opens the note for the current skill in a side sheet that does not cover the word. Add the syllable-splitting note on multi-syllable words. Hidden during the level test.
+  - Full library in the dashboard by skill ID, always available.
+  - Notes are editable in the dashboard. Store edits as overrides so the originals can be restored.
 
 ### Phase 7 (optional, ask first): Cloud pronunciation engine
 - Research current options for child speech and phoneme-level pronunciation scoring (for example Azure Speech pronunciation assessment). Verify current pricing, browser support, and data handling before proposing one.
@@ -126,6 +149,7 @@ src/
 - Build skills 2.2 to 2.14 from SPEC.md, at least 20 words per skill per level.
 - For 2.3, store the division pattern per word (VC/CV, V/CV, VC/V, V/V, C-le).
 - For 2.7, store the -ed sound per word. For 2.14, store which letters are irregular.
+- Write parent teaching notes for skills 2.2 to 2.14 in the same structure.
 - Extend the validator for the new fields. Output a review sheet by skill ID.
 
 ### Phase 9: Set 2 navigation and unlocking

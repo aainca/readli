@@ -6,6 +6,8 @@
  * used in the data, the UI, the store and the dashboard.
  */
 
+import type { DivisionPattern } from './division';
+
 export type SyllableType =
   | 'closed'
   | 'open'
@@ -54,6 +56,8 @@ export interface Word {
   level: Level;
   /** Default 'read'. */
   activity?: Activity;
+  /** One pattern per split between syllables. Required for every multi-syllable word. */
+  division?: DivisionPattern[];
   /** ["pan", "cake"]; joins to text. */
   syllables: string[];
   /** One type per syllable. */

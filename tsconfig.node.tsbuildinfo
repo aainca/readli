@@ -1,1 +1,1 @@
-{"root":["./vite.config.ts","./scripts/build-content.ts","./scripts/review-sheet.ts","./scripts/validate-content.ts"],"version":"5.9.3"}
+{"root":["./vite.config.ts","./scripts/build-content.ts","./scripts/notes-review.ts","./scripts/review-sheet.ts","./scripts/validate-content.ts"],"version":"5.9.3"}

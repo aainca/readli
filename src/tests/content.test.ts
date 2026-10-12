@@ -64,7 +64,7 @@ describe('parseSource', () => {
 describe('validateWord', () => {
   const good: Word = {
     text: 'pancake', set: 1, skillId: '1.3', level: 3, syllables: ['pan', 'cake'],
-    syllableTypes: ['closed', 'vce'], chunks: ['p', 'a', 'n', 'c', 'a', 'k', 'e'],
+    syllableTypes: ['closed', 'vce'], chunks: ['p', 'a', 'n', 'c', 'a', 'k', 'e'], division: ['VC/CV'],
   };
   it('accepts a good word', () => {
     expect(validateWord(good, '1.3')).toEqual([]);
@@ -88,6 +88,11 @@ describe('validateWord', () => {
     const w: Word = { ...good, set: 2, skillId: '2.1', level: 3 };
     expect(validateWord(w, '2.1').some((i) => /not valid for set 2/.test(i.message))).toBe(true);
     expect(validateWord({ ...good, level: 'B' as never }, '1.3').some((i) => /not valid for set 1/.test(i.message))).toBe(true);
+  });
+  it('requires a division per split and rejects a bad one', () => {
+    expect(validateWord({ ...good, division: undefined }, '1.3').some((i) => /needs a division/.test(i.message))).toBe(true);
+    expect(validateWord({ ...good, division: ['VC/CV', 'V/CV'] }, '1.3').some((i) => /splits/.test(i.message))).toBe(true);
+    expect(validateWord({ ...good, division: ['C-le'] }, '1.3').some((i) => /not cle/.test(i.message))).toBe(true);
   });
   it('catches a consonant-le word below level 3', () => {
     const w: Word = { text: 'table', set: 1, skillId: '1.6', level: 1, syllables: ['table'], syllableTypes: ['cle'], chunks: ['t', 'a', 'b', 'le'] };
@@ -140,6 +145,9 @@ describe('shipped content', () => {
   });
   it('looks up words by text', () => {
     expect(getWord('pancake')?.syllables).toEqual(['pan', 'cake']);
+    expect(getWord('pancake')?.division).toEqual(['VC/CV']);
+    expect(getWord('under')?.division).toEqual(['VC/CV']);
+    expect(getWord('cat')?.division).toBeUndefined();
     expect(getWord('so')?.homophones).toContain('sew');
     expect(getWord('cape')?.confusables?.[0]?.heard).toBe('cap');
     expect(allWords.length).toBeGreaterThan(1500);

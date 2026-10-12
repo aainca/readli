@@ -1,3 +1,4 @@
+import { DIVISION_PATTERNS } from './division';
 import {
   SET1_LEVELS,
   SET2_LEVELS,
@@ -94,6 +95,18 @@ export function validateWord(w: Word, fileSkill: SkillId): ValidationIssue[] {
   }
 
   if (w.sayAs && w.sayAs.length !== w.syllables.length) err('sayAs length must match syllables');
+
+  const splits = (w.syllables?.length ?? 1) - 1;
+  if (splits > 0) {
+    if (!w.division) err('multi-syllable word needs a division pattern per split');
+    else {
+      if (w.division.length !== splits) err(`division has ${w.division.length} entries, word has ${splits} splits`);
+      for (const d of w.division) if (!DIVISION_PATTERNS.includes(d)) err(`unknown division pattern "${d}"`);
+      w.division.forEach((d, i) => {
+        if (d === 'C-le' && w.syllableTypes[i + 1] !== 'cle') err(`division ${i + 1} is C-le but the syllable is not cle`);
+      });
+    }
+  } else if (w.division?.length) err('one-syllable word must not have a division');
 
   // Level shape rules from the spec.
   const n = w.syllables?.length ?? 0;

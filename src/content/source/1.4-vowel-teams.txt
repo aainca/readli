@@ -280,7 +280,7 @@ kid-ney | c t
 ## 4
 af-ter-noon | c r t
 kan-ga-roo | c o t
-un-der-neath | c r t
+un-der-neath | c r t | | | | VC/CV, VC/CV
 o-ver-seas | o r t
 * ev-er-green | c r t
 hal-lo-ween | c o t
@@ -313,7 +313,7 @@ fol-low-ing | c t c
 pil-low-case | c t v
 win-dow-sill | c t c
 bal-loon-ing | c t c
-un-der-stood | c r t
+un-der-stood | c r t | | | | VC/CV, VC/CV
 neigh-bor-hood | t r t
 bright-en-ing | t c c
 * fright-en-ing | t c c

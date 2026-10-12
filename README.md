@@ -42,6 +42,11 @@ Two sets, every skill with an ID used in the data, UI and dashboard:
   `src/content/schema.ts` with empty stub files so the UI, store and validator already
   handle them. Levels A (one syllable) and B (multi-syllable).
 
+Every multi-syllable word carries a `division` pattern per split (VC/CV, V/CV, VC/V, V/V,
+C-le, affix), derived from its syllables by `src/content/division.ts` and overridable in the
+source file. Parent teaching notes live in `src/content/teaching-notes/`, one Markdown file
+per skill plus one on syllable splitting, six sections each, under 150 words.
+
 Each Set 1 level reserves 6 held-out words for the placement test (flagged `heldOut`,
 marked `*` in the source and on the review sheet). The practice pool never serves them.
 
@@ -56,17 +61,18 @@ cat                      one syllable, type defaults to the skill's type, chunks
 rab-bit | c c            syllables and types (c o v t r l d s = closed open vce team r cle diphthong schwa)
 so | | | sew, sow        homophones that count as correct
 cape | | | | cap=That was a short a. Look at the e at the end.     confusable = hint
+un-der | c r | | | | VC/CV    6th field overrides the derived division pattern
 ```
 
 Then run `npm run content`. It regenerates `src/content/skills/*.json`, fails on any
 validation error (syllables must join to the word, one type per syllable, lowercase only,
 no duplicates, hints must not reveal the word, level shape rules per set) and rewrites
-`docs/word-review-sheet.txt` for the parent to check.
+`docs/word-review-sheet.txt` and `docs/teaching-notes-review.md` for the parent to check.
 
 ## Phase status
 
 - [x] Phase 0: scaffold, visual style, word schema, validator, PWA
-- [x] Phase 1: content for skills 1.1 to 1.7 and 2.1; 2.2 to 2.14 stubbed; held-out test words reserved
+- [x] Phase 1: content for skills 1.1 to 1.7 and 2.1; 2.2 to 2.14 stubbed; held-out test words reserved; division patterns; parent teaching notes
 - [ ] Phase 2: core practice loop, matcher, recognizers
 - [ ] Phase 3: help ladder
 - [ ] Phase 4: scoring, mastery, persistence

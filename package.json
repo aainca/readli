@@ -13,7 +13,8 @@
     "content:build": "tsx scripts/build-content.ts",
     "content:validate": "tsx scripts/validate-content.ts",
     "content:review": "tsx scripts/review-sheet.ts",
-    "content": "npm run content:build && npm run content:validate && npm run content:review"
+    "content": "npm run content:build && npm run content:validate && npm run content:review && npm run notes:review",
+    "notes:review": "tsx scripts/notes-review.ts"
   },
   "dependencies": {
     "idb": "^8.0.4",

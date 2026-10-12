@@ -1,4 +1,5 @@
 import { chunkWord } from './chunk';
+import { deriveDivision, type DivisionPattern } from './division';
 import { SKILLS, type Confusable, type Level, type SkillId, type SyllableType, type Word } from './schema';
 
 /**
@@ -19,7 +20,9 @@ import { SKILLS, type Confusable, type Level, type SkillId, type SyllableType, t
  *   3 chunks (dash separated). Default: derived from syllables and types.
  *   4 homophones (comma separated)
  *   5 confusables: heard=hint; heard=hint
- *   6 activity override (read | divide | sortEd | heart)
+ *   6 division override, one per split (VC/CV, V/CV, VC/V, V/V, C-le, affix),
+ *     comma separated. Default: derived from syllables and types.
+ *   7 activity override (read | divide | sortEd | heart)
  */
 export function parseSource(skillId: SkillId, text: string): Word[] {
   const words: Word[] = [];
@@ -66,7 +69,12 @@ export function parseSource(skillId: SkillId, text: string): Word[] {
       : [];
 
     const word: Word = { text, set: meta.set, skillId, level, syllables, syllableTypes: types, chunks };
-    if (fields[5]) word.activity = fields[5] as Word['activity'];
+    if (syllables.length > 1) {
+      word.division = fields[5]
+        ? (fields[5].split(',').map((d) => d.trim()).filter(Boolean) as DivisionPattern[])
+        : deriveDivision(syllables, types);
+    }
+    if (fields[6]) word.activity = fields[6] as Word['activity'];
     else if (meta.activity !== 'read') word.activity = meta.activity;
     if (homophones.length) word.homophones = homophones;
     if (confusables.length) word.confusables = confusables;

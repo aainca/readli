@@ -42,7 +42,7 @@ mu-sic | o c
 tu-lip | o c
 bo-nus | o c
 hu-man | o c
-mo-ment | o c
+mo-ment | o c | | | | V/CV
 o-pen | o c
 o-ver | o r
 e-ven | o c

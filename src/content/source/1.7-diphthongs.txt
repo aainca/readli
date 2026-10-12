@@ -157,7 +157,7 @@ oil-y | d o
 boil-er | d r
 spoil-er | d r
 * point-er | d r
-oint-ment | d c
+oint-ment | d c | | | | VC/CV
 tur-moil | r d
 tin-foil | c d
 sir-loin | r d

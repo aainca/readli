@@ -101,9 +101,9 @@ cir-cus | r c
 cir-cle | r l
 can-cel | c c
 dan-cer | c r
-re-cent | o c
+re-cent | o c | | | | V/CV
 de-cent | o c
-ce-ment | o c
+ce-ment | o c | | | | V/CV
 con-cert | c r
 con-cept | c c
 per-cent | r c

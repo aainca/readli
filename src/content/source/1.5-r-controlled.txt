@@ -116,7 +116,7 @@ star-fish | r c
 car-pool | r t
 par-don | r c
 arm-pit | r c
-for-est | r c
+for-est | r c | | | | VC/V
 * or-der | r r
 cor-ner | r r
 bor-der | r r
@@ -125,7 +125,7 @@ for-ty | r o
 sto-ry | o o
 storm-y | r o
 sport-y | r o
-tor-ment | r c
+tor-ment | r c | | | | VC/CV
 for-get | r c
 for-mat | r c
 for-mal | r c
@@ -151,14 +151,14 @@ cop-per | c r
 num-ber | c r
 lum-ber | c r
 * tim-ber | c r
-un-der | c r
+un-der | c r | | | | VC/CV
 af-ter | c r
 en-ter | c r
 sil-ver | c r
 fin-ger | c r
 mon-ster | c r
 lob-ster | c r
-mis-ter | c r
+mis-ter | c r | | | | VC/CV
 blis-ter | c r
 hun-ger | c r
 tem-per | c r
@@ -197,7 +197,7 @@ car-pen-ter | r c r
 im-por-tant | c r c
 for-got-ten | r c c
 * for-ev-er | r c r
-or-na-ment | r o c
+or-na-ment | r o c | | | | VC/CV, V/CV
 for-mu-la | r o o
 har-mon-i-ca | r c o o
 har-vest-ing | r c c
@@ -207,7 +207,7 @@ part-ner-ship | r r c
 * win-ter-time | c r v
 sum-mer-time | c r v
 but-ter-fly | c r o
-un-der-stand | c r c
+un-der-stand | c r c | | | | VC/CV, VC/CV
 thun-der-storm | c r r
 in-ter-rupt | c r c
 in-ter-net | c r c
@@ -221,7 +221,7 @@ sis-ter-hood | c r t
 fin-ger-print | c r c
 fin-ger-nail | c r t
 * lum-ber-jack | c r c
-re-mem-ber | o c r
+re-mem-ber | o c r | | | | V/CV, VC/CV
 tur-bu-lent | r o c
 sur-ren-der | r c r
 sur-viv-ing | r c c

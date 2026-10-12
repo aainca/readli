@@ -93,6 +93,78 @@ Purpose: find the right starting level in each vowel group so the child is not b
 
 Each step used reduces the stars earned for that word.
 
+## Break It Down coach (multi-syllable words), ships in v1
+A guided set of prompts that teaches the child to split a long word himself. It comes before the help ladder and costs no stars, because he is doing the work.
+
+### The six prompts
+Each is shown as a short line and spoken aloud. The same wording is used every time so it becomes a habit.
+1. "Find the vowels." He taps each vowel. The app underlines them.
+2. "Look between the vowels. How many consonants?" The app highlights the letters in between.
+3. "Where does it split?" He taps the spot. If right, the app confirms with the reason ("Two consonants in the middle, split between them."). If wrong, it shows the right spot and the reason.
+4. "Read each part." Each syllable lights up in turn with its rule label ("closed, short a").
+5. "Now blend it." He reads the whole word aloud.
+6. "Does it sound like a real word?" If not: "Try the other vowel sound." (ro-bot versus rob-ot)
+
+### When it appears
+- Guided: runs automatically on the first 5 multi-syllable words of any new level, and after a miss on a multi-syllable word.
+- On request: a "Break it down" button on every multi-syllable word.
+- Fading: after 5 multi-syllable words in a row read correctly without it, the coach shrinks to a one-line reminder ("Vowels, split, read, blend.").
+- Setting per profile: Guided, On request only, or Off.
+
+### Split reasons shown at prompt 3
+- Two consonants between vowels: split between them (rab-bit)
+- One consonant between vowels: try before it first (ro-bot)
+- If that sounds wrong: split after it (cab-in)
+- Two vowels that do not team up: split between them (li-on)
+- Consonant-le: count back three letters (ta-ble)
+- Prefix or suffix: split it off first (un-lock, help-ful)
+
+### Scoring
+- Completing the coach himself keeps the full 10 stars.
+- If the app has to show the split at prompt 3, it counts as help step 1.
+
+## Rule panel (on every word), ships in v1
+A panel at the bottom of the word card that shows which rule the word belongs to and why.
+
+- Line 1: skill ID and name ("1.3 Silent e").
+- Line 2: the child-friendly explanation ("The e at the end is silent. It makes the vowel say its name.").
+- Multi-syllable words add one line per syllable: "pan: closed, short a" and "cake: silent e, long a".
+- The letters that carry the rule are highlighted in the word to match the panel.
+- Toggle: a "Show rule" switch on the word card, on by default, saved per profile.
+- Always off during the level test.
+- The attempt log records whether the panel was on, so the dashboard can show accuracy with and without it.
+- This replaces the prototype's hint banner at the top of the card.
+
+## Parent teaching notes (per rule), ships in v1
+A short guide for the parent on how to teach each rule. Written for an adult, separate from the child's rule panel.
+
+### Each note contains
+- The rule in plain words: one or two sentences.
+- How to teach it: 3 or 4 steps (show it, do it together, let him try).
+- What to say: a few ready-made lines the parent can read out.
+- Common mistakes and how to correct each one without giving the answer.
+- A 2-minute activity away from the screen (paper, letter tiles, words around the house).
+- Ready to move on when: a simple sign he has it.
+
+### Example, 1.3 Silent e
+- Rule: an e at the end of a word is silent and makes the vowel before it say its name.
+- Teach: write "cap". Have him read it. Add an e and say "the e is quiet, but it makes the a say its name." Read "cape" together. Repeat with pin and pine, hop and hope. Then let him do the next pair alone.
+- Say: "Is there an e at the end? Then what does the vowel say?"
+- Common mistake: he reads "cape" as "cap". Do not say the word. Point to the e and ask the question above.
+- Activity: write 5 short words on paper (tap, kit, not, cub, man). He adds an e to each and reads both.
+- Ready when: he reads new silent e words correctly on the first try without pointing to the e.
+
+### Where it appears
+- Menu setting "Parent teaching notes", on or off, off by default, saved on the device.
+- When on: a small "Parent tip" tab on the practice screen opens the note for the current rule. On multi-syllable words it also shows a note on coaching the split.
+- Always available in full in the parent dashboard as a library, listed by skill ID, whether the setting is on or off.
+- Never shown during the level test.
+
+### Coverage
+- v1: all 7 vowel groups, skill 2.1, and one note on teaching syllable splitting.
+- V2: skills 2.2 to 2.14.
+- The parent should read through the notes before use. If the child has a teacher or tutor, their wording takes priority, and the notes are editable for that reason.
+
 ## Scoring
 - First try, no help: 10 stars
 - Second try or help step 1: 6 stars
