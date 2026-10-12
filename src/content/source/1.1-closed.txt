@@ -5,38 +5,38 @@ cat
 dog
 pig
 sun | | | son
-bed
+* bed
 hat
 map
 pen
 cup
 fox
-jam
+* jam
 net
 lip
 hop | | | | hope=That one has no e at the end. Keep the o short.
 bug
 wet
 fan
-pot
+* pot
 hum
 kid
 rug
 van
 web
-zip
+* zip
 nap
 mud
 log
 hen
 ten
-six
+* six
 box
 wig
 tub
 jet
 rat
-bat
+* bat
 bin | | | been
 cot
 gum
@@ -46,7 +46,7 @@ stamp
 crash
 shrimp
 chest
-thick
+* thick
 bench
 lunch
 splash
@@ -56,7 +56,7 @@ stick
 block
 truck
 swim
-plant
+* plant
 hand
 jump
 fish
@@ -66,7 +66,7 @@ bath
 math
 chip
 chop
-trash
+* trash
 brush
 clock
 duck
@@ -75,7 +75,7 @@ desk
 milk
 tent
 spot
-flag
+* flag
 grab
 twig
 sled
@@ -85,7 +85,7 @@ wish
 lamp
 pond
 sand
-belt
+* belt
 king
 ring | | | wring
 song
@@ -96,7 +96,7 @@ think
 drum
 step
 glad
-crisp
+* crisp
 blend
 strap
 strong
@@ -106,7 +106,7 @@ rab-bit
 nap-kin
 pic-nic
 bas-ket
-sun-set
+* sun-set
 muf-fin
 pup-pet
 mit-ten
@@ -116,7 +116,7 @@ cac-tus
 mag-net
 cat-nip
 den-tist
-bath-tub
+* bath-tub
 hot-dog
 lap-top
 up-set
@@ -125,7 +125,7 @@ rock-et
 jack-et
 tick-et
 pump-kin
-blan-ket
+* blan-ket
 zig-zag
 cob-web
 gob-lin
@@ -134,7 +134,7 @@ vel-vet
 hel-met
 con-test
 sud-den
-hun-dred
+* hun-dred
 pub-lish
 fin-ish
 sub-mit
@@ -144,7 +144,7 @@ in-dex
 in-vent
 prob-lem
 plas-tic
-traf-fic
+* traf-fic
 fab-ric
 gos-sip
 nut-meg
@@ -153,7 +153,7 @@ ban-dit
 com-bat
 dis-miss
 hus-band
-un-zip
+* un-zip
 mis-fit
 sub-ject
 ob-ject
@@ -161,33 +161,33 @@ ab-sent
 ## 4
 fan-tas-tic
 mag-net-ic
-ath-let-ic
+* ath-let-ic
 bad-min-ton
 es-tab-lish
 in-hab-it
 un-self-ish
 back-pack-ing
-un-pack-ing
+* un-pack-ing
 un-zip-ping
 ad-mit-ting
 in-sist-ing
 up-set-ting
-con-test-ing
+* con-test-ing
 pub-lish-ing
 fin-ish-ing
 in-vent-ed
 sub-mit-ted
-at-tend-ed
+* at-tend-ed
 ex-pand-ed
 in-fect-ed
 col-lect-ed
 con-tent-ed
 e-las-tic | o c c
-fin-ger-tip | c r c
+* fin-ger-tip | c r c
 wil-der-ness | c r c
 pre-tend-ed | o c c
 in-tend-ed
 in-vent-ing
-ex-pand-ing
+* ex-pand-ing
 in-sist-ed
 dis-con-nect

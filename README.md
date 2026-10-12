@@ -22,7 +22,7 @@ npm run content          # rebuild word JSON, validate it, write the review shee
 ## Layout
 
 ```
-src/content/   word lists (source/*.txt -> groups/*.json), schema, chunker, validator
+src/content/   word lists (source/<skill>.txt -> skills/<skill>.json), schema, chunker, validator
 src/engine/    pure logic, no React: config now; matcher, scoring, mastery, scheduler later
 src/speech/    Recognizer interface; WebSpeech, Manual and TTS in Phase 2
 src/store/     IndexedDB schema (profiles, attempts)
@@ -32,30 +32,45 @@ scripts/       content build, validate, review-sheet scripts
 docs/          generated word review sheet
 ```
 
+## Content model
+
+Two sets, every skill with an ID used in the data, UI and dashboard:
+
+- Set 1, Vowel Groups (v1): 1.1 Closed, 1.2 Open, 1.3 Silent e, 1.4 Vowel teams,
+  1.5 R-controlled, 1.6 Consonant-le (Level 3 up), 1.7 Diphthongs. Levels 1 to 4.
+- Set 2, Word Skills: 2.1 Soft c and g ships in v1. 2.2 to 2.14 are registered in
+  `src/content/schema.ts` with empty stub files so the UI, store and validator already
+  handle them. Levels A (one syllable) and B (multi-syllable).
+
+Each Set 1 level reserves 6 held-out words for the placement test (flagged `heldOut`,
+marked `*` in the source and on the review sheet). The practice pool never serves them.
+
 ## Editing words
 
-Word lists are authored in `src/content/source/<group>.txt`, one file per group:
+Word lists are authored in `src/content/source/<skill>.txt`, one file per skill:
 
 ```
-## 1                     level header
-cat                      one syllable, type defaults to the group's type, chunks auto
+## 1                     level header: 1-4 for Set 1, A or B for Set 2
+cat                      one syllable, type defaults to the skill's type, chunks auto
+* dog                    leading * = held out for the placement test
 rab-bit | c c            syllables and types (c o v t r l d s = closed open vce team r cle diphthong schwa)
 so | | | sew, sow        homophones that count as correct
 cape | | | | cap=That was a short a. Look at the e at the end.     confusable = hint
 ```
 
-Then run `npm run content`. It regenerates `src/content/groups/*.json`, fails on any
+Then run `npm run content`. It regenerates `src/content/skills/*.json`, fails on any
 validation error (syllables must join to the word, one type per syllable, lowercase only,
-no duplicates, hints must not reveal the word, level shape rules) and rewrites
+no duplicates, hints must not reveal the word, level shape rules per set) and rewrites
 `docs/word-review-sheet.txt` for the parent to check.
 
 ## Phase status
 
 - [x] Phase 0: scaffold, visual style, word schema, validator, PWA
-- [x] Phase 1: content for 7 core groups and the Soft c and g bonus; other bonus units stubbed
+- [x] Phase 1: content for skills 1.1 to 1.7 and 2.1; 2.2 to 2.14 stubbed; held-out test words reserved
 - [ ] Phase 2: core practice loop, matcher, recognizers
 - [ ] Phase 3: help ladder
 - [ ] Phase 4: scoring, mastery, persistence
+- [ ] Phase 4b: level test (placement)
 - [ ] Phase 5: profiles and multiplayer
 - [ ] Phase 6: parent dashboard
 - [ ] Phase 7 (optional, needs approval): cloud pronunciation engine
@@ -65,10 +80,13 @@ no duplicates, hints must not reveal the word, level shape rules) and rewrites
 - The prototype `vowel_mastery_app_final.html` was not available in this session, so its
   words could not be carried over. The look was rebuilt from the description: Fredoka and
   Nunito, cream background, rounded cards with a soft drop edge, star confetti.
-- Open-syllable Levels 1 and 2 fall short of 25 words (10 and 16). English has very few
-  one-syllable open words. Words ending in y that says long i (fly, sky) are included
-  there because y is acting as the vowel in an open syllable. The Y-as-a-vowel bonus
-  unit is left for words where y says long e (baby, happy).
+- Open-syllable Levels 1 and 2 fall short of 25 words (10 and 16 in total, with 4 of each
+  held out for the test instead of 6). English has very few one-syllable open words.
+  Words ending in y that says long i (fly, sky) are included there because y is acting
+  as the vowel in an open syllable. Skill 2.6 (Y as a vowel) is left for words where y
+  says long e (baby, happy).
+- Held-out test words were picked evenly through each level, skipping words that carry
+  a homophone or confusable so those hints stay in practice. Swap any by moving the `*`.
 - Diphthongs use oi, oy, ou and ow (as in cow). aw and au (saw, haul) are filed under
   vowel teams. ow as in snow is a vowel team.
 - Level 4 words have 3 or more syllables, except a few 2-syllable words in groups where

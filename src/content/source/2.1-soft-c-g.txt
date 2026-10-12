@@ -1,6 +1,6 @@
-# Bonus: soft c (before e, i, y says /s/) and soft g (before e, i, y says /j/).
+# Skill 2.1 (Set 2, ships in v1): soft c (before e, i, y says /s/) and soft g (before e, i, y says /j/).
 # Types are given per word because these words use many syllable types.
-## 1
+## A
 cent | c | | sent, scent
 ice | v
 mice | v
@@ -37,7 +37,6 @@ lodge | c
 dodge | c
 ridge | c
 cite | v | | sight, site
-## 2
 price | v
 spice | v
 slice | v
@@ -95,7 +94,7 @@ surge | r | | serge
 urge | r
 forge | r
 germ | r
-## 3
+## B
 cit-y | c o
 pen-cil | c c
 cir-cus | r c
@@ -172,7 +171,6 @@ an-gel | o c
 gen-der | c r
 ur-gent | r c
 a-gent | o c
-## 4
 cel-er-y | c r o
 cel-e-brate | c o v
 cen-tu-ry | c o o

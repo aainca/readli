@@ -3,14 +3,14 @@
 cape | | | | cap=That was a short a. Look at the e at the end.
 cake
 make
-take
+* take
 lake
 bake
 name
 game
 same
 gate | | | gait
-late
+* late
 date
 hate | | | | hat=That was a short a. The e at the end makes the a say its name.
 wave
@@ -21,7 +21,7 @@ tape | | | | tap=That was a short a. Look at the e at the end.
 made | | | maid | mad=That was a short a. Look at the e at the end.
 cane | | | | can=That was a short a. The e at the end makes the a long.
 pane | | | pain | pan=That was a short a. Look at the e at the end.
-bike
+* bike
 hike
 like
 kite | | | | kit=That was a short i. Look at the e at the end.
@@ -34,7 +34,7 @@ time | | | thyme
 lime
 dime | | | | dim=That was a short i. Look at the e at the end.
 fine | | | | fin=That was a short i. Look at the e at the end.
-line
+* line
 nine
 pine | | | | pin=That was a short i. The e at the end makes the i long.
 vine
@@ -43,7 +43,7 @@ home
 bone
 cone | | | | con=That was a short o. Look at the e at the end.
 hope | | | | hop=That was a short o. The e at the end makes the o say its name.
-rope
+* rope
 nose | | | knows
 rose | | | rows
 note | | | | not=That was a short o. Look at the e at the end.
@@ -59,7 +59,7 @@ tube | | | | tub=That was a short u. Look at the e at the end.
 mule
 rude
 dude
-tune
+* tune
 dune
 duke
 huge | | | | hug=That was a short u. Look at the e at the end.
@@ -72,7 +72,7 @@ brake | | | break
 flake
 grape
 shape
-plate
+* plate
 skate
 state
 crane
@@ -81,7 +81,7 @@ frame
 blame
 flame
 shade
-trade
+* trade
 grade
 spade
 blade
@@ -90,7 +90,7 @@ whale | | | wail
 scale
 slide | | | | slid=That was a short i. Look at the e at the end.
 bride
-pride
+* pride
 glide
 smile
 while
@@ -102,7 +102,7 @@ drive
 strike
 stripe | | | | strip=That was a short i. Look at the e at the end.
 spike
-slime
+* slime
 crime
 globe | | | | glob=That was a short o. Look at the e at the end.
 stone
@@ -112,7 +112,7 @@ close | | | clothes
 those
 slope | | | | slop=That was a short o. Look at the e at the end.
 scope
-stove
+* stove
 drove
 broke
 smoke | | | | smock=That was a short o. Look at the e at the end.
@@ -122,7 +122,7 @@ stroke
 froze
 throne | | | thrown
 quote
-flute
+* flute
 prune
 brute
 crude
@@ -131,7 +131,7 @@ pan-cake | c v
 cup-cake | c v
 mis-take | c v
 es-cape | c v
-in-side | c v
+* in-side | c v
 in-vite | c v
 rep-tile | c v
 com-pete | c v
@@ -141,7 +141,7 @@ con-crete | c v
 ex-plode | c v
 ex-cuse | c v
 cos-tume | c v
-con-fuse | c v
+* con-fuse | c v
 in-clude | c v
 tad-pole | c v
 sun-shine | c v
@@ -151,7 +151,7 @@ bath-robe | c v
 home-made | v v
 in-hale | c v
 ex-hale | c v
-ad-mire | c v
+* ad-mire | c v
 um-pire | c v
 em-pire | c v
 bon-fire | c v
@@ -161,7 +161,7 @@ un-like | c v
 un-safe | c v
 up-date | c v
 up-grade | c v
-in-flate | c v
+* in-flate | c v
 trans-late | c v
 man-date | c v
 mi-grate | o v
@@ -171,7 +171,7 @@ lo-cate | o v
 do-nate | o v
 ro-tate | o v
 base-line | v v
-pipe-line | v v
+* pipe-line | v v
 time-line | v v
 cap-size | c v
 back-bone | c v
@@ -181,7 +181,7 @@ com-pute | c v
 sa-lute | o v
 pol-lute | c v
 ex-clude | c v
-con-clude | c v
+* con-clude | c v
 ex-treme | c v
 su-preme | o v
 tra-peze | o v
@@ -190,7 +190,7 @@ stam-pede | c v
 tel-e-phone | c o v
 mi-cro-phone | o o v
 sax-o-phone | c o v
-lem-on-ade | c c v
+* lem-on-ade | c c v
 mar-ma-lade | r o v
 dec-o-rate | c o v
 dem-on-strate | c c v
@@ -198,7 +198,7 @@ il-lus-trate | c c v
 cal-cu-late | c o v
 reg-u-late | c o v
 pop-u-late | c o v
-grad-u-ate | c o v
+* grad-u-ate | c o v
 an-i-mate | c o v
 es-ti-mate | c o v
 hes-i-tate | c o v
@@ -206,7 +206,7 @@ im-i-tate | c o v
 med-i-tate | c o v
 ded-i-cate | c o v
 in-di-cate | c o v
-ed-u-cate | c o v
+* ed-u-cate | c o v
 tol-er-ate | c r v
 op-er-ate | c r v
 sep-a-rate | c o v
@@ -214,7 +214,7 @@ el-e-vate | c o v
 mo-ti-vate | o o v
 cul-ti-vate | c o v
 ac-ti-vate | c o v
-nav-i-gate | c o v
+* nav-i-gate | c o v
 com-pen-sate | c c v
 com-pro-mise | c o v
 ad-ver-tise | c r v
@@ -222,7 +222,7 @@ su-per-vise | o r v
 im-pro-vise | c o v
 or-gan-ize | r c v
 mem-o-rize | c o v
-ap-pe-tite | c o v
+* ap-pe-tite | c o v
 dy-na-mite | o o v
 par-a-site | r o v
 sat-el-lite | c c v
@@ -230,7 +230,7 @@ gas-o-line | c o v
 tram-po-line | c o v
 val-en-tine | c c v
 por-cu-pine | r o v
-an-te-lope | c o v
+* an-te-lope | c o v
 en-ve-lope | c o v
 tel-e-scope | c o v
 mi-cro-scope | o o v

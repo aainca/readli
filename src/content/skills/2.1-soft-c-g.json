@@ -1,10 +1,11 @@
 {
-  "group": "softcg",
+  "skillId": "2.1",
   "words": [
     {
       "text": "cent",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "cent"
       ],
@@ -24,8 +25,9 @@
     },
     {
       "text": "ice",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "ice"
       ],
@@ -40,8 +42,9 @@
     },
     {
       "text": "mice",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "mice"
       ],
@@ -57,8 +60,9 @@
     },
     {
       "text": "rice",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "rice"
       ],
@@ -74,8 +78,9 @@
     },
     {
       "text": "nice",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "nice"
       ],
@@ -91,8 +96,9 @@
     },
     {
       "text": "dice",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "dice"
       ],
@@ -108,8 +114,9 @@
     },
     {
       "text": "face",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "face"
       ],
@@ -125,8 +132,9 @@
     },
     {
       "text": "race",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "race"
       ],
@@ -142,8 +150,9 @@
     },
     {
       "text": "lace",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "lace"
       ],
@@ -159,8 +168,9 @@
     },
     {
       "text": "pace",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "pace"
       ],
@@ -176,8 +186,9 @@
     },
     {
       "text": "ace",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "ace"
       ],
@@ -192,8 +203,9 @@
     },
     {
       "text": "cell",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "cell"
       ],
@@ -212,8 +224,9 @@
     },
     {
       "text": "fence",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "fence"
       ],
@@ -230,8 +243,9 @@
     },
     {
       "text": "dance",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "dance"
       ],
@@ -248,8 +262,9 @@
     },
     {
       "text": "mince",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "mince"
       ],
@@ -266,8 +281,9 @@
     },
     {
       "text": "since",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "since"
       ],
@@ -284,8 +300,9 @@
     },
     {
       "text": "gem",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "gem"
       ],
@@ -300,8 +317,9 @@
     },
     {
       "text": "gel",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "gel"
       ],
@@ -316,8 +334,9 @@
     },
     {
       "text": "age",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "age"
       ],
@@ -332,8 +351,9 @@
     },
     {
       "text": "cage",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "cage"
       ],
@@ -349,8 +369,9 @@
     },
     {
       "text": "page",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "page"
       ],
@@ -366,8 +387,9 @@
     },
     {
       "text": "wage",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "wage"
       ],
@@ -383,8 +405,9 @@
     },
     {
       "text": "rage",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "rage"
       ],
@@ -400,8 +423,9 @@
     },
     {
       "text": "sage",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "sage"
       ],
@@ -417,8 +441,9 @@
     },
     {
       "text": "edge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "edge"
       ],
@@ -432,8 +457,9 @@
     },
     {
       "text": "hedge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "hedge"
       ],
@@ -448,8 +474,9 @@
     },
     {
       "text": "wedge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "wedge"
       ],
@@ -464,8 +491,9 @@
     },
     {
       "text": "badge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "badge"
       ],
@@ -480,8 +508,9 @@
     },
     {
       "text": "judge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "judge"
       ],
@@ -496,8 +525,9 @@
     },
     {
       "text": "fudge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "fudge"
       ],
@@ -512,8 +542,9 @@
     },
     {
       "text": "nudge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "nudge"
       ],
@@ -528,8 +559,9 @@
     },
     {
       "text": "budge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "budge"
       ],
@@ -544,8 +576,9 @@
     },
     {
       "text": "lodge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "lodge"
       ],
@@ -560,8 +593,9 @@
     },
     {
       "text": "dodge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "dodge"
       ],
@@ -576,8 +610,9 @@
     },
     {
       "text": "ridge",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "ridge"
       ],
@@ -592,8 +627,9 @@
     },
     {
       "text": "cite",
-      "group": "softcg",
-      "level": 1,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "cite"
       ],
@@ -613,8 +649,9 @@
     },
     {
       "text": "price",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "price"
       ],
@@ -631,8 +668,9 @@
     },
     {
       "text": "spice",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "spice"
       ],
@@ -649,8 +687,9 @@
     },
     {
       "text": "slice",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "slice"
       ],
@@ -667,8 +706,9 @@
     },
     {
       "text": "twice",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "twice"
       ],
@@ -685,8 +725,9 @@
     },
     {
       "text": "trace",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "trace"
       ],
@@ -703,8 +744,9 @@
     },
     {
       "text": "grace",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "grace"
       ],
@@ -721,8 +763,9 @@
     },
     {
       "text": "brace",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "brace"
       ],
@@ -739,8 +782,9 @@
     },
     {
       "text": "space",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "space"
       ],
@@ -757,8 +801,9 @@
     },
     {
       "text": "place",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "place"
       ],
@@ -778,8 +823,9 @@
     },
     {
       "text": "prince",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "prince"
       ],
@@ -800,8 +846,9 @@
     },
     {
       "text": "glance",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "glance"
       ],
@@ -819,8 +866,9 @@
     },
     {
       "text": "chance",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "chance"
       ],
@@ -837,8 +885,9 @@
     },
     {
       "text": "stance",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "stance"
       ],
@@ -856,8 +905,9 @@
     },
     {
       "text": "prance",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "prance"
       ],
@@ -875,8 +925,9 @@
     },
     {
       "text": "trance",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "trance"
       ],
@@ -894,8 +945,9 @@
     },
     {
       "text": "fleece",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "fleece"
       ],
@@ -912,8 +964,9 @@
     },
     {
       "text": "peace",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "peace"
       ],
@@ -932,8 +985,9 @@
     },
     {
       "text": "piece",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "piece"
       ],
@@ -952,8 +1006,9 @@
     },
     {
       "text": "niece",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "niece"
       ],
@@ -969,8 +1024,9 @@
     },
     {
       "text": "juice",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "juice"
       ],
@@ -986,8 +1042,9 @@
     },
     {
       "text": "spruce",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "spruce"
       ],
@@ -1005,8 +1062,9 @@
     },
     {
       "text": "truce",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "truce"
       ],
@@ -1023,8 +1081,9 @@
     },
     {
       "text": "bounce",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "bounce"
       ],
@@ -1041,8 +1100,9 @@
     },
     {
       "text": "pounce",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "pounce"
       ],
@@ -1059,8 +1119,9 @@
     },
     {
       "text": "ounce",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "ounce"
       ],
@@ -1076,8 +1137,9 @@
     },
     {
       "text": "voice",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "voice"
       ],
@@ -1093,8 +1155,9 @@
     },
     {
       "text": "choice",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "choice"
       ],
@@ -1110,8 +1173,9 @@
     },
     {
       "text": "lounge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "lounge"
       ],
@@ -1128,8 +1192,9 @@
     },
     {
       "text": "stage",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "stage"
       ],
@@ -1146,8 +1211,9 @@
     },
     {
       "text": "strange",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "strange"
       ],
@@ -1166,8 +1232,9 @@
     },
     {
       "text": "range",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "range"
       ],
@@ -1184,8 +1251,9 @@
     },
     {
       "text": "change",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "change"
       ],
@@ -1202,8 +1270,9 @@
     },
     {
       "text": "plunge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "plunge"
       ],
@@ -1221,8 +1290,9 @@
     },
     {
       "text": "lunge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "lunge"
       ],
@@ -1239,8 +1309,9 @@
     },
     {
       "text": "bulge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "bulge"
       ],
@@ -1257,8 +1328,9 @@
     },
     {
       "text": "binge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "binge"
       ],
@@ -1275,8 +1347,9 @@
     },
     {
       "text": "hinge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "hinge"
       ],
@@ -1293,8 +1366,9 @@
     },
     {
       "text": "singe",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "singe"
       ],
@@ -1311,8 +1385,9 @@
     },
     {
       "text": "fringe",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "fringe"
       ],
@@ -1330,8 +1405,9 @@
     },
     {
       "text": "cringe",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "cringe"
       ],
@@ -1349,8 +1425,9 @@
     },
     {
       "text": "twinge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "twinge"
       ],
@@ -1368,8 +1445,9 @@
     },
     {
       "text": "bridge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "bridge"
       ],
@@ -1385,8 +1463,9 @@
     },
     {
       "text": "fridge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "fridge"
       ],
@@ -1402,8 +1481,9 @@
     },
     {
       "text": "smudge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "smudge"
       ],
@@ -1419,8 +1499,9 @@
     },
     {
       "text": "trudge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "trudge"
       ],
@@ -1436,8 +1517,9 @@
     },
     {
       "text": "grudge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "grudge"
       ],
@@ -1453,8 +1535,9 @@
     },
     {
       "text": "sludge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "sludge"
       ],
@@ -1470,8 +1553,9 @@
     },
     {
       "text": "pledge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "pledge"
       ],
@@ -1487,8 +1571,9 @@
     },
     {
       "text": "sledge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "sledge"
       ],
@@ -1504,8 +1589,9 @@
     },
     {
       "text": "large",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "large"
       ],
@@ -1521,8 +1607,9 @@
     },
     {
       "text": "barge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "barge"
       ],
@@ -1538,8 +1625,9 @@
     },
     {
       "text": "charge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "charge"
       ],
@@ -1555,8 +1643,9 @@
     },
     {
       "text": "merge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "merge"
       ],
@@ -1572,8 +1661,9 @@
     },
     {
       "text": "surge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "surge"
       ],
@@ -1592,8 +1682,9 @@
     },
     {
       "text": "urge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "urge"
       ],
@@ -1608,8 +1699,9 @@
     },
     {
       "text": "forge",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "forge"
       ],
@@ -1625,8 +1717,9 @@
     },
     {
       "text": "germ",
-      "group": "softcg",
-      "level": 2,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "A",
       "syllables": [
         "germ"
       ],
@@ -1641,8 +1734,9 @@
     },
     {
       "text": "city",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cit",
         "y"
@@ -1660,8 +1754,9 @@
     },
     {
       "text": "pencil",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "pen",
         "cil"
@@ -1681,8 +1776,9 @@
     },
     {
       "text": "circus",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cir",
         "cus"
@@ -1701,8 +1797,9 @@
     },
     {
       "text": "circle",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cir",
         "cle"
@@ -1720,8 +1817,9 @@
     },
     {
       "text": "cancel",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "can",
         "cel"
@@ -1741,8 +1839,9 @@
     },
     {
       "text": "dancer",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "dan",
         "cer"
@@ -1761,8 +1860,9 @@
     },
     {
       "text": "recent",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "re",
         "cent"
@@ -1782,8 +1882,9 @@
     },
     {
       "text": "decent",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "de",
         "cent"
@@ -1803,8 +1904,9 @@
     },
     {
       "text": "cement",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ce",
         "ment"
@@ -1824,8 +1926,9 @@
     },
     {
       "text": "concert",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "con",
         "cert"
@@ -1845,8 +1948,9 @@
     },
     {
       "text": "concept",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "con",
         "cept"
@@ -1867,8 +1971,9 @@
     },
     {
       "text": "percent",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "per",
         "cent"
@@ -1888,8 +1993,9 @@
     },
     {
       "text": "accent",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ac",
         "cent"
@@ -1909,8 +2015,9 @@
     },
     {
       "text": "excite",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ex",
         "cite"
@@ -1930,8 +2037,9 @@
     },
     {
       "text": "recite",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "re",
         "cite"
@@ -1951,8 +2059,9 @@
     },
     {
       "text": "decide",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "de",
         "cide"
@@ -1972,8 +2081,9 @@
     },
     {
       "text": "device",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "de",
         "vice"
@@ -1993,8 +2103,9 @@
     },
     {
       "text": "advice",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ad",
         "vice"
@@ -2014,8 +2125,9 @@
     },
     {
       "text": "princess",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "prin",
         "cess"
@@ -2037,8 +2149,9 @@
     },
     {
       "text": "process",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "pro",
         "cess"
@@ -2059,8 +2172,9 @@
     },
     {
       "text": "success",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "suc",
         "cess"
@@ -2081,8 +2195,9 @@
     },
     {
       "text": "access",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ac",
         "cess"
@@ -2102,8 +2217,9 @@
     },
     {
       "text": "cellar",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cel",
         "lar"
@@ -2122,8 +2238,9 @@
     },
     {
       "text": "center",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cen",
         "ter"
@@ -2142,8 +2259,9 @@
     },
     {
       "text": "cinder",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cin",
         "der"
@@ -2162,8 +2280,9 @@
     },
     {
       "text": "cider",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ci",
         "der"
@@ -2181,8 +2300,9 @@
     },
     {
       "text": "citrus",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cit",
         "rus"
@@ -2202,8 +2322,9 @@
     },
     {
       "text": "civil",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "civ",
         "il"
@@ -2222,8 +2343,9 @@
     },
     {
       "text": "giant",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gi",
         "ant"
@@ -2242,8 +2364,9 @@
     },
     {
       "text": "gentle",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gen",
         "tle"
@@ -2262,8 +2385,9 @@
     },
     {
       "text": "ginger",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gin",
         "ger"
@@ -2282,8 +2406,9 @@
     },
     {
       "text": "gerbil",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ger",
         "bil"
@@ -2302,8 +2427,9 @@
     },
     {
       "text": "genie",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ge",
         "nie"
@@ -2321,8 +2447,9 @@
     },
     {
       "text": "digest",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "di",
         "gest"
@@ -2342,8 +2469,9 @@
     },
     {
       "text": "digit",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "dig",
         "it"
@@ -2362,8 +2490,9 @@
     },
     {
       "text": "magic",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "mag",
         "ic"
@@ -2382,8 +2511,9 @@
     },
     {
       "text": "logic",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "log",
         "ic"
@@ -2402,8 +2532,9 @@
     },
     {
       "text": "tragic",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "trag",
         "ic"
@@ -2423,8 +2554,9 @@
     },
     {
       "text": "rigid",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "rig",
         "id"
@@ -2443,8 +2575,9 @@
     },
     {
       "text": "margin",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "mar",
         "gin"
@@ -2463,8 +2596,9 @@
     },
     {
       "text": "legend",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "leg",
         "end"
@@ -2484,8 +2618,9 @@
     },
     {
       "text": "budget",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "bud",
         "get"
@@ -2505,8 +2640,9 @@
     },
     {
       "text": "gadget",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gad",
         "get"
@@ -2526,8 +2662,9 @@
     },
     {
       "text": "fidget",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "fid",
         "get"
@@ -2547,8 +2684,9 @@
     },
     {
       "text": "badger",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "bad",
         "ger"
@@ -2567,8 +2705,9 @@
     },
     {
       "text": "cabbage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cab",
         "bage"
@@ -2589,8 +2728,9 @@
     },
     {
       "text": "package",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "pack",
         "age"
@@ -2610,8 +2750,9 @@
     },
     {
       "text": "village",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "vil",
         "lage"
@@ -2632,8 +2773,9 @@
     },
     {
       "text": "message",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "mes",
         "sage"
@@ -2654,8 +2796,9 @@
     },
     {
       "text": "passage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "pas",
         "sage"
@@ -2676,8 +2819,9 @@
     },
     {
       "text": "garbage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gar",
         "bage"
@@ -2697,8 +2841,9 @@
     },
     {
       "text": "bandage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "band",
         "age"
@@ -2719,8 +2864,9 @@
     },
     {
       "text": "damage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "dam",
         "age"
@@ -2740,8 +2886,9 @@
     },
     {
       "text": "manage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "man",
         "age"
@@ -2761,8 +2908,9 @@
     },
     {
       "text": "voyage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "voy",
         "age"
@@ -2781,8 +2929,9 @@
     },
     {
       "text": "luggage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "lug",
         "gage"
@@ -2803,8 +2952,9 @@
     },
     {
       "text": "cottage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cot",
         "tage"
@@ -2825,8 +2975,9 @@
     },
     {
       "text": "image",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "im",
         "age"
@@ -2845,8 +2996,9 @@
     },
     {
       "text": "outrage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "out",
         "rage"
@@ -2866,8 +3018,9 @@
     },
     {
       "text": "enrage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "en",
         "rage"
@@ -2887,8 +3040,9 @@
     },
     {
       "text": "engage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "en",
         "gage"
@@ -2908,8 +3062,9 @@
     },
     {
       "text": "teenage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "teen",
         "age"
@@ -2929,8 +3084,9 @@
     },
     {
       "text": "rampage",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ram",
         "page"
@@ -2951,8 +3107,9 @@
     },
     {
       "text": "indulge",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "in",
         "dulge"
@@ -2973,8 +3130,9 @@
     },
     {
       "text": "arrange",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ar",
         "range"
@@ -2994,8 +3152,9 @@
     },
     {
       "text": "exchange",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ex",
         "change"
@@ -3016,8 +3175,9 @@
     },
     {
       "text": "revenge",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "re",
         "venge"
@@ -3038,8 +3198,9 @@
     },
     {
       "text": "challenge",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "chal",
         "lenge"
@@ -3061,8 +3222,9 @@
     },
     {
       "text": "plunger",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "plun",
         "ger"
@@ -3082,8 +3244,9 @@
     },
     {
       "text": "ranger",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ran",
         "ger"
@@ -3102,8 +3265,9 @@
     },
     {
       "text": "danger",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "dan",
         "ger"
@@ -3122,8 +3286,9 @@
     },
     {
       "text": "stranger",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "stran",
         "ger"
@@ -3144,8 +3309,9 @@
     },
     {
       "text": "angel",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "an",
         "gel"
@@ -3164,8 +3330,9 @@
     },
     {
       "text": "gender",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gen",
         "der"
@@ -3184,8 +3351,9 @@
     },
     {
       "text": "urgent",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ur",
         "gent"
@@ -3204,8 +3372,9 @@
     },
     {
       "text": "agent",
-      "group": "softcg",
-      "level": 3,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "a",
         "gent"
@@ -3224,8 +3393,9 @@
     },
     {
       "text": "celery",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cel",
         "er",
@@ -3246,8 +3416,9 @@
     },
     {
       "text": "celebrate",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cel",
         "e",
@@ -3272,8 +3443,9 @@
     },
     {
       "text": "century",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cen",
         "tu",
@@ -3296,8 +3468,9 @@
     },
     {
       "text": "cinnamon",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cin",
         "na",
@@ -3321,8 +3494,9 @@
     },
     {
       "text": "citizen",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cit",
         "i",
@@ -3345,8 +3519,9 @@
     },
     {
       "text": "cylinder",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "cyl",
         "in",
@@ -3369,8 +3544,9 @@
     },
     {
       "text": "bicycle",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "bi",
         "cy",
@@ -3392,8 +3568,9 @@
     },
     {
       "text": "tricycle",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "tri",
         "cy",
@@ -3416,8 +3593,9 @@
     },
     {
       "text": "recycle",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "re",
         "cy",
@@ -3439,8 +3617,9 @@
     },
     {
       "text": "icicle",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "i",
         "ci",
@@ -3461,8 +3640,9 @@
     },
     {
       "text": "popsicle",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "pop",
         "si",
@@ -3485,8 +3665,9 @@
     },
     {
       "text": "exercise",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ex",
         "er",
@@ -3509,8 +3690,9 @@
     },
     {
       "text": "concentrate",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "con",
         "cen",
@@ -3537,8 +3719,9 @@
     },
     {
       "text": "accident",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ac",
         "ci",
@@ -3562,8 +3745,9 @@
     },
     {
       "text": "incident",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "in",
         "ci",
@@ -3587,8 +3771,9 @@
     },
     {
       "text": "excellent",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ex",
         "cel",
@@ -3613,8 +3798,9 @@
     },
     {
       "text": "innocent",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "in",
         "no",
@@ -3638,8 +3824,9 @@
     },
     {
       "text": "decided",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "de",
         "cid",
@@ -3662,8 +3849,9 @@
     },
     {
       "text": "exciting",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ex",
         "cit",
@@ -3686,8 +3874,9 @@
     },
     {
       "text": "recently",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "re",
         "cent",
@@ -3711,8 +3900,9 @@
     },
     {
       "text": "decimal",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "dec",
         "i",
@@ -3735,8 +3925,9 @@
     },
     {
       "text": "specific",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "spe",
         "cif",
@@ -3760,8 +3951,9 @@
     },
     {
       "text": "successful",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "suc",
         "cess",
@@ -3787,8 +3979,9 @@
     },
     {
       "text": "processing",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "pro",
         "cess",
@@ -3813,8 +4006,9 @@
     },
     {
       "text": "sincerely",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "sin",
         "cere",
@@ -3839,8 +4033,9 @@
     },
     {
       "text": "grocery",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gro",
         "cer",
@@ -3862,8 +4057,9 @@
     },
     {
       "text": "emergency",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "e",
         "mer",
@@ -3889,8 +4085,9 @@
     },
     {
       "text": "gigantic",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gi",
         "gan",
@@ -3914,8 +4111,9 @@
     },
     {
       "text": "general",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gen",
         "er",
@@ -3937,8 +4135,9 @@
     },
     {
       "text": "generate",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gen",
         "er",
@@ -3961,8 +4160,9 @@
     },
     {
       "text": "gentleman",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gen",
         "tle",
@@ -3986,8 +4186,9 @@
     },
     {
       "text": "gingerbread",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gin",
         "ger",
@@ -4012,8 +4213,9 @@
     },
     {
       "text": "digital",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "dig",
         "i",
@@ -4036,8 +4238,9 @@
     },
     {
       "text": "magical",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "mag",
         "i",
@@ -4060,8 +4263,9 @@
     },
     {
       "text": "logical",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "log",
         "i",
@@ -4084,8 +4288,9 @@
     },
     {
       "text": "tragedy",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "trag",
         "e",
@@ -4108,8 +4313,9 @@
     },
     {
       "text": "budgeting",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "budg",
         "et",
@@ -4133,8 +4339,9 @@
     },
     {
       "text": "fidgeting",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "fidg",
         "et",
@@ -4158,8 +4365,9 @@
     },
     {
       "text": "packaging",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "pack",
         "ag",
@@ -4182,8 +4390,9 @@
     },
     {
       "text": "villager",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "vil",
         "lag",
@@ -4206,8 +4415,9 @@
     },
     {
       "text": "messenger",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "mes",
         "sen",
@@ -4231,8 +4441,9 @@
     },
     {
       "text": "passenger",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "pas",
         "sen",
@@ -4256,8 +4467,9 @@
     },
     {
       "text": "manager",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "man",
         "ag",
@@ -4279,8 +4491,9 @@
     },
     {
       "text": "damaging",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "dam",
         "ag",
@@ -4303,8 +4516,9 @@
     },
     {
       "text": "managing",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "man",
         "ag",
@@ -4327,8 +4541,9 @@
     },
     {
       "text": "voyager",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "voy",
         "ag",
@@ -4349,8 +4564,9 @@
     },
     {
       "text": "teenager",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "teen",
         "ag",
@@ -4372,8 +4588,9 @@
     },
     {
       "text": "engagement",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "en",
         "gage",
@@ -4399,8 +4616,9 @@
     },
     {
       "text": "arrangement",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ar",
         "range",
@@ -4426,8 +4644,9 @@
     },
     {
       "text": "exchanging",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ex",
         "chang",
@@ -4450,8 +4669,9 @@
     },
     {
       "text": "challenging",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "chal",
         "leng",
@@ -4475,8 +4695,9 @@
     },
     {
       "text": "avenger",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "a",
         "ven",
@@ -4498,8 +4719,9 @@
     },
     {
       "text": "angelic",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "an",
         "gel",
@@ -4522,8 +4744,9 @@
     },
     {
       "text": "urgently",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "ur",
         "gent",
@@ -4546,8 +4769,9 @@
     },
     {
       "text": "agency",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "a",
         "gen",
@@ -4569,8 +4793,9 @@
     },
     {
       "text": "energy",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "en",
         "er",
@@ -4591,8 +4816,9 @@
     },
     {
       "text": "allergy",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "al",
         "ler",
@@ -4614,8 +4840,9 @@
     },
     {
       "text": "apology",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "a",
         "pol",
@@ -4640,8 +4867,9 @@
     },
     {
       "text": "biology",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "bi",
         "ol",
@@ -4666,8 +4894,9 @@
     },
     {
       "text": "gymnastics",
-      "group": "softcg",
-      "level": 4,
+      "set": 2,
+      "skillId": "2.1",
+      "level": "B",
       "syllables": [
         "gym",
         "nas",

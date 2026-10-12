@@ -3,7 +3,7 @@
 coin
 join
 oil
-boil
+* boil
 soil
 foil
 coil
@@ -11,33 +11,33 @@ point
 joint
 moist
 boy | | | buoy
-toy
+* toy
 joy
 soy
 out
 loud
 round
-found
+* found
 pound
 hound
 bound
 sound
 mouth
 south
-house
+* house
 mouse
 count
 mount
 ouch
 pouch
 couch
-cow
+* cow
 how
 now
 wow
 vow
 owl
-howl
+* howl
 town
 down
 gown
@@ -46,39 +46,39 @@ our | | | hour
 spoil
 broil
 hoist
-joist
+* joist
 ploy
 shout
 scout
 sprout
 trout
-stout
+* stout
 spout
 snout
 cloud
 proud
 crowd
-crown
+* crown
 clown
 frown
 drown
 brown
 growl
-prowl
+* prowl
 scowl
 plow
 brow
 chow | | | ciao
 ground
 grouch
-crouch
+* crouch
 slouch
 blouse
 flour | | | flower
 sour
 scour
 clout
-grout
+* grout
 pout
 bout
 shroud
@@ -90,7 +90,7 @@ toi-let | d c
 poi-son | d c
 point-ed | d c
 ap-point | c d
-a-void | o d
+* a-void | o d
 en-joy | c d
 an-noy | c d
 de-stroy | o d
@@ -103,7 +103,7 @@ joy-ful | d c
 soy-bean | d t
 tom-boy | c d
 a-bout | o d
-a-round | o d
+* a-round | o d
 a-loud | o d | | allowed
 a-mount | o d
 ac-count | c d
@@ -117,7 +117,7 @@ hang-out | c d
 black-out | c d
 cook-out | t d
 drop-out | c d
-try-out | o d
+* try-out | o d
 coun-ty | d o
 coun-ter | d r
 thou-sand | d c
@@ -130,7 +130,7 @@ tow-er | d r
 pow-er | d r
 vow-el | d c
 tow-el | d c
-al-low | c d
+* al-low | c d
 down-town | d d
 sun-down | c d
 count-down | d d
@@ -143,7 +143,7 @@ cow-girl | d r
 play-ground | t d
 back-ground | c d
 camp-ground | c d
-sur-round | r d
+* sur-round | r d
 pro-found | o d
 com-pound | c d
 re-bound | o d
@@ -156,7 +156,7 @@ cloud-y | d o
 oil-y | d o
 boil-er | d r
 spoil-er | d r
-point-er | d r
+* point-er | d r
 oint-ment | d c
 tur-moil | r d
 tin-foil | c d
@@ -168,7 +168,7 @@ en-joy-ment | c d c
 em-ploy-ment | c d c
 em-ploy-er | c d r
 de-stroy-er | o d r
-an-noy-ing | c d c
+* an-noy-ing | c d c
 loy-al-ty | d c o
 roy-al-ty | d c o
 dis-loy-al | c d c
@@ -176,7 +176,7 @@ o-ver-joyed | o r d
 ap-point-ment | c d c
 dis-ap-point | c c d
 a-void-ing | o d c
-em-broi-der | c d r
+* em-broi-der | c d r
 ex-ploit-ing | c d c
 ad-join-ing | c d c
 round-a-bout | d o d
@@ -184,7 +184,7 @@ run-a-bout | c o d
 out-stand-ing | d c c
 out-num-ber | d c r
 out-smart-ed | d r c
-out-spo-ken | d o c
+* out-spo-ken | d o c
 out-go-ing | d o c
 out-land-ish | d c c
 sur-round-ing | r d c
@@ -192,7 +192,7 @@ re-bound-ing | o d c
 a-stound-ing | o d c
 ac-coun-tant | c d c
 ac-count-ing | c d c
-dis-count-ed | c d c
+* dis-count-ed | c d c
 down-load-ing | d t c
 down-trod-den | d c c
 down-stairs | d r
@@ -200,7 +200,7 @@ pow-er-ful | d r c
 pow-er-less | d r c
 flow-er-pot | d r c
 show-er-ing | d r c
-tow-er-ing | d r c
+* tow-er-ing | d r c
 em-pow-ered | c d r
 sun-flow-er | c d r
 al-low-ing | c d c
@@ -208,7 +208,7 @@ cow-ard-ly | d r o
 crowd-fund-ing | d c c
 boun-da-ry | d o o
 loud-speak-er | d t r
-coun-ter-part | d r r
+* coun-ter-part | d r r
 coun-ter-top | d r c
 en-coun-ter | c d r
 south-west-ern | d c r

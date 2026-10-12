@@ -1,9 +1,10 @@
 {
-  "group": "r",
+  "skillId": "1.5",
   "words": [
     {
       "text": "car",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "car"
@@ -18,7 +19,8 @@
     },
     {
       "text": "far",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "far"
@@ -33,7 +35,8 @@
     },
     {
       "text": "jar",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "jar"
@@ -44,11 +47,13 @@
       "chunks": [
         "j",
         "ar"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "bar",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "bar"
@@ -63,7 +68,8 @@
     },
     {
       "text": "tar",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "tar"
@@ -78,7 +84,8 @@
     },
     {
       "text": "arm",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "arm"
@@ -93,7 +100,8 @@
     },
     {
       "text": "art",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "art"
@@ -108,7 +116,8 @@
     },
     {
       "text": "cart",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "cart"
@@ -130,7 +139,8 @@
     },
     {
       "text": "farm",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "farm"
@@ -142,11 +152,13 @@
         "f",
         "ar",
         "m"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "barn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "barn"
@@ -162,7 +174,8 @@
     },
     {
       "text": "yard",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "yard"
@@ -178,7 +191,8 @@
     },
     {
       "text": "hard",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "hard"
@@ -194,7 +208,8 @@
     },
     {
       "text": "card",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "card"
@@ -210,7 +225,8 @@
     },
     {
       "text": "dark",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "dark"
@@ -222,11 +238,13 @@
         "d",
         "ar",
         "k"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "park",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "park"
@@ -242,7 +260,8 @@
     },
     {
       "text": "part",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "part"
@@ -258,7 +277,8 @@
     },
     {
       "text": "for",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "for"
@@ -277,7 +297,8 @@
     },
     {
       "text": "fork",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "fork"
@@ -293,7 +314,8 @@
     },
     {
       "text": "corn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "corn"
@@ -309,7 +331,8 @@
     },
     {
       "text": "horn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "horn"
@@ -321,11 +344,13 @@
         "h",
         "or",
         "n"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "born",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "born"
@@ -344,7 +369,8 @@
     },
     {
       "text": "cord",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "cord"
@@ -366,7 +392,8 @@
     },
     {
       "text": "cork",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "cork"
@@ -382,7 +409,8 @@
     },
     {
       "text": "fort",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "fort"
@@ -398,7 +426,8 @@
     },
     {
       "text": "sort",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "sort"
@@ -414,7 +443,8 @@
     },
     {
       "text": "torn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "torn"
@@ -430,7 +460,8 @@
     },
     {
       "text": "her",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "her"
@@ -441,11 +472,13 @@
       "chunks": [
         "h",
         "er"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "fern",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "fern"
@@ -461,7 +494,8 @@
     },
     {
       "text": "herd",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "herd"
@@ -480,7 +514,8 @@
     },
     {
       "text": "verb",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "verb"
@@ -496,7 +531,8 @@
     },
     {
       "text": "sir",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "sir"
@@ -511,7 +547,8 @@
     },
     {
       "text": "fir",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "fir"
@@ -529,7 +566,8 @@
     },
     {
       "text": "bird",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "bird"
@@ -551,7 +589,8 @@
     },
     {
       "text": "girl",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "girl"
@@ -567,7 +606,8 @@
     },
     {
       "text": "dirt",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "dirt"
@@ -579,11 +619,13 @@
         "d",
         "ir",
         "t"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "fur",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "fur"
@@ -601,7 +643,8 @@
     },
     {
       "text": "turn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "turn"
@@ -620,7 +663,8 @@
     },
     {
       "text": "burn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "burn"
@@ -642,7 +686,8 @@
     },
     {
       "text": "hurt",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "hurt"
@@ -664,7 +709,8 @@
     },
     {
       "text": "curl",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "curl"
@@ -680,7 +726,8 @@
     },
     {
       "text": "surf",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "surf"
@@ -699,7 +746,8 @@
     },
     {
       "text": "curb",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 1,
       "syllables": [
         "curb"
@@ -715,7 +763,8 @@
     },
     {
       "text": "star",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "star"
@@ -731,7 +780,8 @@
     },
     {
       "text": "start",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "start"
@@ -748,7 +798,8 @@
     },
     {
       "text": "smart",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "smart"
@@ -765,7 +816,8 @@
     },
     {
       "text": "scarf",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "scarf"
@@ -778,11 +830,13 @@
         "c",
         "ar",
         "f"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "shark",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "shark"
@@ -798,7 +852,8 @@
     },
     {
       "text": "spark",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "spark"
@@ -815,7 +870,8 @@
     },
     {
       "text": "sharp",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "sharp"
@@ -831,7 +887,8 @@
     },
     {
       "text": "charm",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "charm"
@@ -847,7 +904,8 @@
     },
     {
       "text": "chart",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "chart"
@@ -863,7 +921,8 @@
     },
     {
       "text": "march",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "march"
@@ -879,7 +938,8 @@
     },
     {
       "text": "starch",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "starch"
@@ -896,7 +956,8 @@
     },
     {
       "text": "snarl",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "snarl"
@@ -909,11 +970,13 @@
         "n",
         "ar",
         "l"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "storm",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "storm"
@@ -930,7 +993,8 @@
     },
     {
       "text": "sport",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "sport"
@@ -947,7 +1011,8 @@
     },
     {
       "text": "short",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "short"
@@ -963,7 +1028,8 @@
     },
     {
       "text": "north",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "north"
@@ -979,7 +1045,8 @@
     },
     {
       "text": "torch",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "torch"
@@ -995,7 +1062,8 @@
     },
     {
       "text": "porch",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "porch"
@@ -1011,7 +1079,8 @@
     },
     {
       "text": "scorch",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "scorch"
@@ -1028,7 +1097,8 @@
     },
     {
       "text": "thorn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "thorn"
@@ -1040,11 +1110,13 @@
         "th",
         "or",
         "n"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "stork",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "stork"
@@ -1061,7 +1133,8 @@
     },
     {
       "text": "snort",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "snort"
@@ -1078,7 +1151,8 @@
     },
     {
       "text": "stern",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "stern"
@@ -1095,7 +1169,8 @@
     },
     {
       "text": "clerk",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "clerk"
@@ -1112,7 +1187,8 @@
     },
     {
       "text": "perch",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "perch"
@@ -1128,7 +1204,8 @@
     },
     {
       "text": "third",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "third"
@@ -1144,7 +1221,8 @@
     },
     {
       "text": "thirst",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "thirst"
@@ -1161,7 +1239,8 @@
     },
     {
       "text": "first",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "first"
@@ -1184,7 +1263,8 @@
     },
     {
       "text": "birth",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "birth"
@@ -1203,7 +1283,8 @@
     },
     {
       "text": "shirt",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "shirt"
@@ -1215,11 +1296,13 @@
         "sh",
         "ir",
         "t"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "skirt",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "skirt"
@@ -1236,7 +1319,8 @@
     },
     {
       "text": "twirl",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "twirl"
@@ -1253,7 +1337,8 @@
     },
     {
       "text": "swirl",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "swirl"
@@ -1270,7 +1355,8 @@
     },
     {
       "text": "whirl",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "whirl"
@@ -1286,7 +1372,8 @@
     },
     {
       "text": "squirt",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "squirt"
@@ -1303,7 +1390,8 @@
     },
     {
       "text": "chirp",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "chirp"
@@ -1319,7 +1407,8 @@
     },
     {
       "text": "church",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "church"
@@ -1335,7 +1424,8 @@
     },
     {
       "text": "churn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "churn"
@@ -1347,11 +1437,13 @@
         "ch",
         "ur",
         "n"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "burst",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "burst"
@@ -1368,7 +1460,8 @@
     },
     {
       "text": "blurt",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "blurt"
@@ -1385,7 +1478,8 @@
     },
     {
       "text": "spur",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "spur"
@@ -1401,7 +1495,8 @@
     },
     {
       "text": "slur",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "slur"
@@ -1417,7 +1512,8 @@
     },
     {
       "text": "blur",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "blur"
@@ -1433,7 +1529,8 @@
     },
     {
       "text": "turf",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "turf"
@@ -1449,7 +1546,8 @@
     },
     {
       "text": "hurl",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "hurl"
@@ -1465,7 +1563,8 @@
     },
     {
       "text": "smirk",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "smirk"
@@ -1478,11 +1577,13 @@
         "m",
         "ir",
         "k"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "flirt",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "flirt"
@@ -1499,7 +1600,8 @@
     },
     {
       "text": "squirm",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "squirm"
@@ -1516,7 +1618,8 @@
     },
     {
       "text": "firm",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 2,
       "syllables": [
         "firm"
@@ -1532,7 +1635,8 @@
     },
     {
       "text": "garden",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "gar",
@@ -1552,7 +1656,8 @@
     },
     {
       "text": "carpet",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "car",
@@ -1572,7 +1677,8 @@
     },
     {
       "text": "market",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "mar",
@@ -1592,7 +1698,8 @@
     },
     {
       "text": "target",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "tar",
@@ -1612,7 +1719,8 @@
     },
     {
       "text": "barber",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "bar",
@@ -1631,7 +1739,8 @@
     },
     {
       "text": "farmer",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "far",
@@ -1650,7 +1759,8 @@
     },
     {
       "text": "harvest",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "har",
@@ -1671,7 +1781,8 @@
     },
     {
       "text": "army",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "ar",
@@ -1689,7 +1800,8 @@
     },
     {
       "text": "party",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "par",
@@ -1704,11 +1816,13 @@
         "ar",
         "t",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "partner",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "part",
@@ -1728,7 +1842,8 @@
     },
     {
       "text": "artist",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "art",
@@ -1748,7 +1863,8 @@
     },
     {
       "text": "carton",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "car",
@@ -1768,7 +1884,8 @@
     },
     {
       "text": "marker",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "mar",
@@ -1787,7 +1904,8 @@
     },
     {
       "text": "garlic",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "gar",
@@ -1807,7 +1925,8 @@
     },
     {
       "text": "harbor",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "har",
@@ -1826,7 +1945,8 @@
     },
     {
       "text": "barnyard",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "barn",
@@ -1847,7 +1967,8 @@
     },
     {
       "text": "farmyard",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "farm",
@@ -1868,7 +1989,8 @@
     },
     {
       "text": "hardship",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "hard",
@@ -1889,7 +2011,8 @@
     },
     {
       "text": "darling",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "dar",
@@ -1909,7 +2032,8 @@
     },
     {
       "text": "starfish",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "star",
@@ -1930,7 +2054,8 @@
     },
     {
       "text": "carpool",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "car",
@@ -1950,7 +2075,8 @@
     },
     {
       "text": "pardon",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "par",
@@ -1970,7 +2096,8 @@
     },
     {
       "text": "armpit",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "arm",
@@ -1990,7 +2117,8 @@
     },
     {
       "text": "forest",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "for",
@@ -2010,7 +2138,8 @@
     },
     {
       "text": "order",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "or",
@@ -2024,11 +2153,13 @@
         "or",
         "d",
         "er"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "corner",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "cor",
@@ -2047,7 +2178,8 @@
     },
     {
       "text": "border",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "bor",
@@ -2066,7 +2198,8 @@
     },
     {
       "text": "morning",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "morn",
@@ -2086,7 +2219,8 @@
     },
     {
       "text": "forty",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "for",
@@ -2105,7 +2239,8 @@
     },
     {
       "text": "story",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sto",
@@ -2125,7 +2260,8 @@
     },
     {
       "text": "stormy",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "storm",
@@ -2145,7 +2281,8 @@
     },
     {
       "text": "sporty",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sport",
@@ -2165,7 +2302,8 @@
     },
     {
       "text": "torment",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "tor",
@@ -2186,7 +2324,8 @@
     },
     {
       "text": "forget",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "for",
@@ -2206,7 +2345,8 @@
     },
     {
       "text": "format",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "for",
@@ -2226,7 +2366,8 @@
     },
     {
       "text": "formal",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "for",
@@ -2246,7 +2387,8 @@
     },
     {
       "text": "normal",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "nor",
@@ -2266,7 +2408,8 @@
     },
     {
       "text": "orbit",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "or",
@@ -2285,7 +2428,8 @@
     },
     {
       "text": "organ",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "or",
@@ -2304,7 +2448,8 @@
     },
     {
       "text": "perfect",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "per",
@@ -2325,7 +2470,8 @@
     },
     {
       "text": "person",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "per",
@@ -2341,11 +2487,13 @@
         "s",
         "o",
         "n"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "sister",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sis",
@@ -2365,7 +2513,8 @@
     },
     {
       "text": "winter",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "win",
@@ -2385,7 +2534,8 @@
     },
     {
       "text": "summer",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sum",
@@ -2405,7 +2555,8 @@
     },
     {
       "text": "letter",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "let",
@@ -2425,7 +2576,8 @@
     },
     {
       "text": "butter",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "but",
@@ -2445,7 +2597,8 @@
     },
     {
       "text": "better",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "bet",
@@ -2465,7 +2618,8 @@
     },
     {
       "text": "dinner",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "din",
@@ -2485,7 +2639,8 @@
     },
     {
       "text": "supper",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sup",
@@ -2505,7 +2660,8 @@
     },
     {
       "text": "hammer",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "ham",
@@ -2525,7 +2681,8 @@
     },
     {
       "text": "ladder",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "lad",
@@ -2545,7 +2702,8 @@
     },
     {
       "text": "rubber",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "rub",
@@ -2565,7 +2723,8 @@
     },
     {
       "text": "zipper",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "zip",
@@ -2585,7 +2744,8 @@
     },
     {
       "text": "pepper",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "pep",
@@ -2605,7 +2765,8 @@
     },
     {
       "text": "copper",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "cop",
@@ -2625,7 +2786,8 @@
     },
     {
       "text": "number",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "num",
@@ -2645,7 +2807,8 @@
     },
     {
       "text": "lumber",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "lum",
@@ -2665,7 +2828,8 @@
     },
     {
       "text": "timber",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "tim",
@@ -2681,11 +2845,13 @@
         "m",
         "b",
         "er"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "under",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "un",
@@ -2704,7 +2870,8 @@
     },
     {
       "text": "after",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "af",
@@ -2723,7 +2890,8 @@
     },
     {
       "text": "enter",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "en",
@@ -2742,7 +2910,8 @@
     },
     {
       "text": "silver",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sil",
@@ -2762,7 +2931,8 @@
     },
     {
       "text": "finger",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "fin",
@@ -2782,7 +2952,8 @@
     },
     {
       "text": "monster",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "mon",
@@ -2803,7 +2974,8 @@
     },
     {
       "text": "lobster",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "lob",
@@ -2824,7 +2996,8 @@
     },
     {
       "text": "mister",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "mis",
@@ -2844,7 +3017,8 @@
     },
     {
       "text": "blister",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "blis",
@@ -2865,7 +3039,8 @@
     },
     {
       "text": "hunger",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "hun",
@@ -2885,7 +3060,8 @@
     },
     {
       "text": "temper",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "tem",
@@ -2905,7 +3081,8 @@
     },
     {
       "text": "member",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "mem",
@@ -2925,7 +3102,8 @@
     },
     {
       "text": "herself",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "her",
@@ -2946,7 +3124,8 @@
     },
     {
       "text": "perhaps",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "per",
@@ -2967,7 +3146,8 @@
     },
     {
       "text": "permit",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "per",
@@ -2987,7 +3167,8 @@
     },
     {
       "text": "expert",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "ex",
@@ -3003,11 +3184,13 @@
         "p",
         "er",
         "t"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "insert",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "in",
@@ -3027,7 +3210,8 @@
     },
     {
       "text": "desert",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "des",
@@ -3047,7 +3231,8 @@
     },
     {
       "text": "dirty",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "dir",
@@ -3066,7 +3251,8 @@
     },
     {
       "text": "thirty",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "thir",
@@ -3085,7 +3271,8 @@
     },
     {
       "text": "thirsty",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "thirs",
@@ -3105,7 +3292,8 @@
     },
     {
       "text": "birthday",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "birth",
@@ -3125,7 +3313,8 @@
     },
     {
       "text": "birdbath",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "bird",
@@ -3146,7 +3335,8 @@
     },
     {
       "text": "firstborn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "first",
@@ -3168,7 +3358,8 @@
     },
     {
       "text": "turnip",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "tur",
@@ -3188,7 +3379,8 @@
     },
     {
       "text": "burger",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "bur",
@@ -3207,7 +3399,8 @@
     },
     {
       "text": "burden",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "bur",
@@ -3227,7 +3420,8 @@
     },
     {
       "text": "turkey",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "tur",
@@ -3246,7 +3440,8 @@
     },
     {
       "text": "surprise",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sur",
@@ -3268,7 +3463,8 @@
     },
     {
       "text": "surfer",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sur",
@@ -3287,7 +3483,8 @@
     },
     {
       "text": "hurry",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "hur",
@@ -3306,7 +3503,8 @@
     },
     {
       "text": "furry",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "fur",
@@ -3321,11 +3519,13 @@
         "ur",
         "r",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "murmur",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "mur",
@@ -3344,7 +3544,8 @@
     },
     {
       "text": "sunburn",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sun",
@@ -3365,7 +3566,8 @@
     },
     {
       "text": "return",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "re",
@@ -3385,7 +3587,8 @@
     },
     {
       "text": "disturb",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "dis",
@@ -3406,7 +3609,8 @@
     },
     {
       "text": "suburb",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "sub",
@@ -3426,7 +3630,8 @@
     },
     {
       "text": "urban",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "ur",
@@ -3445,7 +3650,8 @@
     },
     {
       "text": "further",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "fur",
@@ -3464,7 +3670,8 @@
     },
     {
       "text": "blurry",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 3,
       "syllables": [
         "blur",
@@ -3484,7 +3691,8 @@
     },
     {
       "text": "hamburger",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "ham",
@@ -3508,7 +3716,8 @@
     },
     {
       "text": "carpenter",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "car",
@@ -3532,7 +3741,8 @@
     },
     {
       "text": "important",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "im",
@@ -3557,7 +3767,8 @@
     },
     {
       "text": "forgotten",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "for",
@@ -3582,7 +3793,8 @@
     },
     {
       "text": "forever",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "for",
@@ -3600,11 +3812,13 @@
         "e",
         "v",
         "er"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "ornament",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "or",
@@ -3628,7 +3842,8 @@
     },
     {
       "text": "formula",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "for",
@@ -3651,7 +3866,8 @@
     },
     {
       "text": "harmonica",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "har",
@@ -3678,7 +3894,8 @@
     },
     {
       "text": "harvesting",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "har",
@@ -3703,7 +3920,8 @@
     },
     {
       "text": "department",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "de",
@@ -3729,7 +3947,8 @@
     },
     {
       "text": "apartment",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "a",
@@ -3754,7 +3973,8 @@
     },
     {
       "text": "partnership",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "part",
@@ -3779,7 +3999,8 @@
     },
     {
       "text": "wintertime",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "win",
@@ -3801,11 +4022,13 @@
         "i",
         "m",
         "e"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "summertime",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "sum",
@@ -3831,7 +4054,8 @@
     },
     {
       "text": "butterfly",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "but",
@@ -3856,7 +4080,8 @@
     },
     {
       "text": "understand",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "un",
@@ -3882,7 +4107,8 @@
     },
     {
       "text": "thunderstorm",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "thun",
@@ -3908,7 +4134,8 @@
     },
     {
       "text": "interrupt",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "in",
@@ -3933,7 +4160,8 @@
     },
     {
       "text": "internet",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "in",
@@ -3957,7 +4185,8 @@
     },
     {
       "text": "perfectly",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "per",
@@ -3982,7 +4211,8 @@
     },
     {
       "text": "permitted",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "per",
@@ -4003,11 +4233,13 @@
         "t",
         "e",
         "d"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "personal",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "per",
@@ -4031,7 +4263,8 @@
     },
     {
       "text": "persistent",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "per",
@@ -4057,7 +4290,8 @@
     },
     {
       "text": "perimeter",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "pe",
@@ -4084,7 +4318,8 @@
     },
     {
       "text": "thermometer",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "ther",
@@ -4111,7 +4346,8 @@
     },
     {
       "text": "sisterhood",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "sis",
@@ -4136,7 +4372,8 @@
     },
     {
       "text": "fingerprint",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "fin",
@@ -4163,7 +4400,8 @@
     },
     {
       "text": "fingernail",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "fin",
@@ -4188,7 +4426,8 @@
     },
     {
       "text": "lumberjack",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "lum",
@@ -4209,11 +4448,13 @@
         "j",
         "a",
         "ck"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "remember",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "re",
@@ -4237,7 +4478,8 @@
     },
     {
       "text": "turbulent",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "tur",
@@ -4262,7 +4504,8 @@
     },
     {
       "text": "surrender",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "sur",
@@ -4286,7 +4529,8 @@
     },
     {
       "text": "surviving",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "sur",
@@ -4310,7 +4554,8 @@
     },
     {
       "text": "suburban",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "sub",
@@ -4334,7 +4579,8 @@
     },
     {
       "text": "disturbing",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "dis",
@@ -4359,7 +4605,8 @@
     },
     {
       "text": "returning",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "re",
@@ -4383,7 +4630,8 @@
     },
     {
       "text": "hurricane",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "hur",
@@ -4404,11 +4652,13 @@
         "a",
         "n",
         "e"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "murmuring",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "mur",
@@ -4431,7 +4681,8 @@
     },
     {
       "text": "cornerstone",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "cor",
@@ -4457,7 +4708,8 @@
     },
     {
       "text": "ordering",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "or",
@@ -4479,7 +4731,8 @@
     },
     {
       "text": "formatting",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "for",
@@ -4504,7 +4757,8 @@
     },
     {
       "text": "forgetful",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "for",
@@ -4529,7 +4783,8 @@
     },
     {
       "text": "forgiving",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "for",
@@ -4553,7 +4808,8 @@
     },
     {
       "text": "performing",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "per",
@@ -4577,7 +4833,8 @@
     },
     {
       "text": "transformer",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "trans",
@@ -4599,11 +4856,13 @@
         "or",
         "m",
         "er"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "informing",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "in",
@@ -4627,7 +4886,8 @@
     },
     {
       "text": "supporting",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "sup",
@@ -4652,7 +4912,8 @@
     },
     {
       "text": "reporter",
-      "group": "r",
+      "set": 1,
+      "skillId": "1.5",
       "level": 4,
       "syllables": [
         "re",

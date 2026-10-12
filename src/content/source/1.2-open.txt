@@ -3,31 +3,31 @@
 # fall short of 25. Words ending in y (fly, sky) are included because y
 # acts as a long-i vowel in an open syllable.
 ## 1
-go
+* go
 no | | | know
 so | | | sew, sow
-me
-he
+* me
+* he
 we | | | wee
 be | | | bee
 hi | | | high
 by | | | bye, buy
-my
+* my
 ## 2
 she
-why
+* why
 fly
 sky
 cry
-dry
+* dry
 try
 fry
 shy
-spy
+* spy
 pry
 sly
 ply
-spry
+* spry
 flu | | | flew, flue
 ski
 ## 3
@@ -36,7 +36,7 @@ ti-ger | o r
 pa-per | o r
 ba-by | o o
 po-ny | o o
-ze-ro | o o
+* ze-ro | o o
 he-ro | o o
 mu-sic | o c
 tu-lip | o c
@@ -46,7 +46,7 @@ mo-ment | o c
 o-pen | o c
 o-ver | o r
 e-ven | o c
-ba-con | o c
+* ba-con | o c
 ba-sic | o c
 be-gan | o c
 be-gin | o c
@@ -56,7 +56,7 @@ co-zy | o o
 la-zy | o o
 ti-ny | o o
 la-dy | o o
-na-vy | o o
+* na-vy | o o
 pi-lot | o c
 si-lent | o c
 spi-der | o r
@@ -66,7 +66,7 @@ spo-ken | o c
 to-ken | o c
 to-tal | o c
 ho-tel | o c
-pu-pil | o c
+* pu-pil | o c
 tu-tor | o r
 su-per | o r
 du-ty | o o
@@ -76,7 +76,7 @@ do-nut | o c
 fo-cus | o c
 mi-nus | o c
 vi-rus | o c
-men-u | c o
+* men-u | c o
 po-em | o c
 ha-lo | o o
 so-lo | o o
@@ -86,7 +86,7 @@ stu-dent | o c
 se-cret | o c
 fe-ver | o r
 me-ter | o r
-pro-gram | o c
+* pro-gram | o c
 pro-tect | o c
 pre-vent | o c
 re-lax | o c
@@ -96,36 +96,36 @@ pre-tend | o c
 to-ma-to | o o o
 po-ta-to | o o o
 vol-ca-no | c o o
-tor-na-do | r o o
+* tor-na-do | r o o
 mos-qui-to | c o o
 pi-an-o | o c o
 ra-di-o | o o o
 vid-e-o | c o o
 ro-de-o | o o o
-ster-e-o | r o o
+* ster-e-o | r o o
 u-ni-form | o o r
 u-ni-corn | o o r
 u-nit-ed | o c c
 mu-se-um | o o c
 bi-ki-ni | o o o
-tux-e-do | c o o
+* tux-e-do | c o o
 tor-pe-do | r o o
 av-o-ca-do | c o o o
 cu-cum-ber | o c r
 com-pu-ter | c o r
 pro-vid-ed | o c c
-re-lo-cate | o o v
+* re-lo-cate | o o v
 ro-bot-ic | o c c
 mel-o-dy | c o o
 mem-o-ry | c o o
 his-to-ry | c o o
 vic-to-ry | c o o
-fac-to-ry | c o o
+* fac-to-ry | c o o
 li-bra-ry | o o o
 di-no-saur | o o t
 dom-i-no | c o o
 buf-fa-lo | c o o
 pre-tend-ing | o c c
-pro-tect-ing | o c c
+* pro-tect-ing | o c c
 pre-vent-ing | o c c
 re-mind-ed | o c c

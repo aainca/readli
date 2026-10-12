@@ -2,31 +2,31 @@
 ## 1
 car
 far
-jar
+* jar
 bar
 tar
 arm
 art
 cart | | | | cat=Look for the r after the vowel. The r changes the sound.
-farm
+* farm
 barn
 yard
 hard
 card
-dark
+* dark
 park
 part
 for | | | four, fore
 fork
 corn
-horn
+* horn
 born | | | borne
 cord | | | | cod=Look for the r after the vowel. The r changes the sound.
 cork
 fort
 sort
 torn
-her
+* her
 fern
 herd | | | heard
 verb
@@ -34,7 +34,7 @@ sir
 fir | | | fur
 bird | | | | bid=Look for the r after the vowel. The r changes the sound.
 girl
-dirt
+* dirt
 fur | | | fir
 turn | | | tern
 burn | | | | bun=Look for the r after the vowel. The r changes the sound.
@@ -46,7 +46,7 @@ curb
 star
 start
 smart
-scarf
+* scarf
 shark
 spark
 sharp
@@ -54,7 +54,7 @@ charm
 chart
 march
 starch
-snarl
+* snarl
 storm
 sport
 short
@@ -62,7 +62,7 @@ north
 torch
 porch
 scorch
-thorn
+* thorn
 stork
 snort
 stern
@@ -72,7 +72,7 @@ third
 thirst
 first | | | | fist=Look for the r after the vowel. The r changes the sound.
 birth | | | berth
-shirt
+* shirt
 skirt
 twirl
 swirl
@@ -80,7 +80,7 @@ whirl
 squirt
 chirp
 church
-churn
+* churn
 burst
 blurt
 spur
@@ -88,7 +88,7 @@ slur
 blur
 turf
 hurl
-smirk
+* smirk
 flirt
 squirm
 firm
@@ -101,7 +101,7 @@ bar-ber | r r
 far-mer | r r
 har-vest | r c
 ar-my | r o
-par-ty | r o
+* par-ty | r o
 part-ner | r r
 art-ist | r c
 car-ton | r c
@@ -117,7 +117,7 @@ car-pool | r t
 par-don | r c
 arm-pit | r c
 for-est | r c
-or-der | r r
+* or-der | r r
 cor-ner | r r
 bor-der | r r
 morn-ing | r c
@@ -133,7 +133,7 @@ nor-mal | r c
 or-bit | r c
 or-gan | r c
 per-fect | r c
-per-son | r c
+* per-son | r c
 sis-ter | c r
 win-ter | c r
 sum-mer | c r
@@ -150,7 +150,7 @@ pep-per | c r
 cop-per | c r
 num-ber | c r
 lum-ber | c r
-tim-ber | c r
+* tim-ber | c r
 un-der | c r
 af-ter | c r
 en-ter | c r
@@ -166,7 +166,7 @@ mem-ber | c r
 her-self | r c
 per-haps | r c
 per-mit | r c
-ex-pert | c r
+* ex-pert | c r
 in-sert | c r
 des-ert | c r
 dir-ty | r o
@@ -182,7 +182,7 @@ tur-key | r t
 sur-prise | r v
 sur-fer | r r
 hur-ry | r o
-fur-ry | r o
+* fur-ry | r o
 mur-mur | r r
 sun-burn | c r
 re-turn | o r
@@ -196,7 +196,7 @@ ham-bur-ger | c r r
 car-pen-ter | r c r
 im-por-tant | c r c
 for-got-ten | r c c
-for-ev-er | r c r
+* for-ev-er | r c r
 or-na-ment | r o c
 for-mu-la | r o o
 har-mon-i-ca | r c o o
@@ -204,7 +204,7 @@ har-vest-ing | r c c
 de-part-ment | o r c
 a-part-ment | o r c
 part-ner-ship | r r c
-win-ter-time | c r v
+* win-ter-time | c r v
 sum-mer-time | c r v
 but-ter-fly | c r o
 un-der-stand | c r c
@@ -212,7 +212,7 @@ thun-der-storm | c r r
 in-ter-rupt | c r c
 in-ter-net | c r c
 per-fect-ly | r c o
-per-mit-ted | r c c
+* per-mit-ted | r c c
 per-son-al | r c c
 per-sis-tent | r c c
 pe-rim-e-ter | o c o r
@@ -220,7 +220,7 @@ ther-mom-e-ter | r c o r
 sis-ter-hood | c r t
 fin-ger-print | c r c
 fin-ger-nail | c r t
-lum-ber-jack | c r c
+* lum-ber-jack | c r c
 re-mem-ber | o c r
 tur-bu-lent | r o c
 sur-ren-der | r c r
@@ -228,7 +228,7 @@ sur-viv-ing | r c c
 sub-ur-ban | c r c
 dis-turb-ing | c r c
 re-turn-ing | o r c
-hur-ri-cane | r o v
+* hur-ri-cane | r o v
 mur-mur-ing | r r c
 cor-ner-stone | r r v
 or-der-ing | r r c
@@ -236,7 +236,7 @@ for-mat-ting | r c c
 for-get-ful | r c c
 for-giv-ing | r c c
 per-form-ing | r r c
-trans-form-er | c r r
+* trans-form-er | c r r
 in-form-ing | c r c
 sup-port-ing | c r c
 re-port-er | o r r

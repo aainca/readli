@@ -9,7 +9,7 @@ nail
 sail | | | sale
 wait | | | weight
 day
-say
+* say
 may
 way | | | weigh
 pay
@@ -26,7 +26,7 @@ tea | | | tee
 meat | | | meet, mete | met=Look at the two vowels. The e says its name.
 seat | | | | set=Look at the two vowels. The e says its name.
 read | | | reed | red=Look at the two vowels. The e says its name.
-leaf
+* leaf
 bean | | | been
 boat | | | | bot=Two vowels together. The o says its name.
 coat | | | | cot=Look at the two vowels. The o says its name.
@@ -40,14 +40,14 @@ bow
 mow
 tow | | | toe
 toe | | | tow
-pie
+* pie
 tie
 lie | | | lye
 moon
 soon
 food
 pool
-cool
+* cool
 zoo
 too | | | two, to
 boot
@@ -55,7 +55,7 @@ root | | | route
 book
 look
 cook
-took
+* took
 hook
 foot
 wood | | | would
@@ -64,7 +64,7 @@ few
 dew | | | do, due
 saw
 paw
-law
+* law
 jaw
 raw
 haul | | | hall
@@ -80,7 +80,7 @@ snail
 trail
 braid | | | brayed
 plain | | | plane | plan=Two vowels together. The a says its name.
-stain
+* stain
 spray
 stray
 play
@@ -104,7 +104,7 @@ cheek
 creek | | | creak
 sheet
 cheap | | | cheep
-cream
+* cream
 dream
 steam
 clean
@@ -124,7 +124,7 @@ roast
 throat
 coach
 groan | | | grown
-cloak
+* cloak
 croak
 snow
 blow
@@ -146,7 +146,7 @@ bloom
 broom
 spoon
 smooth
-tooth
+* tooth
 school
 scoop
 stool
@@ -167,7 +167,7 @@ blue | | | blew
 glue
 clue
 true
-light
+* light
 night | | | knight
 right | | | write, rite
 sight | | | site, cite
@@ -190,7 +190,7 @@ hawk
 shawl
 launch
 haunt
-fault
+* fault
 vault
 pause | | | paws
 cause | | | caws
@@ -208,7 +208,7 @@ rail-road | t t
 mail-box | t c
 sail-boat | t t
 day-time | t v
-to-day | o t
+* to-day | o t
 a-way | o t
 may-be | t o
 pay-day | t t
@@ -220,7 +220,7 @@ can-teen | c t
 in-deed | c t
 a-sleep | o t
 be-tween | o t
-cof-fee | c t
+* cof-fee | c t
 tof-fee | c t
 sheep-dog | t c
 week-end | t c
@@ -232,7 +232,7 @@ toe-nail | t t
 tip-toe | c t
 o-boe | o t
 row-boat | t t
-snow-man | t c
+* snow-man | t c
 snow-flake | t v
 win-dow | c t
 pil-low | c t
@@ -245,7 +245,7 @@ nar-row | r t
 ar-row | r t
 bed-room | c t
 mush-room | c t
-bal-loon | c t
+* bal-loon | c t
 car-toon | r t
 rac-coon | c t
 co-coon | o t
@@ -257,7 +257,7 @@ cook-book | t t
 note-book | v t
 text-book | c t
 good-night | t t
-sun-light | c t
+* sun-light | c t
 flash-light | c t
 mid-night | c t
 day-light | t t
@@ -269,7 +269,7 @@ see-saw | t t
 jig-saw | c t
 cole-slaw | v t
 with-draw | c t
-chim-ney | c t
+* chim-ney | c t
 don-key | c t
 hock-ey | c t
 jock-ey | c t
@@ -281,7 +281,7 @@ af-ter-noon | c r t
 kan-ga-roo | c o t
 un-der-neath | c r t
 o-ver-seas | o r t
-ev-er-green | c r t
+* ev-er-green | c r t
 hal-lo-ween | c o t
 sev-en-teen | c c t
 eigh-teen | t t
@@ -289,7 +289,7 @@ com-plain-ing | c t c
 ex-plain-ing | c t c
 re-main-ing | o t c
 en-ter-tain | c r t
-main-tain-ing | t t c
+* main-tain-ing | t t c
 day-dream-ing | t t c
 yes-ter-day | c r t
 hol-i-day | c o t
@@ -298,7 +298,7 @@ far-a-way | r o t
 hide-a-way | v o t
 a-gree-ment | o t c
 dis-a-gree | c o t
-ref-er-ee | c r t
+* ref-er-ee | c r t
 em-ploy-ee | c d t
 chim-pan-zee | c c t
 ap-proach-ing | c t c
@@ -306,7 +306,7 @@ un-load-ing | c t c
 o-ver-grown | o r t
 o-ver-flow | o r t
 marsh-mal-low | r c t
-bun-ga-low | c o t
+* bun-ga-low | c o t
 to-mor-row | o r t
 fol-low-ing | c t c
 pil-low-case | c t v
@@ -315,7 +315,7 @@ bal-loon-ing | c t c
 un-der-stood | c r t
 neigh-bor-hood | t r t
 bright-en-ing | t c c
-fright-en-ing | t c c
+* fright-en-ing | t c c
 de-light-ed | o t c
 high-light-er | t t r
 night-in-gale | t c v
@@ -323,7 +323,7 @@ with-draw-ing | c t c
 straw-ber-ry | t r o
 au-to-mat-ic | t o c c
 au-to-graph | t o c
-as-tro-naut | c o t
+* as-tro-naut | c o t
 be-liev-ing | o t c
 a-chiev-ing | o t c
 re-triev-ing | o t c

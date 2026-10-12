@@ -1,9 +1,10 @@
 {
-  "group": "cle",
+  "skillId": "1.6",
   "words": [
     {
       "text": "table",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "ta",
@@ -22,7 +23,8 @@
     },
     {
       "text": "cable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "ca",
@@ -41,7 +43,8 @@
     },
     {
       "text": "fable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "fa",
@@ -60,7 +63,8 @@
     },
     {
       "text": "stable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "sta",
@@ -80,7 +84,8 @@
     },
     {
       "text": "maple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "ma",
@@ -99,7 +104,8 @@
     },
     {
       "text": "staple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "sta",
@@ -119,7 +125,8 @@
     },
     {
       "text": "bugle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "bu",
@@ -138,7 +145,8 @@
     },
     {
       "text": "noble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "no",
@@ -153,11 +161,13 @@
         "o",
         "b",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "title",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "ti",
@@ -176,7 +186,8 @@
     },
     {
       "text": "rifle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "ri",
@@ -195,7 +206,8 @@
     },
     {
       "text": "trifle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "tri",
@@ -215,7 +227,8 @@
     },
     {
       "text": "ladle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "la",
@@ -234,7 +247,8 @@
     },
     {
       "text": "cradle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "cra",
@@ -254,7 +268,8 @@
     },
     {
       "text": "idle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "i",
@@ -275,7 +290,8 @@
     },
     {
       "text": "candle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "can",
@@ -295,7 +311,8 @@
     },
     {
       "text": "handle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "han",
@@ -315,7 +332,8 @@
     },
     {
       "text": "bundle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "bun",
@@ -335,7 +353,8 @@
     },
     {
       "text": "kindle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "kin",
@@ -355,7 +374,8 @@
     },
     {
       "text": "jungle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "jun",
@@ -375,7 +395,8 @@
     },
     {
       "text": "bottle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "bot",
@@ -395,7 +416,8 @@
     },
     {
       "text": "little",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "lit",
@@ -415,7 +437,8 @@
     },
     {
       "text": "middle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "mid",
@@ -435,7 +458,8 @@
     },
     {
       "text": "puddle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "pud",
@@ -455,7 +479,8 @@
     },
     {
       "text": "paddle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "pad",
@@ -471,11 +496,13 @@
         "d",
         "d",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "saddle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "sad",
@@ -495,7 +522,8 @@
     },
     {
       "text": "riddle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "rid",
@@ -515,7 +543,8 @@
     },
     {
       "text": "fiddle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "fid",
@@ -535,7 +564,8 @@
     },
     {
       "text": "cuddle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "cud",
@@ -555,7 +585,8 @@
     },
     {
       "text": "huddle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "hud",
@@ -575,7 +606,8 @@
     },
     {
       "text": "giggle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "gig",
@@ -595,7 +627,8 @@
     },
     {
       "text": "wiggle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "wig",
@@ -615,7 +648,8 @@
     },
     {
       "text": "juggle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "jug",
@@ -635,7 +669,8 @@
     },
     {
       "text": "struggle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "strug",
@@ -657,7 +692,8 @@
     },
     {
       "text": "snuggle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "snug",
@@ -678,7 +714,8 @@
     },
     {
       "text": "puzzle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "puz",
@@ -698,7 +735,8 @@
     },
     {
       "text": "nozzle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "noz",
@@ -718,7 +756,8 @@
     },
     {
       "text": "drizzle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "driz",
@@ -739,7 +778,8 @@
     },
     {
       "text": "sizzle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "siz",
@@ -755,11 +795,13 @@
         "z",
         "z",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "dazzle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "daz",
@@ -779,7 +821,8 @@
     },
     {
       "text": "bubble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "bub",
@@ -799,7 +842,8 @@
     },
     {
       "text": "pebble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "peb",
@@ -819,7 +863,8 @@
     },
     {
       "text": "nibble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "nib",
@@ -839,7 +884,8 @@
     },
     {
       "text": "scribble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "scrib",
@@ -861,7 +907,8 @@
     },
     {
       "text": "wobble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "wob",
@@ -881,7 +928,8 @@
     },
     {
       "text": "gobble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "gob",
@@ -901,7 +949,8 @@
     },
     {
       "text": "cattle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "cat",
@@ -921,7 +970,8 @@
     },
     {
       "text": "battle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "bat",
@@ -941,7 +991,8 @@
     },
     {
       "text": "rattle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "rat",
@@ -961,7 +1012,8 @@
     },
     {
       "text": "settle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "set",
@@ -981,7 +1033,8 @@
     },
     {
       "text": "kettle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "ket",
@@ -1001,7 +1054,8 @@
     },
     {
       "text": "apple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "ap",
@@ -1020,7 +1074,8 @@
     },
     {
       "text": "dimple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "dim",
@@ -1040,7 +1095,8 @@
     },
     {
       "text": "simple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "sim",
@@ -1056,11 +1112,13 @@
         "m",
         "p",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "sample",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "sam",
@@ -1080,7 +1138,8 @@
     },
     {
       "text": "temple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "tem",
@@ -1100,7 +1159,8 @@
     },
     {
       "text": "tumble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "tum",
@@ -1120,7 +1180,8 @@
     },
     {
       "text": "rumble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "rum",
@@ -1140,7 +1201,8 @@
     },
     {
       "text": "mumble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "mum",
@@ -1160,7 +1222,8 @@
     },
     {
       "text": "grumble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "grum",
@@ -1181,7 +1244,8 @@
     },
     {
       "text": "stumble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "stum",
@@ -1202,7 +1266,8 @@
     },
     {
       "text": "crumble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "crum",
@@ -1223,7 +1288,8 @@
     },
     {
       "text": "humble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "hum",
@@ -1243,7 +1309,8 @@
     },
     {
       "text": "jumble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "jum",
@@ -1263,7 +1330,8 @@
     },
     {
       "text": "fumble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "fum",
@@ -1283,7 +1351,8 @@
     },
     {
       "text": "uncle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "un",
@@ -1302,7 +1371,8 @@
     },
     {
       "text": "ankle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "an",
@@ -1321,7 +1391,8 @@
     },
     {
       "text": "tickle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "tick",
@@ -1340,7 +1411,8 @@
     },
     {
       "text": "pickle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "pick",
@@ -1355,11 +1427,13 @@
         "i",
         "ck",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "buckle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "buck",
@@ -1378,7 +1452,8 @@
     },
     {
       "text": "chuckle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "chuck",
@@ -1397,7 +1472,8 @@
     },
     {
       "text": "freckle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "freck",
@@ -1417,7 +1493,8 @@
     },
     {
       "text": "sparkle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "spar",
@@ -1437,7 +1514,8 @@
     },
     {
       "text": "marble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "mar",
@@ -1456,7 +1534,8 @@
     },
     {
       "text": "turtle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "tur",
@@ -1475,7 +1554,8 @@
     },
     {
       "text": "purple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "pur",
@@ -1494,7 +1574,8 @@
     },
     {
       "text": "startle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "star",
@@ -1514,7 +1595,8 @@
     },
     {
       "text": "gargle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "gar",
@@ -1533,7 +1615,8 @@
     },
     {
       "text": "eagle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "ea",
@@ -1551,7 +1634,8 @@
     },
     {
       "text": "needle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "nee",
@@ -1570,7 +1654,8 @@
     },
     {
       "text": "beetle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "bee",
@@ -1589,7 +1674,8 @@
     },
     {
       "text": "feeble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "fee",
@@ -1608,7 +1694,8 @@
     },
     {
       "text": "steeple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "stee",
@@ -1624,11 +1711,13 @@
         "ee",
         "p",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "poodle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "poo",
@@ -1647,7 +1736,8 @@
     },
     {
       "text": "noodle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "noo",
@@ -1666,7 +1756,8 @@
     },
     {
       "text": "doodle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "doo",
@@ -1685,7 +1776,8 @@
     },
     {
       "text": "twinkle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "twin",
@@ -1706,7 +1798,8 @@
     },
     {
       "text": "crinkle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "crin",
@@ -1727,7 +1820,8 @@
     },
     {
       "text": "sprinkle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "sprin",
@@ -1749,7 +1843,8 @@
     },
     {
       "text": "tremble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 3,
       "syllables": [
         "trem",
@@ -1770,7 +1865,8 @@
     },
     {
       "text": "tablecloth",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "ta",
@@ -1795,7 +1891,8 @@
     },
     {
       "text": "tablespoon",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "ta",
@@ -1820,7 +1917,8 @@
     },
     {
       "text": "candlestick",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "can",
@@ -1846,7 +1944,8 @@
     },
     {
       "text": "candlelight",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "can",
@@ -1871,7 +1970,8 @@
     },
     {
       "text": "bumblebee",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "bum",
@@ -1891,11 +1991,13 @@
         "le",
         "b",
         "ee"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "turntable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "turn",
@@ -1919,7 +2021,8 @@
     },
     {
       "text": "unstable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "un",
@@ -1943,7 +2046,8 @@
     },
     {
       "text": "timetable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "time",
@@ -1968,7 +2072,8 @@
     },
     {
       "text": "incredible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "in",
@@ -1996,7 +2101,8 @@
     },
     {
       "text": "invisible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "in",
@@ -2023,7 +2129,8 @@
     },
     {
       "text": "impossible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "im",
@@ -2051,7 +2158,8 @@
     },
     {
       "text": "terrible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "ter",
@@ -2074,7 +2182,8 @@
     },
     {
       "text": "horrible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "hor",
@@ -2097,7 +2206,8 @@
     },
     {
       "text": "sensible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "sen",
@@ -2121,7 +2231,8 @@
     },
     {
       "text": "possible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "pos",
@@ -2141,11 +2252,13 @@
         "i",
         "b",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "flexible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "flex",
@@ -2169,7 +2282,8 @@
     },
     {
       "text": "visible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "vis",
@@ -2192,7 +2306,8 @@
     },
     {
       "text": "edible",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "ed",
@@ -2214,7 +2329,8 @@
     },
     {
       "text": "capable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "ca",
@@ -2237,7 +2353,8 @@
     },
     {
       "text": "probable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "prob",
@@ -2261,7 +2378,8 @@
     },
     {
       "text": "portable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "por",
@@ -2284,7 +2402,8 @@
     },
     {
       "text": "readable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "read",
@@ -2307,7 +2426,8 @@
     },
     {
       "text": "drinkable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "drink",
@@ -2331,7 +2451,8 @@
     },
     {
       "text": "adorable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "a",
@@ -2352,11 +2473,13 @@
         "a",
         "b",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "comfortable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "com",
@@ -2384,7 +2507,8 @@
     },
     {
       "text": "remarkable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "re",
@@ -2411,7 +2535,8 @@
     },
     {
       "text": "predictable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "pre",
@@ -2440,7 +2565,8 @@
     },
     {
       "text": "dependable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "de",
@@ -2468,7 +2594,8 @@
     },
     {
       "text": "affordable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "af",
@@ -2495,7 +2622,8 @@
     },
     {
       "text": "enjoyable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "en",
@@ -2521,7 +2649,8 @@
     },
     {
       "text": "unable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "un",
@@ -2543,7 +2672,8 @@
     },
     {
       "text": "disable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "dis",
@@ -2566,7 +2696,8 @@
     },
     {
       "text": "enable",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "en",
@@ -2588,7 +2719,8 @@
     },
     {
       "text": "obstacle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "ob",
@@ -2608,11 +2740,13 @@
         "a",
         "c",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "spectacle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "spec",
@@ -2637,7 +2771,8 @@
     },
     {
       "text": "miracle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "mir",
@@ -2659,7 +2794,8 @@
     },
     {
       "text": "cubicle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "cu",
@@ -2682,7 +2818,8 @@
     },
     {
       "text": "particle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "par",
@@ -2705,7 +2842,8 @@
     },
     {
       "text": "article",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "ar",
@@ -2727,7 +2865,8 @@
     },
     {
       "text": "multiple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "mul",
@@ -2751,7 +2890,8 @@
     },
     {
       "text": "example",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "ex",
@@ -2774,7 +2914,8 @@
     },
     {
       "text": "triangle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "tri",
@@ -2798,7 +2939,8 @@
     },
     {
       "text": "rectangle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "rec",
@@ -2819,11 +2961,13 @@
         "n",
         "g",
         "le"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "untangle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "un",
@@ -2847,7 +2991,8 @@
     },
     {
       "text": "assemble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "as",
@@ -2871,7 +3016,8 @@
     },
     {
       "text": "resemble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "re",
@@ -2895,7 +3041,8 @@
     },
     {
       "text": "dismantle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "dis",
@@ -2920,7 +3067,8 @@
     },
     {
       "text": "subtitle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "sub",
@@ -2944,7 +3092,8 @@
     },
     {
       "text": "unbuckle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "un",
@@ -2967,7 +3116,8 @@
     },
     {
       "text": "unsettle",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "un",
@@ -2991,7 +3141,8 @@
     },
     {
       "text": "unscramble",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "un",
@@ -3017,7 +3168,8 @@
     },
     {
       "text": "bottleneck",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "bot",
@@ -3042,7 +3194,8 @@
     },
     {
       "text": "middleman",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "mid",
@@ -3063,11 +3216,13 @@
         "m",
         "a",
         "n"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "saddlebag",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "sad",
@@ -3092,7 +3247,8 @@
     },
     {
       "text": "paddleboat",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "pad",
@@ -3117,7 +3273,8 @@
     },
     {
       "text": "pineapple",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "pine",
@@ -3142,7 +3299,8 @@
     },
     {
       "text": "simpleton",
-      "group": "cle",
+      "set": 1,
+      "skillId": "1.6",
       "level": 4,
       "syllables": [
         "sim",

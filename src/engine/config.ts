@@ -21,7 +21,7 @@ export const config = {
     maxTries: 3,
   },
   mastery: {
-    /** Rolling window of attempts per group and level. */
+    /** Rolling window of attempts per skill and level. */
     windowSize: 20,
     /** First-try, no-help accuracy needed to master a level. */
     masteryAccuracy: 0.85,
@@ -40,8 +40,31 @@ export const config = {
     /** Retire after this many clean first-try reads on separate days. */
     retireAfterCleanDays: 3,
   },
+  placement: {
+    /** Each Set 1 group starts its probe at this level. */
+    startLevel: 2,
+    /** Words per probe at a level. */
+    wordsPerProbe: 4,
+    /** Correct answers out of wordsPerProbe needed to pass a level. */
+    passCount: 3,
+    /** Misses in a row that end the test early. */
+    maxMissStreak: 6,
+    /** Hard cap on words in one test. */
+    maxWords: 40,
+    /** Held-out test words reserved per Set 1 group per level. */
+    heldOutPerLevel: 6,
+    /** Provisional placement: first N practice attempts at a placed level. */
+    fastAdjust: { window: 10, moveUpAt: 9, moveDownAt: 4 },
+    /** The dashboard suggests a retest after this many weeks. */
+    retestWeeks: 6,
+  },
+  set2: {
+    /** Set 2 opens once these Set 1 skills are mastered at this level. */
+    unlockAfterSkills: ['1.1', '1.2', '1.3'],
+    unlockAtLevel: 2,
+  },
   content: {
-    /** Target minimum words per group per level. */
+    /** Target minimum practice words (not held out) per skill per level. */
     minWordsPerLevel: 25,
   },
   parentGate: {

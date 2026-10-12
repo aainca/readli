@@ -1,9 +1,10 @@
 {
-  "group": "open",
+  "skillId": "1.2",
   "words": [
     {
       "text": "go",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "go"
@@ -14,11 +15,13 @@
       "chunks": [
         "g",
         "o"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "no",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "no"
@@ -36,7 +39,8 @@
     },
     {
       "text": "so",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "so"
@@ -55,7 +59,8 @@
     },
     {
       "text": "me",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "me"
@@ -66,11 +71,13 @@
       "chunks": [
         "m",
         "e"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "he",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "he"
@@ -81,11 +88,13 @@
       "chunks": [
         "h",
         "e"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "we",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "we"
@@ -103,7 +112,8 @@
     },
     {
       "text": "be",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "be"
@@ -121,7 +131,8 @@
     },
     {
       "text": "hi",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "hi"
@@ -139,7 +150,8 @@
     },
     {
       "text": "by",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "by"
@@ -158,7 +170,8 @@
     },
     {
       "text": "my",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 1,
       "syllables": [
         "my"
@@ -169,11 +182,13 @@
       "chunks": [
         "m",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "she",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "she"
@@ -188,7 +203,8 @@
     },
     {
       "text": "why",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "why"
@@ -199,11 +215,13 @@
       "chunks": [
         "wh",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "fly",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "fly"
@@ -219,7 +237,8 @@
     },
     {
       "text": "sky",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "sky"
@@ -235,7 +254,8 @@
     },
     {
       "text": "cry",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "cry"
@@ -251,7 +271,8 @@
     },
     {
       "text": "dry",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "dry"
@@ -263,11 +284,13 @@
         "d",
         "r",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "try",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "try"
@@ -283,7 +306,8 @@
     },
     {
       "text": "fry",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "fry"
@@ -299,7 +323,8 @@
     },
     {
       "text": "shy",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "shy"
@@ -314,7 +339,8 @@
     },
     {
       "text": "spy",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "spy"
@@ -326,11 +352,13 @@
         "s",
         "p",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "pry",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "pry"
@@ -346,7 +374,8 @@
     },
     {
       "text": "sly",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "sly"
@@ -362,7 +391,8 @@
     },
     {
       "text": "ply",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "ply"
@@ -378,7 +408,8 @@
     },
     {
       "text": "spry",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "spry"
@@ -391,11 +422,13 @@
         "p",
         "r",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "flu",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "flu"
@@ -415,7 +448,8 @@
     },
     {
       "text": "ski",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 2,
       "syllables": [
         "ski"
@@ -431,7 +465,8 @@
     },
     {
       "text": "robot",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ro",
@@ -451,7 +486,8 @@
     },
     {
       "text": "tiger",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ti",
@@ -470,7 +506,8 @@
     },
     {
       "text": "paper",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "pa",
@@ -489,7 +526,8 @@
     },
     {
       "text": "baby",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ba",
@@ -508,7 +546,8 @@
     },
     {
       "text": "pony",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "po",
@@ -527,7 +566,8 @@
     },
     {
       "text": "zero",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ze",
@@ -542,11 +582,13 @@
         "e",
         "r",
         "o"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "hero",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "he",
@@ -565,7 +607,8 @@
     },
     {
       "text": "music",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "mu",
@@ -585,7 +628,8 @@
     },
     {
       "text": "tulip",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "tu",
@@ -605,7 +649,8 @@
     },
     {
       "text": "bonus",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "bo",
@@ -625,7 +670,8 @@
     },
     {
       "text": "human",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "hu",
@@ -645,7 +691,8 @@
     },
     {
       "text": "moment",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "mo",
@@ -666,7 +713,8 @@
     },
     {
       "text": "open",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "o",
@@ -685,7 +733,8 @@
     },
     {
       "text": "over",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "o",
@@ -703,7 +752,8 @@
     },
     {
       "text": "even",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "e",
@@ -722,7 +772,8 @@
     },
     {
       "text": "bacon",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ba",
@@ -738,11 +789,13 @@
         "c",
         "o",
         "n"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "basic",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ba",
@@ -762,7 +815,8 @@
     },
     {
       "text": "began",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "be",
@@ -782,7 +836,8 @@
     },
     {
       "text": "begin",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "be",
@@ -802,7 +857,8 @@
     },
     {
       "text": "below",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "be",
@@ -821,7 +877,8 @@
     },
     {
       "text": "bagel",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ba",
@@ -841,7 +898,8 @@
     },
     {
       "text": "cozy",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "co",
@@ -860,7 +918,8 @@
     },
     {
       "text": "lazy",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "la",
@@ -879,7 +938,8 @@
     },
     {
       "text": "tiny",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ti",
@@ -898,7 +958,8 @@
     },
     {
       "text": "lady",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "la",
@@ -917,7 +978,8 @@
     },
     {
       "text": "navy",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "na",
@@ -932,11 +994,13 @@
         "a",
         "v",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "pilot",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "pi",
@@ -956,7 +1020,8 @@
     },
     {
       "text": "silent",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "si",
@@ -977,7 +1042,8 @@
     },
     {
       "text": "spider",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "spi",
@@ -997,7 +1063,8 @@
     },
     {
       "text": "broken",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "bro",
@@ -1018,7 +1085,8 @@
     },
     {
       "text": "frozen",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "fro",
@@ -1039,7 +1107,8 @@
     },
     {
       "text": "spoken",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "spo",
@@ -1060,7 +1129,8 @@
     },
     {
       "text": "token",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "to",
@@ -1080,7 +1150,8 @@
     },
     {
       "text": "total",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "to",
@@ -1100,7 +1171,8 @@
     },
     {
       "text": "hotel",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ho",
@@ -1120,7 +1192,8 @@
     },
     {
       "text": "pupil",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "pu",
@@ -1136,11 +1209,13 @@
         "p",
         "i",
         "l"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "tutor",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "tu",
@@ -1159,7 +1234,8 @@
     },
     {
       "text": "super",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "su",
@@ -1178,7 +1254,8 @@
     },
     {
       "text": "duty",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "du",
@@ -1197,7 +1274,8 @@
     },
     {
       "text": "ruby",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ru",
@@ -1216,7 +1294,8 @@
     },
     {
       "text": "unit",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "u",
@@ -1235,7 +1314,8 @@
     },
     {
       "text": "donut",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "do",
@@ -1255,7 +1335,8 @@
     },
     {
       "text": "focus",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "fo",
@@ -1275,7 +1356,8 @@
     },
     {
       "text": "minus",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "mi",
@@ -1295,7 +1377,8 @@
     },
     {
       "text": "virus",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "vi",
@@ -1315,7 +1398,8 @@
     },
     {
       "text": "menu",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "men",
@@ -1330,11 +1414,13 @@
         "e",
         "n",
         "u"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "poem",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "po",
@@ -1353,7 +1439,8 @@
     },
     {
       "text": "halo",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "ha",
@@ -1372,7 +1459,8 @@
     },
     {
       "text": "solo",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "so",
@@ -1391,7 +1479,8 @@
     },
     {
       "text": "lilac",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "li",
@@ -1411,7 +1500,8 @@
     },
     {
       "text": "label",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "la",
@@ -1431,7 +1521,8 @@
     },
     {
       "text": "student",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "stu",
@@ -1453,7 +1544,8 @@
     },
     {
       "text": "secret",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "se",
@@ -1474,7 +1566,8 @@
     },
     {
       "text": "fever",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "fe",
@@ -1493,7 +1586,8 @@
     },
     {
       "text": "meter",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "me",
@@ -1512,7 +1606,8 @@
     },
     {
       "text": "program",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "pro",
@@ -1530,11 +1625,13 @@
         "r",
         "a",
         "m"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "protect",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "pro",
@@ -1556,7 +1653,8 @@
     },
     {
       "text": "prevent",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "pre",
@@ -1578,7 +1676,8 @@
     },
     {
       "text": "relax",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "re",
@@ -1598,7 +1697,8 @@
     },
     {
       "text": "remind",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "re",
@@ -1619,7 +1719,8 @@
     },
     {
       "text": "pretend",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 3,
       "syllables": [
         "pre",
@@ -1641,7 +1742,8 @@
     },
     {
       "text": "tomato",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "to",
@@ -1664,7 +1766,8 @@
     },
     {
       "text": "potato",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "po",
@@ -1687,7 +1790,8 @@
     },
     {
       "text": "volcano",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "vol",
@@ -1711,7 +1815,8 @@
     },
     {
       "text": "tornado",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "tor",
@@ -1730,11 +1835,13 @@
         "a",
         "d",
         "o"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "mosquito",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "mos",
@@ -1758,7 +1865,8 @@
     },
     {
       "text": "piano",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "pi",
@@ -1780,7 +1888,8 @@
     },
     {
       "text": "radio",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "ra",
@@ -1802,7 +1911,8 @@
     },
     {
       "text": "video",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "vid",
@@ -1824,7 +1934,8 @@
     },
     {
       "text": "rodeo",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "ro",
@@ -1846,7 +1957,8 @@
     },
     {
       "text": "stereo",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "ster",
@@ -1864,11 +1976,13 @@
         "er",
         "e",
         "o"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "uniform",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "u",
@@ -1891,7 +2005,8 @@
     },
     {
       "text": "unicorn",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "u",
@@ -1914,7 +2029,8 @@
     },
     {
       "text": "united",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "u",
@@ -1937,7 +2053,8 @@
     },
     {
       "text": "museum",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "mu",
@@ -1960,7 +2077,8 @@
     },
     {
       "text": "bikini",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "bi",
@@ -1983,7 +2101,8 @@
     },
     {
       "text": "tuxedo",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "tux",
@@ -2002,11 +2121,13 @@
         "e",
         "d",
         "o"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "torpedo",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "tor",
@@ -2029,7 +2150,8 @@
     },
     {
       "text": "avocado",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "av",
@@ -2055,7 +2177,8 @@
     },
     {
       "text": "cucumber",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "cu",
@@ -2079,7 +2202,8 @@
     },
     {
       "text": "computer",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "com",
@@ -2103,7 +2227,8 @@
     },
     {
       "text": "provided",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "pro",
@@ -2128,7 +2253,8 @@
     },
     {
       "text": "relocate",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "re",
@@ -2149,11 +2275,13 @@
         "a",
         "t",
         "e"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "robotic",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "ro",
@@ -2177,7 +2305,8 @@
     },
     {
       "text": "melody",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "mel",
@@ -2200,7 +2329,8 @@
     },
     {
       "text": "memory",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "mem",
@@ -2223,7 +2353,8 @@
     },
     {
       "text": "history",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "his",
@@ -2247,7 +2378,8 @@
     },
     {
       "text": "victory",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "vic",
@@ -2271,7 +2403,8 @@
     },
     {
       "text": "factory",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "fac",
@@ -2291,11 +2424,13 @@
         "o",
         "r",
         "y"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "library",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "li",
@@ -2319,7 +2454,8 @@
     },
     {
       "text": "dinosaur",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "di",
@@ -2343,7 +2479,8 @@
     },
     {
       "text": "domino",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "dom",
@@ -2366,7 +2503,8 @@
     },
     {
       "text": "buffalo",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "buf",
@@ -2390,7 +2528,8 @@
     },
     {
       "text": "pretending",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "pre",
@@ -2416,7 +2555,8 @@
     },
     {
       "text": "protecting",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "pro",
@@ -2438,11 +2578,13 @@
         "t",
         "i",
         "ng"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "preventing",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "pre",
@@ -2468,7 +2610,8 @@
     },
     {
       "text": "reminded",
-      "group": "open",
+      "set": 1,
+      "skillId": "1.2",
       "level": 4,
       "syllables": [
         "re",

@@ -1,9 +1,10 @@
 {
-  "group": "diphthong",
+  "skillId": "1.7",
   "words": [
     {
       "text": "coin",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "coin"
@@ -19,7 +20,8 @@
     },
     {
       "text": "join",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "join"
@@ -35,7 +37,8 @@
     },
     {
       "text": "oil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "oil"
@@ -50,7 +53,8 @@
     },
     {
       "text": "boil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "boil"
@@ -62,11 +66,13 @@
         "b",
         "oi",
         "l"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "soil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "soil"
@@ -82,7 +88,8 @@
     },
     {
       "text": "foil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "foil"
@@ -98,7 +105,8 @@
     },
     {
       "text": "coil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "coil"
@@ -114,7 +122,8 @@
     },
     {
       "text": "point",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "point"
@@ -131,7 +140,8 @@
     },
     {
       "text": "joint",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "joint"
@@ -148,7 +158,8 @@
     },
     {
       "text": "moist",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "moist"
@@ -165,7 +176,8 @@
     },
     {
       "text": "boy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "boy"
@@ -183,7 +195,8 @@
     },
     {
       "text": "toy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "toy"
@@ -194,11 +207,13 @@
       "chunks": [
         "t",
         "oy"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "joy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "joy"
@@ -213,7 +228,8 @@
     },
     {
       "text": "soy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "soy"
@@ -228,7 +244,8 @@
     },
     {
       "text": "out",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "out"
@@ -243,7 +260,8 @@
     },
     {
       "text": "loud",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "loud"
@@ -259,7 +277,8 @@
     },
     {
       "text": "round",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "round"
@@ -276,7 +295,8 @@
     },
     {
       "text": "found",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "found"
@@ -289,11 +309,13 @@
         "ou",
         "n",
         "d"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "pound",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "pound"
@@ -310,7 +332,8 @@
     },
     {
       "text": "hound",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "hound"
@@ -327,7 +350,8 @@
     },
     {
       "text": "bound",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "bound"
@@ -344,7 +368,8 @@
     },
     {
       "text": "sound",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "sound"
@@ -361,7 +386,8 @@
     },
     {
       "text": "mouth",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "mouth"
@@ -377,7 +403,8 @@
     },
     {
       "text": "south",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "south"
@@ -393,7 +420,8 @@
     },
     {
       "text": "house",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "house"
@@ -406,11 +434,13 @@
         "ou",
         "s",
         "e"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "mouse",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "mouse"
@@ -427,7 +457,8 @@
     },
     {
       "text": "count",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "count"
@@ -444,7 +475,8 @@
     },
     {
       "text": "mount",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "mount"
@@ -461,7 +493,8 @@
     },
     {
       "text": "ouch",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "ouch"
@@ -476,7 +509,8 @@
     },
     {
       "text": "pouch",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "pouch"
@@ -492,7 +526,8 @@
     },
     {
       "text": "couch",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "couch"
@@ -508,7 +543,8 @@
     },
     {
       "text": "cow",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "cow"
@@ -519,11 +555,13 @@
       "chunks": [
         "c",
         "ow"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "how",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "how"
@@ -538,7 +576,8 @@
     },
     {
       "text": "now",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "now"
@@ -553,7 +592,8 @@
     },
     {
       "text": "wow",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "wow"
@@ -568,7 +608,8 @@
     },
     {
       "text": "vow",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "vow"
@@ -583,7 +624,8 @@
     },
     {
       "text": "owl",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "owl"
@@ -598,7 +640,8 @@
     },
     {
       "text": "howl",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "howl"
@@ -610,11 +653,13 @@
         "h",
         "ow",
         "l"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "town",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "town"
@@ -630,7 +675,8 @@
     },
     {
       "text": "down",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "down"
@@ -646,7 +692,8 @@
     },
     {
       "text": "gown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "gown"
@@ -662,7 +709,8 @@
     },
     {
       "text": "our",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 1,
       "syllables": [
         "our"
@@ -680,7 +728,8 @@
     },
     {
       "text": "spoil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "spoil"
@@ -697,7 +746,8 @@
     },
     {
       "text": "broil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "broil"
@@ -714,7 +764,8 @@
     },
     {
       "text": "hoist",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "hoist"
@@ -731,7 +782,8 @@
     },
     {
       "text": "joist",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "joist"
@@ -744,11 +796,13 @@
         "oi",
         "s",
         "t"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "ploy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "ploy"
@@ -764,7 +818,8 @@
     },
     {
       "text": "shout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "shout"
@@ -780,7 +835,8 @@
     },
     {
       "text": "scout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "scout"
@@ -797,7 +853,8 @@
     },
     {
       "text": "sprout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "sprout"
@@ -815,7 +872,8 @@
     },
     {
       "text": "trout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "trout"
@@ -832,7 +890,8 @@
     },
     {
       "text": "stout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "stout"
@@ -845,11 +904,13 @@
         "t",
         "ou",
         "t"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "spout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "spout"
@@ -866,7 +927,8 @@
     },
     {
       "text": "snout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "snout"
@@ -883,7 +945,8 @@
     },
     {
       "text": "cloud",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "cloud"
@@ -900,7 +963,8 @@
     },
     {
       "text": "proud",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "proud"
@@ -917,7 +981,8 @@
     },
     {
       "text": "crowd",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "crowd"
@@ -934,7 +999,8 @@
     },
     {
       "text": "crown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "crown"
@@ -947,11 +1013,13 @@
         "r",
         "ow",
         "n"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "clown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "clown"
@@ -968,7 +1036,8 @@
     },
     {
       "text": "frown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "frown"
@@ -985,7 +1054,8 @@
     },
     {
       "text": "drown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "drown"
@@ -1002,7 +1072,8 @@
     },
     {
       "text": "brown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "brown"
@@ -1019,7 +1090,8 @@
     },
     {
       "text": "growl",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "growl"
@@ -1036,7 +1108,8 @@
     },
     {
       "text": "prowl",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "prowl"
@@ -1049,11 +1122,13 @@
         "r",
         "ow",
         "l"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "scowl",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "scowl"
@@ -1070,7 +1145,8 @@
     },
     {
       "text": "plow",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "plow"
@@ -1086,7 +1162,8 @@
     },
     {
       "text": "brow",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "brow"
@@ -1102,7 +1179,8 @@
     },
     {
       "text": "chow",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "chow"
@@ -1120,7 +1198,8 @@
     },
     {
       "text": "ground",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "ground"
@@ -1138,7 +1217,8 @@
     },
     {
       "text": "grouch",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "grouch"
@@ -1155,7 +1235,8 @@
     },
     {
       "text": "crouch",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "crouch"
@@ -1168,11 +1249,13 @@
         "r",
         "ou",
         "ch"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "slouch",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "slouch"
@@ -1189,7 +1272,8 @@
     },
     {
       "text": "blouse",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "blouse"
@@ -1207,7 +1291,8 @@
     },
     {
       "text": "flour",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "flour"
@@ -1227,7 +1312,8 @@
     },
     {
       "text": "sour",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "sour"
@@ -1243,7 +1329,8 @@
     },
     {
       "text": "scour",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "scour"
@@ -1260,7 +1347,8 @@
     },
     {
       "text": "clout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "clout"
@@ -1277,7 +1365,8 @@
     },
     {
       "text": "grout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "grout"
@@ -1290,11 +1379,13 @@
         "r",
         "ou",
         "t"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "pout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "pout"
@@ -1310,7 +1401,8 @@
     },
     {
       "text": "bout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "bout"
@@ -1326,7 +1418,8 @@
     },
     {
       "text": "shroud",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "shroud"
@@ -1343,7 +1436,8 @@
     },
     {
       "text": "foul",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 2,
       "syllables": [
         "foul"
@@ -1362,7 +1456,8 @@
     },
     {
       "text": "cowboy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "cow",
@@ -1381,7 +1476,8 @@
     },
     {
       "text": "oyster",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "oys",
@@ -1400,7 +1496,8 @@
     },
     {
       "text": "toilet",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "toi",
@@ -1420,7 +1517,8 @@
     },
     {
       "text": "poison",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "poi",
@@ -1440,7 +1538,8 @@
     },
     {
       "text": "pointed",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "point",
@@ -1461,7 +1560,8 @@
     },
     {
       "text": "appoint",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "ap",
@@ -1482,7 +1582,8 @@
     },
     {
       "text": "avoid",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "a",
@@ -1497,11 +1598,13 @@
         "v",
         "oi",
         "d"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "enjoy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "en",
@@ -1520,7 +1623,8 @@
     },
     {
       "text": "annoy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "an",
@@ -1539,7 +1643,8 @@
     },
     {
       "text": "destroy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "de",
@@ -1560,7 +1665,8 @@
     },
     {
       "text": "employ",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "em",
@@ -1580,7 +1686,8 @@
     },
     {
       "text": "decoy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "de",
@@ -1599,7 +1706,8 @@
     },
     {
       "text": "convoy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "con",
@@ -1619,7 +1727,8 @@
     },
     {
       "text": "royal",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "roy",
@@ -1638,7 +1747,8 @@
     },
     {
       "text": "loyal",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "loy",
@@ -1657,7 +1767,8 @@
     },
     {
       "text": "joyful",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "joy",
@@ -1677,7 +1788,8 @@
     },
     {
       "text": "soybean",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "soy",
@@ -1697,7 +1809,8 @@
     },
     {
       "text": "tomboy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "tom",
@@ -1717,7 +1830,8 @@
     },
     {
       "text": "about",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "a",
@@ -1736,7 +1850,8 @@
     },
     {
       "text": "around",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "a",
@@ -1752,11 +1867,13 @@
         "ou",
         "n",
         "d"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "aloud",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "a",
@@ -1778,7 +1895,8 @@
     },
     {
       "text": "amount",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "a",
@@ -1798,7 +1916,8 @@
     },
     {
       "text": "account",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "ac",
@@ -1819,7 +1938,8 @@
     },
     {
       "text": "outside",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "out",
@@ -1840,7 +1960,8 @@
     },
     {
       "text": "outfit",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "out",
@@ -1860,7 +1981,8 @@
     },
     {
       "text": "output",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "out",
@@ -1880,7 +2002,8 @@
     },
     {
       "text": "outlet",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "out",
@@ -1900,7 +2023,8 @@
     },
     {
       "text": "without",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "with",
@@ -1920,7 +2044,8 @@
     },
     {
       "text": "lookout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "look",
@@ -1940,7 +2065,8 @@
     },
     {
       "text": "hangout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "hang",
@@ -1960,7 +2086,8 @@
     },
     {
       "text": "blackout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "black",
@@ -1981,7 +2108,8 @@
     },
     {
       "text": "cookout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "cook",
@@ -2001,7 +2129,8 @@
     },
     {
       "text": "dropout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "drop",
@@ -2022,7 +2151,8 @@
     },
     {
       "text": "tryout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "try",
@@ -2038,11 +2168,13 @@
         "y",
         "ou",
         "t"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "county",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "coun",
@@ -2062,7 +2194,8 @@
     },
     {
       "text": "counter",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "coun",
@@ -2082,7 +2215,8 @@
     },
     {
       "text": "thousand",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "thou",
@@ -2103,7 +2237,8 @@
     },
     {
       "text": "mousetrap",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "mouse",
@@ -2126,7 +2261,8 @@
     },
     {
       "text": "powder",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "pow",
@@ -2145,7 +2281,8 @@
     },
     {
       "text": "chowder",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "chow",
@@ -2164,7 +2301,8 @@
     },
     {
       "text": "flower",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "flow",
@@ -2186,7 +2324,8 @@
     },
     {
       "text": "shower",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "show",
@@ -2204,7 +2343,8 @@
     },
     {
       "text": "tower",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "tow",
@@ -2222,7 +2362,8 @@
     },
     {
       "text": "power",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "pow",
@@ -2240,7 +2381,8 @@
     },
     {
       "text": "vowel",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "vow",
@@ -2259,7 +2401,8 @@
     },
     {
       "text": "towel",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "tow",
@@ -2278,7 +2421,8 @@
     },
     {
       "text": "allow",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "al",
@@ -2293,11 +2437,13 @@
         "l",
         "l",
         "ow"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "downtown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "down",
@@ -2318,7 +2464,8 @@
     },
     {
       "text": "sundown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "sun",
@@ -2339,7 +2486,8 @@
     },
     {
       "text": "countdown",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "count",
@@ -2361,7 +2509,8 @@
     },
     {
       "text": "crowded",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "crowd",
@@ -2382,7 +2531,8 @@
     },
     {
       "text": "rowdy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "row",
@@ -2401,7 +2551,8 @@
     },
     {
       "text": "howdy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "how",
@@ -2420,7 +2571,8 @@
     },
     {
       "text": "coward",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "cow",
@@ -2439,7 +2591,8 @@
     },
     {
       "text": "cowbell",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "cow",
@@ -2460,7 +2613,8 @@
     },
     {
       "text": "cowgirl",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "cow",
@@ -2480,7 +2634,8 @@
     },
     {
       "text": "playground",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "play",
@@ -2503,7 +2658,8 @@
     },
     {
       "text": "background",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "back",
@@ -2526,7 +2682,8 @@
     },
     {
       "text": "campground",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "camp",
@@ -2550,7 +2707,8 @@
     },
     {
       "text": "surround",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "sur",
@@ -2567,11 +2725,13 @@
         "ou",
         "n",
         "d"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "profound",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "pro",
@@ -2593,7 +2753,8 @@
     },
     {
       "text": "compound",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "com",
@@ -2615,7 +2776,8 @@
     },
     {
       "text": "rebound",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "re",
@@ -2636,7 +2798,8 @@
     },
     {
       "text": "astound",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "a",
@@ -2657,7 +2820,8 @@
     },
     {
       "text": "discount",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "dis",
@@ -2679,7 +2843,8 @@
     },
     {
       "text": "devout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "de",
@@ -2699,7 +2864,8 @@
     },
     {
       "text": "flounder",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "floun",
@@ -2720,7 +2886,8 @@
     },
     {
       "text": "louder",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "loud",
@@ -2739,7 +2906,8 @@
     },
     {
       "text": "cloudy",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "cloud",
@@ -2759,7 +2927,8 @@
     },
     {
       "text": "oily",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "oil",
@@ -2777,7 +2946,8 @@
     },
     {
       "text": "boiler",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "boil",
@@ -2796,7 +2966,8 @@
     },
     {
       "text": "spoiler",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "spoil",
@@ -2816,7 +2987,8 @@
     },
     {
       "text": "pointer",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "point",
@@ -2832,11 +3004,13 @@
         "n",
         "t",
         "er"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "ointment",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "oint",
@@ -2858,7 +3032,8 @@
     },
     {
       "text": "turmoil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "tur",
@@ -2878,7 +3053,8 @@
     },
     {
       "text": "tinfoil",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "tin",
@@ -2899,7 +3075,8 @@
     },
     {
       "text": "sirloin",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "sir",
@@ -2919,7 +3096,8 @@
     },
     {
       "text": "exploit",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "ex",
@@ -2940,7 +3118,8 @@
     },
     {
       "text": "rejoin",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 3,
       "syllables": [
         "re",
@@ -2960,7 +3139,8 @@
     },
     {
       "text": "enjoyment",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "en",
@@ -2985,7 +3165,8 @@
     },
     {
       "text": "employment",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "em",
@@ -3011,7 +3192,8 @@
     },
     {
       "text": "employer",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "em",
@@ -3034,7 +3216,8 @@
     },
     {
       "text": "destroyer",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "de",
@@ -3058,7 +3241,8 @@
     },
     {
       "text": "annoying",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "an",
@@ -3077,11 +3261,13 @@
         "oy",
         "i",
         "ng"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "loyalty",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "loy",
@@ -3104,7 +3290,8 @@
     },
     {
       "text": "royalty",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "roy",
@@ -3127,7 +3314,8 @@
     },
     {
       "text": "disloyal",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "dis",
@@ -3151,7 +3339,8 @@
     },
     {
       "text": "overjoyed",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "o",
@@ -3175,7 +3364,8 @@
     },
     {
       "text": "appointment",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "ap",
@@ -3202,7 +3392,8 @@
     },
     {
       "text": "disappoint",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "dis",
@@ -3228,7 +3419,8 @@
     },
     {
       "text": "avoiding",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "a",
@@ -3251,7 +3443,8 @@
     },
     {
       "text": "embroider",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "em",
@@ -3271,11 +3464,13 @@
         "oi",
         "d",
         "er"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "exploiting",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "ex",
@@ -3300,7 +3495,8 @@
     },
     {
       "text": "adjoining",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "ad",
@@ -3324,7 +3520,8 @@
     },
     {
       "text": "roundabout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "round",
@@ -3349,7 +3546,8 @@
     },
     {
       "text": "runabout",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "run",
@@ -3373,7 +3571,8 @@
     },
     {
       "text": "outstanding",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "out",
@@ -3399,7 +3598,8 @@
     },
     {
       "text": "outnumber",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "out",
@@ -3423,7 +3623,8 @@
     },
     {
       "text": "outsmarted",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "out",
@@ -3448,7 +3649,8 @@
     },
     {
       "text": "outspoken",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "out",
@@ -3469,11 +3671,13 @@
         "k",
         "e",
         "n"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "outgoing",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "out",
@@ -3496,7 +3700,8 @@
     },
     {
       "text": "outlandish",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "out",
@@ -3521,7 +3726,8 @@
     },
     {
       "text": "surrounding",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "sur",
@@ -3546,7 +3752,8 @@
     },
     {
       "text": "rebounding",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "re",
@@ -3571,7 +3778,8 @@
     },
     {
       "text": "astounding",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "a",
@@ -3596,7 +3804,8 @@
     },
     {
       "text": "accountant",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "ac",
@@ -3622,7 +3831,8 @@
     },
     {
       "text": "accounting",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "ac",
@@ -3647,7 +3857,8 @@
     },
     {
       "text": "discounted",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "dis",
@@ -3669,11 +3880,13 @@
         "t",
         "e",
         "d"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "downloading",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "down",
@@ -3698,7 +3911,8 @@
     },
     {
       "text": "downtrodden",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "down",
@@ -3725,7 +3939,8 @@
     },
     {
       "text": "downstairs",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "down",
@@ -3747,7 +3962,8 @@
     },
     {
       "text": "powerful",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "pow",
@@ -3770,7 +3986,8 @@
     },
     {
       "text": "powerless",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "pow",
@@ -3794,7 +4011,8 @@
     },
     {
       "text": "flowerpot",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "flow",
@@ -3818,7 +4036,8 @@
     },
     {
       "text": "showering",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "show",
@@ -3840,7 +4059,8 @@
     },
     {
       "text": "towering",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "tow",
@@ -3858,11 +4078,13 @@
         "er",
         "i",
         "ng"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "empowered",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "em",
@@ -3886,7 +4108,8 @@
     },
     {
       "text": "sunflower",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "sun",
@@ -3910,7 +4133,8 @@
     },
     {
       "text": "allowing",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "al",
@@ -3933,7 +4157,8 @@
     },
     {
       "text": "cowardly",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "cow",
@@ -3956,7 +4181,8 @@
     },
     {
       "text": "crowdfunding",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "crowd",
@@ -3983,7 +4209,8 @@
     },
     {
       "text": "boundary",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "boun",
@@ -4007,7 +4234,8 @@
     },
     {
       "text": "loudspeaker",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "loud",
@@ -4032,7 +4260,8 @@
     },
     {
       "text": "counterpart",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "coun",
@@ -4053,11 +4282,13 @@
         "p",
         "ar",
         "t"
-      ]
+      ],
+      "heldOut": true
     },
     {
       "text": "countertop",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "coun",
@@ -4082,7 +4313,8 @@
     },
     {
       "text": "encounter",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "en",
@@ -4106,7 +4338,8 @@
     },
     {
       "text": "southwestern",
-      "group": "diphthong",
+      "set": 1,
+      "skillId": "1.7",
       "level": 4,
       "syllables": [
         "south",
