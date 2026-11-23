@@ -53,8 +53,8 @@ export interface AttemptRecord {
   result: 'correct' | 'modeled' | 'skipped';
   overrideUsed: boolean;
   stars: number;
-  /** 'practice' or 'placement'. Placement attempts never count toward mastery. */
-  mode: 'practice' | 'placement';
+  /** 'practice', 'placement' or 'story'. Only practice attempts count toward mastery. */
+  mode: 'practice' | 'placement' | 'story';
   /** Whether the rule panel was showing during the attempt. */
   panelOn: boolean;
 }

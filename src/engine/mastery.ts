@@ -12,8 +12,8 @@ export interface AttemptLike {
   tries: number;
   helpStep: number;
   result: 'correct' | 'modeled' | 'skipped';
-  /** Placement-test attempts never count. */
-  mode?: 'practice' | 'placement';
+  /** Only practice attempts count; placement and story reads never do. */
+  mode?: 'practice' | 'placement' | 'story';
 }
 
 export interface MasteryReport {
@@ -50,7 +50,7 @@ export function countDistinctDays(timestamps: number[]): number {
 /** Last N practice attempts by time, newest last. */
 export function rollingWindow<T extends AttemptLike>(attempts: T[], size = config.mastery.windowSize): T[] {
   return attempts
-    .filter((a) => a.mode !== 'placement')
+    .filter((a) => a.mode === undefined || a.mode === 'practice')
     .sort((a, b) => a.timestamp - b.timestamp)
     .slice(-size);
 }

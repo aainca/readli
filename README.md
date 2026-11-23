@@ -155,6 +155,15 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
   level in the chosen group. The practice screen is unmounted during the hand-off banner,
   so no speech result can land on the wrong player.
 
+## Stories
+
+`src/content/stories.ts` holds short decodable stories per vowel group (parents can edit or
+add). `src/engine/stories.ts` ranks them by the share of content words the reader has read
+correctly, tokenizes them, and tracks live reading: recognized words are aligned to the text
+in order with a small look-ahead, partial results show as amber, committed words as green,
+and the parent can mark or skip the next word. Story reads earn one star per word and are
+logged with `mode: 'story'`, which never counts toward mastery.
+
 ## Voice engines
 
 - **Offline (default):** Vosk, Kaldi compiled to WebAssembly, via `vosk-browser`. The

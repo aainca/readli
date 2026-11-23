@@ -25,3 +25,10 @@ export async function totalStars(profileId: string): Promise<number> {
   const all = await db.getAllFromIndex('attempts', 'byProfile', profileId);
   return all.reduce((sum, a) => sum + (a.stars ?? 0), 0);
 }
+
+/** Distinct words the profile has read correctly in practice or the level test. */
+export async function wordsReadCorrectly(profileId: string): Promise<Set<string>> {
+  const db = await getDB();
+  const all = await db.getAllFromIndex('attempts', 'byProfile', profileId);
+  return new Set(all.filter((a) => a.result === 'correct' && a.mode !== 'story').map((a) => a.word));
+}

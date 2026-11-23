@@ -206,7 +206,7 @@ export type FastAdjust = 'pending' | 'up' | 'down' | 'stay';
  */
 export function fastAdjust(attemptsSincePlacement: AttemptLike[]): FastAdjust {
   const f = config.placement.fastAdjust;
-  const window = attemptsSincePlacement.filter((a) => a.mode !== 'placement').slice(0, f.window);
+  const window = attemptsSincePlacement.filter((a) => a.mode === undefined || a.mode === 'practice').slice(0, f.window);
   if (window.length < f.window) return 'pending';
   const clean = window.filter(isCleanRead).length;
   if (clean >= f.moveUpAt) return 'up';

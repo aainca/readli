@@ -19,7 +19,7 @@ const skillBg: Record<string, string> = {
   'syl-schwa': 'bg-syl-schwa',
 };
 
-export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether }: { onOpenSkill: (id: SkillId) => void; onLevelTest: () => void; onPlayTogether: () => void }) {
+export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether, onStories }: { onOpenSkill: (id: SkillId) => void; onLevelTest: () => void; onPlayTogether: () => void; onStories: () => void }) {
   const DEFAULT_PROFILE_ID = useActiveProfileId();
   const [offer, setOffer] = useState<'none' | 'offer' | 'resume'>('none');
   const [tested, setTested] = useState(false);
@@ -103,6 +103,7 @@ export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether }: { onOpe
           ⭐ start practicing
         </BigButton>
         <BigButton tone="secondary" onClick={onPlayTogether}>👫 play together</BigButton>
+        <BigButton tone="ghost" onClick={onStories}>📖 stories</BigButton>
         {offer === 'none' && (
           <button onClick={onLevelTest} className="text-sm font-bold text-sky-700 underline underline-offset-4">{tested ? 'rerun the level test' : 'level test'}</button>
         )}

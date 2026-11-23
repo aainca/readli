@@ -4,6 +4,9 @@ import { ProfileProvider, useProfiles } from './ProfileContext';
 import { ProfilesScreen } from './screens/ProfilesScreen';
 import { MultiplayerSetupScreen, type GameSetup } from './screens/MultiplayerSetupScreen';
 import { MultiplayerScreen } from './screens/MultiplayerScreen';
+import { StoriesScreen } from './screens/StoriesScreen';
+import { StoryScreen } from './screens/StoryScreen';
+import type { Story } from '../content/stories';
 import type { Level, SkillId } from '../content/schema';
 import { AppHeader } from './components/AppHeader';
 import { AudioSetup } from './components/AudioSetup';
@@ -27,7 +30,9 @@ type Route =
   | { name: 'placementResult'; result: PlacementResult }
   | { name: 'profiles' }
   | { name: 'playSetup' }
-  | { name: 'play'; setup: GameSetup };
+  | { name: 'play'; setup: GameSetup }
+  | { name: 'stories' }
+  | { name: 'story'; story: Story };
 
 export function App() {
   return (
@@ -119,12 +124,26 @@ function AppInner() {
     case 'play':
       screen = <MultiplayerScreen setup={route.setup} onExit={() => setRoute({ name: 'home' })} />;
       break;
+    case 'stories':
+      screen = <StoriesScreen onBack={() => setRoute({ name: 'home' })} onOpen={(story) => setRoute({ name: 'story', story })} />;
+      break;
+    case 'story':
+      screen = (
+        <StoryScreen
+          key={route.story.id}
+          story={route.story}
+          onBack={() => setRoute({ name: 'stories' })}
+          onStars={(earned) => setStats((s) => ({ ...s, stars: s.stars + earned }))}
+        />
+      );
+      break;
     default:
       screen = (
         <HomeScreen
           onOpenSkill={(skillId) => setRoute({ name: 'skill', skillId })}
           onLevelTest={() => setRoute({ name: 'placement' })}
           onPlayTogether={() => setRoute({ name: 'playSetup' })}
+          onStories={() => setRoute({ name: 'stories' })}
         />
       );
   }
