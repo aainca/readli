@@ -7,6 +7,7 @@ import {
   createCoach, decideCoach, promptFor, reduceCoach, updateCoachCounts,
   type CoachCounts, type CoachEvent, type CoachMode, type CoachState,
 } from '../../engine/coach';
+import { grammarFor } from '../../engine/grammar';
 import { matchWord } from '../../engine/matcher';
 import { rulePanelFor } from '../../engine/rulePanel';
 import { streakBonus } from '../../engine/scoring';
@@ -435,6 +436,12 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
     void tts.speak(word.text, { rate: 0.75 });
   };
 
+  // Tell the engine which words to listen for on this word.
+  useEffect(() => {
+    rec.setGrammar(word ? grammarFor(word, wordsFor(word.skillId, word.level)) : null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [word?.text, rec.mode]);
+
   const panel = useMemo(() => (word ? rulePanelFor(word) : null), [word]);
   const highlight = useMemo(() => new Set(showRule && panel ? panel.ruleLetters : []), [showRule, panel]);
 
@@ -456,6 +463,11 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
       </div>
 
       {rec.fallbackMessage && <FallbackBanner message={rec.fallbackMessage} onRetry={rec.retry} />}
+      {rec.mode === 'vosk' && rec.engine.status === 'loading' && (
+        <div className="bg-sky-50 border border-sky-200 text-sky-900 text-sm font-semibold rounded-2xl px-4 py-2">
+          Downloading the voice engine once ({Math.round(rec.engine.progress * 100)}%)… the microphone starts when it is ready.
+        </div>
+      )}
 
       {summary && (
         <Card className="p-6 md:p-10 text-center flex flex-col items-center gap-3">

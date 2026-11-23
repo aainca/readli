@@ -17,6 +17,12 @@ export interface RecognizerError {
 
 export interface Recognizer {
   readonly name: string;
+  /**
+   * Optional: limit what the engine listens for. Engines that support a
+   * grammar (Vosk) recognize these words far more reliably; others ignore it.
+   * Pass null to listen for anything.
+   */
+  setGrammar?(words: string[] | null): void;
   /** Whether this recognizer produces speech results at all (Manual does not). */
   readonly hearsSpeech: boolean;
   /** Begin listening. Call only after a user tap. */

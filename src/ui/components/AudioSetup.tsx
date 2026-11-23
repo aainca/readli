@@ -4,7 +4,10 @@ import {
   type AudioDevice, type PermissionResult, type PermissionState, type RecognitionTest,
 } from '../../speech/audioDevices';
 import { tts } from '../../speech/tts';
+import { loadVoskModel, voskEngine } from '../../speech/VoskRecognizer';
+import { WebSpeechRecognizer } from '../../speech/WebSpeechRecognizer';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
+import type { EngineChoice } from '../hooks/useRecognizer';
 
 /**
  * Audio setup: permission, auto-detected devices, a live mic meter, a speaker
@@ -21,6 +24,16 @@ export function AudioSetup({ onClose }: { onClose: () => void }) {
   const [meterError, setMeterError] = useState<string | null>(null);
   const [recTest, setRecTest] = useState<RecognitionTest | null>(null);
   const [testing, setTesting] = useState(false);
+  const [engine, setEngine] = useState<EngineChoice>('vosk');
+  const [voskStatus, setVoskStatus] = useState(voskEngine.status);
+  useEffect(() => {
+    void getSetting<EngineChoice>(settingKeys.engine, 'vosk').then(setEngine);
+    return voskEngine.onStatus(setVoskStatus);
+  }, []);
+  const chooseEngine = (e: EngineChoice) => {
+    setEngine(e);
+    void setSetting(settingKeys.engine, e);
+  };
   const stopMeter = useRef<(() => void) | null>(null);
   const peakTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -110,6 +123,34 @@ export function AudioSetup({ onClose }: { onClose: () => void }) {
         <h3 className="font-display text-2xl font-bold text-slate-800 mb-1">Audio setup</h3>
         <p className="text-xs text-slate-500 font-semibold mb-4">Devices are detected automatically. Speak and watch the meter to find the microphone that hears him.</p>
 
+        <section className="bg-indigo-50 p-3.5 rounded-2xl border border-indigo-100 mb-3">
+          <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">🧠 Voice engine</label>
+          <div className="flex flex-col gap-1.5 text-sm">
+            {([
+              ['vosk', 'Offline engine (recommended)', 'Runs in the browser, listens for the exact words on screen, no audio leaves the device. One 31 MB download.'],
+              ['webspeech', 'Browser engine', WebSpeechRecognizer.available() ? 'Chrome sends audio to Google. Free, but it guesses phrases and often misses single words.' : 'Not available in this browser.'],
+              ['manual', 'Parent judges', 'No speech recognition. The parent taps "I heard it right" or "Not quite".'],
+            ] as const).map(([id, label, note]) => (
+              <label key={id} className={`flex items-start gap-2 rounded-xl px-3 py-2 cursor-pointer ${engine === id ? 'bg-white border border-indigo-300' : 'border border-transparent'}`}>
+                <input type="radio" name="engine" checked={engine === id} onChange={() => chooseEngine(id)} className="mt-1" disabled={id === 'webspeech' && !WebSpeechRecognizer.available()} />
+                <span><span className="font-bold text-slate-800">{label}</span><br /><span className="text-xs text-slate-500">{note}</span></span>
+              </label>
+            ))}
+          </div>
+          {engine === 'vosk' && (
+            <div className="mt-2 text-xs font-bold flex items-center gap-2">
+              {voskStatus.status === 'ready' && <span className="text-emerald-700">✓ offline engine ready</span>}
+              {voskStatus.status === 'loading' && <span className="text-sky-700">downloading… {Math.round(voskStatus.progress * 100)}%</span>}
+              {voskStatus.status === 'failed' && <span className="text-rose-700">could not load: {voskStatus.error}</span>}
+              {voskStatus.status === 'idle' && <span className="text-slate-500">not downloaded yet</span>}
+              {voskStatus.status !== 'ready' && voskStatus.status !== 'loading' && (
+                <button onClick={() => void loadVoskModel().catch(() => {})} className="underline text-sky-700">download now</button>
+              )}
+            </div>
+          )}
+          <p className="text-[11px] text-slate-500 mt-2">Changes apply the next time a practice or test screen opens.</p>
+        </section>
+
         <section className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 mb-3">
           <div className="flex items-center justify-between mb-2">
             <label className="text-xs font-bold text-slate-700 uppercase tracking-wider">🎤 Microphone</label>
@@ -149,8 +190,8 @@ export function AudioSetup({ onClose }: { onClose: () => void }) {
         </section>
 
         <section className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 mb-3">
-          <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">🗣 Speech recognition test</label>
-          <p className="text-xs text-slate-500 mb-2">Tap, then say "hello" within 5 seconds.</p>
+          <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">🗣 Browser engine test</label>
+          <p className="text-xs text-slate-500 mb-2">Checks the browser's own engine. Tap, then say "hello" within 5 seconds.</p>
           <button disabled={testing} onClick={() => void runTest()} className="bg-emerald-500 hover:bg-emerald-600 disabled:opacity-50 text-white font-display font-semibold px-4 py-2 rounded-xl text-sm">
             {testing ? 'listening…' : 'run the test'}
           </button>
@@ -160,8 +201,7 @@ export function AudioSetup({ onClose }: { onClose: () => void }) {
         </section>
 
         <p className="text-[11px] text-slate-500 leading-snug">
-          Chrome's speech engine always listens on the <b>system default</b> microphone and speaks through the default speaker, whatever is picked here.
-          Use the meter to find the microphone that works, then make it the default in the device's sound settings. The choices are saved for the optional cloud engine, which can use them directly.
+          The offline engine uses the microphone picked here. The browser engine always listens on the <b>system default</b> microphone, and the app's voice always plays through the default speaker.
         </p>
         <div className="mt-4 flex justify-end">
           <button onClick={onClose} className="bg-sky-500 hover:bg-sky-600 text-white font-display font-semibold px-6 py-2.5 rounded-xl text-sm shadow">Done</button>

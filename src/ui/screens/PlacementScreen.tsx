@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { wordsFor } from '../../content';
 import { SET1_SKILL_IDS, SKILLS, type Word } from '../../content/schema';
 import { config } from '../../engine/config';
+import { grammarFor } from '../../engine/grammar';
 import { matchWord } from '../../engine/matcher';
 import { placementStep, probeWords, type Placement, type PlacementEntry, type Probe } from '../../engine/placement';
 import { tts } from '../../speech/tts';
@@ -136,6 +137,11 @@ export function PlacementScreen({ onPause, onDone }: Props) {
     onPause();
   };
 
+  useEffect(() => {
+    rec.setGrammar(word ? grammarFor(word, wordsFor(word.skillId, word.level, { pool: 'all' })) : null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [word?.text, rec.mode]);
+
   const answered = progress?.entries.length ?? 0;
   const groupName = probe ? SKILLS[probe.skillId].name : '';
   const groupIndex = probe ? SET1_SKILL_IDS.indexOf(probe.skillId) + 1 : 0;
@@ -151,6 +157,11 @@ export function PlacementScreen({ onPause, onDone }: Props) {
       </div>
 
       {rec.fallbackMessage && <FallbackBanner message={rec.fallbackMessage} onRetry={rec.retry} />}
+      {rec.mode === 'vosk' && rec.engine.status === 'loading' && (
+        <div className="bg-sky-50 border border-sky-200 text-sky-900 text-sm font-semibold rounded-2xl px-4 py-2">
+          Downloading the voice engine once ({Math.round(rec.engine.progress * 100)}%)…
+        </div>
+      )}
 
       <Card className="p-5 md:p-8 flex flex-col items-center text-center gap-4">
         <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">{probe ? `group ${groupIndex} of 7 · ${groupName}` : ''}</div>

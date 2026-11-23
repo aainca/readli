@@ -19,7 +19,8 @@
   "dependencies": {
     "idb": "^8.0.4",
     "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "react-dom": "^19.3.0",
+    "vosk-browser": "^0.0.8"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",

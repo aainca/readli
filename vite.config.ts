@@ -26,8 +26,15 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // The offline voice engine chunk is about 6 MB; precache it so the app works offline.
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
         globPatterns: ['**/*.{js,css,html,svg,json,woff2}'],
         runtimeCaching: [
+          {
+            urlPattern: /\/models\/.*\.tar\.gz$/i,
+            handler: 'CacheFirst',
+            options: { cacheName: 'voice-model', expiration: { maxEntries: 2, maxAgeSeconds: 60 * 60 * 24 * 365 } },
+          },
           {
             urlPattern: /^https:\/\/fonts\.(googleapis|gstatic)\.com\/.*/i,
             handler: 'CacheFirst',
@@ -40,6 +47,7 @@ export default defineConfig({
       },
     }),
   ],
+  build: { chunkSizeWarningLimit: 7000 },
   test: {
     environment: 'node',
     include: ['src/**/*.test.ts'],

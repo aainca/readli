@@ -145,6 +145,16 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
   test. Fast adjust (9 of 10 clean moves up, 4 or fewer moves down) runs only while a
   placed level is still provisional.
 
+## Voice engines
+
+- **Offline (default):** Vosk, Kaldi compiled to WebAssembly, via `vosk-browser`. The
+  small US English model (`public/models/vosk-small-en-us.tar.gz`, 31 MB, Apache 2.0) is
+  downloaded once and cached by the service worker. Each word is recognized with a grammar
+  (`src/engine/grammar.ts`: target, homophones, confusables, a few distractors and `[unk]`),
+  which is why it beats the browser engine on single words. No audio leaves the device.
+- **Browser:** Chrome's Web Speech API, kept as the fallback when the model cannot load.
+- **Manual:** parent-judged. The Audio setup dialog switches engines.
+
 ## Audio setup
 
 The header's Audio button opens a setup dialog: it asks for microphone permission the
