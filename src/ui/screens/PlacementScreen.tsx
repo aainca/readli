@@ -8,7 +8,8 @@ import { placementStep, probeWords, type Placement, type PlacementEntry, type Pr
 import { tts } from '../../speech/tts';
 import { logAttempt } from '../../store/attempts';
 import { applyPlacement } from '../../store/placements';
-import { DEFAULT_PROFILE_ID, ensureDefaultProfile } from '../../store/profiles';
+import {ensureDefaultProfile} from '../../store/profiles';
+import { useActiveProfileId } from '../ProfileContext';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import type { PlacementResult } from '../../store/db';
 import { BigButton } from '../components/BigButton';
@@ -43,6 +44,7 @@ function probeSeed(seed: number, probe: Probe): number {
  * words.
  */
 export function PlacementScreen({ onPause, onDone }: Props) {
+  const DEFAULT_PROFILE_ID = useActiveProfileId();
   const [progress, setProgress] = useState<PlacementProgress | null>(null);
   const [probe, setProbe] = useState<Probe | null>(null);
   const [word, setWord] = useState<Word | null>(null);

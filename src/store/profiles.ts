@@ -45,3 +45,42 @@ export async function setSkillLevel(profileId: string, skillId: SkillId, level: 
   await saveProfile(profile);
   return profile;
 }
+
+export const AVATAR_COLORS = ['#f97316', '#3b82f6', '#22c55e', '#a855f7', '#ec4899', '#14b8a6', '#eab308', '#ef4444'];
+
+export async function listProfiles(): Promise<Profile[]> {
+  const db = await getDB();
+  const all = await db.getAll('profiles');
+  return all.map((p) => ({ ...p, mastered: p.mastered ?? {} })).sort((a, b) => a.createdAt - b.createdAt);
+}
+
+export async function createProfile(name: string, avatarColor: string): Promise<Profile> {
+  const profile: Profile = {
+    id: `p_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 6)}`,
+    name: name.trim() || 'Reader',
+    avatarColor,
+    createdAt: Date.now(),
+    levels: {},
+    mastered: {},
+    placedOut: {},
+    manualUnlocks: [],
+  };
+  await saveProfile(profile);
+  return profile;
+}
+
+/** Removes a profile and everything logged under it. */
+export async function deleteProfile(id: string): Promise<void> {
+  const db = await getDB();
+  const tx = db.transaction(['profiles', 'attempts', 'reviews', 'placements', 'settings'], 'readwrite');
+  await tx.objectStore('profiles').delete(id);
+  for (const store of ['attempts', 'placements'] as const) {
+    let cursor = await tx.objectStore(store).index('byProfile').openCursor(id);
+    while (cursor) { await cursor.delete(); cursor = await cursor.continue(); }
+  }
+  let rc = await tx.objectStore('reviews').index('byProfile').openCursor(id);
+  while (rc) { await rc.delete(); rc = await rc.continue(); }
+  let sc = await tx.objectStore('settings').openCursor();
+  while (sc) { if (sc.key.includes(`:${id}`)) await sc.delete(); sc = await sc.continue(); }
+  await tx.done;
+}

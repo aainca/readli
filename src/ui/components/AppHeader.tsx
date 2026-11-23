@@ -5,10 +5,12 @@ export interface AppHeaderProps {
   streak: number;
   onOpenGuide: () => void;
   onOpenAudio: () => void;
+  player: { name: string; color: string } | null;
+  onOpenProfiles: () => void;
 }
 
 /** Sticky header from the prototype: logo, title, star and streak counters, rules guide. */
-export function AppHeader({ stars, streak, onOpenGuide, onOpenAudio }: AppHeaderProps) {
+export function AppHeader({ stars, streak, onOpenGuide, onOpenAudio, player, onOpenProfiles }: AppHeaderProps) {
   return (
     <header className="bg-white/80 backdrop-blur-md sticky top-0 z-40 border-b border-sky-100 shadow-sm px-4 py-3">
       <div className="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-3">
@@ -23,6 +25,12 @@ export function AppHeader({ stars, streak, onOpenGuide, onOpenAudio }: AppHeader
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3">
+          <button onClick={onOpenProfiles} title="Profiles" className="flex items-center gap-2 bg-white border border-slate-200 rounded-2xl px-2.5 py-1.5 shadow-sm">
+            <span className="w-7 h-7 rounded-full text-white font-display font-bold flex items-center justify-center" style={{ background: player?.color ?? '#94a3b8' }}>
+              {player?.name?.[0]?.toUpperCase() ?? '?'}
+            </span>
+            <span className="hidden sm:inline text-sm font-bold text-slate-700 max-w-[7rem] truncate">{player?.name ?? 'Reader'}</span>
+          </button>
           <Counter label="Stars" value={stars} tone="amber" icon={<StarIcon className="w-5 h-5 text-amber-500" />} />
           <Counter label="Streak" value={streak} tone="orange" icon={<span className="text-lg leading-none">🔥</span>} />
           <button

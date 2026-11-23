@@ -77,7 +77,7 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 - [x] Phase 3: help ladder and Break It Down coach
 - [x] Phase 4: scoring, mastery, scheduler, persistence, level-up
 - [x] Phase 4b: level test (placement)
-- [ ] Phase 5: profiles and multiplayer
+- [x] Phase 5: profiles and multiplayer
 - [ ] Phase 6: parent dashboard
 - [ ] Phase 7 (optional, needs approval): cloud pronunciation engine
 
@@ -144,6 +144,16 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
   Each result is stored with its date; the result screen shows the change from the last
   test. Fast adjust (9 of 10 clean moves up, 4 or fewer moves down) runs only while a
   placed level is still provisional.
+
+## Phase 5 notes
+
+- Up to 4 profiles (name, avatar color) on the profiles screen, reached from the name chip in
+  the header. The first profile, "Reader", keeps everything logged before profiles existed.
+  Every screen reads the active profile from `src/ui/ProfileContext.tsx`.
+- `src/engine/turns.ts` is the pure turn manager: co-op (shared star goal) and friendly race
+  (first to the target), 3 words per turn, standings. Each player reads at his or her own
+  level in the chosen group. The practice screen is unmounted during the hand-off banner,
+  so no speech result can land on the wrong player.
 
 ## Voice engines
 

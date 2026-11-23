@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { SET1_SKILL_IDS, SKILLS, type Level, type Set1SkillId, type SkillId } from '../../content/schema';
 import { placementHistory } from '../../store/placements';
-import { DEFAULT_PROFILE_ID } from '../../store/profiles';
+import { useActiveProfileId } from '../ProfileContext';
 import type { PlacementResult } from '../../store/db';
 import { BigButton } from '../components/BigButton';
 import { Card } from '../components/Card';
@@ -14,6 +14,7 @@ interface Props {
 
 /** Parent result screen: starting level per group, words missed, strongest and weakest. */
 export function PlacementResultScreen({ result, onPractice, onHome }: Props) {
+  const DEFAULT_PROFILE_ID = useActiveProfileId();
   const [previous, setPrevious] = useState<PlacementResult | null>(null);
   useEffect(() => {
     void placementHistory(DEFAULT_PROFILE_ID).then((all) => {

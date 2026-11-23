@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import { allSkillFiles } from '../../content';
 import { SET1_SKILL_IDS, SET2_SKILL_IDS, SKILLS, type Level, type SetNumber, type SkillId } from '../../content/schema';
-import { DEFAULT_PROFILE_ID, getProfile } from '../../store/profiles';
+import {getProfile} from '../../store/profiles';
+import { useActiveProfileId } from '../ProfileContext';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { Card } from '../components/Card';
 import { BigButton } from '../components/BigButton';
@@ -18,7 +19,8 @@ const skillBg: Record<string, string> = {
   'syl-schwa': 'bg-syl-schwa',
 };
 
-export function HomeScreen({ onOpenSkill, onLevelTest }: { onOpenSkill: (id: SkillId) => void; onLevelTest: () => void }) {
+export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether }: { onOpenSkill: (id: SkillId) => void; onLevelTest: () => void; onPlayTogether: () => void }) {
+  const DEFAULT_PROFILE_ID = useActiveProfileId();
   const [offer, setOffer] = useState<'none' | 'offer' | 'resume'>('none');
   const [tested, setTested] = useState(false);
   useEffect(() => {
@@ -40,7 +42,7 @@ export function HomeScreen({ onOpenSkill, onLevelTest }: { onOpenSkill: (id: Ski
   const [levels, setLevels] = useState<Partial<Record<SkillId, Level>>>({});
   useEffect(() => {
     void getProfile(DEFAULT_PROFILE_ID).then((p) => p && setLevels(p.levels));
-  }, []);
+  }, [DEFAULT_PROFILE_ID]);
   const counts = new Map(allSkillFiles.map((f) => [f.skillId, f.words.length]));
 
   const tile = (id: SkillId) => {
@@ -100,6 +102,7 @@ export function HomeScreen({ onOpenSkill, onLevelTest }: { onOpenSkill: (id: Ski
         <BigButton onClick={() => { setConfetti(false); requestAnimationFrame(() => setConfetti(true)); onOpenSkill('1.1'); }}>
           ⭐ start practicing
         </BigButton>
+        <BigButton tone="secondary" onClick={onPlayTogether}>👫 play together</BigButton>
         {offer === 'none' && (
           <button onClick={onLevelTest} className="text-sm font-bold text-sky-700 underline underline-offset-4">{tested ? 'rerun the level test' : 'level test'}</button>
         )}

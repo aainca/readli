@@ -20,7 +20,8 @@ import { config } from '../../engine/config';
 import { syllableSpeech } from '../../speech/sayAs';
 import { tts } from '../../speech/tts';
 import { attemptsForLevel, logAttempt, totalStars } from '../../store/attempts';
-import { DEFAULT_PROFILE_ID, ensureDefaultProfile, getProfile, setSkillLevel } from '../../store/profiles';
+import { ensureDefaultProfile, getProfile, setSkillLevel } from '../../store/profiles';
+import { useActiveProfileId } from '../ProfileContext';
 import { getReview, getReviews, putReview } from '../../store/reviews';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { BigButton } from '../components/BigButton';
@@ -45,6 +46,16 @@ interface Props {
   onLevelUp: (from: Level, to: Level) => void;
   /** Fast adjust moved the child down a level. */
   onFastAdjustDown: (to: Level) => void;
+  /** Profile to practice as. Defaults to the active profile. */
+  profileId?: string;
+  /** Words before the session ends. Defaults to the config value. */
+  wordsPerSession?: number;
+  /** Multiplayer: called after each finished word with the stars earned. */
+  onWordDone?: (stars: number, result: 'correct' | 'modeled' | 'skipped') => void;
+  /** Multiplayer: called when the session's words are done instead of showing the summary. */
+  onComplete?: (summary: Summary) => void;
+  /** Multiplayer: hide the exit button and show this label instead of the skill line. */
+  turnLabel?: string;
 }
 
 interface Summary {
@@ -62,8 +73,11 @@ function coachReducer(s: CoachState | null, e: CoachEvent | { type: 'open'; word
   return s ? reduceCoach(s, e) : s;
 }
 
-export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onFastAdjustDown }: Props) {
+export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onFastAdjustDown, profileId: profileProp, wordsPerSession, onWordDone, onComplete, turnLabel }: Props) {
   const meta = SKILLS[skillId];
+  const activeId = useActiveProfileId();
+  const DEFAULT_PROFILE_ID = profileProp ?? activeId;
+  const sessionLength = wordsPerSession ?? config.session.wordsPerSession;
 
   const [session, setSession] = useState<SessionState>(() => createSessionFromPlan([]));
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -200,10 +214,12 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
   }, [rec]);
 
   const advance = useCallback((s: SessionState) => {
-    if (sessionWords.current >= config.session.wordsPerSession || (s.queue.length === 0 && s.review.length === 0)) {
+    if (sessionWords.current >= sessionLength || (s.queue.length === 0 && s.review.length === 0)) {
       rec.stop();
       setWord(null);
-      setSummary({ words: sessionWords.current, stars: sessionStars.current, review: s.review.length });
+      const sum = { words: sessionWords.current, stars: sessionStars.current, review: s.review.length };
+      if (onComplete) onComplete(sum);
+      else setSummary(sum);
       return;
     }
     const r = nextWord(s);
@@ -314,6 +330,7 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
 
       sessionStars.current += earned;
       sessionWords.current += 1;
+      onWordDone?.(earned, a.result ?? 'skipped');
       const timestamp = Date.now();
       const persisted = logAttempt({
         profileId: DEFAULT_PROFILE_ID,
@@ -455,7 +472,11 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
       {confetti > 0 && <StarConfetti key={confetti} />}
 
       <div className="flex items-center justify-between gap-2">
-        <BigButton tone="ghost" className="!text-base !px-4 !py-1.5" onClick={() => { pause(); tts.cancel(); onExit(); }}>← done</BigButton>
+        {turnLabel ? (
+          <div className="font-display text-lg font-semibold text-indigo-700">{turnLabel}</div>
+        ) : (
+          <BigButton tone="ghost" className="!text-base !px-4 !py-1.5" onClick={() => { pause(); tts.cancel(); onExit(); }}>← done</BigButton>
+        )}
         <div className="text-sm font-bold text-slate-500">
           <span className="text-slate-400 mr-1">{skillId}</span>{meta.name} · Level {level}
           {reviewCount > 0 && <span className="ml-2 bg-amber-100 text-amber-800 rounded-full px-2 py-0.5 text-xs">{reviewCount} to review</span>}

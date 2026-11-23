@@ -21,6 +21,8 @@ export async function setSetting<T>(key: string, value: T): Promise<void> {
 }
 
 export const settingKeys = {
+  /** Which profile is reading right now. */
+  activeProfile: 'activeProfile',
   showRule: (profileId: string) => `showRule:${profileId}`,
   coachMode: (profileId: string) => `coachMode:${profileId}`,
   coachCounts: (profileId: string, skillId: string, level: string | number) => `coachCounts:${profileId}:${skillId}:${level}`,

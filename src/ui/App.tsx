@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useState } from 'react';
 import { totalStars } from '../store/attempts';
-import { DEFAULT_PROFILE_ID } from '../store/profiles';
+import { ProfileProvider, useProfiles } from './ProfileContext';
+import { ProfilesScreen } from './screens/ProfilesScreen';
+import { MultiplayerSetupScreen, type GameSetup } from './screens/MultiplayerSetupScreen';
+import { MultiplayerScreen } from './screens/MultiplayerScreen';
 import type { Level, SkillId } from '../content/schema';
 import { AppHeader } from './components/AppHeader';
 import { AudioSetup } from './components/AudioSetup';
@@ -21,9 +24,21 @@ type Route =
   | { name: 'practice'; skillId: SkillId; level: Level }
   | { name: 'levelUp'; skillId: SkillId; from: Level; to: Level }
   | { name: 'placement' }
-  | { name: 'placementResult'; result: PlacementResult };
+  | { name: 'placementResult'; result: PlacementResult }
+  | { name: 'profiles' }
+  | { name: 'playSetup' }
+  | { name: 'play'; setup: GameSetup };
 
 export function App() {
+  return (
+    <ProfileProvider>
+      <AppInner />
+    </ProfileProvider>
+  );
+}
+
+function AppInner() {
+  const { active, activeId, loaded } = useProfiles();
   const [route, setRoute] = useState<Route>({ name: 'home' });
   const [guideOpen, setGuideOpen] = useState(false);
   const [audioOpen, setAudioOpen] = useState(false);
@@ -35,8 +50,9 @@ export function App() {
   const [stats, setStats] = useState<PracticeStats>({ stars: 0, streak: 0 });
   const onStats = useCallback((s: PracticeStats) => setStats(s), []);
   useEffect(() => {
-    void totalStars(DEFAULT_PROFILE_ID).then((stars) => setStats((s) => ({ ...s, stars }))).catch(() => {});
-  }, []);
+    if (!loaded) return;
+    void totalStars(activeId).then((stars) => setStats({ stars, streak: 0 })).catch(() => {});
+  }, [activeId, loaded, route.name]);
 
   let screen;
   switch (route.name) {
@@ -57,7 +73,7 @@ export function App() {
     case 'practice':
       screen = (
         <PracticeScreen
-          key={`${route.skillId}-${route.level}`}
+          key={`${activeId}-${route.skillId}-${route.level}`}
           skillId={route.skillId}
           level={route.level}
           onStats={onStats}
@@ -94,13 +110,35 @@ export function App() {
         />
       );
       break;
+    case 'profiles':
+      screen = <ProfilesScreen onBack={() => setRoute({ name: 'home' })} />;
+      break;
+    case 'playSetup':
+      screen = <MultiplayerSetupScreen onBack={() => setRoute({ name: 'home' })} onStart={(setup) => setRoute({ name: 'play', setup })} />;
+      break;
+    case 'play':
+      screen = <MultiplayerScreen setup={route.setup} onExit={() => setRoute({ name: 'home' })} />;
+      break;
     default:
-      screen = <HomeScreen onOpenSkill={(skillId) => setRoute({ name: 'skill', skillId })} onLevelTest={() => setRoute({ name: 'placement' })} />;
+      screen = (
+        <HomeScreen
+          onOpenSkill={(skillId) => setRoute({ name: 'skill', skillId })}
+          onLevelTest={() => setRoute({ name: 'placement' })}
+          onPlayTogether={() => setRoute({ name: 'playSetup' })}
+        />
+      );
   }
 
   return (
     <div className="min-h-full flex flex-col">
-      <AppHeader stars={stats.stars} streak={stats.streak} onOpenGuide={() => setGuideOpen(true)} onOpenAudio={() => setAudioOpen(true)} />
+      <AppHeader
+        stars={stats.stars}
+        streak={stats.streak}
+        player={active ? { name: active.name, color: active.avatarColor } : null}
+        onOpenProfiles={() => setRoute({ name: 'profiles' })}
+        onOpenGuide={() => setGuideOpen(true)}
+        onOpenAudio={() => setAudioOpen(true)}
+      />
       {guideOpen && <RulesGuide onClose={() => setGuideOpen(false)} />}
       {audioOpen && <AudioSetup onClose={() => setAudioOpen(false)} />}
       {screen}

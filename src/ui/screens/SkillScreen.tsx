@@ -5,7 +5,8 @@ import type { CoachMode } from '../../engine/coach';
 import { config } from '../../engine/config';
 import { evaluateMastery, type MasteryReport } from '../../engine/mastery';
 import { attemptsForLevel } from '../../store/attempts';
-import { DEFAULT_PROFILE_ID, ensureDefaultProfile, getProfile, setSkillLevel } from '../../store/profiles';
+import {ensureDefaultProfile, getProfile, setSkillLevel} from '../../store/profiles';
+import { useActiveProfileId } from '../ProfileContext';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { BigButton } from '../components/BigButton';
 import { Card } from '../components/Card';
@@ -24,6 +25,7 @@ interface Props {
  * for 3 seconds to change the level by hand.
  */
 export function SkillScreen({ skillId, onBack, onPractice, onWords }: Props) {
+  const DEFAULT_PROFILE_ID = useActiveProfileId();
   const meta = SKILLS[skillId];
   const levels = levelsAvailable(skillId);
   const [current, setCurrent] = useState<Level | undefined>(undefined);
