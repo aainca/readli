@@ -31,6 +31,7 @@ import { RulePanel } from '../components/RulePanel';
 import { StarConfetti } from '../components/StarConfetti';
 import { WordDisplay } from '../components/WordDisplay';
 import { FallbackBanner } from '../components/FallbackBanner';
+import { ParentTip } from '../components/ParentTip';
 import { useRecognizer } from '../hooks/useRecognizer';
 
 export interface PracticeStats {
@@ -97,6 +98,8 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
   const [reviewCount, setReviewCount] = useState(0);
   const [finished, setFinished] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
+  const [parentNotes, setParentNotes] = useState(false);
+  useEffect(() => { void getSetting<boolean>(settingKeys.parentNotes, false).then(setParentNotes); }, []);
 
   const wordRef = useRef<Word | null>(null);
   wordRef.current = word;
@@ -470,6 +473,7 @@ export function PracticeScreen({ skillId, level, onExit, onStats, onLevelUp, onF
   return (
     <main className="flex-1 px-4 py-3 max-w-3xl w-full mx-auto flex flex-col gap-3">
       {confetti > 0 && <StarConfetti key={confetti} />}
+      {parentNotes && word && <ParentTip skillId={word.skillId} multiSyllable={word.syllables.length > 1} />}
 
       <div className="flex items-center justify-between gap-2">
         {turnLabel ? (

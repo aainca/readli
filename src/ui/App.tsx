@@ -5,6 +5,7 @@ import { ProfilesScreen } from './screens/ProfilesScreen';
 import { MultiplayerSetupScreen, type GameSetup } from './screens/MultiplayerSetupScreen';
 import { MultiplayerScreen } from './screens/MultiplayerScreen';
 import { StoriesScreen } from './screens/StoriesScreen';
+import { DashboardScreen } from './screens/DashboardScreen';
 import { StoryScreen } from './screens/StoryScreen';
 import type { Story } from '../content/stories';
 import type { Level, SkillId } from '../content/schema';
@@ -32,7 +33,8 @@ type Route =
   | { name: 'playSetup' }
   | { name: 'play'; setup: GameSetup }
   | { name: 'stories' }
-  | { name: 'story'; story: Story };
+  | { name: 'story'; story: Story }
+  | { name: 'dashboard' };
 
 export function App() {
   return (
@@ -124,6 +126,9 @@ function AppInner() {
     case 'play':
       screen = <MultiplayerScreen setup={route.setup} onExit={() => setRoute({ name: 'home' })} />;
       break;
+    case 'dashboard':
+      screen = <DashboardScreen onBack={() => setRoute({ name: 'home' })} onLevelTest={() => setRoute({ name: 'placement' })} />;
+      break;
     case 'stories':
       screen = <StoriesScreen onBack={() => setRoute({ name: 'home' })} onOpen={(story) => setRoute({ name: 'story', story })} />;
       break;
@@ -144,6 +149,7 @@ function AppInner() {
           onLevelTest={() => setRoute({ name: 'placement' })}
           onPlayTogether={() => setRoute({ name: 'playSetup' })}
           onStories={() => setRoute({ name: 'stories' })}
+          onDashboard={() => setRoute({ name: 'dashboard' })}
         />
       );
   }

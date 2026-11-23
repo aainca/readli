@@ -29,6 +29,8 @@ export const settingKeys = {
   placementProgress: (profileId: string) => `placementProgress:${profileId}`,
   placementOffered: (profileId: string) => `placementOffered:${profileId}`,
   /** Device choices. Chrome's speech engine ignores them; they feed the meter and the future cloud engine. */
+  /** Parent teaching notes shown on the practice screen. Device-wide, default off. */
+  parentNotes: 'parentNotes',
   /** 'vosk' (offline, default), 'webspeech' (browser), or 'manual'. */
   engine: 'audio:engine',
   micDeviceId: 'audio:micDeviceId',

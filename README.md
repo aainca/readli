@@ -78,7 +78,7 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 - [x] Phase 4: scoring, mastery, scheduler, persistence, level-up
 - [x] Phase 4b: level test (placement)
 - [x] Phase 5: profiles and multiplayer
-- [ ] Phase 6: parent dashboard
+- [x] Phase 6: parent dashboard
 - [ ] Phase 7 (optional, needs approval): cloud pronunciation engine
 
 ## Phase 2 notes
@@ -154,6 +154,19 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
   (first to the target), 3 words per turn, standings. Each player reads at his or her own
   level in the chosen group. The practice screen is unmounted during the hand-off banner,
   so no speech result can land on the wrong player.
+
+## Phase 6 notes
+
+- The dashboard sits behind a 3-second hold on the home screen. `src/engine/dashboard.ts`
+  (pure, tested) computes per-level stats with rule-panel on/off accuracy, trickiest words,
+  sittings (10-minute gap) and minutes per week, and the 6-week retest suggestion.
+- Tabs: Progress (make any level current), Tricky words, Practice time, Teaching notes
+  (editable; edits are stored as overrides and can be restored), Settings (parent notes
+  toggle, coach mode, manual Set 2 unlocks), Data (JSON export, import that replaces the
+  device's data after confirmation, per-reader reset).
+- With "Parent teaching notes" on, a Parent tip tab on the practice screen opens a side
+  sheet with the note for the current rule, plus the splitting note on long words. It is
+  never shown in the level test.
 
 ## Stories
 

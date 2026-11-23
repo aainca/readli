@@ -7,6 +7,7 @@ import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { Card } from '../components/Card';
 import { BigButton } from '../components/BigButton';
 import { StarConfetti } from '../components/StarConfetti';
+import { HoldButton } from '../components/HoldButton';
 
 const skillBg: Record<string, string> = {
   'syl-closed': 'bg-syl-closed',
@@ -19,7 +20,7 @@ const skillBg: Record<string, string> = {
   'syl-schwa': 'bg-syl-schwa',
 };
 
-export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether, onStories }: { onOpenSkill: (id: SkillId) => void; onLevelTest: () => void; onPlayTogether: () => void; onStories: () => void }) {
+export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether, onStories, onDashboard }: { onOpenSkill: (id: SkillId) => void; onLevelTest: () => void; onPlayTogether: () => void; onStories: () => void; onDashboard: () => void }) {
   const DEFAULT_PROFILE_ID = useActiveProfileId();
   const [offer, setOffer] = useState<'none' | 'offer' | 'resume'>('none');
   const [tested, setTested] = useState(false);
@@ -127,7 +128,12 @@ export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether, onStories
 
       <div className="grid gap-3 sm:grid-cols-2">{ids.map(tile)}</div>
 
-      <p className="text-center text-xs text-gray-400 mt-10">
+      <div className="flex justify-center mt-10">
+        <HoldButton onHeld={onDashboard} className="text-sm font-bold text-slate-500 px-5 py-2.5 rounded-full border border-slate-200 bg-white">
+          🔒 parent dashboard (hold 3 seconds)
+        </HoldButton>
+      </div>
+      <p className="text-center text-xs text-gray-400 mt-4">
         Speech uses your device's default microphone and speaker. <button onClick={() => window.dispatchEvent(new CustomEvent('open-audio-setup'))} className="underline">Check them in Audio setup.</button>
       </p>
     </main>
