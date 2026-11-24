@@ -173,8 +173,11 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 `src/content/stories.ts` holds short decodable stories per vowel group (parents can edit or
 add). `src/engine/stories.ts` ranks them by the share of content words the reader has read
 correctly, tokenizes them, and tracks live reading: recognized words are aligned to the text
-in order with a small look-ahead, partial results show as amber, committed words as green,
-and the parent can mark or skip the next word. Scoring is live (`src/engine/storyGame.ts`): one star per word as it turns green, +5 at
+in order with a small look-ahead. Partial results commit everything but their last word
+(`applyStable`), so words turn green one by one while reading; the last word shows amber
+until the engine settles. Unread words have no color. The parent can mark or skip the
+next word, and a "heard:" line shows what the engine is hearing. Quiz answers can be
+spoken (the engine listens for the option words and the letters a, b, c) or tapped. Scoring is live (`src/engine/storyGame.ts`): one star per word as it turns green, +5 at
 every 5 in a row, praise spoken at the end of each sentence, then three comprehension
 questions per story (`questions` in `stories.ts`), shown and spoken, 10 stars for each
 first-try correct answer. The whole story's stars are logged with `mode: 'story'`, which

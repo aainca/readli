@@ -62,11 +62,13 @@ export interface ReadingState {
   tentative: boolean[];
   /** Tokens the reader was allowed to skip (parent marked, or passed over). */
   skipped: boolean[];
+  /** Heard words of the current utterance already committed from partials. */
+  partialCommitted: number;
 }
 
 export function createReading(tokens: StoryToken[]): ReadingState {
   const n = tokens.length;
-  return { tokens, position: firstWordIndex(tokens, 0), read: Array(n).fill(false), tentative: Array(n).fill(false), skipped: Array(n).fill(false) };
+  return { tokens, position: firstWordIndex(tokens, 0), read: Array(n).fill(false), tentative: Array(n).fill(false), skipped: Array(n).fill(false), partialCommitted: 0 };
 }
 
 function firstWordIndex(tokens: StoryToken[], from: number): number {
@@ -103,20 +105,42 @@ export function alignWords(tokens: StoryToken[], position: number, heard: string
   return matched;
 }
 
-/** Commits a final recognition result. */
-export function applyFinal(s: ReadingState, text: string, homophones?: Map<string, string[]>): ReadingState {
-  const heard = text.split(/\s+/).filter(Boolean);
+function commitWords(s: ReadingState, heard: string[], homophones?: Map<string, string[]>): ReadingState {
   const matched = alignWords(s.tokens, s.position, heard, homophones);
-  if (matched.length === 0) return { ...s, tentative: s.tentative.map(() => false) };
+  if (matched.length === 0) return s;
   const read = [...s.read];
   for (const i of matched) read[i] = true;
   const last = matched[matched.length - 1]!;
-  return { ...s, read, tentative: s.tentative.map(() => false), position: firstWordIndex(s.tokens, last + 1) };
+  return { ...s, read, position: firstWordIndex(s.tokens, last + 1) };
+}
+
+/** Commits a final recognition result (the words not already committed from its partials). */
+export function applyFinal(s: ReadingState, text: string, homophones?: Map<string, string[]>): ReadingState {
+  const heard = text.split(/\s+/).filter(Boolean).slice(s.partialCommitted);
+  const next = commitWords(s, heard, homophones);
+  return { ...next, tentative: s.tentative.map(() => false), partialCommitted: 0 };
+}
+
+/**
+ * Commits the stable part of a partial result and shows the rest as
+ * tentative. Speech engines revise only the last word or two of a partial,
+ * so everything before the last `holdBack` heard words is committed at
+ * once, which is what makes words turn green one by one while reading.
+ */
+export function applyStable(s: ReadingState, text: string, homophones?: Map<string, string[]>, holdBack = 1): ReadingState {
+  const heard = text.split(/\s+/).filter(Boolean);
+  const stableEnd = Math.max(s.partialCommitted, heard.length - holdBack);
+  const fresh = heard.slice(s.partialCommitted, stableEnd);
+  const committed = fresh.length ? commitWords(s, fresh, homophones) : s;
+  const rest = heard.slice(stableEnd);
+  const tentative = committed.tokens.map(() => false);
+  for (const i of alignWords(committed.tokens, committed.position, rest, homophones)) tentative[i] = true;
+  return { ...committed, tentative, partialCommitted: stableEnd };
 }
 
 /** Shows a partial result as tentative highlights without moving the position. */
 export function applyPartial(s: ReadingState, text: string, homophones?: Map<string, string[]>): ReadingState {
-  const heard = text.split(/\s+/).filter(Boolean);
+  const heard = text.split(/\s+/).filter(Boolean).slice(s.partialCommitted);
   const matched = alignWords(s.tokens, s.position, heard, homophones);
   const tentative = s.tokens.map(() => false);
   for (const i of matched) tentative[i] = true;
@@ -143,4 +167,26 @@ export function readCount(s: ReadingState): number {
 
 export function wordCount(s: ReadingState): number {
   return s.tokens.filter((t) => t.word).length;
+}
+
+/**
+ * Which answer option a spoken reply matches: the option's words in order,
+ * or just its letter (a, b, c). Returns null when nothing matches.
+ */
+export function matchOption(heard: string, options: string[]): number | null {
+  const words = normalize(heard).split(' ').filter(Boolean);
+  if (words.length === 0) return null;
+  const letters = ['a', 'b', 'c', 'd'];
+  for (let i = 0; i < options.length; i++) {
+    const opt = normalize(options[i]!).split(' ').filter(Boolean);
+    if (opt.length === 0) continue;
+    for (let start = 0; start + opt.length <= words.length; start++) {
+      if (opt.every((w, k) => words[start + k] === w)) return i;
+    }
+  }
+  if (words.length === 1 && letters.includes(words[0]!)) {
+    const i = letters.indexOf(words[0]!);
+    return i < options.length ? i : null;
+  }
+  return null;
 }

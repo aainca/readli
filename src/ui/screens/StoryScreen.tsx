@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { getWord } from '../../content';
 import type { Story } from '../../content/stories';
 import { SKILLS } from '../../content/schema';
-import { applyFinal, applyPartial, createReading, isFinished, markNext, readCount, tokenizeStory, wordCount, type ReadingState } from '../../engine/stories';
+import { applyFinal, applyStable, createReading, isFinished, markNext, matchOption, readCount, tokenizeStory, wordCount, type ReadingState } from '../../engine/stories';
 import { answer, createQuiz, initialReadScore, next, quizSummary, scoreSkip, scoreWords, type QuizState, type ReadScore } from '../../engine/storyGame';
 import { tts } from '../../speech/tts';
 import { logAttempt, wordsReadCorrectly } from '../../store/attempts';
@@ -37,6 +37,12 @@ export function StoryScreen({ story, onBack, onStars }: { story: Story; onBack: 
   const wantListening = useRef(false);
   const popId = useRef(0);
   const sentencesDone = useRef(new Set<number>());
+  const [heardLine, setHeardLine] = useState('');
+  const quizRef = useRef<HTMLDivElement | null>(null);
+  const phaseRef = useRef<Phase>('read');
+  phaseRef.current = phase;
+  const quizStateRef = useRef<QuizState>(quiz);
+  quizStateRef.current = quiz;
 
   useEffect(() => { void wordsReadCorrectly(profileId).then(setKnown); }, [profileId]);
   useEffect(() => { setReading((r) => ({ ...createReading(tokens), read: r.read.length === tokens.length ? r.read : createReading(tokens).read, position: r.position })); }, [tokens]);
@@ -78,40 +84,67 @@ export function StoryScreen({ story, onBack, onStars }: { story: Story; onBack: 
   }, []);
 
   const rec = useRecognizer((r) => {
-    if (!wantListening.current || phase !== 'read') return;
+    if (!wantListening.current) return;
     const text = r.alternatives[0] ?? '';
+    setHeardLine(text);
+    if (phaseRef.current === 'read') {
+      setReading((s) => {
+        const n = applyFinal(s, text, homophones);
+        commit(s, n);
+        return n;
+      });
+    } else if (phaseRef.current === 'quiz') {
+      const q = quizStateRef.current;
+      const cur = q.questions[q.index];
+      if (!cur || q.chosen[q.index] !== null) return;
+      const i = matchOption(text, cur.options);
+      if (i !== null) pickAnswer(i);
+    }
+  });
+
+  // Partial results: commit everything but the last word so words turn green one by one.
+  useEffect(() => {
+    if (!rec.interim || phase !== 'read') return;
+    setHeardLine(rec.interim);
     setReading((s) => {
-      const n = applyFinal(s, text, homophones);
+      const n = applyStable(s, rec.interim, homophones);
       commit(s, n);
       return n;
     });
-  });
-
-  useEffect(() => {
-    if (!rec.interim) return;
-    setReading((s) => applyPartial(s, rec.interim, homophones));
-  }, [rec.interim, homophones]);
-
-  useEffect(() => {
-    rec.setGrammar([...new Set(tokens.map((t) => t.word).filter(Boolean))]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [tokens, rec.mode]);
+  }, [rec.interim]);
+
+  // The engine listens for the story's words while reading, and for the answers during the quiz.
+  useEffect(() => {
+    if (phase === 'quiz') {
+      const cur = quiz.questions[quiz.index];
+      const words = cur ? cur.options.flatMap((o) => o.toLowerCase().replace(/[^a-z\s]/g, ' ').split(/\s+/)).filter(Boolean) : [];
+      rec.setGrammar([...new Set([...words, 'a', 'b', 'c'])]);
+    } else {
+      rec.setGrammar([...new Set(tokens.map((t) => t.word).filter(Boolean))]);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tokens, rec.mode, phase, quiz.index]);
 
   useEffect(() => () => { rec.stop(); tts.cancel(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Reading finished: stop the mic and start the quiz.
   useEffect(() => {
     if (phase !== 'read' || !isFinished(reading) || reading.tokens.length === 0) return;
-    rec.stop();
-    wantListening.current = false;
     setConfetti((c) => c + 1);
-    void tts.speak(`The end! You read ${readCount(reading)} words. Now, three questions about the story.`).then(() => setPhase('quiz'));
+    setHeardLine('');
+    void tts.speak(`The end! You read ${readCount(reading)} words. Now, three questions about the story. Say the answer, or tap it.`).then(() => {
+      setPhase('quiz');
+      setTimeout(() => quizRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+    });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [reading, phase]);
 
   // Quiz finished: tally, log, celebrate.
   useEffect(() => {
     if (phase !== 'quiz' || !quiz.finished) return;
+    rec.stop();
+    wantListening.current = false;
     const q = quizSummary(quiz);
     const total = score.stars + q.stars;
     onStars(total);
@@ -124,6 +157,13 @@ export function StoryScreen({ story, onBack, onStars }: { story: Story; onBack: 
     setPhase('done');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [quiz.finished, phase]);
+
+  const pickAnswer = (o: number) => {
+    const q = quizStateRef.current;
+    if (q.questions[q.index]?.answer === o) setConfetti((c) => c + 1);
+    setQuiz((cur) => answer(cur, o));
+    setHeardLine('');
+  };
 
   const toggleMic = () => {
     if (wantListening.current) { wantListening.current = false; rec.stop(); }
@@ -177,7 +217,7 @@ export function StoryScreen({ story, onBack, onStars }: { story: Story; onBack: 
         <div className="bg-sky-50 border border-sky-200 text-sky-900 text-sm font-semibold rounded-2xl px-4 py-2">Downloading the voice engine once ({Math.round(rec.engine.progress * 100)}%)…</div>
       )}
 
-      {phase === 'read' && (
+      {(phase === 'read' || phase === 'quiz') && (
         <>
           <Card className="p-5 md:p-8">
             <h1 className="font-display text-3xl font-bold text-slate-800 mb-4">{story.title}</h1>
@@ -190,11 +230,9 @@ export function StoryScreen({ story, onBack, onStars }: { story: Story; onBack: 
                     ? 'bg-amber-200 text-amber-900 rounded-lg'
                     : reading.skipped[i]
                       ? 'text-slate-400 line-through decoration-2'
-                      : isNext
-                        ? 'bg-sky-100 text-sky-900 rounded-lg ring-2 ring-sky-400'
-                        : t.known && !t.isFunction
-                          ? 'text-indigo-700'
-                          : '';
+                      : isNext && phase === 'read'
+                        ? 'rounded-lg ring-2 ring-sky-400'
+                        : '';
                 return (
                   <span key={i}>
                     <button onClick={() => hearWord(i)} className={`px-1 transition ${cls}`} title="tap to hear">{t.display}</button>{' '}
@@ -202,29 +240,38 @@ export function StoryScreen({ story, onBack, onStars }: { story: Story; onBack: 
                 );
               })}
             </p>
-            <p className="text-xs text-slate-400 mt-3">Read from the blue word. Green = heard you, +1 star each. Five in a row = +5. Tap any word to hear it.</p>
+            <p className="text-xs text-slate-400 mt-3">Read from the outlined word. Green = heard you, +1 star each. Five in a row = +5. Tap any word to hear it.</p>
           </Card>
-          <div className="w-full max-w-md mx-auto bg-slate-50 border border-slate-200 rounded-2xl px-4 py-2 flex items-center justify-center gap-2 text-sm font-bold text-slate-600 shadow-inner">
-            <span className={`w-3 h-3 rounded-full ${rec.listening ? 'bg-emerald-500 animate-pulse' : 'bg-slate-400'}`} />
-            {rec.listening ? (rec.hearsSpeech ? 'Listening… read out loud' : 'Parent judging') : 'Tap the microphone, then read from the blue word'}
+          <div className="w-full max-w-md mx-auto bg-slate-50 border border-slate-200 rounded-2xl px-4 py-2 flex flex-col items-center gap-0.5 text-sm font-bold text-slate-600 shadow-inner">
+            <div className="flex items-center gap-2">
+              <span className={`w-3 h-3 rounded-full ${rec.listening ? 'bg-emerald-500 animate-pulse' : 'bg-slate-400'}`} />
+              {rec.listening ? (rec.hearsSpeech ? (phase === 'quiz' ? 'Listening… say the answer' : 'Listening… read out loud') : 'Parent judging') : phase === 'quiz' ? 'Tap an answer, or tap the microphone and say it' : 'Tap the microphone, then read from the outlined word'}
+            </div>
+            {rec.hearsSpeech && <div className="text-xs text-slate-400 italic font-normal min-h-[1rem]">{heardLine ? `heard: ${heardLine}` : ''}</div>}
           </div>
           <div className="flex justify-center gap-2 flex-wrap">
             <BigButton tone="secondary" className={`!text-lg ${rec.listening ? '!bg-red-500 !border-red-700 mic-active-pulse' : ''}`} onClick={toggleMic}>
               {rec.listening ? '⏹ stop' : rec.hearsSpeech ? '🎤 speak' : '▶ start'}
             </BigButton>
-            <BigButton tone="ghost" className="!text-lg" onClick={hearSentence}>🔊 hear this sentence</BigButton>
+            {phase === 'read' && <BigButton tone="ghost" className="!text-lg" onClick={hearSentence}>🔊 hear this sentence</BigButton>}
           </div>
-          <div className="flex justify-center gap-2 text-xs">
-            <button onClick={() => parentMark(true)} className="px-3 py-1.5 rounded-full border border-emerald-200 bg-white text-emerald-700 font-bold">✓ read it right</button>
-            <button onClick={() => parentMark(false)} className="px-3 py-1.5 rounded-full border border-slate-200 bg-white text-slate-600 font-bold">skip this word</button>
-            <button onClick={restart} className="px-3 py-1.5 rounded-full border border-slate-200 bg-white text-slate-600 font-bold">restart</button>
-          </div>
-          <p className="text-center text-[11px] text-slate-400">Parent buttons move past the blue word when the microphone misses it.</p>
+          {phase === 'read' && (
+            <>
+              <div className="flex justify-center gap-2 text-xs">
+                <button onClick={() => parentMark(true)} className="px-3 py-1.5 rounded-full border border-emerald-200 bg-white text-emerald-700 font-bold">✓ read it right</button>
+                <button onClick={() => parentMark(false)} className="px-3 py-1.5 rounded-full border border-slate-200 bg-white text-slate-600 font-bold">skip this word</button>
+                <button onClick={restart} className="px-3 py-1.5 rounded-full border border-slate-200 bg-white text-slate-600 font-bold">restart</button>
+              </div>
+              <p className="text-center text-[11px] text-slate-400">Parent buttons move past the outlined word when the microphone misses it.</p>
+            </>
+          )}
         </>
       )}
 
       {phase === 'quiz' && (
-        <QuizPanel quiz={quiz} onAnswer={(o) => { setQuiz((q) => answer(q, o)); if (quiz.questions[quiz.index]?.answer === o) setConfetti((c) => c + 1); }} onNext={() => setQuiz((q) => next(q))} />
+        <div ref={quizRef}>
+          <QuizPanel quiz={quiz} onAnswer={pickAnswer} onNext={() => { setQuiz((q) => next(q)); setHeardLine(''); }} />
+        </div>
       )}
 
       {phase === 'done' && (

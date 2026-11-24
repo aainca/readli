@@ -33,7 +33,7 @@ export function QuizPanel({ quiz, onAnswer, onNext }: Props) {
 
   return (
     <Card className="p-5 md:p-7 flex flex-col items-center text-center gap-4">
-      <div className="text-xs font-bold uppercase tracking-wider text-indigo-600">question {quiz.index + 1} of {quiz.questions.length} · +{STORY_POINTS.perQuestion} stars each</div>
+      <div className="text-xs font-bold uppercase tracking-wider text-indigo-600">question {quiz.index + 1} of {quiz.questions.length} · +{STORY_POINTS.perQuestion} stars each · say the answer or tap it</div>
       <div className="flex items-center gap-2">
         <h2 className="font-display text-3xl md:text-4xl font-semibold text-slate-800">{q.q}</h2>
         <button onClick={() => void tts.speak(q.q)} className="text-sky-700 text-xl" title="hear the question">🔊</button>

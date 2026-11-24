@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { STORIES, STORY_FUNCTION_WORDS } from '../content/stories';
 import { allWords } from '../content';
-import { alignWords, applyFinal, applyPartial, createReading, isFinished, markNext, rankStories, readCount, tokenizeStory, wordCount } from '../engine/stories';
+import { alignWords, applyFinal, applyPartial, applyStable, createReading, isFinished, markNext, matchOption, rankStories, readCount, tokenizeStory, wordCount } from '../engine/stories';
 
 describe('story content', () => {
   it('has stories for every vowel group', () => {
@@ -66,6 +66,33 @@ describe('reading tracker', () => {
     expect(s.read[5]).toBe(false);
     expect(isFinished(s)).toBe(true);
   });
+  it('commits the stable part of a partial word by word', () => {
+    let s = createReading(tokens);
+    s = applyStable(s, 'sam');
+    expect(s.read[0]).toBe(false);
+    expect(s.tentative[0]).toBe(true);
+    s = applyStable(s, 'sam is');
+    expect(s.read[0]).toBe(true);
+    expect(s.tentative[1]).toBe(true);
+    expect(s.position).toBe(1);
+    s = applyStable(s, 'sam is a cat');
+    expect(s.read.slice(0, 3)).toEqual([true, true, true]);
+    expect(s.tentative[3]).toBe(true);
+    s = applyFinal(s, 'sam is a cat');
+    expect(s.read[3]).toBe(true);
+    expect(s.position).toBe(4);
+  });
+
+  it('matches a spoken answer to an option by words or letter', () => {
+    const opts = ['a cat', 'a bug', 'on the rug'];
+    expect(matchOption('a cat', opts)).toBe(0);
+    expect(matchOption('I think it is a bug', opts)).toBe(1);
+    expect(matchOption('on the rug please', opts)).toBe(2);
+    expect(matchOption('b', opts)).toBe(1);
+    expect(matchOption('the dog', opts)).toBeNull();
+    expect(matchOption('', opts)).toBeNull();
+  });
+
   it('lets the parent mark or skip the next word', () => {
     let s = createReading(tokens);
     s = markNext(s, true);
