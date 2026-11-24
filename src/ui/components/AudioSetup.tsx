@@ -8,6 +8,7 @@ import { loadVoskModel, voskEngine } from '../../speech/VoskRecognizer';
 import { WebSpeechRecognizer } from '../../speech/WebSpeechRecognizer';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import type { EngineChoice } from '../hooks/useRecognizer';
+import { VoicePicker } from './VoicePicker';
 
 /**
  * Audio setup: permission, auto-detected devices, a live mic meter, a speaker
@@ -176,6 +177,8 @@ export function AudioSetup({ onClose }: { onClose: () => void }) {
             <button onClick={() => void askPermission()} className="mt-2 text-sm font-bold text-sky-700 underline underline-offset-4">allow the microphone</button>
           )}
         </section>
+
+        <VoicePicker />
 
         <section className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 mb-3">
           <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">🔊 Speaker</label>

@@ -187,6 +187,16 @@ logged with `mode: 'story'`, which never counts toward mastery.
 - **Browser:** Chrome's Web Speech API, kept as the fallback when the model cannot load.
 - **Manual:** parent-judged. The Audio setup dialog switches engines.
 
+## Voices
+
+`src/speech/voices.ts` ranks the device's English voices by how natural they sound (the
+"Natural", "Neural", Google, Siri and Premium voices score highest; desktop and espeak
+voices lowest), guesses gender from well-known names, and resolves five personalities
+(Maple, Oak, Sunny, Storyteller, Robo) to a concrete voice plus rate and pitch. The
+Audio setup dialog previews each, allows pinning an exact installed voice, and tells the
+parent how to install more natural voices on that device. Voices come from the device,
+so the same preset can sound different on a tablet and a laptop.
+
 ## Audio setup
 
 The header's Audio button opens a setup dialog: it asks for microphone permission the
