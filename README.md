@@ -174,8 +174,11 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 add). `src/engine/stories.ts` ranks them by the share of content words the reader has read
 correctly, tokenizes them, and tracks live reading: recognized words are aligned to the text
 in order with a small look-ahead, partial results show as amber, committed words as green,
-and the parent can mark or skip the next word. Story reads earn one star per word and are
-logged with `mode: 'story'`, which never counts toward mastery.
+and the parent can mark or skip the next word. Scoring is live (`src/engine/storyGame.ts`): one star per word as it turns green, +5 at
+every 5 in a row, praise spoken at the end of each sentence, then three comprehension
+questions per story (`questions` in `stories.ts`), shown and spoken, 10 stars for each
+first-try correct answer. The whole story's stars are logged with `mode: 'story'`, which
+never counts toward mastery.
 
 ## Voice engines
 
