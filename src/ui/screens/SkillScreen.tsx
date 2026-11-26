@@ -5,6 +5,7 @@ import type { CoachMode } from '../../engine/coach';
 import { config } from '../../engine/config';
 import { evaluateMastery, type MasteryReport } from '../../engine/mastery';
 import { attemptsForLevel } from '../../store/attempts';
+import { STORIES } from '../../content/stories';
 import {ensureDefaultProfile, getProfile, setSkillLevel} from '../../store/profiles';
 import { useActiveProfileId } from '../ProfileContext';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
@@ -17,6 +18,7 @@ interface Props {
   onBack: () => void;
   onPractice: (level: Level) => void;
   onWords: () => void;
+  onStories: () => void;
 }
 
 /**
@@ -24,7 +26,8 @@ interface Props {
  * one are locked until mastery unlocks them. A parent can hold the button
  * for 3 seconds to change the level by hand.
  */
-export function SkillScreen({ skillId, onBack, onPractice, onWords }: Props) {
+export function SkillScreen({ skillId, onBack, onPractice, onWords, onStories }: Props) {
+  const storyCount = STORIES.filter((st) => st.skillId === skillId).length;
   const DEFAULT_PROFILE_ID = useActiveProfileId();
   const meta = SKILLS[skillId];
   const levels = levelsAvailable(skillId);
@@ -106,9 +109,14 @@ export function SkillScreen({ skillId, onBack, onPractice, onWords }: Props) {
               {reports[level]!.stepBack && ' Right now the session mixes in words from the level below.'}
             </p>
           )}
-          <BigButton disabled={level === undefined} onClick={() => level !== undefined && onPractice(level)}>
-            ⭐ practice Level {level}
-          </BigButton>
+          <div className="flex gap-3 flex-wrap justify-center">
+            <BigButton disabled={level === undefined} onClick={() => level !== undefined && onPractice(level)}>
+              ⭐ practice Level {level}
+            </BigButton>
+            <BigButton tone="secondary" disabled={storyCount === 0} onClick={onStories}>
+              📖 read stories {storyCount ? `(${storyCount})` : ''}
+            </BigButton>
+          </div>
           <div className="flex items-center gap-4 text-sm font-bold">
             <button onClick={onWords} className="text-sky-700 underline underline-offset-4">see the word list</button>
             {parentMode ? (

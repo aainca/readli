@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { STORIES, type Story } from '../../content/stories';
-import { SKILLS } from '../../content/schema';
+import { SKILLS, type SkillId } from '../../content/schema';
 import { rankStories, type StoryMatch } from '../../engine/stories';
 import { wordsReadCorrectly } from '../../store/attempts';
 import { getProfile } from '../../store/profiles';
@@ -9,7 +9,7 @@ import { Card } from '../components/Card';
 import { useActiveProfileId } from '../ProfileContext';
 
 /** Stories ranked by how many of their words the reader has already read in practice. */
-export function StoriesScreen({ onBack, onOpen }: { onBack: () => void; onOpen: (story: Story) => void }) {
+export function StoriesScreen({ onBack, onOpen, skillId, onAll }: { onBack: () => void; onOpen: (story: Story) => void; skillId?: SkillId; onAll?: () => void }) {
   const profileId = useActiveProfileId();
   const [ranked, setRanked] = useState<StoryMatch[] | null>(null);
   const [knownCount, setKnownCount] = useState(0);
@@ -19,20 +19,27 @@ export function StoriesScreen({ onBack, onOpen }: { onBack: () => void; onOpen: 
       const [known, profile] = await Promise.all([wordsReadCorrectly(profileId), getProfile(profileId)]);
       setKnownCount(known.size);
       const practiced = Object.keys(profile?.levels ?? {});
-      setRanked(rankStories(STORIES, known, practiced));
+      const pool = skillId ? STORIES.filter((st) => st.skillId === skillId) : STORIES;
+      setRanked(rankStories(pool, known, practiced));
     })();
-  }, [profileId]);
+  }, [profileId, skillId]);
 
   return (
     <main className="flex-1 px-4 py-6 max-w-3xl w-full mx-auto flex flex-col gap-4">
       <div className="flex items-center gap-3">
         <BigButton tone="ghost" className="!text-lg !px-5 !py-2" onClick={onBack}>← back</BigButton>
-        <h1 className="font-display text-3xl font-bold text-slate-800">📖 Stories</h1>
+        <h1 className="font-display text-3xl font-bold text-slate-800">
+          📖 Stories{skillId ? <span className="text-slate-500 font-semibold text-xl ml-2"><span className="text-slate-400">{skillId}</span> {SKILLS[skillId].name}</span> : ''}
+        </h1>
+        {skillId && onAll && <button onClick={onAll} className="ml-auto text-sm font-bold text-sky-700 underline underline-offset-4">all stories</button>}
       </div>
       <p className="text-sm text-slate-600 font-semibold">
         Stories made from the words you practice. The best match is first.
         {knownCount > 0 ? ` You have read ${knownCount} different words so far.` : ' Practice some words and the stories will light up.'}
       </p>
+      {ranked && ranked.length === 0 && (
+        <Card className="p-8 text-center text-slate-500">No stories for this skill yet.</Card>
+      )}
       <div className="grid gap-3 sm:grid-cols-2">
         {(ranked ?? []).map((m) => {
           const pct = Math.round(m.coverage * 100);

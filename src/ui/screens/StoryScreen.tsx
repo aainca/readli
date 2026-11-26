@@ -6,6 +6,7 @@ import { applyFinal, applyStable, createReading, isFinished, markNext, matchOpti
 import { answer, createQuiz, initialReadScore, next, quizSummary, scoreSkip, scoreWords, type QuizState, type ReadScore } from '../../engine/storyGame';
 import { tts } from '../../speech/tts';
 import { logAttempt, wordsReadCorrectly } from '../../store/attempts';
+import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { BigButton } from '../components/BigButton';
 import { Card } from '../components/Card';
 import { FallbackBanner } from '../components/FallbackBanner';
@@ -15,6 +16,26 @@ import { useRecognizer } from '../hooks/useRecognizer';
 import { useActiveProfileId } from '../ProfileContext';
 
 type Phase = 'read' | 'quiz' | 'done';
+
+/**
+ * Display text with dots between syllables when the word is in our lists
+ * and has more than one syllable. Punctuation and capitals are kept.
+ */
+function withDots(display: string, word: string): string {
+  const entry = getWord(word);
+  if (!entry || entry.syllables.length < 2) return display;
+  const m = /^([^a-zA-Z]*)([a-zA-Z]+)([^a-zA-Z]*)$/.exec(display);
+  if (!m) return display;
+  const [, pre, core, post] = m;
+  if (core!.toLowerCase() !== word) return display;
+  const parts: string[] = [];
+  let i = 0;
+  for (const syl of entry.syllables) {
+    parts.push(core!.slice(i, i + syl.length));
+    i += syl.length;
+  }
+  return `${pre}${parts.join('·')}${post}`;
+}
 
 const SENTENCE_PRAISE = ['Nice!', 'Keep going!', 'Great reading!', 'You got it!', 'Super!'];
 
@@ -38,6 +59,9 @@ export function StoryScreen({ story, onBack, onStars }: { story: Story; onBack: 
   const popId = useRef(0);
   const sentencesDone = useRef(new Set<number>());
   const [heardLine, setHeardLine] = useState('');
+  const [dots, setDots] = useState(false);
+  useEffect(() => { void getSetting<boolean>(settingKeys.storyDots, false).then(setDots); }, []);
+  const toggleDots = (on: boolean) => { setDots(on); void setSetting(settingKeys.storyDots, on); };
   const quizRef = useRef<HTMLDivElement | null>(null);
   const phaseRef = useRef<Phase>('read');
   phaseRef.current = phase;
@@ -235,12 +259,20 @@ export function StoryScreen({ story, onBack, onStars }: { story: Story; onBack: 
                         : '';
                 return (
                   <span key={i}>
-                    <button onClick={() => hearWord(i)} className={`px-1 transition ${cls}`} title="tap to hear">{t.display}</button>{' '}
+                    <button onClick={() => hearWord(i)} className={`px-1 transition ${cls}`} title="tap to hear">{dots ? withDots(t.display, t.word) : t.display}</button>{' '}
                   </span>
                 );
               })}
             </p>
-            <p className="text-xs text-slate-400 mt-3">Read from the outlined word. Green = heard you, +1 star each. Five in a row = +5. Tap any word to hear it.</p>
+            <div className="flex items-center justify-between gap-2 mt-3 flex-wrap">
+              <p className="text-xs text-slate-400">Read from the outlined word. Green = heard you, +1 star each. Five in a row = +5. Tap any word to hear it.</p>
+              <label className="flex items-center gap-2 text-xs font-bold text-slate-600 select-none cursor-pointer shrink-0">
+                syllable dots
+                <button role="switch" aria-checked={dots} aria-label="syllable dots" onClick={() => toggleDots(!dots)} className={`relative inline-flex h-5 w-9 rounded-full transition ${dots ? 'bg-indigo-600' : 'bg-slate-300'}`}>
+                  <span className={`absolute top-0.5 h-4 w-4 rounded-full bg-white shadow transition ${dots ? 'left-4' : 'left-0.5'}`} />
+                </button>
+              </label>
+            </div>
           </Card>
           <div className="w-full max-w-md mx-auto bg-slate-50 border border-slate-200 rounded-2xl px-4 py-2 flex flex-col items-center gap-0.5 text-sm font-bold text-slate-600 shadow-inner">
             <div className="flex items-center gap-2">

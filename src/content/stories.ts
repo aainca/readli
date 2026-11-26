@@ -1,4 +1,4 @@
-import type { Level, Set1SkillId } from './schema';
+import type { Level, SkillId } from './schema';
 
 /**
  * Short decodable stories, built mostly from the practice lists of one
@@ -16,7 +16,7 @@ export interface StoryQuestion {
 export interface Story {
   id: string;
   title: string;
-  skillId: Set1SkillId;
+  skillId: SkillId;
   /** Rough difficulty: matches the group's level the words come from. */
   level: Level;
   text: string;
@@ -150,5 +150,16 @@ export const STORIES: Story[] = [
       { q: "Where did the cowboy find the oyster?", options: ["on the playground", "in a tower", "in the shower"], answer: 0 },
       { q: "What was in the powder?", options: ["coins", "a flower", "poison"], answer: 2 },
       { q: "How many coins did the cowboy have?", options: ["none", "a thousand", "ten"], answer: 1 },
+    ] },
+  // 2.1 Soft c and g
+  { id: 'city-mice', title: 'The city mice', skillId: '2.1', level: 'A', text: 'Two mice went to the city. They had one cent and a slice of rice cake. A giant cat sat by the fence. "Nice to see you," said the cat with a grin. The mice did not trust the cat. They ran to the edge of the bridge and hid in a cage of ice.', questions: [
+      { q: "Where did the mice go?", options: ["to the city", "to a cage", "to the bridge"], answer: 0 },
+      { q: "What did the mice have?", options: ["a giant cat", "a fence", "one cent and a slice of rice cake"], answer: 2 },
+      { q: "Who sat by the fence?", options: ["a gem", "a giant cat", "two mice"], answer: 1 },
+    ] },
+  { id: 'gentle-giant', title: 'The gentle giant', skillId: '2.1', level: 'B', text: 'A gentle giant lived in a cottage by the village. He had a garden with celery and a cage with a gerbil. One day a princess came with a package and a message. "The circus is in the city center," she said. The giant danced with joy, and the gerbil did a magic cartwheel on the fence.', questions: [
+      { q: "Where did the giant live?", options: ["in a cottage", "in the circus", "in a cage"], answer: 0 },
+      { q: "What was in the cage?", options: ["celery", "a princess", "a gerbil"], answer: 2 },
+      { q: "What was in the city center?", options: ["a package", "the circus", "a garden"], answer: 1 },
     ] },
 ];

@@ -170,8 +170,10 @@ no duplicates, hints must not reveal the word, level shape rules per set) and re
 
 ## Stories
 
-`src/content/stories.ts` holds short decodable stories per vowel group (parents can edit or
-add). `src/engine/stories.ts` ranks them by the share of content words the reader has read
+`src/content/stories.ts` holds short decodable stories per skill (seven vowel groups and
+2.1; parents can edit or add). Every rule card on the home screen and every skill screen
+has a stories button that opens the list filtered to that rule. A "syllable dots" toggle
+under the story splits long words with dots from the word lists' syllable data. `src/engine/stories.ts` ranks them by the share of content words the reader has read
 correctly, tokenizes them, and tracks live reading: recognized words are aligned to the text
 in order with a small look-ahead. Partial results commit everything but their last word
 (`applyStable`), so words turn green one by one while reading; the last word shows amber

@@ -32,7 +32,7 @@ type Route =
   | { name: 'profiles' }
   | { name: 'playSetup' }
   | { name: 'play'; setup: GameSetup }
-  | { name: 'stories' }
+  | { name: 'stories'; skillId?: SkillId }
   | { name: 'story'; story: Story }
   | { name: 'dashboard' };
 
@@ -71,6 +71,7 @@ function AppInner() {
           onBack={() => setRoute({ name: 'home' })}
           onPractice={(level) => setRoute({ name: 'practice', skillId: route.skillId, level })}
           onWords={() => setRoute({ name: 'words', skillId: route.skillId })}
+          onStories={() => setRoute({ name: 'stories', skillId: route.skillId })}
         />
       );
       break;
@@ -130,14 +131,22 @@ function AppInner() {
       screen = <DashboardScreen onBack={() => setRoute({ name: 'home' })} onLevelTest={() => setRoute({ name: 'placement' })} />;
       break;
     case 'stories':
-      screen = <StoriesScreen onBack={() => setRoute({ name: 'home' })} onOpen={(story) => setRoute({ name: 'story', story })} />;
+      screen = (
+        <StoriesScreen
+          key={route.skillId ?? 'all'}
+          skillId={route.skillId}
+          onBack={() => (route.skillId ? setRoute({ name: 'skill', skillId: route.skillId }) : setRoute({ name: 'home' }))}
+          onAll={() => setRoute({ name: 'stories' })}
+          onOpen={(story) => setRoute({ name: 'story', story })}
+        />
+      );
       break;
     case 'story':
       screen = (
         <StoryScreen
           key={route.story.id}
           story={route.story}
-          onBack={() => setRoute({ name: 'stories' })}
+          onBack={() => setRoute({ name: 'stories', skillId: route.story.skillId })}
           onStars={(earned) => setStats((s) => ({ ...s, stars: s.stars + earned }))}
         />
       );
@@ -146,6 +155,7 @@ function AppInner() {
       screen = (
         <HomeScreen
           onOpenSkill={(skillId) => setRoute({ name: 'skill', skillId })}
+          onSkillStories={(skillId) => setRoute({ name: 'stories', skillId })}
           onLevelTest={() => setRoute({ name: 'placement' })}
           onPlayTogether={() => setRoute({ name: 'playSetup' })}
           onStories={() => setRoute({ name: 'stories' })}

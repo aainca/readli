@@ -31,6 +31,8 @@ export const settingKeys = {
   /** Device choices. Chrome's speech engine ignores them; they feed the meter and the future cloud engine. */
   /** Parent teaching notes shown on the practice screen. Device-wide, default off. */
   parentNotes: 'parentNotes',
+  /** Story reader: show dots between syllables of long words. Device-wide. */
+  storyDots: 'story:dots',
   /** Voice personality and an optional exact voice. Device-wide. */
   voicePreset: 'voice:preset',
   voiceUri: 'voice:uri',

@@ -5,7 +5,7 @@ import { alignWords, applyFinal, applyPartial, applyStable, createReading, isFin
 
 describe('story content', () => {
   it('has stories for every vowel group', () => {
-    expect(new Set(STORIES.map((s) => s.skillId)).size).toBe(7);
+    expect(new Set(STORIES.map((s) => s.skillId)).size).toBe(8); // 7 vowel groups + 2.1
     expect(new Set(STORIES.map((s) => s.id)).size).toBe(STORIES.length);
   });
   it('uses mostly practice words and heart words', () => {

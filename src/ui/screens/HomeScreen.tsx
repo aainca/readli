@@ -4,6 +4,7 @@ import { SET1_SKILL_IDS, SET2_SKILL_IDS, SKILLS, type Level, type SetNumber, typ
 import {getProfile} from '../../store/profiles';
 import { useActiveProfileId } from '../ProfileContext';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
+import { STORIES } from '../../content/stories';
 import { Card } from '../components/Card';
 import { BigButton } from '../components/BigButton';
 import { StarConfetti } from '../components/StarConfetti';
@@ -20,7 +21,7 @@ const skillBg: Record<string, string> = {
   'syl-schwa': 'bg-syl-schwa',
 };
 
-export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether, onStories, onDashboard }: { onOpenSkill: (id: SkillId) => void; onLevelTest: () => void; onPlayTogether: () => void; onStories: () => void; onDashboard: () => void }) {
+export function HomeScreen({ onOpenSkill, onSkillStories, onLevelTest, onPlayTogether, onStories, onDashboard }: { onOpenSkill: (id: SkillId) => void; onSkillStories: (id: SkillId) => void; onLevelTest: () => void; onPlayTogether: () => void; onStories: () => void; onDashboard: () => void }) {
   const DEFAULT_PROFILE_ID = useActiveProfileId();
   const [offer, setOffer] = useState<'none' | 'offer' | 'resume'>('none');
   const [tested, setTested] = useState(false);
@@ -50,6 +51,7 @@ export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether, onStories
     const meta = SKILLS[id];
     const n = counts.get(id) ?? 0;
     const stub = n === 0;
+    const storyCount = STORIES.filter((st) => st.skillId === id).length;
     return (
       <Card
         key={id}
@@ -67,9 +69,18 @@ export function HomeScreen({ onOpenSkill, onLevelTest, onPlayTogether, onStories
           <div className="text-sm text-gray-500 truncate">{meta.examples.join(', ')}</div>
           <div className="text-xs text-indigo-600 font-semibold mt-0.5 line-clamp-2">{meta.hint}</div>
         </div>
-        <div className="text-right shrink-0">
-          <div className="font-display text-lg">{stub ? '' : `Level ${levels[id] ?? meta.levels[0]}`}</div>
+        <div className="text-right shrink-0 flex flex-col items-end gap-1">
+          <div className="font-display text-lg leading-none">{stub ? '' : `Level ${levels[id] ?? meta.levels[0]}`}</div>
           <div className="text-xs text-gray-400">{stub ? 'V2' : `${n} words`}</div>
+          {storyCount > 0 && (
+            <button
+              onClick={(e) => { e.stopPropagation(); onSkillStories(id); }}
+              className="text-xs font-bold text-sky-700 bg-sky-50 border border-sky-200 rounded-full px-2.5 py-1 hover:bg-sky-100"
+              title={`${storyCount} stories for this rule`}
+            >
+              📖 stories
+            </button>
+          )}
         </div>
       </Card>
     );
