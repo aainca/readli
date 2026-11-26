@@ -205,6 +205,17 @@ Audio setup dialog previews each, allows pinning an exact installed voice, and t
 parent how to install more natural voices on that device. Voices come from the device,
 so the same preset can sound different on a tablet and a laptop.
 
+## Visitor statistics
+
+Two Netlify Functions (`netlify/functions/visit.mts`, `stats.mts`) and a Netlify Blobs
+store count unique visitors by place. The app posts one visit per browser session; the
+function stores a salted SHA-256 of address + browser (never the address) with the country,
+region and city Netlify's edge reports, one record per day. `src/engine/visitors.ts`
+aggregates them (pure, tested). The home page shows readers, today's count, countries with
+flags and top cities, and hides the panel when the functions are unreachable (local dev).
+Optional: set `VISIT_SALT` in Netlify's environment variables to make the hashes unique to
+your site.
+
 ## Audio setup
 
 The header's Audio button opens a setup dialog: it asks for microphone permission the

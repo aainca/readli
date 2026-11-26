@@ -17,6 +17,8 @@
     "notes:review": "tsx scripts/notes-review.ts"
   },
   "dependencies": {
+    "@netlify/blobs": "^11.1.12",
+    "@netlify/functions": "^6.1.2",
     "idb": "^8.0.4",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",

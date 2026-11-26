@@ -5,6 +5,7 @@ import {getProfile} from '../../store/profiles';
 import { useActiveProfileId } from '../ProfileContext';
 import { getSetting, setSetting, settingKeys } from '../../store/settings';
 import { STORIES } from '../../content/stories';
+import { VisitorStatsPanel } from '../components/VisitorStats';
 import { Card } from '../components/Card';
 import { BigButton } from '../components/BigButton';
 import { StarConfetti } from '../components/StarConfetti';
@@ -144,6 +145,7 @@ export function HomeScreen({ onOpenSkill, onSkillStories, onLevelTest, onPlayTog
           🔒 parent dashboard (hold 3 seconds)
         </HoldButton>
       </div>
+      <VisitorStatsPanel />
       <p className="text-center text-xs text-gray-400 mt-4">
         Speech uses your device's default microphone and speaker. <button onClick={() => window.dispatchEvent(new CustomEvent('open-audio-setup'))} className="underline">Check them in Audio setup.</button>
       </p>
