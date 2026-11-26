@@ -7,14 +7,15 @@ export interface AppHeaderProps {
   onOpenAudio: () => void;
   player: { name: string; color: string } | null;
   onOpenProfiles: () => void;
+  onHome: () => void;
 }
 
 /** Sticky header from the prototype: logo, title, star and streak counters, rules guide. */
-export function AppHeader({ stars, streak, onOpenGuide, onOpenAudio, player, onOpenProfiles }: AppHeaderProps) {
+export function AppHeader({ stars, streak, onOpenGuide, onOpenAudio, player, onOpenProfiles, onHome }: AppHeaderProps) {
   return (
     <header className="bg-white/80 backdrop-blur-md sticky top-0 z-40 border-b border-sky-100 shadow-sm px-4 py-3">
       <div className="max-w-5xl mx-auto flex flex-wrap items-center justify-between gap-3">
-        <div className="flex items-center gap-3">
+        <button onClick={onHome} title="Home" className="flex items-center gap-3 text-left rounded-2xl hover:bg-sky-50 px-1 py-0.5 -mx-1 transition">
           <div className="bg-gradient-to-tr from-amber-400 to-amber-300 text-amber-100 p-2.5 rounded-2xl shadow-md flex items-center justify-center">
             <StarIcon className="w-6 h-6" />
           </div>
@@ -22,7 +23,7 @@ export function AppHeader({ stars, streak, onOpenGuide, onOpenAudio, player, onO
             <h1 className="font-display text-2xl md:text-3xl font-bold text-sky-900 tracking-wide leading-none">Vowel Mastery</h1>
             <p className="text-xs text-sky-600 font-bold">read the word, earn stars</p>
           </div>
-        </div>
+        </button>
 
         <div className="flex items-center gap-2 sm:gap-3">
           <button onClick={onOpenProfiles} title="Profiles" className="flex items-center gap-2 bg-white border border-slate-200 rounded-2xl px-2.5 py-1.5 shadow-sm">

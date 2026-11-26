@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { totalStars } from '../store/attempts';
+import { tts } from '../speech/tts';
 import { ProfileProvider, useProfiles } from './ProfileContext';
 import { ProfilesScreen } from './screens/ProfilesScreen';
 import { MultiplayerSetupScreen, type GameSetup } from './screens/MultiplayerSetupScreen';
@@ -171,6 +172,7 @@ function AppInner() {
         streak={stats.streak}
         player={active ? { name: active.name, color: active.avatarColor } : null}
         onOpenProfiles={() => setRoute({ name: 'profiles' })}
+        onHome={() => { tts.cancel(); setRoute({ name: 'home' }); }}
         onOpenGuide={() => setGuideOpen(true)}
         onOpenAudio={() => setAudioOpen(true)}
       />
